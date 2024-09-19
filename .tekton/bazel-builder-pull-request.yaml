@@ -19,7 +19,7 @@ metadata:
 spec:
   params:
   - name: build-args-file
-    value: "bazel-ubi8/argfile"
+    value: "bazel5-ubi8/argfile"
   - name: git-url
     value: '{{source_url}}'
   - name: revision
