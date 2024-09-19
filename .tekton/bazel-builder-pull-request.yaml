@@ -18,6 +18,8 @@ metadata:
   namespace: konflux-build-pipeli-tenant
 spec:
   params:
+  - name: build-args-file
+    value: "bazel-ubi8/argfile"
   - name: git-url
     value: '{{source_url}}'
   - name: revision
