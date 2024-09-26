@@ -31,6 +31,8 @@ spec:
     value: Containerfile
   - name: path-context
     value: bazel5-ubi8
+  - name: build-args-file
+    value: bazel5-ubi8/argfile
   pipelineSpec:
     description: |
       This pipeline is ideal for building multi-arch container images from a Containerfile while maintaining trust after pipeline customization.
