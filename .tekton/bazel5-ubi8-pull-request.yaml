@@ -31,8 +31,6 @@ spec:
     value: Containerfile
   - name: build-args-file
     value: bazel5-ubi8/argfile
-  - name: hermetic
-    value: "true"
   - name: prefetch-input
     value: |
       {"type": "rpm", "path": "bazel5-ubi8/"}

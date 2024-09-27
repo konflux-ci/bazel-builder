@@ -7,7 +7,8 @@ metadata:
     build.appstudio.redhat.com/target_branch: '{{target_branch}}'
     pipelinesascode.tekton.dev/max-keep-runs: "3"
     pipelinesascode.tekton.dev/on-cel-expression: event == "push" && target_branch
-      == "main"
+      == "main" && ( "bazel5-ubi8/***".pathChanged() || ".tekton/bazel5-ubi8-pull-request.yaml".pathChanged()
+      || "Containerfile".pathChanged() )
   creationTimestamp: null
   labels:
     appstudio.openshift.io/application: bazel-builder
@@ -25,6 +26,8 @@ spec:
     value: quay.io/redhat-user-workloads/konflux-build-pipeli-tenant/bazel-builder/bazel5-ubi8:{{revision}}
   - name: dockerfile
     value: Containerfile
+  - name: build-args-file
+    value: bazel5-ubi8/argfile
   pipelineSpec:
     description: |
       This pipeline is ideal for building multi-arch container images from a Containerfile while maintaining trust after pipeline customization.
