@@ -29,8 +29,6 @@ spec:
     value: 5d
   - name: dockerfile
     value: Containerfile
-  - name: path-context
-    value: bazel6-ubi9
   - name: build-args-file
     value: bazel6-ubi9/argfile
   pipelineSpec:
