@@ -7,3 +7,7 @@ artifacts:
     target: bazel-6.5.0-dist.zip
     checksums:
         sha256: fc89da919415289f29e4ff18a5e01270ece9a6fe83cb60967218bac4a3bb3ed2
+  - download_url: https://github.com/bazelbuild/bazel/releases/download/6.5.0/bazel-6.5.0-dist.zip.sig
+    target: bazel-6.5.0-dist.zip.sig
+    checksums:
+        sha256: eacb0545673f9ac555b7bb4de00dccd57887514d14e04fbc7f53c6f48f3ae6d7
