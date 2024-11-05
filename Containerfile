@@ -3,7 +3,7 @@ ARG IMAGE
 FROM $IMAGE as builder
 
 # temporary
-RUN ls -la ./cachi2/output/deps
+RUN ls -alR ./cachi2/output/deps/generic
 
 ARG BAZEL_VERSION
 ARG OPENJDK_VERSION
@@ -14,7 +14,8 @@ RUN test "$UBI_VERSION" = "8" && dnf -y install gcc-c++ zip unzip java-"$OPENJDK
 RUN test "$UBI_VERSION" = "9" && dnf -y install gcc-c++ zip unzip java-"$OPENJDK_VERSION"-openjdk-devel python3 gpg || true
 
 # fetch source
-RUN curl -LO https://github.com/bazelbuild/bazel/releases/download/"$BAZEL_VERSION"/bazel-"$BAZEL_VERSION"-dist.zip
+# RUN curl -LO https://github.com/bazelbuild/bazel/releases/download/"$BAZEL_VERSION"/bazel-"$BAZEL_VERSION"-dist.zip
+COPY ./cachi2/output/deps/"$BAZEL_VERSION"/bazel-"$BAZEL_VERSION"-dist.zip "$BAZEL_VERSION"/bazel-"$BAZEL_VERSION"-dist.zip
 
 # verify signature
 RUN curl -LO https://github.com/bazelbuild/bazel/releases/download/"$BAZEL_VERSION"/bazel-"$BAZEL_VERSION"-dist.zip.sig
