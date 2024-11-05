@@ -2,6 +2,9 @@
 ARG IMAGE
 FROM $IMAGE as builder
 
+# temporary
+RUN ls -la ./cachi2/output/deps
+
 ARG BAZEL_VERSION
 ARG OPENJDK_VERSION
 ARG UBI_VERSION

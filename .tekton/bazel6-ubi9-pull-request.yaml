@@ -29,8 +29,10 @@ spec:
     value: 5d
   - name: dockerfile
     value: Containerfile
-  - name: path-context
-    value: bazel6-ubi9
+  - name: hermetic
+    value: "true"
+  - name: prefetch-input
+    value: '[{"type": "rpm", "path: ".""}, {"type": "generic", "path": "bazel6-ubi9"}]'
   pipelineSpec:
     description: |
       This pipeline is ideal for building container images from a Containerfile while maintaining trust after pipeline customization.
@@ -181,14 +183,26 @@ spec:
       runAfter:
       - clone-repository
       taskRef:
+        # params:
+        # - name: name
+        #   value: prefetch-dependencies-oci-ta
+        # - name: bundle
+        #   value: quay.io/konflux-ci/tekton-catalog/task-prefetch-dependencies-oci-ta:0.1@sha256:621b13ab4a01a366a2b1d8403cf06b2b7418afd926d13678c4432858514407d3
+        # - name: kind
+        #   value: task
+        # resolver: bundles
         params:
         - name: name
           value: prefetch-dependencies-oci-ta
-        - name: bundle
-          value: quay.io/konflux-ci/tekton-catalog/task-prefetch-dependencies-oci-ta:0.1@sha256:621b13ab4a01a366a2b1d8403cf06b2b7418afd926d13678c4432858514407d3
+        - name: url
+          value: https://github.com/brianwcook/build-definitions.git
+        - name: revision
+          value: prefetch-task-rhsm-integration
+        - name: pathInRepo
+          value: task/prefetch-dependencies-oci-ta/0.1/prefetch-dependencies-oci-ta.yaml
         - name: kind
           value: task
-        resolver: bundles
+        resolver: git
       workspaces:
       - name: git-basic-auth
         workspace: git-auth
