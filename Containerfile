@@ -22,7 +22,7 @@ RUN test "$UBI_VERSION" = "9" && dnf -y install gcc-c++ zip unzip java-"$OPENJDK
 # RUN curl -LO https://github.com/bazelbuild/bazel/releases/download/"$BAZEL_VERSION"/bazel-"$BAZEL_VERSION"-dist.zip.sig
 COPY bazel-release.pub.gpg bazel-release.pub.gpg
 RUN gpg --import bazel-release.pub.gpg
-RUN gpg --verify ./cachi2/output/deps/generic/bazel-"$BAZEL_VERSION"-dist.zip
+RUN gpg --verify ./cachi2/output/deps/generic/bazel-$BAZEL_VERSION-dist.zip.sig  ./cachi2/output/deps/generic/bazel-"$BAZEL_VERSION"-dist.zip
 
 # build
 RUN unzip ./cachi2/output/deps/generic/bazel-"$BAZEL_VERSION"-dist.zip -d /bazel
