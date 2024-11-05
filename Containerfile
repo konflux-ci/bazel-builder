@@ -15,7 +15,7 @@ RUN test "$UBI_VERSION" = "9" && dnf -y install gcc-c++ zip unzip java-"$OPENJDK
 
 # fetch source
 # RUN curl -LO https://github.com/bazelbuild/bazel/releases/download/"$BAZEL_VERSION"/bazel-"$BAZEL_VERSION"-dist.zip
-COPY ./cachi2/output/deps/"$BAZEL_VERSION"/bazel-"$BAZEL_VERSION"-dist.zip "$BAZEL_VERSION"/bazel-"$BAZEL_VERSION"-dist.zip
+COPY ./cachi2/output/deps/generic/bazel-"$BAZEL_VERSION"-dist.zip bazel-"$BAZEL_VERSION"-dist.zip
 
 # verify signature
 RUN curl -LO https://github.com/bazelbuild/bazel/releases/download/"$BAZEL_VERSION"/bazel-"$BAZEL_VERSION"-dist.zip.sig
