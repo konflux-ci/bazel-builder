@@ -6,11 +6,12 @@ contentOrigin:
 packages:
   # list of rpm names to resolve
   - gcc-c++
+  - gcc
   - git
   - zip
   - unzip
   - java-17-openjdk-devel
-  - python39
+  - python3
   - gpg
 
 #reinstallPackages: []
