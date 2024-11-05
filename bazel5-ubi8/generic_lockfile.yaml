@@ -1,6 +1,6 @@
 metadata:
   # uses X.Y semantic versioning
-  version: "5.4.0"
+  version: "1.0"
 artifacts:
   - download_url: https://github.com/bazelbuild/bazel/releases/download/5.4.0/bazel-5.4.0-dist.zip
     target: bazel-5.4.0-dist.zip
