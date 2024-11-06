@@ -11,16 +11,17 @@ RUN test "$UBI_VERSION" = "8" && dnf -y install gcc-c++ zip unzip java-"$OPENJDK
 RUN test "$UBI_VERSION" = "9" && dnf -y install gcc-c++ zip unzip java-"$OPENJDK_VERSION"-openjdk-devel python3 gpg || true
 
 # fetch source
-RUN curl -LO https://github.com/bazelbuild/bazel/releases/download/"$BAZEL_VERSION"/bazel-"$BAZEL_VERSION"-dist.zip
+# RUN curl -LO https://github.com/bazelbuild/bazel/releases/download/"$BAZEL_VERSION"/bazel-"$BAZEL_VERSION"-dist.zip
+# COPY ./cachi2/output/deps/generic/bazel-"$BAZEL_VERSION"-dist.zip bazel-"$BAZEL_VERSION"-dist.zip
 
 # verify signature
-RUN curl -LO https://github.com/bazelbuild/bazel/releases/download/"$BAZEL_VERSION"/bazel-"$BAZEL_VERSION"-dist.zip.sig
+# RUN curl -LO https://github.com/bazelbuild/bazel/releases/download/"$BAZEL_VERSION"/bazel-"$BAZEL_VERSION"-dist.zip.sig
 COPY bazel-release.pub.gpg bazel-release.pub.gpg
 RUN gpg --import bazel-release.pub.gpg
-RUN gpg --verify /bazel-$BAZEL_VERSION-dist.zip.sig bazel-"$BAZEL_VERSION"-dist.zip
+RUN gpg --verify ./cachi2/output/deps/generic/bazel-$BAZEL_VERSION-dist.zip.sig  ./cachi2/output/deps/generic/bazel-"$BAZEL_VERSION"-dist.zip
 
 # build
-RUN unzip bazel-"$BAZEL_VERSION"-dist.zip -d /bazel
+RUN unzip ./cachi2/output/deps/generic/bazel-"$BAZEL_VERSION"-dist.zip -d /bazel
 WORKDIR /bazel
 RUN  env EXTRA_BAZEL_ARGS="--tool_java_runtime_version=local_jdk" bash ./compile.sh
 RUN scripts/generate_bash_completion.sh --bazel=output/bazel --output=output/bazel-complete.bash

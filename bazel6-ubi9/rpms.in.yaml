@@ -1,8 +1,7 @@
 contentOrigin:
   # Define at least one source of packages, but you can have as many as you want.
   repofiles:
-    # Either local path or url pointing to .repo file
-    - ./ubi8.repo
+    - ./ubi9.repo
 packages:
   # list of rpm names to resolve
   - gcc-c++
@@ -11,7 +10,7 @@ packages:
   - zip
   - unzip
   - java-11-openjdk-devel
-  - python39
+  - python3
   - gpg
 
 #reinstallPackages: []
@@ -23,11 +22,6 @@ arches:
   # on the command line will override this list.
   - x86_64
   - aarch64
-  - s390x
-  - ppc64le
+  #- s390x
+  #- ppc64le
 
-context:
-    # Alternative to setting command line options. Usually you will only want
-    # to include one of these options, with the exception of `flatpak` that
-    # can be combined with `image` and `containerfile` 
-    containerfile: Containerfile

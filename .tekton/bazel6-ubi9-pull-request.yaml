@@ -4,17 +4,18 @@ metadata:
   annotations:
     build.appstudio.openshift.io/repo: https://github.com/konflux-ci/bazel-builder?rev={{revision}}
     build.appstudio.redhat.com/commit_sha: '{{revision}}'
+    build.appstudio.redhat.com/pull_request_number: '{{pull_request_number}}'
     build.appstudio.redhat.com/target_branch: '{{target_branch}}'
     pipelinesascode.tekton.dev/max-keep-runs: "3"
-    pipelinesascode.tekton.dev/on-cel-expression: event == "push" && target_branch
-      == "main" && ( "bazel5-ubi8/***".pathChanged() || ".tekton/bazel5-ubi8-pull-request.yaml".pathChanged()
+    pipelinesascode.tekton.dev/on-cel-expression: event == "pull_request" && target_branch
+      == "main" && ( "bazel6-ubi9/***".pathChanged() || ".tekton/bazel6-ubi9-pull-request.yaml".pathChanged()
       || "Containerfile".pathChanged() )
   creationTimestamp: null
   labels:
     appstudio.openshift.io/application: bazel-builder
-    appstudio.openshift.io/component: bazel5-ubi8
+    appstudio.openshift.io/component: bazel6-ubi9
     pipelines.appstudio.openshift.io/type: build
-  name: bazel5-ubi8-on-push
+  name: bazel6-ubi9-on-pull-request
   namespace: konflux-build-pipeli-tenant
 spec:
   params:
@@ -23,21 +24,23 @@ spec:
   - name: revision
     value: '{{revision}}'
   - name: output-image
-    value: quay.io/redhat-user-workloads/konflux-build-pipeli-tenant/bazel-builder/bazel5-ubi8:{{revision}}
+    value: quay.io/redhat-user-workloads/konflux-build-pipeli-tenant/bazel6-ubi9:on-pr-{{revision}}
+  - name: image-expires-after
+    value: 5d
   - name: dockerfile
     value: Containerfile
-  - name: build-args-file
-    value: bazel5-ubi8/argfile
   - name: hermetic
     value: "false"
   - name: prefetch-input
-    value: '[{"type": "rpm", "path": "bazel5-ubi8"}, {"type": "generic", "path": "bazel5-ubi8"}]'
+    value: '[{"type": "rpm", "path": "bazel6-ubi9"}, {"type": "generic", "path": "bazel6-ubi9"}]'
+  - name: build-args-file
+    value: bazel6-ubi9/argfile
   pipelineSpec:
     description: |
-      This pipeline is ideal for building multi-arch container images from a Containerfile while maintaining trust after pipeline customization.
+      This pipeline is ideal for building container images from a Containerfile while maintaining trust after pipeline customization.
 
-      _Uses `buildah` to create a multi-platform container image leveraging [trusted artifacts](https://konflux-ci.dev/architecture/ADR/0036-trusted-artifacts.html). It also optionally creates a source image and runs some build-time tests. This pipeline requires that the [multi platform controller](https://github.com/konflux-ci/multi-platform-controller) is deployed and configured on your Konflux instance. Information is shared between tasks using OCI artifacts instead of PVCs. EC will pass the [`trusted_task.trusted`](https://enterprisecontract.dev/docs/ec-policies/release_policy.html#trusted_task__trusted) policy as long as all data used to build the artifact is generated from trusted tasks.
-      This pipeline is pushed as a Tekton bundle to [quay.io](https://quay.io/repository/konflux-ci/tekton-catalog/pipeline-docker-build-multi-platform-oci-ta?tab=tags)_
+      _Uses `buildah` to create a container image leveraging [trusted artifacts](https://konflux-ci.dev/architecture/ADR/0036-trusted-artifacts.html). It also optionally creates a source image and runs some build-time tests. Information is shared between tasks using OCI artifacts instead of PVCs. EC will pass the [`trusted_task.trusted`](https://enterprisecontract.dev/docs/ec-policies/release_policy.html#trusted_task__trusted) policy as long as all data used to build the artifact is generated from trusted tasks.
+      This pipeline is pushed as a Tekton bundle to [quay.io](https://quay.io/repository/konflux-ci/tekton-catalog/pipeline-docker-build-oci-ta?tab=tags)_
     finally:
     - name: show-sbom
       params:
@@ -97,7 +100,7 @@ spec:
       description: Build a source image.
       name: build-source-image
       type: string
-    - default: "true"
+    - default: "false"
       description: Add built image into an OCI image index
       name: build-image-index
       type: string
@@ -109,13 +112,6 @@ spec:
       description: Path to a file with build arguments for buildah, see https://www.mankier.com/1/buildah-build#--build-arg-file
       name: build-args-file
       type: string
-    - default:
-      - linux/x86_64
-      - linux/arm64
-      description: List of platforms to build the container images on. The available
-        set of values is determined by the configuration of the multi-platform-controller.
-      name: build-platforms
-      type: array
     results:
     - description: ""
       name: IMAGE_URL
@@ -204,12 +200,7 @@ spec:
         workspace: git-auth
       - name: netrc
         workspace: netrc
-    - matrix:
-        params:
-        - name: PLATFORM
-          value:
-          - $(params.build-platforms)
-      name: build-images
+    - name: build-container
       params:
       - name: IMAGE
         value: $(params.output-image)
@@ -234,16 +225,14 @@ spec:
         value: $(tasks.prefetch-dependencies.results.SOURCE_ARTIFACT)
       - name: CACHI2_ARTIFACT
         value: $(tasks.prefetch-dependencies.results.CACHI2_ARTIFACT)
-      - name: IMAGE_APPEND_PLATFORM
-        value: "true"
       runAfter:
       - prefetch-dependencies
       taskRef:
         params:
         - name: name
-          value: buildah-remote-oci-ta
+          value: buildah-oci-ta
         - name: bundle
-          value: quay.io/konflux-ci/tekton-catalog/task-buildah-remote-oci-ta:0.2@sha256:7e39d1eca718d714339aa03eb61907d6edc37a93e0ff40e3415f4038d242c078
+          value: quay.io/konflux-ci/tekton-catalog/task-buildah-oci-ta:0.2@sha256:2a0c67ea7d5d82b4ec47930c12397f94b3af0b3855d8e5ad9f6e088c93e42bf0
         - name: kind
           value: task
         resolver: bundles
@@ -264,9 +253,9 @@ spec:
         value: $(params.build-image-index)
       - name: IMAGES
         value:
-        - $(tasks.build-images.results.IMAGE_REF[*])
+        - $(tasks.build-container.results.IMAGE_URL)@$(tasks.build-container.results.IMAGE_DIGEST)
       runAfter:
-      - build-images
+      - build-container
       taskRef:
         params:
         - name: name
@@ -459,6 +448,28 @@ spec:
         - name: kind
           value: task
         resolver: bundles
+    - name: rpms-signature-scan
+      params:
+      - name: image-url
+        value: $(tasks.build-image-index.results.IMAGE_URL)
+      - name: image-digest
+        value: $(tasks.build-image-index.results.IMAGE_DIGEST)
+      runAfter:
+      - build-image-index
+      taskRef:
+        params:
+        - name: name
+          value: rpms-signature-scan
+        - name: bundle
+          value: quay.io/konflux-ci/tekton-catalog/task-rpms-signature-scan:0.2@sha256:7aa4d3c95e2b963e82fdda392f7cb3d61e3dab035416cf4a3a34e43cf3c9c9b8
+        - name: kind
+          value: task
+        resolver: bundles
+      when:
+      - input: $(params.skip-checks)
+        operator: in
+        values:
+        - "false"
     workspaces:
     - name: git-auth
       optional: true
