@@ -627,13 +627,13 @@ arches:
     name: libtheora
     evr: 1:1.1.1-31.el9
     sourcerpm: libtheora-1.1.1-31.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libtiff-4.4.0-12.el9.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libtiff-4.4.0-12.el9_4.1.aarch64.rpm
     repoid: ubi-9-appstream-rpms
-    size: 200988
-    checksum: sha256:820d33d59ea0e1bee344e9602878d01d707682041e7b53e0e64589e53d878559
+    size: 200781
+    checksum: sha256:1ac79692d30ac13486a64e08af07c32a42b9ada7726611027e6bfd75bd54eb3e
     name: libtiff
-    evr: 4.4.0-12.el9
-    sourcerpm: libtiff-4.4.0-12.el9.src.rpm
+    evr: 4.4.0-12.el9_4.1
+    sourcerpm: libtiff-4.4.0-12.el9_4.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libtool-ltdl-2.4.6-45.el9.aarch64.rpm
     repoid: ubi-9-appstream-rpms
     size: 39085
@@ -2164,12 +2164,12 @@ arches:
     checksum: sha256:c43318355a6c960e0685d789887cddf450fdfd7908ba1a02d375e1ff290b3483
     name: libtheora
     evr: 1:1.1.1-31.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/l/libtiff-4.4.0-12.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/l/libtiff-4.4.0-12.el9_4.1.src.rpm
     repoid: ubi-9-appstream-source
-    size: 2896215
-    checksum: sha256:0f8ccd44cf6c5be0c3c9fd4be2ac60797e59cc81c29c3eef6b5f67846c80b613
+    size: 2897126
+    checksum: sha256:c996eaad4e546c7a475f98b9ae07bee3e221bdf70110567822d27157f2647ebe
     name: libtiff
-    evr: 4.4.0-12.el9
+    evr: 4.4.0-12.el9_4.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/l/libtool-2.4.6-45.el9.src.rpm
     repoid: ubi-9-appstream-source
     size: 1003439
@@ -3474,13 +3474,13 @@ arches:
     name: libtheora
     evr: 1:1.1.1-31.el9
     sourcerpm: libtheora-1.1.1-31.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libtiff-4.4.0-12.el9.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libtiff-4.4.0-12.el9_4.1.x86_64.rpm
     repoid: ubi-9-appstream-rpms
-    size: 206443
-    checksum: sha256:3356e0814fa8b2e821147238afab8f4b7a34657d8a78d7cd971a74c93240b44a
+    size: 206245
+    checksum: sha256:8155a707a7155b878c2a939f5b71b7d08f778de986b1b69f05e671124b551812
     name: libtiff
-    evr: 4.4.0-12.el9
-    sourcerpm: libtiff-4.4.0-12.el9.src.rpm
+    evr: 4.4.0-12.el9_4.1
+    sourcerpm: libtiff-4.4.0-12.el9_4.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libtool-ltdl-2.4.6-45.el9.x86_64.rpm
     repoid: ubi-9-appstream-rpms
     size: 39525
@@ -5011,12 +5011,12 @@ arches:
     checksum: sha256:c43318355a6c960e0685d789887cddf450fdfd7908ba1a02d375e1ff290b3483
     name: libtheora
     evr: 1:1.1.1-31.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/l/libtiff-4.4.0-12.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/l/libtiff-4.4.0-12.el9_4.1.src.rpm
     repoid: ubi-9-appstream-source
-    size: 2896215
-    checksum: sha256:0f8ccd44cf6c5be0c3c9fd4be2ac60797e59cc81c29c3eef6b5f67846c80b613
+    size: 2897126
+    checksum: sha256:c996eaad4e546c7a475f98b9ae07bee3e221bdf70110567822d27157f2647ebe
     name: libtiff
-    evr: 4.4.0-12.el9
+    evr: 4.4.0-12.el9_4.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/l/libtool-2.4.6-45.el9.src.rpm
     repoid: ubi-9-appstream-source
     size: 1003439
