@@ -2,10 +2,6 @@
 ARG IMAGE
 FROM $IMAGE as builder
 
-# temporary
-RUN ls -alR ./cachi2/output
-RUN find ./cachi2/output -type f -name "*.repo" -exec cat {} +
-
 ARG BAZEL_VERSION
 ARG OPENJDK_VERSION
 ARG UBI_VERSION
