@@ -114,6 +114,8 @@ spec:
     - default:
       - linux/x86_64
       - linux/arm64
+      - linux/ppc64le
+      - linux/s390x
       description: List of platforms to build the container images on. The available
         set of values is determined by the configuration of the multi-platform-controller.
       name: build-platforms
@@ -245,7 +247,7 @@ spec:
         - name: name
           value: buildah-remote-oci-ta
         - name: bundle
-          value: quay.io/konflux-ci/tekton-catalog/task-buildah-remote-oci-ta:0.2@sha256:e312ca9862c11f6fb35b30a051e42d55c7a508afa24ebd23f4b7c88a9c275cf7
+          value: quay.io/konflux-ci/tekton-catalog/task-buildah-remote-oci-ta:0.2@sha256:0701fda689f7a8aa723aaffb4527e15782598f4268a6b505225d2a38db9897cf
         - name: kind
           value: task
         resolver: bundles
