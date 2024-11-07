@@ -1,4 +1,4 @@
-tkn bundle list -o yaml quay.io/konflux-ci/tekton-catalog/task-buildah-oci-ta:0.2 > buildah-build-task.yaml
+tkn bundle list -o yaml quay.io/konflux-ci/tekton-catalog/task-buildah:0.2 > buildah-build-task.yaml
 
 yq -i 'del(.spec.steps[] | select(.name == "sbom-syft-generate"))' buildah-build-task.yaml
 yq -i 'del(.spec.steps[] | select(.name == "analyse-dependencies-java-sbom"))' buildah-build-task.yaml

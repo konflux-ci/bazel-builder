@@ -169,15 +169,28 @@ spec:
       value: $(params.build-args-file)
     runAfter:
     - prefetch-dependencies
+    # taskRef:
+    #   params:
+    #   - name: name
+    #     value: buildah
+    #   - name: bundle
+    #     value: quay.io/konflux-ci/tekton-catalog/task-buildah:0.2
+    #   - name: kind
+    #     value: task
+    #   resolver: bundles
     taskRef:
       params:
       - name: name
         value: buildah
-      - name: bundle
-        value: quay.io/konflux-ci/tekton-catalog/task-buildah:0.2
+      - name: url
+        value: https://github.com/konflux-ci/bazel-builder.git
+      - name: revision
+        value: main
+      - name: pathInRepo
+        value: test/buildah-build-task.yaml
       - name: kind
         value: task
-      resolver: bundles
+      resolver: git
     when:
     - input: $(tasks.init.results.build)
       operator: in
