@@ -7,7 +7,7 @@ metadata:
     build.appstudio.redhat.com/target_branch: '{{target_branch}}'
     pipelinesascode.tekton.dev/max-keep-runs: "3"
     pipelinesascode.tekton.dev/on-cel-expression: event == "push" && target_branch
-      == "main" && ( "bazel5-ubi8/***".pathChanged() || ".tekton/bazel5-ubi8-pull-request.yaml".pathChanged()
+      == "main" && ( "bazel5-ubi8/***".pathChanged() || ".tekton/bazel5-ubi8-push.yaml".pathChanged()
       || "Containerfile".pathChanged() )
   creationTimestamp: null
   labels:
