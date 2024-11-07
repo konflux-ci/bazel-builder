@@ -36,3 +36,4 @@ RUN  dnf -y install java-"$OPENJDK_VERSION"-openjdk-devel
 COPY --from=builder /bazel/output/bazel-complete.bash /usr/share/bash-completion/completions/bazel
 COPY --from=builder /bazel/output/bazel /usr/bin/bazel-"$BAZEL_VERSION"
 COPY --from=builder /bazel/scripts/packages/bazel.sh /usr/bin/bazel
+
