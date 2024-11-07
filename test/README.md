@@ -1,3 +1,12 @@
+Run a build pipeline to test the bazel builder image.
+
+The generate task removes superfluous steps from the maintained buildah task so hermetic mode can be tested just like in a real build pipeline.
+
+
+
+
+
+
 # Stage 1
 
 This showcases how to build a single file to create a runnable application.
