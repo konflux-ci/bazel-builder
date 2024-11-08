@@ -200,13 +200,6 @@ spec:
     - name: source
       workspace: workspace
   workspaces:
-    - name: workspace
-    - name: git-auth
-      optional: true
-    - name: netrc
-      optional: true
-  taskRunTemplate: {}
-  workspaces:
   - name: workspace
     volumeClaimTemplate:
       metadata:
