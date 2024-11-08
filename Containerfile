@@ -32,6 +32,8 @@ FROM $IMAGE
 ARG BAZEL_VERSION
 ARG OPENJDK_VERSION
 
+# yolo
+
 RUN  dnf -y install java-"$OPENJDK_VERSION"-openjdk-devel
 COPY --from=builder /bazel/output/bazel-complete.bash /usr/share/bash-completion/completions/bazel
 COPY --from=builder /bazel/output/bazel /usr/bin/bazel-"$BAZEL_VERSION"
