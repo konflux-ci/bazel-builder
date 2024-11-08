@@ -177,10 +177,31 @@ LABELS=(
 #   done < <(find $ADDITIONAL_SECRET_TMP -maxdepth 1 -type f -exec basename {} \;)
 # fi
 
-unshare -Uf $UNSHARE_ARGS --keep-caps -r --map-users 1,1,65536 --map-groups 1,1,65536 -w ${SOURCE_CODE_DIR}/$CONTEXT -- buildah build \
-  #$VOLUME_MOUNTS \
-  "${BUILDAH_ARGS[@]}" \
-  "${LABELS[@]}" \
-  --tls-verify=$TLSVERIFY --no-cache \
-  --ulimit nofile=4096:4096 \
-  -f "$dockerfile_path" -t $IMAGE .
+buildah_cmd_array=(
+        buildah build
+        # "${VOLUME_MOUNTS[@]}"
+        "${BUILDAH_ARGS[@]}"
+        "${LABELS[@]}"
+        --tls-verify="$TLSVERIFY" --no-cache
+        --ulimit nofile=4096:4096
+        --storage-driver=vfs
+        -f "$dockerfile_copy" -t "$IMAGE" .
+      )
+      buildah_cmd=$(printf "%q " "${buildah_cmd_array[@]}")
+
+      if [ "${HERMETIC}" == "true" ]; then
+        # enabling loopback adapter enables Bazel builds to work in hermetic mode.
+        command="ip link set lo up && $buildah_cmd"
+      else
+        command="$buildah_cmd"
+      fi
+
+ unshare -Uf "${UNSHARE_ARGS[@]}" --keep-caps -r --map-users 1,1,65536 --map-groups 1,1,65536 -w "${SOURCE_CODE_DIR}/$CONTEXT" -- sh -c "$command"
+
+# unshare -Uf $UNSHARE_ARGS --keep-caps -r --map-users 1,1,65536 --map-groups 1,1,65536 -w ${SOURCE_CODE_DIR}/$CONTEXT -- buildah build \
+#   #$VOLUME_MOUNTS \
+#   "${BUILDAH_ARGS[@]}" \
+#   "${LABELS[@]}" \
+#   --tls-verify=$TLSVERIFY --no-cache \
+#   --ulimit nofile=4096:4096 \
+#   -f "$dockerfile_path" -t $IMAGE .
