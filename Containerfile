@@ -1,4 +1,3 @@
-
 ARG IMAGE
 FROM $IMAGE as builder
 
