@@ -4,24 +4,15 @@ metadata:
   name: build-pipeline
 spec:
   params:
-    - description: Source Repository URL
-      name: git-url
+    - description: 'Snapshot of the application'
+      name: SNAPSHOT
+      # default: '{"components": [{"name":"test-app", "containerImage": "quay.io/example/repo:latest"}]}'
       type: string
-
+   
     - description: Fully Qualified Output Image
       name: output-image
       type: string
-
-    - default: "main"
-      description: Revision of the Source Repository
-      name: revision
-      type: string
-
-    - default: .
-      description: Path to the source code of an application's component from where
-        to build image.
-      name: path-context
-      type: string
+      default: "quay.io/redhat-user-workloads/konflux-build-pipeli-tenant/bazel-builder/test-assets:ITS-$(context.pipelineRun.name)"
 
     - default: Dockerfile
       description: Path to the Dockerfile inside the context specified by parameter
@@ -49,10 +40,11 @@ spec:
       name: prefetch-input
       type: string
 
-    - default: ""
+    - default: "1h"
       description: Image tag expiration time, time values could be something like
         1h, 2d, 3w for hours, days, and weeks, respectively.
       name: image-expires-after
+      type: string
 
     - default: "false"
       description: Build a source image.
@@ -73,152 +65,218 @@ spec:
       description: Path to a file with build arguments for buildah, see https://www.mankier.com/1/buildah-build#--build-arg-file
       name: build-args-file
       type: string
-
   tasks:
-  # - name: init
-  #   params:
-  #   - name: image-url
-  #     value: $(params.output-image)
-  #   - name: rebuild
-  #     value: $(params.rebuild)
-  #   - name: skip-checks
-  #     value: $(params.skip-checks)
-  #   taskRef:
-  #     params:
-  #     - name: name
-  #       value: init
-  #     - name: bundle
-  #       value: quay.io/konflux-ci/tekton-catalog/task-init:0.2@sha256:f239f38bba3a8351c8cb0980fde8e2ee477ded7200178b0f45175e4006ff1dca
-  #     - name: kind
-  #       value: task
-  #     resolver: bundles
-  - name: clone-repository
+  # - name: parse-snapshot
+  #   results:
+  #     - name: component
+  #       description: Digest of the image just built.
+  #   image: quay.io/konflux-ci/yq-container:latest
+  - name: test-metadata
     params:
-    - name: url
-      value: $(params.git-url)
-    - name: revision
-      value: $(params.revision)
-    runAfter:
-    - init
-    taskRef:
+      - name: SNAPSHOT
+        value: $(params.SNAPSHOT)
+    taskSpec:
       params:
-      - name: name
-        value: git-clone
-      - name: bundle
-        value: quay.io/konflux-ci/tekton-catalog/task-git-clone:0.1
-      - name: kind
-        value: task
-      resolver: bundles
-    when:
-    - input: $(tasks.init.results.build)
-      operator: in
-      values:
-      - "true"
-    workspaces:
-    - name: output
-      workspace: workspace
-    - name: basic-auth
-      workspace: git-auth
-  - name: prefetch-dependencies
-    params:
-    - name: input
-      value: $(params.prefetch-input)
+      - name: SNAPSHOT
+        description: The JSON string of the Snapshot under test
+        type: string
+      results:
+        - name: component-container-image
+          description: image url and tag
+      steps:
+      - name: echo
+        image: registry.redhat.io/openshift4/ose-cli:4.13@sha256:73df37794ffff7de1101016c23dc623e4990810390ebdabcbbfa065214352c7c
+        env:
+          - name: COMPONENT_NAME
+            valueFrom:
+              fieldRef:
+                fieldPath: metadata.labels['appstudio.openshift.io/component']
+          - name: SNAPSHOT
+            value: $(params.SNAPSHOT)
+
+        script: |
+          #!/bin/bash
+          set -ex
+          set -o pipefail
+        
+          dnf install -y jq gettext
+          export COMPONENT_CONTAINER_IMAGE=$(jq -r --arg component_name "${COMPONENT_NAME}" '.components[] | select(.name == $component_name) | .containerImage' <<< "${SNAPSHOT}")
+          echo -n "${COMPONENT_CONTAINER_IMAGE}" > $(results.component-container-image.path)
+
+
+  - name: buildah
     runAfter:
-    - clone-repository
-    taskRef:
-      params:
-      - name: name
-        value: prefetch-dependencies
-      - name: bundle
-        value: quay.io/konflux-ci/tekton-catalog/task-prefetch-dependencies:0.1
-      - name: kind
-        value: task
-      resolver: bundles
-    when:
-    - input: $(params.prefetch-input)
-      operator: notin
-      values:
-      - ""
-    workspaces:
-    - name: source
-      workspace: workspace
-    - name: git-basic-auth
-      workspace: git-auth
-    - name: netrc
-      workspace: netrc
-  - name: build-container
+    - test-metadata
     params:
     - name: IMAGE
       value: $(params.output-image)
-    - name: DOCKERFILE
-      value: $(params.dockerfile)
-    - name: CONTEXT
-      value: $(params.path-context)
-    - name: HERMETIC
-      value: $(params.hermetic)
-    - name: PREFETCH_INPUT
-      value: $(params.prefetch-input)
-    - name: IMAGE_EXPIRES_AFTER
-      value: $(params.image-expires-after)
-    - name: COMMIT_SHA
-      value: $(tasks.clone-repository.results.commit)
-    - name: BUILD_ARGS
-      value:
-      - $(params.build-args[*])
-    - name: BUILD_ARGS_FILE
-      value: $(params.build-args-file)
-    runAfter:
-    - prefetch-dependencies
+    - name: test-image
+      value: $(tasks.test-metadata.results.component-container-image)
+    #- name: build-args
+    #  - "FROM_IMAGE=$(tasks.test-metadata.results.component-container-image)"
     # taskRef:
     #   params:
     #   - name: name
     #     value: buildah
-    #   - name: bundle
-    #     value: quay.io/konflux-ci/tekton-catalog/task-buildah:0.2
+    #   - name: url
+    #     value: https://github.com/tektoncd/catalog
+    #   - name: revision
+    #     value: main
+    #   - name: pathInRepo
+    #     value: task/buildah/0.8/buildah.yaml
     #   - name: kind
     #     value: task
-    #   resolver: bundles
-    taskRef:
+    #   resolver: git
+    taskSpec:
+      description: >-
+        Buildah task builds source into a container image and
+        then pushes it to a container registry.
+
+        Buildah Task builds source into a container image using Project Atomic's
+        Buildah build tool.It uses Buildah's support for building from Dockerfiles,
+        using its buildah bud command.This command executes the directives in the
+        Dockerfile to assemble a container image, then pushes that image to a
+        container registry.
       params:
-      - name: name
-        value: buildah
-      - name: url
-        value: https://github.com/konflux-ci/bazel-builder.git
-      - name: revision
-        value: main
-      - name: pathInRepo
-        value: test/buildah-build-task.yaml
-      - name: kind
-        value: task
-      resolver: git
-    when:
-    - input: $(tasks.init.results.build)
-      operator: in
-      values:
-      - "true"
-    workspaces:
-    - name: source
-      workspace: workspace
-  workspaces:
-    - name: workspace
-    - name: git-auth
-      optional: true
-    - name: netrc
-      optional: true
-  taskRunTemplate: {}
-  workspaces:
-  - name: workspace
-    volumeClaimTemplate:
-      metadata:
-        creationTimestamp: null
-      spec:
-        accessModes:
-        - ReadWriteOnce
-        resources:
-          requests:
-            storage: 1Gi
-      status: {}
-  - name: git-auth
-    secret:
-      secretName: '{{ git_auth_secret }}'
-status: {}
+      - name: test-image
+        description: the location and tag of the component to test
+        type: string
+      - name: IMAGE
+        description: Reference of the image buildah will produce.
+        type: string
+      - name: BUILDER_IMAGE
+        description: The location of the buildah builder image.
+        default: quay.io/konflux-ci/buildah-task:latest
+        type: string
+      - name: STORAGE_DRIVER
+        description: Set buildah storage driver
+        default: overlay
+        type: string
+      - name: DOCKERFILE
+        description: Path to the Dockerfile to build.
+        default: ./Dockerfile
+        type: string
+      - name: CONTEXT
+        description: Path to the directory to use as context.
+        default: .
+        type: string
+      - name: TLSVERIFY
+        description: Verify the TLS on the registry endpoint (for push/pull to a non-TLS registry)
+        default: "true"
+        type: string
+      - name: FORMAT
+        description: The format of the built container, oci or docker
+        default: "oci"
+        type: string
+      - name: BUILD_EXTRA_ARGS
+        description: Extra parameters passed for the build command when building images. WARNING - must be sanitized to avoid command injection
+        default: ""
+        type: string
+      - name: PUSH_EXTRA_ARGS
+        description: Extra parameters passed for the push command when pushing images. WARNING - must be sanitized to avoid command injection
+        type: string
+        default: ""
+      - name: SKIP_PUSH
+        description: Skip pushing the built image
+        default: "true"
+        type: string
+      - name: BUILD_ARGS
+        description: Dockerfile build arguments, array of key=value
+        type: array
+        default:
+        - ""
+      
+      workspaces:
+      # - name: source
+      - name: sslcertdir
+        optional: true
+      - name: dockerconfig
+        description: >-
+          An optional workspace that allows providing a .docker/config.json file
+          for Buildah to access the container registry.
+          The file should be placed at the root of the Workspace with name config.json.
+        optional: true
+      results:
+      - name: IMAGE_DIGEST
+        description: Digest of the image just built.
+      - name: IMAGE_URL
+        description: Image repository where the built image would be pushed to
+      steps:
+      - name: build-and-push
+        image: $(params.BUILDER_IMAGE)
+        workingDir: /source
+        env:
+        - name: TEST_IMAGE
+          value: $(params.test-image)
+        - name: PARAM_IMAGE
+          value: $(params.IMAGE)
+        - name: PARAM_STORAGE_DRIVER
+          value: $(params.STORAGE_DRIVER)
+        - name: PARAM_DOCKERFILE
+          value: $(params.DOCKERFILE)
+        - name: PARAM_CONTEXT
+          value: $(params.CONTEXT)
+        - name: PARAM_TLSVERIFY
+          value: $(params.TLSVERIFY)
+        - name: PARAM_FORMAT
+          value: $(params.FORMAT)
+        - name: PARAM_BUILD_EXTRA_ARGS
+          value: $(params.BUILD_EXTRA_ARGS)
+        - name: PARAM_PUSH_EXTRA_ARGS
+          value: $(params.PUSH_EXTRA_ARGS)
+        - name: PARAM_SKIP_PUSH
+          value: $(params.SKIP_PUSH)
+        - name: SNAPSHOT
+          value: $(params.SNAPSHOT)
+        # - name: COMPONENT_NAME
+        #   valueFrom:
+        #     fieldRef:
+        #       fieldPath: metadata.labels['appstudio.openshift.io/component']
+        args:
+        - $(params.BUILD_ARGS[*])
+        script: |
+          echo "Testing image: $TEST_IMAGE"
+
+          # write a dockerfile to disk
+          cat >./Dockerfile <<EOF
+          FROM quay.io/redhat-user-workloads/konflux-build-pipeli-tenant/test-assets:on-pr-b9656cd2a48cd94d19820d9172e77b9af814ed23 as SOURCE
+          FROM "$TEST_IMAGE"
+          COPY --from=SOURCE /source /source
+          WORKDIR /source
+          RUN dnf -y install gcc-c++ git
+          RUN bazel build //main:hello-world
+          EOF
+          
+          
+
+          BUILD_ARGS=()
+          for buildarg in "$@"
+          do
+            BUILD_ARGS+=("--build-arg=$buildarg")
+          done
+          [ "$(workspaces.sslcertdir.bound)" = "true" ] && CERT_DIR_FLAG="--cert-dir=$(workspaces.sslcertdir.path)"
+          [ "$(workspaces.dockerconfig.bound)" = "true" ] && DOCKER_CONFIG="$(workspaces.dockerconfig.path)" && export DOCKER_CONFIG
+          # build the image (CERT_DIR_FLAG should be omitted if empty and BUILD_EXTRA_ARGS can contain multiple args)
+          # shellcheck disable=SC2046,SC2086
+          buildah ${CERT_DIR_FLAG} "--storage-driver=${PARAM_STORAGE_DRIVER}" bud "${BUILD_ARGS[@]}" ${PARAM_BUILD_EXTRA_ARGS} \
+            "--format=${PARAM_FORMAT}" "--tls-verify=${PARAM_TLSVERIFY}" \
+            -f "${PARAM_DOCKERFILE}" -t "${PARAM_IMAGE}" "${PARAM_CONTEXT}"
+          [ "${PARAM_SKIP_PUSH}" = "true" ] && echo "Push skipped" && exit 0
+          # push the image (CERT_DIR_FLAG should be omitted if empty and PUSH_EXTRA_ARGS can contain multiple args)
+          # shellcheck disable=SC2046,SC2086
+          buildah ${CERT_DIR_FLAG} "--storage-driver=${PARAM_STORAGE_DRIVER}" push ${PARAM_PUSH_EXTRA_ARGS} \
+            "--tls-verify=${PARAM_TLSVERIFY}" --digestfile /tmp/image-digest "${PARAM_IMAGE}" \
+            "docker://${PARAM_IMAGE}"
+          tee "$(results.IMAGE_DIGEST.path)" < /tmp/image-digest
+          printf '%s' "${PARAM_IMAGE}" | tee "$(results.IMAGE_URL.path)"
+        volumeMounts:
+        - name: varlibcontainers
+          mountPath: /var/lib/containers
+        securityContext:
+          capabilities:
+            add:
+            - SETFCAP
+          # privileged: false
+      volumes:
+      - name: varlibcontainers
+        emptyDir: {}
