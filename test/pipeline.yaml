@@ -201,14 +201,7 @@ spec:
       operator: in
       values:
       - "true"
-  workspaces:
-  - name: source
-    workspace: workspace
-    workspaces:
-  - name: git-auth
-    optional: true
-  - name: netrc
-    optional: true
+
 
 #   workspaces:
 #   - name: git-auth
