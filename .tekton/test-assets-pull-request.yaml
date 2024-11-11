@@ -8,7 +8,7 @@ metadata:
     build.appstudio.redhat.com/target_branch: '{{target_branch}}'
     pipelinesascode.tekton.dev/max-keep-runs: "3"
     pipelinesascode.tekton.dev/on-cel-expression: event == "pull_request" && target_branch
-      == "main"
+      == "main" && ( "test/***".pathChanged() || ".tekton/test-assets-pull-request.yaml".pathChanged() )
   creationTimestamp: null
   labels:
     appstudio.openshift.io/application: bazel-builder
@@ -59,7 +59,7 @@ spec:
     - description: Fully Qualified Output Image
       name: output-image
       type: string
-    - default: .
+    - default: test
       description: Path to the source code of an application's component from where
         to build image.
       name: path-context
