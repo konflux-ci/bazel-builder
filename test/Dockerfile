@@ -1,4 +1,4 @@
-FROM quay.io/bcook/bazel:ubi8-bazel-5
+FROM konflux-ci/bazel-builder/bazel5-ubi8:latest
 RUN dnf -y install gcc-c++ git
 COPY source source
 WORKDIR source
