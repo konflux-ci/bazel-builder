@@ -135,7 +135,7 @@ spec:
         default:
         - ""
       workspaces:
-      - name: source
+      # - name: source
       - name: sslcertdir
         optional: true
       - name: dockerconfig
@@ -152,7 +152,7 @@ spec:
       steps:
       - name: build-and-push
         image: $(params.BUILDER_IMAGE)
-        workingDir: $(workspaces.source.path)
+        workingDir: /source
         env:
         - name: PARAM_IMAGE
           value: $(params.IMAGE)
