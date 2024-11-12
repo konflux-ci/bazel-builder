@@ -220,7 +220,7 @@ spec:
           # COMPONENT_CONTAINER_IMAGE=$(jq -r --arg component_name "${COMPONENT_NAME}" '.components[] | select(.name == $component_name) | .containerImage' <<< "${SNAPSHOT}")
           # Log the extracted variable
           # echo "  COMPONENT_CONTAINER_IMAGE: ${COMPONENT_CONTAINER_IMAGE}"
-          echo "component-name: $(tasks.test-metadata.results.component-name)"
+          # echo "component-name: $(tasks.test-metadata.results.component-name)"
 
 
           BUILD_ARGS=()
