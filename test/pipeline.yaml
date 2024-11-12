@@ -160,16 +160,23 @@ spec:
       - name: IMAGE_URL
         description: Image repository where the built image would be pushed to
       steps:
+      - name: test-metadata
+        params:
+          - name: SNAPSHOT
+            value: $(params.SNAPSHOT)
+        taskRef:
+          resolver: git
+          params:
+            - name: url
+              value: https://github.com/dirgim/integration-examples
+            - name: revision
+              value: test-metadata
+            - name: pathInRepo
+              value: tasks/test_metadata.yaml
       - name: build-and-push
         image: $(params.BUILDER_IMAGE)
         workingDir: /source
         env:
-        - name: SNAPSHOT
-          value: $(params.SNAPSHOT)
-        - name: COMPONENT_NAME
-          valueFrom:
-            fieldRef:
-              fieldPath: metadata.labels['appstudio.openshift.io/component']
         - name: PARAM_IMAGE
           value: $(params.IMAGE)
         - name: PARAM_STORAGE_DRIVER
@@ -188,6 +195,12 @@ spec:
           value: $(params.PUSH_EXTRA_ARGS)
         - name: PARAM_SKIP_PUSH
           value: $(params.SKIP_PUSH)
+        - name: SNAPSHOT
+          value: $(params.SNAPSHOT)
+        # - name: COMPONENT_NAME
+        #   valueFrom:
+        #     fieldRef:
+        #       fieldPath: metadata.labels['appstudio.openshift.io/component']
         args:
         - $(params.BUILD_ARGS[*])
         script: |
@@ -204,10 +217,12 @@ spec:
           # env
           # echo "snapshot: $SNAPSHOT"
           # Extract the component container image from the SNAPSHOT JSON data
-          COMPONENT_CONTAINER_IMAGE=$(jq -r --arg component_name "${COMPONENT_NAME}" '.components[] | select(.name == $component_name) | .containerImage' <<< "${SNAPSHOT}")
+          # COMPONENT_CONTAINER_IMAGE=$(jq -r --arg component_name "${COMPONENT_NAME}" '.components[] | select(.name == $component_name) | .containerImage' <<< "${SNAPSHOT}")
           # Log the extracted variable
-          echo "  COMPONENT_CONTAINER_IMAGE: ${COMPONENT_CONTAINER_IMAGE}"
-          
+          # echo "  COMPONENT_CONTAINER_IMAGE: ${COMPONENT_CONTAINER_IMAGE}"
+          echo "component-name: $(tasks.test-metadata.results.component-name)"
+
+
           BUILD_ARGS=()
           for buildarg in "$@"
           do
