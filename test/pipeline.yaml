@@ -140,7 +140,6 @@ spec:
         description: Extra parameters passed for the push command when pushing images. WARNING - must be sanitized to avoid command injection
         type: string
         default: ""
-        type: string
       - name: SKIP_PUSH
         description: Skip pushing the built image
         default: "false"
