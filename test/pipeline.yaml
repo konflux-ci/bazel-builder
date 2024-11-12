@@ -238,7 +238,7 @@ spec:
           echo "Testing image: $TEST_IMAGE"
 
           # write a dockerfile to disk
-          cat >./Dockerfile <<'EOF'
+          cat >./Dockerfile <<EOF
           FROM quay.io/redhat-user-workloads/konflux-build-pipeli-tenant/test-assets:on-pr-b9656cd2a48cd94d19820d9172e77b9af814ed23 as SOURCE
           FROM "$TEST_IMAGE"
           COPY --from=SOURCE /source /source
