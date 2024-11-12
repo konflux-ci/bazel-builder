@@ -76,8 +76,34 @@ spec:
       name: build-args-file
       type: string
   tasks:
-  - name: build-container
+  - name: buildah
+    params:
+    - name: IMAGE
+      value: $(params.output-image)
+    # taskRef:
+    #   params:
+    #   - name: name
+    #     value: buildah
+    #   - name: url
+    #     value: https://github.com/tektoncd/catalog
+    #   - name: revision
+    #     value: main
+    #   - name: pathInRepo
+    #     value: task/buildah/0.8/buildah.yaml
+    #   - name: kind
+    #     value: task
+    #   resolver: git
     taskSpec:
+      description: >-
+        Buildah task builds source into a container image and
+        then pushes it to a container registry.
+
+        Buildah Task builds source into a container image using Project Atomic's
+        Buildah build tool.It uses Buildah's support for building from Dockerfiles,
+        using its buildah bud command.This command executes the directives in the
+        Dockerfile to assemble a container image, then pushes that image to a
+        container registry.
+
       params:
       - name: IMAGE
         description: Reference of the image buildah will produce.
@@ -114,21 +140,38 @@ spec:
         description: Extra parameters passed for the push command when pushing images. WARNING - must be sanitized to avoid command injection
         type: string
         default: ""
+        type: string
       - name: SKIP_PUSH
         description: Skip pushing the built image
-        default: "true"
+        default: "false"
         type: string
       - name: BUILD_ARGS
         description: Dockerfile build arguments, array of key=value
         type: array
         default:
         - ""
+      workspaces:
+      - name: source
+      - name: sslcertdir
+        optional: true
+      - name: dockerconfig
+        description: >-
+          An optional workspace that allows providing a .docker/config.json file
+          for Buildah to access the container registry.
+          The file should be placed at the root of the Workspace with name config.json.
+        optional: true
+      results:
+      - name: IMAGE_DIGEST
+        description: Digest of the image just built.
+      - name: IMAGE_URL
+        description: Image repository where the built image would be pushed to
       steps:
       - name: build-and-push
         image: $(params.BUILDER_IMAGE)
+        workingDir: $(workspaces.source.path)
         env:
         - name: PARAM_IMAGE
-          value: $(params.output-image)
+          value: $(params.IMAGE)
         - name: PARAM_STORAGE_DRIVER
           value: $(params.STORAGE_DRIVER)
         - name: PARAM_DOCKERFILE
@@ -145,22 +188,16 @@ spec:
           value: $(params.PUSH_EXTRA_ARGS)
         - name: PARAM_SKIP_PUSH
           value: $(params.SKIP_PUSH)
-        results:
-        - name: IMAGE_DIGEST
-          description: Digest of the image just built.
-        - name: IMAGE_URL
-          description: Image repository where the built image would be pushed to
         args:
         - $(params.BUILD_ARGS[*])
         script: |
-          
           # write a dockerfile to disk
           cat >./Dockerfile <<'EOF'
           FROM quay.io/konflux-ci/bazel5-ubi8:latest
           WORKDIR source
           RUN bazel build //main:hello-world
           EOF
-
+          
           BUILD_ARGS=()
           for buildarg in "$@"
           do
@@ -181,3 +218,11 @@ spec:
             "docker://${PARAM_IMAGE}"
           tee "$(results.IMAGE_DIGEST.path)" < /tmp/image-digest
           printf '%s' "${PARAM_IMAGE}" | tee "$(results.IMAGE_URL.path)"
+        volumeMounts:
+        - name: varlibcontainers
+          mountPath: /var/lib/containers
+        securityContext:
+          privileged: true
+      volumes:
+      - name: varlibcontainers
+        emptyDir: {}
