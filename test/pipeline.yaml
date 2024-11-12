@@ -177,7 +177,7 @@ spec:
         script: |
           # write a dockerfile to disk
           cat >./Dockerfile <<'EOF'
-          FROM quay.io/redhat-user-workloads/konflux-build-pipeli-tenant/test-assets@sha256:53c25748881ba579b05d09ade537ebfeda8f3435af3469b4866334ee05e6a37c as SOURCE
+          FROM quay.io/redhat-user-workloads/konflux-build-pipeli-tenant/test-assets:on-pr-b9656cd2a48cd94d19820d9172e77b9af814ed23 as SOURCE
           FROM quay.io/konflux-ci/bazel5-ubi8:latest
           COPY --from=SOURCE /source /source
           WORKDIR /source
