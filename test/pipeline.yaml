@@ -179,7 +179,8 @@ spec:
           cat >./Dockerfile <<'EOF'
           FROM quay.io/konflux-ci/bazel5-ubi8:latest
           WORKDIR source
-          RUN bazel build //main:hello-world
+          
+          RUN cd main && bazel build //main:hello-world
           EOF
           
           BUILD_ARGS=()
