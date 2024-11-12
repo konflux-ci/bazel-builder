@@ -166,6 +166,10 @@ spec:
         env:
         - name: SNAPSHOT
           value: $(params.SNAPSHOT)
+        - name: COMPONENT_NAME
+          valueFrom:
+            fieldRef:
+              fieldPath: metadata.labels['appstudio.openshift.io/component']
         - name: PARAM_IMAGE
           value: $(params.IMAGE)
         - name: PARAM_STORAGE_DRIVER
@@ -197,9 +201,13 @@ spec:
           RUN bazel build //main:hello-world
           EOF
           
-          env
-
-          echo "snapshot: $SNAPSHOT"
+          # env
+          # echo "snapshot: $SNAPSHOT"
+          # Extract the component container image from the SNAPSHOT JSON data
+          COMPONENT_CONTAINER_IMAGE=$(jq -r --arg component_name "${COMPONENT_NAME}" '.components[] | select(.name == $component_name) | .containerImage' <<< "${SNAPSHOT}")
+          # Log the extracted variable
+          echo "  COMPONENT_CONTAINER_IMAGE: ${COMPONENT_CONTAINER_IMAGE}"
+          
           BUILD_ARGS=()
           for buildarg in "$@"
           do
