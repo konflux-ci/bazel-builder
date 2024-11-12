@@ -4,25 +4,10 @@ metadata:
   name: build-pipeline
 spec:
   params:
-    - description: Source Repository URL
-      name: git-url
-      type: string
-
     - description: Fully Qualified Output Image
       name: output-image
       type: string
       default: "quay.io/redhat-user-workloads/konflux-build-pipeli-tenant/bazel-builder/test-assets:ITS-$(context.pipelineRun.name)"
-
-    - default: "main"
-      description: Revision of the Source Repository
-      name: revision
-      type: string
-
-    - default: .
-      description: Path to the source code of an application's component from where
-        to build image.
-      name: path-context
-      type: string
 
     - default: Dockerfile
       description: Path to the Dockerfile inside the context specified by parameter
