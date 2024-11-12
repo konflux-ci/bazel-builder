@@ -181,7 +181,7 @@ spec:
           FROM quay.io/konflux-ci/bazel5-ubi8:latest
           COPY --from=SOURCE /source /source
           WORKDIR /source
-          RUN ls -al
+          RUN dnf -y install gcc-c++ git
           RUN bazel build //main:hello-world
           EOF
           
