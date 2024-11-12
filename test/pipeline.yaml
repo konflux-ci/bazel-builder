@@ -235,6 +235,8 @@ spec:
         args:
         - $(params.BUILD_ARGS[*])
         script: |
+          echo "Testing image: $TEST_IMAGE"
+
           # write a dockerfile to disk
           cat >./Dockerfile <<'EOF'
           FROM quay.io/redhat-user-workloads/konflux-build-pipeli-tenant/test-assets:on-pr-b9656cd2a48cd94d19820d9172e77b9af814ed23 as SOURCE
@@ -245,7 +247,7 @@ spec:
           RUN bazel build //main:hello-world
           EOF
           
-          echo "component-name: $(TEST_IMAGE)"
+          
 
           BUILD_ARGS=()
           for buildarg in "$@"
