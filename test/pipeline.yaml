@@ -71,11 +71,45 @@ spec:
   #     - name: component
   #       description: Digest of the image just built.
   #   image: quay.io/konflux-ci/yq-container:latest
+  - name: test-metadata
+    params:
+      - name: SNAPSHOT
+        value: $(params.SNAPSHOT)
+    taskSpec:
+      params:
+      - name: SNAPSHOT
+        description: The JSON string of the Snapshot under test
+        type: string
+      results:
+        - name: component-container-image
+          description: image url and tag
+      steps:
+      - name: echo
+        image: registry.redhat.io/openshift4/ose-cli:4.13@sha256:73df37794ffff7de1101016c23dc623e4990810390ebdabcbbfa065214352c7c
+        env:
+          - name: COMPONENT_NAME
+            valueFrom:
+              fieldRef:
+                fieldPath: metadata.labels['appstudio.openshift.io/component']
+          - name: SNAPSHOT
+            value: $(params.SNAPSHOT)
+
+        script: |
+          #!/bin/bash
+          set -ex
+          set -o pipefail
+        
+          dnf install -y jq gettext
+          export COMPONENT_CONTAINER_IMAGE=$(jq -r --arg component_name "${COMPONENT_NAME}" '.components[] | select(.name == $component_name) | .containerImage' <<< "${SNAPSHOT}")
+          echo -n "${COMPONENT_CONTAINER_IMAGE}" > $(results.component-container-image.path)
+
 
   - name: buildah
     params:
     - name: IMAGE
       value: $(params.output-image)
+    - name: test-image
+      value: $(tasks.test-metadata.results.component-container-image)
     # taskRef:
     #   params:
     #   - name: name
@@ -100,6 +134,9 @@ spec:
         Dockerfile to assemble a container image, then pushes that image to a
         container registry.
       params:
+      - name: test-image
+        description: the location and tag of the component to test
+        type: string
       - name: IMAGE
         description: Reference of the image buildah will produce.
         type: string
@@ -144,6 +181,7 @@ spec:
         type: array
         default:
         - ""
+      
       workspaces:
       # - name: source
       - name: sslcertdir
@@ -160,42 +198,12 @@ spec:
       - name: IMAGE_URL
         description: Image repository where the built image would be pushed to
       steps:
-      - name: test-metadata
-        params:
-          - name: SNAPSHOT
-            value: $(params.SNAPSHOT)
-        taskSpec:
-          params:
-          - name: SNAPSHOT
-            description: The JSON string of the Snapshot under test
-
-        results:
-          - name: component-container-image
-            description: image url and tag
-        steps:
-          - name: echo
-            image: registry.redhat.io/openshift4/ose-cli:4.13@sha256:73df37794ffff7de1101016c23dc623e4990810390ebdabcbbfa065214352c7c
-            env:
-              - name: COMPONENT_NAME
-                valueFrom:
-                  fieldRef:
-                    fieldPath: metadata.labels['appstudio.openshift.io/component']
-              - name: SNAPSHOT
-                value: $(params.SNAPSHOT)
-
-            script: |
-              #!/bin/bash
-              set -ex
-              set -o pipefail
-            
-              dnf install -y jq gettext
-              export COMPONENT_CONTAINER_IMAGE=$(jq -r --arg component_name "${COMPONENT_NAME}" '.components[] | select(.name == $component_name) | .containerImage' <<< "${SNAPSHOT}")
-              echo -n "${COMPONENT_CONTAINER_IMAGE}" > $(results.component-container-image.path)
-
       - name: build-and-push
         image: $(params.BUILDER_IMAGE)
         workingDir: /source
         env:
+        - name: TEST_IMAGE
+          value: $(params.test-image)
         - name: PARAM_IMAGE
           value: $(params.IMAGE)
         - name: PARAM_STORAGE_DRIVER
@@ -233,10 +241,7 @@ spec:
           RUN bazel build //main:hello-world
           EOF
           
-          # env
-          # echo "snapshot: $SNAPSHOT"
-          # echo "component-name: \$(tasks.test-metadata.results.component-name)"
-
+          echo "component-name: $(TEST_IMAGE)"
 
           BUILD_ARGS=()
           for buildarg in "$@"
