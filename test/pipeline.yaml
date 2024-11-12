@@ -105,6 +105,8 @@ spec:
 
 
   - name: buildah
+    runAfter:
+    - test-metadata
     params:
     - name: IMAGE
       value: $(params.output-image)
