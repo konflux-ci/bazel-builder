@@ -178,9 +178,9 @@ spec:
           # write a dockerfile to disk
           cat >./Dockerfile <<'EOF'
           FROM quay.io/konflux-ci/bazel5-ubi8:latest
-          WORKDIR source
+          WORKDIR /source
           
-          RUN cd main && bazel build //main:hello-world
+          RUN cd source && bazel build //main:hello-world
           EOF
           
           BUILD_ARGS=()
