@@ -112,6 +112,8 @@ spec:
       value: $(params.output-image)
     - name: test-image
       value: $(tasks.test-metadata.results.component-container-image)
+    #- name: build-args
+    #  - "FROM_IMAGE=$(tasks.test-metadata.results.component-container-image)"
     # taskRef:
     #   params:
     #   - name: name
@@ -236,7 +238,7 @@ spec:
           # write a dockerfile to disk
           cat >./Dockerfile <<'EOF'
           FROM quay.io/redhat-user-workloads/konflux-build-pipeli-tenant/test-assets:on-pr-b9656cd2a48cd94d19820d9172e77b9af814ed23 as SOURCE
-          FROM quay.io/konflux-ci/bazel5-ubi8:latest
+          FROM "$TEST_IMAGE"
           COPY --from=SOURCE /source /source
           WORKDIR /source
           RUN dnf -y install gcc-c++ git
