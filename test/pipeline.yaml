@@ -127,7 +127,7 @@ spec:
         default: ""
       - name: SKIP_PUSH
         description: Skip pushing the built image
-        default: "false"
+        default: "true"
         type: string
       - name: BUILD_ARGS
         description: Dockerfile build arguments, array of key=value
