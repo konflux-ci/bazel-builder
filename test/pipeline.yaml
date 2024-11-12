@@ -4,6 +4,11 @@ metadata:
   name: build-pipeline
 spec:
   params:
+    - description: 'Snapshot of the application'
+      name: SNAPSHOT
+      # default: '{"components": [{"name":"test-app", "containerImage": "quay.io/example/repo:latest"}]}'
+      type: string
+   
     - description: Fully Qualified Output Image
       name: output-image
       type: string
@@ -61,6 +66,12 @@ spec:
       name: build-args-file
       type: string
   tasks:
+  # - name: parse-snapshot
+  #   results:
+  #     - name: component
+  #       description: Digest of the image just built.
+  #   image: quay.io/konflux-ci/yq-container:latest
+
   - name: buildah
     params:
     - name: IMAGE
@@ -88,7 +99,9 @@ spec:
         using its buildah bud command.This command executes the directives in the
         Dockerfile to assemble a container image, then pushes that image to a
         container registry.
-
+      env:
+      - name: SNAPSHOT
+        value: $(params.SNAPSHOT)
       params:
       - name: IMAGE
         description: Reference of the image buildah will produce.
@@ -185,6 +198,9 @@ spec:
           RUN bazel build //main:hello-world
           EOF
           
+          env
+
+          echo "snapshot: $SNAPSHOT"
           BUILD_ARGS=()
           for buildarg in "$@"
           do
