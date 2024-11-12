@@ -206,7 +206,10 @@ spec:
         - name: varlibcontainers
           mountPath: /var/lib/containers
         securityContext:
-          privileged: false
+          capabilities:
+            add:
+            - SETFCAP
+          # privileged: false
       volumes:
       - name: varlibcontainers
         emptyDir: {}
