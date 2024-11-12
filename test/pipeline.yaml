@@ -216,7 +216,7 @@ spec:
           
           # env
           # echo "snapshot: $SNAPSHOT"
-          # echo "component-name: $(tasks.test-metadata.results.component-name)"
+          # echo "component-name: \$(tasks.test-metadata.results.component-name)"
 
 
           BUILD_ARGS=()
