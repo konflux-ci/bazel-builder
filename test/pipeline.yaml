@@ -93,6 +93,10 @@ spec:
             valueFrom:
               fieldRef:
                 fieldPath: metadata.labels['appstudio.openshift.io/component']
+          - name: EVENT_TYPE
+            valueFrom:
+              fieldRef:
+                fieldPath: metadata.labels['pac.test.appstudio.openshift.io/event-type']
           - name: SNAPSHOT
             value: $(params.SNAPSHOT)
 
@@ -107,7 +111,11 @@ spec:
           export COMPONENT_GIT_COMMIT=$(jq -r --arg component_name "${COMPONENT_NAME}" '.components[] | select(.name == $component_name) | .source.git.revision' <<< "${SNAPSHOT}")
           export COMPONENT_IMAGE_BASE=$(echo ${COMPONENT_CONTAINER_IMAGE} | | cut -d@ -f1 )
           echo -n "${COMPONENT_CONTAINER_IMAGE}" > $(results.component-container-image.path)
-          echo -n "${COMPONENT_IMAGE_BASE}:on-pr-${COMPONENT_GIT_COMMIT}.git" > $(results.source-trusted-artifact.path)
+          if [[ "$EVENT_TYPE" == "pull_request" ]]; then
+            echo -n "${COMPONENT_IMAGE_BASE}:on-pr-${COMPONENT_GIT_COMMIT}.git" > $(results.source-trusted-artifact.path)
+          else
+            echo -n "${COMPONENT_IMAGE_BASE}:${COMPONENT_GIT_COMMIT}.git" > $(results.source-trusted-artifact.path)
+          fi
 
 
   - name: buildah
