@@ -117,7 +117,7 @@ spec:
             echo -n "${COMPONENT_IMAGE_BASE}:${COMPONENT_GIT_COMMIT}.git" > $(results.source-trusted-artifact.path)
           fi
 
-          
+
   - name: buildah
     runAfter:
     - test-metadata
@@ -134,7 +134,7 @@ spec:
       resolver: git
       params:
       - name: url
-        value: https://brianwcook/konflux-ci/bazel-builder.git
+        value: https://github.com/konflux-ci/bazel-builder.git
       - name: revision
         value: make-integration-test-work
       - name: pathInRepo
@@ -334,8 +334,8 @@ spec:
   #           add:
   #           - SETFCAP
   #         # privileged: false
-      volumes:
-      - name: varlibcontainers
-        emptyDir: {}
-      - name: workdir
-        emptyDir: {}
+      # volumes:
+      # - name: varlibcontainers
+      #   emptyDir: {}
+      # - name: workdir
+      #   emptyDir: {}
