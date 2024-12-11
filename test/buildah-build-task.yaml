@@ -180,7 +180,7 @@ spec:
     - args:
         - use
         - $(params.SOURCE_ARTIFACT)=/var/workdir/source
-        # - $(params.CACHI2_ARTIFACT)=/var/workdir/cachi2
+        - $(params.CACHI2_ARTIFACT)=/var/workdir/cachi2
       computeResources: {}
       image: quay.io/redhat-appstudio/build-trusted-artifacts:latest@sha256:52f1391e6f1c472fd10bb838f64fae2ed3320c636f536014978a5ddbdfc6b3af
       name: use-trusted-artifact
@@ -502,67 +502,6 @@ spec:
           name: activation-key
         - mountPath: /additional-secret
           name: additional-secret
-        - mountPath: /mnt/trusted-ca
-          name: trusted-ca
-          readOnly: true
-      workingDir: /var/workdir
-    - computeResources:
-        limits:
-          cpu: "4"
-          memory: 4Gi
-        requests:
-          cpu: "1"
-          memory: 1Gi
-      image: quay.io/konflux-ci/buildah-task:latest@sha256:b2d6c32d1e05e91920cd4475b2761d58bb7ee11ad5dff3ecb59831c7572b4d0c
-      name: push
-      script: |
-        #!/bin/bash
-        set -e
-
-        ca_bundle=/mnt/trusted-ca/ca-bundle.crt
-        if [ -f "$ca_bundle" ]; then
-          echo "INFO: Using mounted CA bundle: $ca_bundle"
-          cp -vf $ca_bundle /etc/pki/ca-trust/source/anchors
-          update-ca-trust
-        fi
-
-        retries=5
-        # Push to a unique tag based on the TaskRun name to avoid race conditions
-        echo "Pushing to ${IMAGE%:*}:${TASKRUN_NAME}"
-        if ! buildah push \
-          --retry "$retries" \
-          --tls-verify="$TLSVERIFY" \
-          "$IMAGE" \
-          "docker://${IMAGE%:*}:$(context.taskRun.name)"; then
-          echo "Failed to push sbom image to ${IMAGE%:*}:$(context.taskRun.name) after ${retries} tries"
-          exit 1
-        fi
-
-        # Push to a tag based on the git revision
-        echo "Pushing to ${IMAGE}"
-        if ! buildah push \
-          --retry "$retries" \
-          --tls-verify="$TLSVERIFY" \
-          --digestfile "/var/workdir/image-digest" "$IMAGE" \
-          "docker://$IMAGE"; then
-          echo "Failed to push sbom image to $IMAGE after ${retries} tries"
-          exit 1
-        fi
-
-        cat "/var/workdir"/image-digest | tee $(results.IMAGE_DIGEST.path)
-        echo -n "$IMAGE" | tee $(results.IMAGE_URL.path)
-        {
-          echo -n "${IMAGE}@"
-          cat "/var/workdir/image-digest"
-        } >"$(results.IMAGE_REF.path)"
-      securityContext:
-        capabilities:
-          add:
-            - SETFCAP
-        runAsUser: 0
-      volumeMounts:
-        - mountPath: /var/lib/containers
-          name: varlibcontainers
         - mountPath: /mnt/trusted-ca
           name: trusted-ca
           readOnly: true
