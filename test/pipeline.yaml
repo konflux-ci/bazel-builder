@@ -112,8 +112,10 @@ spec:
           export COMPONENT_IMAGE_BASE=$(echo ${COMPONENT_CONTAINER_IMAGE} | cut -d@ -f1 )
           echo -n "${COMPONENT_CONTAINER_IMAGE}" > $(results.component-container-image.path)
           if [[ "$EVENT_TYPE" == "pull_request" ]]; then
+            echo "pull request"
             echo -n "${COMPONENT_IMAGE_BASE}:on-pr-${COMPONENT_GIT_COMMIT}.git" > $(results.source-trusted-artifact.path)
           else
+            echo "push"
             echo -n "${COMPONENT_IMAGE_BASE}:${COMPONENT_GIT_COMMIT}.git" > $(results.source-trusted-artifact.path)
           fi
 
