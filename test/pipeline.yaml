@@ -125,7 +125,7 @@ spec:
             source_artifact_digest=$(oras manifest fetch --pretty "${COMPONENT_IMAGE_BASE}:${COMPONENT_GIT_COMMIT}.git" | jq -er ".layers[].digest")
           fi
 
-          echo -n "$COMPONENT_IMAGE_BASE@$source_artifact_digest" > $(results.source-trusted-artifact.path)
+          echo -n "oci:$COMPONENT_IMAGE_BASE@$source_artifact_digest" > $(results.source-trusted-artifact.path)
 
   - name: buildah
     runAfter:
