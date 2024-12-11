@@ -112,14 +112,21 @@ spec:
           export COMPONENT_IMAGE_BASE=$(echo ${COMPONENT_CONTAINER_IMAGE} | cut -d@ -f1 )
           echo -n "${COMPONENT_CONTAINER_IMAGE}" > $(results.component-container-image.path)
           echo "event type is "$EVENT_TYPE""
+
+          
+          oras manifest fetch --pretty quay.io/redhat-user-workloads/konflux-build-pipeli-tenant/bazel6-ubi9:on-pr-6d3e0ecb8b1558d3c8f391d362ee24b9e36ef02a.git | jq -er ".layers[].digest"
+          
           if [[ "$EVENT_TYPE" == "pull_request" ]]; then
             echo "pull request"
-            echo -n "${COMPONENT_IMAGE_BASE}:on-pr-${COMPONENT_GIT_COMMIT}.git" > $(results.source-trusted-artifact.path)
+            # echo -n "${COMPONENT_IMAGE_BASE}:on-pr-${COMPONENT_GIT_COMMIT}.git" > $(results.source-trusted-artifact.path)
+            export source_artifact=oras manifest fetch --pretty "${COMPONENT_IMAGE_BASE}:on-pr-${COMPONENT_GIT_COMMIT}.git" | jq -er ".layers[].digest"
           else
             echo "push"
-            echo -n "${COMPONENT_IMAGE_BASE}:${COMPONENT_GIT_COMMIT}.git" > $(results.source-trusted-artifact.path)
+            # echo -n "${COMPONENT_IMAGE_BASE}:${COMPONENT_GIT_COMMIT}.git" > $(results.source-trusted-artifact.path)
+            export source_artifact=oras manifest fetch --pretty "${COMPONENT_IMAGE_BASE}:${COMPONENT_GIT_COMMIT}.git" | jq -er ".layers[].digest"
           fi
-
+          echo "source_artifact=$source_artifact"
+          echo -n "$source_artifact" > $(results.source-trusted-artifact.path)
 
   - name: buildah
     runAfter:
