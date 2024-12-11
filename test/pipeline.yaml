@@ -87,7 +87,7 @@ spec:
           description: image url and tag for the source trusted artifact
       steps:
       - name: echo
-        image: registry.redhat.io/openshift4/ose-cli:4.13@sha256:73df37794ffff7de1101016c23dc623e4990810390ebdabcbbfa065214352c7c
+        image: quay.io/konflux-ci/oras:latest
         env:
           - name: COMPONENT_NAME
             valueFrom:
