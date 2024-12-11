@@ -171,12 +171,41 @@ spec:
         value: $(params.YUM_REPOS_D_SRC)
       - name: YUM_REPOS_D_TARGET
         value: $(params.YUM_REPOS_D_TARGET)
+      
+      - name: SOURCE_ARTIFACT
+        value: $(tasks.test-metadata.results.SOURCE_ARTIFACT)
+
     volumeMounts:
       - mountPath: /shared
         name: shared
       - mountPath: /var/workdir
         name: workdir
   steps:
+
+    - computeResources:
+      limits:
+        cpu: "4"
+        memory: 8Gi
+      requests:
+        cpu: "1"
+        memory: 2Gi
+      env:
+        - name: COMMIT_SHA
+          value: $(params.COMMIT_SHA)
+        - name: DOCKERFILE
+          value: $(params.DOCKERFILE)
+      image: quay.io/konflux-ci/buildah-task:latest@sha256:b2d6c32d1e05e91920cd4475b2761d58bb7ee11ad5dff3ecb59831c7572b4d0c
+      name: debug
+      script: |
+        #!/bin/bash
+        echo "COMMIT_SHA "$COMMIT_SHA"
+        echo "DOCKERFILE $DOCKERFILE"
+
+          
+
+    
+    
+    
     - args:
         - use
         - $(params.SOURCE_ARTIFACT)=/var/workdir/source
@@ -184,6 +213,15 @@ spec:
       computeResources: {}
       image: quay.io/redhat-appstudio/build-trusted-artifacts:latest@sha256:e0e457b6af10e44ff6b90208a9e69adc863a865e1c062c4cb84bf3846037d74d
       name: use-trusted-artifact
+    
+    
+    
+    
+    
+    
+    
+    
+    
     - args:
         - --build-args
         - $(params.BUILD_ARGS[*])
