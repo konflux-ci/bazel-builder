@@ -121,14 +121,14 @@ spec:
           if [[ "$EVENT_TYPE" == "pull_request" ]]; then
             echo "pull request"
             # echo -n "${COMPONENT_IMAGE_BASE}:on-pr-${COMPONENT_GIT_COMMIT}.git" > $(results.source-trusted-artifact.path)
-            export source_artifact=$(oras manifest fetch --pretty "${COMPONENT_IMAGE_BASE}:on-pr-${COMPONENT_GIT_COMMIT}.git" | jq -er ".layers[].digest")
+            source_artifact_digest=$(oras manifest fetch --pretty "${COMPONENT_IMAGE_BASE}:on-pr-${COMPONENT_GIT_COMMIT}.git" | jq -er ".layers[].digest")
           else
             echo "push"
             # echo -n "${COMPONENT_IMAGE_BASE}:${COMPONENT_GIT_COMMIT}.git" > $(results.source-trusted-artifact.path)
-            export source_artifact=$(oras manifest fetch --pretty "${COMPONENT_IMAGE_BASE}:${COMPONENT_GIT_COMMIT}.git" | jq -er ".layers[].digest")
+            source_artifact_digest=$(oras manifest fetch --pretty "${COMPONENT_IMAGE_BASE}:${COMPONENT_GIT_COMMIT}.git" | jq -er ".layers[].digest")
           fi
           echo "source_artifact=$source_artifact"
-          echo -n "$source_artifact" > $(results.source-trusted-artifact.path)
+          echo -n "$COMPONENT_IMAGE_BASE@$source_artifact" > $(results.source-trusted-artifact.path)
 
   - name: buildah
     runAfter:
