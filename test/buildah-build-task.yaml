@@ -191,7 +191,7 @@ spec:
       name: debug
       script: |
         #!/bin/bash
-        echo "COMMIT_SHA "$COMMIT_SHA"
+        echo "COMMIT_SHA $COMMIT_SHA"
         echo "DOCKERFILE $DOCKERFILE"
 
           
