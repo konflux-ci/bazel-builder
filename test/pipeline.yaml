@@ -138,7 +138,7 @@ spec:
     - name: SOURCE_ARTIFACT
       value: $(tasks.test-metadata.results.source-trusted-artifact)
     - name: CONTEXT
-      value: "/var/workdir/source/test/source"
+      value: "test"
     taskRef:
       resolver: git
       params:
