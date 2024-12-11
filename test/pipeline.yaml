@@ -111,6 +111,7 @@ spec:
           export COMPONENT_GIT_COMMIT=$(jq -r --arg component_name "${COMPONENT_NAME}" '.components[] | select(.name == $component_name) | .source.git.revision' <<< "${SNAPSHOT}")
           export COMPONENT_IMAGE_BASE=$(echo ${COMPONENT_CONTAINER_IMAGE} | cut -d@ -f1 )
           echo -n "${COMPONENT_CONTAINER_IMAGE}" > $(results.component-container-image.path)
+          echo "event type is "$EVENT_TYPE""
           if [[ "$EVENT_TYPE" == "pull_request" ]]; then
             echo "pull request"
             echo -n "${COMPONENT_IMAGE_BASE}:on-pr-${COMPONENT_GIT_COMMIT}.git" > $(results.source-trusted-artifact.path)
