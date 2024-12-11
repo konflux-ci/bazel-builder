@@ -88,6 +88,8 @@ spec:
       steps:
       - name: echo
         image: quay.io/konflux-ci/oras:latest
+        securityContext:
+          runAsUser: 0
         env:
           - name: COMPONENT_NAME
             valueFrom:
