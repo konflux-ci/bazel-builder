@@ -1,5 +1,6 @@
 ARG FROM
 FROM $FROM
+
 RUN dnf -y install gcc-c++ git
 COPY source /source
 WORKDIR /source
