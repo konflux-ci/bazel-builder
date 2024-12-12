@@ -1,7 +1,8 @@
-FROM quay.io/konflux-ci/bazel5-ubi8:latest
+ARG FROM
+FROM $FROM
 RUN dnf -y install gcc-c++ git
-COPY source source
-WORKDIR source
+COPY source /source
+WORKDIR /source
 
 # This will be run in the test pipeline.
-# RUN bazel build //main:hello-world
+RUN bazel build //main:hello-world

@@ -6,7 +6,7 @@ metadata:
     tekton.dev/tags: image-build, konflux
   creationTimestamp: null
   labels:
-    app.kubernetes.io/version: "0.2"
+    app.kubernetes.io/version: 0.2.1
     build.appstudio.redhat.com/build_type: docker
   name: buildah-oci-ta
 spec:
@@ -182,7 +182,7 @@ spec:
         - $(params.SOURCE_ARTIFACT)=/var/workdir/source
         - $(params.CACHI2_ARTIFACT)=/var/workdir/cachi2
       computeResources: {}
-      image: quay.io/redhat-appstudio/build-trusted-artifacts:latest@sha256:e0e457b6af10e44ff6b90208a9e69adc863a865e1c062c4cb84bf3846037d74d
+      image: quay.io/redhat-appstudio/build-trusted-artifacts:latest@sha256:52f1391e6f1c472fd10bb838f64fae2ed3320c636f536014978a5ddbdfc6b3af
       name: use-trusted-artifact
     - args:
         - --build-args
@@ -205,7 +205,7 @@ spec:
       name: build
       script: |
         #!/bin/bash
-        set -e
+        set -euo pipefail
         ca_bundle=/mnt/trusted-ca/ca-bundle.crt
         if [ -f "$ca_bundle" ]; then
           echo "INFO: Using mounted CA bundle: $ca_bundle"
@@ -242,7 +242,7 @@ spec:
         dockerfile_copy=$(mktemp --tmpdir "$(basename "$dockerfile_path").XXXXXX")
         cp "$dockerfile_path" "$dockerfile_copy"
 
-        if [ -n "$JVM_BUILD_WORKSPACE_ARTIFACT_CACHE_PORT_80_TCP_ADDR" ] && grep -q '^\s*RUN \(./\)\?mvn' "$dockerfile_copy"; then
+        if [ -n "${JVM_BUILD_WORKSPACE_ARTIFACT_CACHE_PORT_80_TCP_ADDR-}" ] && grep -q '^\s*RUN \(./\)\?mvn' "$dockerfile_copy"; then
           sed -i -e "s|^\s*RUN \(\(./\)\?mvn\)\(.*\)|RUN echo \"<settings><mirrors><mirror><id>mirror.default</id><url>http://$JVM_BUILD_WORKSPACE_ARTIFACT_CACHE_PORT_80_TCP_ADDR/v1/cache/default/0/</url><mirrorOf>*</mirrorOf></mirror></mirrors></settings>\" > /tmp/settings.yaml; \1 -s /tmp/settings.yaml \3|g" "$dockerfile_copy"
           touch /var/lib/containers/java
         fi
@@ -300,9 +300,9 @@ spec:
           BUILD_ARG_FLAGS+=("--build-arg=$build_arg")
         done
 
+        dockerfile-json "${BUILD_ARG_FLAGS[@]}" "$dockerfile_copy" >/shared/parsed_dockerfile.json
         BASE_IMAGES=$(
-          dockerfile-json "${BUILD_ARG_FLAGS[@]}" "$dockerfile_copy" |
-            jq -r '.Stages[] | select(.From | .Stage or .Scratch | not) | .BaseName | select(test("^oci-archive:") | not)'
+          jq -r '.Stages[] | select(.From | .Stage or .Scratch | not) | .BaseName | select(test("^oci-archive:") | not)' /shared/parsed_dockerfile.json
         )
 
         BUILDAH_ARGS=()
@@ -403,7 +403,7 @@ spec:
             -v /shared/rhsm/etc/pki/consumer:/etc/pki/consumer:Z)
           echo "Adding activation key to the build"
 
-          if ! grep subscription-manager "$dockerfile_path" | grep -q register; then
+          if ! grep -E "^[^#]*subscription-manager.[^#]*register" "$dockerfile_path"; then
             # user is not running registration in the Containerfile: pre-register.
             echo "Pre-registering with subscription manager."
             subscription-manager register --org "$(cat /tmp/activation-key/org)" --activationkey "$(cat /tmp/activation-key/activationkey)"
@@ -414,7 +414,7 @@ spec:
             cp /etc/pki/consumer/*.pem /shared/rhsm/etc/pki/consumer
 
             # and then mount get /etc/rhsm/ca/redhat-uep.pem into /run/secrets/rhsm/ca
-            VOLUME_MOUNTS+=(--volume /etc/rhsm/ca/redhat-uep.pem:/run/secrets/rhsm/ca/redhat-uep.pem)
+            VOLUME_MOUNTS+=(--volume /etc/rhsm/ca/redhat-uep.pem:/etc/rhsm/ca/redhat-uep.pem:Z)
           fi
 
         # was: if [ -d "$ACTIVATION_KEY_PATH" ]; then
@@ -424,7 +424,7 @@ spec:
           echo "Adding the entitlement to the build"
         fi
 
-        if [ -n "$ADDITIONAL_VOLUME_MOUNTS" ]; then
+        if [ -n "${ADDITIONAL_VOLUME_MOUNTS-}" ]; then
           # ADDITIONAL_VOLUME_MOUNTS allows to specify more volumes for the build.
           # This is primarily used in instrumented builds for SAST scanning and analyzing.
           # Instrumented builds use this step as their base and add some other tools.
@@ -482,11 +482,13 @@ spec:
 
         touch /shared/base_images_digests
         for image in $BASE_IMAGES; do
-          buildah images --format '{{ .Name }}:{{ .Tag }}@{{ .Digest }}' --filter reference="$image" >>/shared/base_images_digests
+          base_image_digest=$(buildah images --format '{{ .Name }}:{{ .Tag }}@{{ .Digest }}' --filter reference="$image")
+          # In some cases, there might be BASE_IMAGES, but not any associated digest. This happens
+          # if buildah did not use that particular image during build because it was skipped
+          if [ -n "$base_image_digest" ]; then
+            echo "$image $base_image_digest" >>/shared/base_images_digests
+          fi
         done
-
-        # Needed to generate base images SBOM
-        echo "$BASE_IMAGES" >/shared/base_images_from_dockerfile
       securityContext:
         capabilities:
           add:
