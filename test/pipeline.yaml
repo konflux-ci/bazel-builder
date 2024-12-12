@@ -139,6 +139,10 @@ spec:
       value: $(tasks.test-metadata.results.source-trusted-artifact)
     - name: CONTEXT
       value: "test"
+    - name: build-args
+      value: 
+      - FROM=$(tasks.test-metadata.results.component-container-image)
+
     taskRef:
       resolver: git
       params:
