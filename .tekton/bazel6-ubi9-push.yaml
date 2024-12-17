@@ -10,7 +10,6 @@ metadata:
       == "main" && ( "bazel6-ubi9/***".pathChanged() || ".tekton/bazel6-ubi9-push.yaml".pathChanged()
       || "Containerfile".pathChanged() )
   creationTimestamp: null
-  creationTimestamp: null
   labels:
     appstudio.openshift.io/application: bazel-builder
     appstudio.openshift.io/component: bazel6-ubi9
@@ -28,6 +27,8 @@ spec:
   - name: dockerfile
     value: Containerfile
   - name: hermetic
+    value: "true"
+  - name: build-source-image
     value: "true"
   - name: prefetch-input
     value: 
