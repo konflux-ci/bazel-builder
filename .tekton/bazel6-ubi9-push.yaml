@@ -10,7 +10,6 @@ metadata:
       == "main" && ( "bazel6-ubi9/***".pathChanged() || ".tekton/bazel6-ubi9-push.yaml".pathChanged()
       || "Containerfile".pathChanged() )
   creationTimestamp: null
-  creationTimestamp: null
   labels:
     appstudio.openshift.io/application: bazel-builder
     appstudio.openshift.io/component: bazel6-ubi9
@@ -29,6 +28,8 @@ spec:
     value: Containerfile
   - name: hermetic
     value: "true"
+  - name: build-source-image
+    value: "true"
   - name: prefetch-input
     value: 
     - {"type": "rpm", "path": "bazel6-ubi9"}
@@ -42,7 +43,7 @@ spec:
     - linux/x86_64
     - linux/arm64
     - linux/ppc64le
-    - linux/s390x
+    # - linux/s390x
   pipelineSpec:
     description: |
       This pipeline is ideal for building multi-arch container images from a Containerfile while maintaining trust after pipeline customization.
