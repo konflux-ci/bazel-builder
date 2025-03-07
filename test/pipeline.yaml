@@ -18,7 +18,7 @@ spec:
       description: Path to the Dockerfile inside the context specified by parameter
         path-context
       name: dockerfile
-      type: string
+      tgit pullype: string
 
     - default: "false"
       description: Force rebuild image
@@ -109,7 +109,7 @@ spec:
           set -ex
           set -o pipefail
         
-          dnf install -y jq gettext
+          microdnf install -y jq gettext
           echo "${SNAPSHOT}"
           export COMPONENT_CONTAINER_IMAGE=$(jq -r --arg component_name "${COMPONENT_NAME}" '.components[] | select(.name == $component_name) | .containerImage' <<< "${SNAPSHOT}")
           export COMPONENT_GIT_COMMIT=$(jq -r --arg component_name "${COMPONENT_NAME}" '.components[] | select(.name == $component_name) | .source.git.revision' <<< "${SNAPSHOT}")
