@@ -816,6 +816,13 @@ arches:
     name: libedit
     evr: 3.1-23.20170329cvs.el8
     sourcerpm: libedit-3.1-23.20170329cvs.el8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/os/Packages/l/libgcc-8.5.0-23.el8_10.aarch64.rpm
+    repoid: ubi-8-for-aarch64-baseos-rpms
+    size: 76592
+    checksum: sha256:bc230e3c562d7e5b9d9b5a27da5c5e703b4f926c1a6facb4f36a8edeb0144551
+    name: libgcc
+    evr: 8.5.0-23.el8_10
+    sourcerpm: gcc-8.5.0-23.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/os/Packages/l/libgomp-8.5.0-23.el8_10.aarch64.rpm
     repoid: ubi-8-for-aarch64-baseos-rpms
     size: 205332
@@ -2776,6 +2783,13 @@ arches:
     name: libedit
     evr: 3.1-23.20170329cvs.el8
     sourcerpm: libedit-3.1-23.20170329cvs.el8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/os/Packages/l/libgcc-8.5.0-23.el8_10.ppc64le.rpm
+    repoid: ubi-8-for-ppc64le-baseos-rpms
+    size: 72268
+    checksum: sha256:23689ffeb0469fefbc33e3dbe45127f5f0c4afb3805ec09cc0310115daca80eb
+    name: libgcc
+    evr: 8.5.0-23.el8_10
+    sourcerpm: gcc-8.5.0-23.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/os/Packages/l/libgomp-8.5.0-23.el8_10.ppc64le.rpm
     repoid: ubi-8-for-ppc64le-baseos-rpms
     size: 218740
@@ -4736,6 +4750,13 @@ arches:
     name: libedit
     evr: 3.1-23.20170329cvs.el8
     sourcerpm: libedit-3.1-23.20170329cvs.el8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/l/libgcc-8.5.0-23.el8_10.s390x.rpm
+    repoid: ubi-8-for-s390x-baseos-rpms
+    size: 67452
+    checksum: sha256:70b5c286665136bec7e114ecc83e66da36508b41b64526e77cce22d18c387c46
+    name: libgcc
+    evr: 8.5.0-23.el8_10
+    sourcerpm: gcc-8.5.0-23.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/l/libgomp-8.5.0-23.el8_10.s390x.rpm
     repoid: ubi-8-for-s390x-baseos-rpms
     size: 207596
@@ -6682,6 +6703,13 @@ arches:
     name: libedit
     evr: 3.1-23.20170329cvs.el8
     sourcerpm: libedit-3.1-23.20170329cvs.el8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/l/libgcc-8.5.0-23.el8_10.x86_64.rpm
+    repoid: ubi-8-for-x86_64-baseos-rpms
+    size: 83732
+    checksum: sha256:a75cc2dfa4cdadccc043059319a576914f1d744400393effb7ce2f5bf3b7bf52
+    name: libgcc
+    evr: 8.5.0-23.el8_10
+    sourcerpm: gcc-8.5.0-23.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/l/libgomp-8.5.0-23.el8_10.x86_64.rpm
     repoid: ubi-8-for-x86_64-baseos-rpms
     size: 213352

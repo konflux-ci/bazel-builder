@@ -19,6 +19,7 @@ reinstallPackages:
   # list of rpms already provided in the base image, but which should be
   # reinstalled
   - libstdc++
+  - libgcc
 
 arches:
   # The list of architectures can be set in the config file. Any `--arch` option set
