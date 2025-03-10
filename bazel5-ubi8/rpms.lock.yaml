@@ -865,6 +865,13 @@ arches:
     name: libsoup
     evr: 2.62.3-7.el8_10
     sourcerpm: libsoup-2.62.3-7.el8_10.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/os/Packages/l/libstdc++-8.5.0-23.el8_10.aarch64.rpm
+    repoid: ubi-8-for-aarch64-baseos-rpms
+    size: 435572
+    checksum: sha256:702e22f34b7f0e80f797e6a031c01e8e1946494e51cb996558c93d0d42b13f58
+    name: libstdc++
+    evr: 8.5.0-23.el8_10
+    sourcerpm: gcc-8.5.0-23.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/os/Packages/l/libubsan-8.5.0-23.el8_10.aarch64.rpm
     repoid: ubi-8-for-aarch64-baseos-rpms
     size: 148748
@@ -2818,6 +2825,13 @@ arches:
     name: libsoup
     evr: 2.62.3-7.el8_10
     sourcerpm: libsoup-2.62.3-7.el8_10.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/os/Packages/l/libstdc++-8.5.0-23.el8_10.ppc64le.rpm
+    repoid: ubi-8-for-ppc64le-baseos-rpms
+    size: 509944
+    checksum: sha256:fd726122e957ad09157748229aa8681dd1a866ea0a431c1bad1a19b40392200e
+    name: libstdc++
+    evr: 8.5.0-23.el8_10
+    sourcerpm: gcc-8.5.0-23.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/os/Packages/l/libubsan-8.5.0-23.el8_10.ppc64le.rpm
     repoid: ubi-8-for-ppc64le-baseos-rpms
     size: 169624
@@ -4771,6 +4785,13 @@ arches:
     name: libsoup
     evr: 2.62.3-7.el8_10
     sourcerpm: libsoup-2.62.3-7.el8_10.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/l/libstdc++-8.5.0-23.el8_10.s390x.rpm
+    repoid: ubi-8-for-s390x-baseos-rpms
+    size: 468836
+    checksum: sha256:26c5c009bbc3c1e81ac46999223a9755d065b5fdf1d73de2ae73d4e67627b48c
+    name: libstdc++
+    evr: 8.5.0-23.el8_10
+    sourcerpm: gcc-8.5.0-23.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/l/libubsan-8.5.0-23.el8_10.s390x.rpm
     repoid: ubi-8-for-s390x-baseos-rpms
     size: 150728
@@ -6710,6 +6731,13 @@ arches:
     name: libsoup
     evr: 2.62.3-7.el8_10
     sourcerpm: libsoup-2.62.3-7.el8_10.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/l/libstdc++-8.5.0-23.el8_10.x86_64.rpm
+    repoid: ubi-8-for-x86_64-baseos-rpms
+    size: 465988
+    checksum: sha256:5c07bec37c9dab29b5b3fd85f29a20e9db378838fc8e24b48baccd872f76de9e
+    name: libstdc++
+    evr: 8.5.0-23.el8_10
+    sourcerpm: gcc-8.5.0-23.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/l/libxcrypt-devel-4.1.1-6.el8.x86_64.rpm
     repoid: ubi-8-for-x86_64-baseos-rpms
     size: 25844
