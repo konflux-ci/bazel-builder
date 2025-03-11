@@ -119,11 +119,12 @@ spec:
           
           # if [[ "$EVENT_TYPE" == "pull_request" ]]; then
 
-          if [[ "$SOURCE_BRANCH" == "$TARGET_BRANCH" ]]; then
-            echo "push"
+          # if [[ "$SOURCE_BRANCH" == "$TARGET_BRANCH" ]]; then
+          if [[ $EVENT_TYPE == "push" ]]; then
+            echo "fetch source_artifact_digest for push..."
             source_artifact_digest=$(oras manifest fetch --pretty "${COMPONENT_IMAGE_BASE}:${COMPONENT_GIT_COMMIT}.git" | jq -er ".layers[].digest")
           else
-            echo "pull request"
+            echo "fetch source_artifact_digest for pull request..."
             source_artifact_digest=$(oras manifest fetch --pretty "${COMPONENT_IMAGE_BASE}:on-pr-${COMPONENT_GIT_COMMIT}.git" | jq -er ".layers[].digest")
           fi 
 
