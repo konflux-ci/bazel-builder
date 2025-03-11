@@ -781,13 +781,13 @@ arches:
     name: gsettings-desktop-schemas
     evr: 3.32.0-6.el8
     sourcerpm: gsettings-desktop-schemas-3.32.0-6.el8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/os/Packages/k/kernel-headers-4.18.0-553.42.1.el8_10.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/os/Packages/k/kernel-headers-4.18.0-553.44.1.el8_10.aarch64.rpm
     repoid: ubi-8-for-aarch64-baseos-rpms
-    size: 12369884
-    checksum: sha256:7c918fceb2f04161975dfa977c97c870c86d6abfbf1177b8c2f2053905e4826a
+    size: 12371836
+    checksum: sha256:4ffe73e798b7a6f97c965bcd9b101d9b51af30cf12bcebbd05448621416b31fc
     name: kernel-headers
-    evr: 4.18.0-553.42.1.el8_10
-    sourcerpm: kernel-4.18.0-553.42.1.el8_10.src.rpm
+    evr: 4.18.0-553.44.1.el8_10
+    sourcerpm: kernel-4.18.0-553.44.1.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/os/Packages/l/less-530-3.el8_10.aarch64.rpm
     repoid: ubi-8-for-aarch64-baseos-rpms
     size: 165440
@@ -816,6 +816,13 @@ arches:
     name: libedit
     evr: 3.1-23.20170329cvs.el8
     sourcerpm: libedit-3.1-23.20170329cvs.el8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/os/Packages/l/libgcc-8.5.0-23.el8_10.aarch64.rpm
+    repoid: ubi-8-for-aarch64-baseos-rpms
+    size: 76592
+    checksum: sha256:bc230e3c562d7e5b9d9b5a27da5c5e703b4f926c1a6facb4f36a8edeb0144551
+    name: libgcc
+    evr: 8.5.0-23.el8_10
+    sourcerpm: gcc-8.5.0-23.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/os/Packages/l/libgomp-8.5.0-23.el8_10.aarch64.rpm
     repoid: ubi-8-for-aarch64-baseos-rpms
     size: 205332
@@ -865,6 +872,13 @@ arches:
     name: libsoup
     evr: 2.62.3-7.el8_10
     sourcerpm: libsoup-2.62.3-7.el8_10.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/os/Packages/l/libstdc++-8.5.0-23.el8_10.aarch64.rpm
+    repoid: ubi-8-for-aarch64-baseos-rpms
+    size: 435572
+    checksum: sha256:702e22f34b7f0e80f797e6a031c01e8e1946494e51cb996558c93d0d42b13f58
+    name: libstdc++
+    evr: 8.5.0-23.el8_10
+    sourcerpm: gcc-8.5.0-23.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/os/Packages/l/libubsan-8.5.0-23.el8_10.aarch64.rpm
     repoid: ubi-8-for-aarch64-baseos-rpms
     size: 148748
@@ -2734,13 +2748,13 @@ arches:
     name: gsettings-desktop-schemas
     evr: 3.32.0-6.el8
     sourcerpm: gsettings-desktop-schemas-3.32.0-6.el8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/os/Packages/k/kernel-headers-4.18.0-553.42.1.el8_10.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/os/Packages/k/kernel-headers-4.18.0-553.44.1.el8_10.ppc64le.rpm
     repoid: ubi-8-for-ppc64le-baseos-rpms
-    size: 12389204
-    checksum: sha256:e07d57f1ddd993e3d1659d7ff82015edc0e50391b7cfbde1f382d92a54cfd908
+    size: 12391016
+    checksum: sha256:9e79369bae4f576d7332e0e6810da52435efcfd24588ca8e18c0cec880d1771b
     name: kernel-headers
-    evr: 4.18.0-553.42.1.el8_10
-    sourcerpm: kernel-4.18.0-553.42.1.el8_10.src.rpm
+    evr: 4.18.0-553.44.1.el8_10
+    sourcerpm: kernel-4.18.0-553.44.1.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/os/Packages/l/less-530-3.el8_10.ppc64le.rpm
     repoid: ubi-8-for-ppc64le-baseos-rpms
     size: 178908
@@ -2769,6 +2783,13 @@ arches:
     name: libedit
     evr: 3.1-23.20170329cvs.el8
     sourcerpm: libedit-3.1-23.20170329cvs.el8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/os/Packages/l/libgcc-8.5.0-23.el8_10.ppc64le.rpm
+    repoid: ubi-8-for-ppc64le-baseos-rpms
+    size: 72268
+    checksum: sha256:23689ffeb0469fefbc33e3dbe45127f5f0c4afb3805ec09cc0310115daca80eb
+    name: libgcc
+    evr: 8.5.0-23.el8_10
+    sourcerpm: gcc-8.5.0-23.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/os/Packages/l/libgomp-8.5.0-23.el8_10.ppc64le.rpm
     repoid: ubi-8-for-ppc64le-baseos-rpms
     size: 218740
@@ -2818,6 +2839,13 @@ arches:
     name: libsoup
     evr: 2.62.3-7.el8_10
     sourcerpm: libsoup-2.62.3-7.el8_10.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/os/Packages/l/libstdc++-8.5.0-23.el8_10.ppc64le.rpm
+    repoid: ubi-8-for-ppc64le-baseos-rpms
+    size: 509944
+    checksum: sha256:fd726122e957ad09157748229aa8681dd1a866ea0a431c1bad1a19b40392200e
+    name: libstdc++
+    evr: 8.5.0-23.el8_10
+    sourcerpm: gcc-8.5.0-23.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/os/Packages/l/libubsan-8.5.0-23.el8_10.ppc64le.rpm
     repoid: ubi-8-for-ppc64le-baseos-rpms
     size: 169624
@@ -4687,13 +4715,13 @@ arches:
     name: gsettings-desktop-schemas
     evr: 3.32.0-6.el8
     sourcerpm: gsettings-desktop-schemas-3.32.0-6.el8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/k/kernel-headers-4.18.0-553.42.1.el8_10.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/k/kernel-headers-4.18.0-553.44.1.el8_10.s390x.rpm
     repoid: ubi-8-for-s390x-baseos-rpms
-    size: 12396804
-    checksum: sha256:931d2a81238762abbba71cbc9addff4c0325aeb7e792780818cdeaed6e270a4a
+    size: 12398532
+    checksum: sha256:1f07652d7a6bdd88d5aa4e483f88cfea595ffda79b52c9b2c5474519822fb086
     name: kernel-headers
-    evr: 4.18.0-553.42.1.el8_10
-    sourcerpm: kernel-4.18.0-553.42.1.el8_10.src.rpm
+    evr: 4.18.0-553.44.1.el8_10
+    sourcerpm: kernel-4.18.0-553.44.1.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/l/less-530-3.el8_10.s390x.rpm
     repoid: ubi-8-for-s390x-baseos-rpms
     size: 168392
@@ -4722,6 +4750,13 @@ arches:
     name: libedit
     evr: 3.1-23.20170329cvs.el8
     sourcerpm: libedit-3.1-23.20170329cvs.el8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/l/libgcc-8.5.0-23.el8_10.s390x.rpm
+    repoid: ubi-8-for-s390x-baseos-rpms
+    size: 67452
+    checksum: sha256:70b5c286665136bec7e114ecc83e66da36508b41b64526e77cce22d18c387c46
+    name: libgcc
+    evr: 8.5.0-23.el8_10
+    sourcerpm: gcc-8.5.0-23.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/l/libgomp-8.5.0-23.el8_10.s390x.rpm
     repoid: ubi-8-for-s390x-baseos-rpms
     size: 207596
@@ -4771,6 +4806,13 @@ arches:
     name: libsoup
     evr: 2.62.3-7.el8_10
     sourcerpm: libsoup-2.62.3-7.el8_10.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/l/libstdc++-8.5.0-23.el8_10.s390x.rpm
+    repoid: ubi-8-for-s390x-baseos-rpms
+    size: 468836
+    checksum: sha256:26c5c009bbc3c1e81ac46999223a9755d065b5fdf1d73de2ae73d4e67627b48c
+    name: libstdc++
+    evr: 8.5.0-23.el8_10
+    sourcerpm: gcc-8.5.0-23.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/l/libubsan-8.5.0-23.el8_10.s390x.rpm
     repoid: ubi-8-for-s390x-baseos-rpms
     size: 150728
@@ -6640,13 +6682,13 @@ arches:
     name: gsettings-desktop-schemas
     evr: 3.32.0-6.el8
     sourcerpm: gsettings-desktop-schemas-3.32.0-6.el8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/k/kernel-headers-4.18.0-553.42.1.el8_10.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/k/kernel-headers-4.18.0-553.44.1.el8_10.x86_64.rpm
     repoid: ubi-8-for-x86_64-baseos-rpms
-    size: 12401740
-    checksum: sha256:2479bbeeb815cc73863d9f530eca9a4b98bb4cd49f522b7e1ab4acf2ea55adea
+    size: 12403484
+    checksum: sha256:9bba6db3d86b3c50afe29ac3b2afbc934f108f8bca5cfb0b2e748585359c7fba
     name: kernel-headers
-    evr: 4.18.0-553.42.1.el8_10
-    sourcerpm: kernel-4.18.0-553.42.1.el8_10.src.rpm
+    evr: 4.18.0-553.44.1.el8_10
+    sourcerpm: kernel-4.18.0-553.44.1.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/l/less-530-3.el8_10.x86_64.rpm
     repoid: ubi-8-for-x86_64-baseos-rpms
     size: 168216
@@ -6661,6 +6703,13 @@ arches:
     name: libedit
     evr: 3.1-23.20170329cvs.el8
     sourcerpm: libedit-3.1-23.20170329cvs.el8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/l/libgcc-8.5.0-23.el8_10.x86_64.rpm
+    repoid: ubi-8-for-x86_64-baseos-rpms
+    size: 83732
+    checksum: sha256:a75cc2dfa4cdadccc043059319a576914f1d744400393effb7ce2f5bf3b7bf52
+    name: libgcc
+    evr: 8.5.0-23.el8_10
+    sourcerpm: gcc-8.5.0-23.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/l/libgomp-8.5.0-23.el8_10.x86_64.rpm
     repoid: ubi-8-for-x86_64-baseos-rpms
     size: 213352
@@ -6710,6 +6759,13 @@ arches:
     name: libsoup
     evr: 2.62.3-7.el8_10
     sourcerpm: libsoup-2.62.3-7.el8_10.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/l/libstdc++-8.5.0-23.el8_10.x86_64.rpm
+    repoid: ubi-8-for-x86_64-baseos-rpms
+    size: 465988
+    checksum: sha256:5c07bec37c9dab29b5b3fd85f29a20e9db378838fc8e24b48baccd872f76de9e
+    name: libstdc++
+    evr: 8.5.0-23.el8_10
+    sourcerpm: gcc-8.5.0-23.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/l/libxcrypt-devel-4.1.1-6.el8.x86_64.rpm
     repoid: ubi-8-for-x86_64-baseos-rpms
     size: 25844
