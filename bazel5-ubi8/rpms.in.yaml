@@ -7,19 +7,21 @@ packages:
   # list of rpm names to resolve
   - gcc-c++
   - gcc
-  - libstdc++ 
+  - libstdc++
+  - libgcc
   - git
   - zip
   - unzip
   - java-11-openjdk-devel
   - python39
   - gpg
-
-reinstallPackages: 
-  # list of rpms already provided in the base image, but which should be
-  # reinstalled
   - libstdc++
   - libgcc
+
+#reinstallPackages: 
+  # list of rpms already provided in the base image, but which should be
+  # reinstalled
+
 
 arches:
   # The list of architectures can be set in the config file. Any `--arch` option set
@@ -34,4 +36,3 @@ context:
     # to include one of these options, with the exception of `flatpak` that
     # can be combined with `image` and `containerfile` 
     image: registry.access.redhat.com/ubi8/ubi:latest@sha256:ecbeb81a4737dfca66ad18eaafb4892d8602b1ae938e0ac3251bb4335aa1a547
-    # bare: true
