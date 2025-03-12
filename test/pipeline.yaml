@@ -116,16 +116,16 @@ spec:
           export COMPONENT_IMAGE_BASE=$(echo ${COMPONENT_CONTAINER_IMAGE} | cut -d@ -f1 )
           echo -n "${COMPONENT_CONTAINER_IMAGE}" > $(results.component-container-image.path)
           echo "event type is "$EVENT_TYPE""
+                  
+          # if [[ "$EVENT_TYPE" == "push" ]]; then
           
-          # if [[ "$EVENT_TYPE" == "pull_request" ]]; then
-
-          # if [[ "$SOURCE_BRANCH" == "$TARGET_BRANCH" ]]; then
-          if [[ $EVENT_TYPE == "push" ]]; then
-            echo "fetch source_artifact_digest for push..."
-            source_artifact_digest=$(oras manifest fetch --pretty "${COMPONENT_IMAGE_BASE}:${COMPONENT_GIT_COMMIT}.git" | jq -er ".layers[].digest")
-          else
+          if [[ $EVENT_TYPE == "pull_request" ]]; then
             echo "fetch source_artifact_digest for pull request..."
             source_artifact_digest=$(oras manifest fetch --pretty "${COMPONENT_IMAGE_BASE}:on-pr-${COMPONENT_GIT_COMMIT}.git" | jq -er ".layers[].digest")
+          else
+            # event is 'push' on push, and 'incoming' when soeone manually triggers a build, but that alaso uses the on-push pipeline.
+            echo "fetch source_artifact_digest for push..."
+            source_artifact_digest=$(oras manifest fetch --pretty "${COMPONENT_IMAGE_BASE}:${COMPONENT_GIT_COMMIT}.git" | jq -er ".layers[].digest")
           fi 
 
           echo -n "oci:$COMPONENT_IMAGE_BASE@$source_artifact_digest" > $(results.source-trusted-artifact.path)
