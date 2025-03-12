@@ -6,7 +6,8 @@
         {
             "fileMatch":
             [
-                ".*argfile.*"
+                ".*argfile.*",
+                ".*rpms.in.yaml.*"
             ],
             "customType": "regex",
             "datasourceTemplate": "docker",
