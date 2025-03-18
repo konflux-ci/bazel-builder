@@ -1,5 +1,5 @@
 {                                                                                                                                                                      
-    "extends": ["group:allNonMajor"]
+    "extends": ["group:allNonMajor"],
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "customManagers":
     [
