@@ -36,15 +36,10 @@ spec:
   - name: build-source-image
     value: "true"
   - name: prefetch-input
-    value: 
-    - {"type": "rpm", "path": "bazel5-ubi8"}
-    - {"type": "generic", "path": "bazel5-ubi8"}
+    value: '[{"path":"bazel5-ubi8","type":"rpm"},{"path":"bazel5-ubi8","type":"generic"}]'
   - name: build-platforms
     value:
     - linux/x86_64
-    # - linux/arm64
-    # - linux/ppc64le
-    # - linux/s390x
   pipelineSpec:
     description: |
       This pipeline is ideal for building multi-arch container images from a Containerfile while maintaining trust after pipeline customization.
@@ -493,7 +488,8 @@ spec:
       optional: true
     - name: netrc
       optional: true
-  taskRunTemplate: {}
+  taskRunTemplate:
+    serviceAccountName: build-pipeline-bazel5-ubi8
   workspaces:
   - name: git-auth
     secret:
