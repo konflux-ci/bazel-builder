@@ -1,4 +1,4 @@
 BAZEL_VERSION=5.4.0
-IMAGE=registry.access.redhat.com/ubi8/ubi@sha256:ecbeb81a4737dfca66ad18eaafb4892d8602b1ae938e0ac3251bb4335aa1a547
+IMAGE=registry.access.redhat.com/ubi8/ubi@sha256:244e9858f9d8a2792a3dceb850b4fa8fdbd67babebfde42587bfa919d5d1ecef
 OPENJDK_VERSION=11
 UBI_VERSION=8
