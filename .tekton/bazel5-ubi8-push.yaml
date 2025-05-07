@@ -18,6 +18,8 @@ metadata:
   namespace: konflux-build-pipeli-tenant
 spec:
   params:
+  - name: build-source-image
+    value: "true"
   - name: build-args-file
     value: argfile
   - name: git-url
