@@ -8,24 +8,38 @@ metadata:
     pipelinesascode.tekton.dev/cancel-in-progress: "false"
     pipelinesascode.tekton.dev/max-keep-runs: "3"
     pipelinesascode.tekton.dev/on-cel-expression: event == "push" && target_branch
-      == "bazel8-ubi9"
+      == "bazel6-ubi9"
   creationTimestamp: null
   labels:
     appstudio.openshift.io/application: bazel-builder
-    appstudio.openshift.io/component: bazel8-ubi9
+    appstudio.openshift.io/component: bazel6-ubi9
     pipelines.appstudio.openshift.io/type: build
-  name: bazel8-ubi9-on-push
+  name: bazel6-ubi9-on-push
   namespace: konflux-build-pipeli-tenant
 spec:
   params:
+  - name: build-source-image
+    value: "true"
+  - name: hermetic
+    value: "true"
+  - name: prefetch-input
+    value: 
+    - {"type": "rpm"}
+    - {"type": "generic"}
+  - name: build-args-file
+    value: /argfile
   - name: git-url
     value: '{{source_url}}'
   - name: revision
     value: '{{revision}}'
   - name: output-image
-    value: quay.io/redhat-user-workloads/konflux-build-pipeli-tenant/bazel8-ubi9:{{revision}}
+    value: quay.io/redhat-user-workloads/konflux-build-pipeli-tenant/bazel6-ubi9:{{revision}}
   - name: dockerfile
-    value: Dockerfile
+    value: Containerfile
+  - name: build-platforms
+    value:
+    - linux/x86_64
+    - linux/arm64
   pipelineSpec:
     description: |
       This pipeline is ideal for building container images from a Containerfile while maintaining trust after pipeline customization.
@@ -170,6 +184,12 @@ spec:
         workspace: git-auth
     - name: prefetch-dependencies
       params:
+      - name: dev-package-managers
+        value: "true"
+      - name: prefetch-input
+        value: 
+        - {"type": "rpm"}
+        - {"type": "generic"}
       - name: input
         value: $(params.prefetch-input)
       - name: SOURCE_ARTIFACT
@@ -442,7 +462,7 @@ spec:
         - name: name
           value: sast-coverity-check-oci-ta
         - name: bundle
-          value: quay.io/konflux-ci/tekton-catalog/task-sast-coverity-check-oci-ta:0.3@sha256:87af64576088ba68f2a5b89998b7ae9e92d7e4f039274e4be6000eff6ce0d95d
+          value: quay.io/konflux-ci/tekton-catalog/task-sast-coverity-check-oci-ta:0.3@sha256:a9a3c472624d0598c28aaa67319e74a807ac1948946002dd7b181d200e672b8b
         - name: kind
           value: task
         resolver: bundles
@@ -575,7 +595,7 @@ spec:
         - name: name
           value: rpms-signature-scan
         - name: bundle
-          value: quay.io/konflux-ci/tekton-catalog/task-rpms-signature-scan:0.2@sha256:297c2d8928aa3b114fcb1ba5d9da8b10226b68fed30706e78a6a5089c6cd30e3
+          value: quay.io/konflux-ci/tekton-catalog/task-rpms-signature-scan:0.2@sha256:b32c66b96d911c657d54e0b4370fb861ce1d7e3719d98540eba65d942c0bf99e
         - name: kind
           value: task
         resolver: bundles
@@ -590,7 +610,7 @@ spec:
     - name: netrc
       optional: true
   taskRunTemplate:
-    serviceAccountName: build-pipeline-bazel8-ubi9
+    serviceAccountName: build-pipeline-bazel6-ubi9
   workspaces:
   - name: git-auth
     secret:
