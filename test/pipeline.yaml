@@ -119,7 +119,7 @@ spec:
                   
           # if [[ "$EVENT_TYPE" == "push" ]]; then
           
-          if [[ $EVENT_TYPE == "pull_request" ]]; then
+          if [[ $EVENT_TYPE == "pull_request" ]] || [[ $EVENT_TYPE == "retest-all-comment" ]] ; then
             echo "fetch source_artifact_digest for pull request..."
             source_artifact_digest=$(oras manifest fetch --pretty "${COMPONENT_IMAGE_BASE}:on-pr-${COMPONENT_GIT_COMMIT}.git" | jq -er ".layers[].digest")
           else
