@@ -13,7 +13,7 @@ packages:
   - python3
   - gpg
 
-#reinstallPackages: []
+# reinstallPackages: []
   # list of rpms already provided in the base image, but which should be
   # reinstalled
 
