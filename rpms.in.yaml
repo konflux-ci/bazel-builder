@@ -13,7 +13,7 @@ packages:
   - python3
   - gpg
 
-#reinstallPackages: []
+# reinstallPackages: []
   # list of rpms already provided in the base image, but which should be
   # reinstalled
 
@@ -22,8 +22,8 @@ arches:
   # on the command line will override this list.
   - x86_64
   - aarch64
-  #- s390x
-  #- ppc64le
+  # - s390x
+  # - ppc64le
 
 context:
     # Alternative to setting command line options. Usually you will only want
