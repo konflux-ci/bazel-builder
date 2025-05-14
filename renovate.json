@@ -1,4 +1,8 @@
 {
+    "lockFileMaintenance": {
+    "enabled": true,
+    "automerge": true
+    },
     "extends": [
         "group:allNonMajor"
     ],
