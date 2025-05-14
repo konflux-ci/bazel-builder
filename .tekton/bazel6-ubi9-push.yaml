@@ -106,7 +106,7 @@ spec:
       description: Build a source image.
       name: build-source-image
       type: string
-    - default: "false"
+    - default: "true"
       description: Add built image into an OCI image index
       name: build-image-index
       type: string
@@ -123,6 +123,12 @@ spec:
         VMs
       name: privileged-nested
       type: string
+    - default:
+      - linux/x86_64
+      description: List of platforms to build the container images on. The available
+        set of values is determined by the configuration of the multi-platform-controller.
+      name: build-platforms
+      type: array
     results:
     - description: ""
       name: IMAGE_URL
@@ -187,10 +193,8 @@ spec:
       params:
       - name: dev-package-managers
         value: "true"
-      - name: prefetch-input
-        value: 
-        - {"type": "rpm"}
-        - {"type": "generic"}
+      - name: input
+        value: $(params.prefetch-input)
       - name: input
         value: $(params.prefetch-input)
       - name: SOURCE_ARTIFACT
@@ -215,7 +219,12 @@ spec:
         workspace: git-auth
       - name: netrc
         workspace: netrc
-    - name: build-container
+    - matrix:
+        params:
+        - name: PLATFORM
+          value:
+          - $(params.build-platforms)
+      name: build-images
       params:
       - name: IMAGE
         value: $(params.output-image)
