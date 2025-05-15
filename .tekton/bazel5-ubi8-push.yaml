@@ -20,6 +20,12 @@ spec:
   params:
   - name: build-source-image
     value: "true"
+  - name: hermetic
+    value: "true"
+  - name: prefetch-input
+    value: 
+    - {"type": "rpm"}
+    - {"type": "generic"}
   - name: build-args-file
     value: argfile
   - name: git-url
