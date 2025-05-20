@@ -1,5 +1,9 @@
 {
     "automerge": true,
+    "automergeSchedule": [
+    "* * * * 1-4"
+    ]
+}
     "lockFileMaintenance": {
     "enabled": true
 
