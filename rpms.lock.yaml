@@ -781,13 +781,13 @@ arches:
     name: gsettings-desktop-schemas
     evr: 3.32.0-6.el8
     sourcerpm: gsettings-desktop-schemas-3.32.0-6.el8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/os/Packages/k/kernel-headers-4.18.0-553.52.1.el8_10.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/os/Packages/k/kernel-headers-4.18.0-553.54.1.el8_10.aarch64.rpm
     repoid: ubi-8-for-aarch64-baseos-rpms
-    size: 12378600
-    checksum: sha256:f7120c8ac83bf82813fd6afae8615eac4752dc4b1f91218ed77bda0e2c149677
+    size: 12380764
+    checksum: sha256:52db575ad4a7a26bc3c81d39db36c4fde4fd6dbd0420dc2eee6f57d0fbcf169b
     name: kernel-headers
-    evr: 4.18.0-553.52.1.el8_10
-    sourcerpm: kernel-4.18.0-553.52.1.el8_10.src.rpm
+    evr: 4.18.0-553.54.1.el8_10
+    sourcerpm: kernel-4.18.0-553.54.1.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/os/Packages/l/less-530-3.el8_10.aarch64.rpm
     repoid: ubi-8-for-aarch64-baseos-rpms
     size: 165440
@@ -865,13 +865,13 @@ arches:
     name: libproxy
     evr: 0.4.15-5.5.el8_10
     sourcerpm: libproxy-0.4.15-5.5.el8_10.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/os/Packages/l/libsoup-2.62.3-8.el8_10.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/os/Packages/l/libsoup-2.62.3-9.el8_10.aarch64.rpm
     repoid: ubi-8-for-aarch64-baseos-rpms
-    size: 419696
-    checksum: sha256:f09f73e2ba887df2bd196df6c3d013919966509f389a981049e7274530e879dc
+    size: 419952
+    checksum: sha256:a25ec3ad717e1eaac87a4e45ddfaf6972cd5b930dbd24f5a3c8da79ec0e3a9fd
     name: libsoup
-    evr: 2.62.3-8.el8_10
-    sourcerpm: libsoup-2.62.3-8.el8_10.src.rpm
+    evr: 2.62.3-9.el8_10
+    sourcerpm: libsoup-2.62.3-9.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/os/Packages/l/libstdc++-8.5.0-26.el8_10.aarch64.rpm
     repoid: ubi-8-for-aarch64-baseos-rpms
     size: 454204
@@ -1718,12 +1718,12 @@ arches:
     checksum: sha256:0d0ccf69560a34c6702f1bb8b96f9914d6d1a1e4376701879eb7109e7be6dafe
     name: libproxy
     evr: 0.4.15-5.5.el8_10
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/source/SRPMS/Packages/l/libsoup-2.62.3-8.el8_10.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/source/SRPMS/Packages/l/libsoup-2.62.3-9.el8_10.src.rpm
     repoid: ubi-8-for-aarch64-baseos-source-rpms
-    size: 1911953
-    checksum: sha256:771f53729c61c234222c6b25dccca8d41dcdebe7fb3ba03ac0e66ebf9a7cb55d
+    size: 1916233
+    checksum: sha256:9c821e032f0edc3581d43002074fec1507bb588688c78f4f0018257e1bf12e0b
     name: libsoup
-    evr: 2.62.3-8.el8_10
+    evr: 2.62.3-9.el8_10
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/source/SRPMS/Packages/l/libxcrypt-4.1.1-6.el8.src.rpm
     repoid: ubi-8-for-aarch64-baseos-source-rpms
     size: 229519
@@ -1965,10 +1965,10 @@ arches:
     name: zip
     evr: 3.0-23.el8
   module_metadata:
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/appstream/os/repodata/64e59c8f4f7f16d7efc961c17bf833d456d405032e8a776543f221e46554d7c7-modules.yaml.gz
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/appstream/os/repodata/e86167d6b398f85bc393d37400d06cd0b1c442e4a0d7142335c4501258e4d165-modules.yaml.gz
     repoid: ubi-8-for-aarch64-appstream-rpms
     size: 56463
-    checksum: sha256:64e59c8f4f7f16d7efc961c17bf833d456d405032e8a776543f221e46554d7c7
+    checksum: sha256:e86167d6b398f85bc393d37400d06cd0b1c442e4a0d7142335c4501258e4d165
 - arch: ppc64le
   packages:
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/appstream/os/Packages/a/abattis-cantarell-fonts-0.0.25-6.el8.noarch.rpm
@@ -2748,13 +2748,13 @@ arches:
     name: gsettings-desktop-schemas
     evr: 3.32.0-6.el8
     sourcerpm: gsettings-desktop-schemas-3.32.0-6.el8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/os/Packages/k/kernel-headers-4.18.0-553.52.1.el8_10.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/os/Packages/k/kernel-headers-4.18.0-553.54.1.el8_10.ppc64le.rpm
     repoid: ubi-8-for-ppc64le-baseos-rpms
-    size: 12397964
-    checksum: sha256:6fc1e4068a5b67e0ea49b0d75a63e0a92eed0234662d5623667e2b2ba1a930a4
+    size: 12400012
+    checksum: sha256:848ffaead954af0544c488afcbcaa563fab9dd099a30479385b961716e900126
     name: kernel-headers
-    evr: 4.18.0-553.52.1.el8_10
-    sourcerpm: kernel-4.18.0-553.52.1.el8_10.src.rpm
+    evr: 4.18.0-553.54.1.el8_10
+    sourcerpm: kernel-4.18.0-553.54.1.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/os/Packages/l/less-530-3.el8_10.ppc64le.rpm
     repoid: ubi-8-for-ppc64le-baseos-rpms
     size: 178908
@@ -2832,13 +2832,13 @@ arches:
     name: libproxy
     evr: 0.4.15-5.5.el8_10
     sourcerpm: libproxy-0.4.15-5.5.el8_10.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/os/Packages/l/libsoup-2.62.3-8.el8_10.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/os/Packages/l/libsoup-2.62.3-9.el8_10.ppc64le.rpm
     repoid: ubi-8-for-ppc64le-baseos-rpms
-    size: 448592
-    checksum: sha256:04bab6897ca49558f52a03c646eab7eb4780eacf29a82e30b92f53d335c1e76c
+    size: 448360
+    checksum: sha256:faa91734fa9aa575c4f413e08d736b313c6cd2e742b35614deff70417226b9f2
     name: libsoup
-    evr: 2.62.3-8.el8_10
-    sourcerpm: libsoup-2.62.3-8.el8_10.src.rpm
+    evr: 2.62.3-9.el8_10
+    sourcerpm: libsoup-2.62.3-9.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/os/Packages/l/libstdc++-8.5.0-26.el8_10.ppc64le.rpm
     repoid: ubi-8-for-ppc64le-baseos-rpms
     size: 528496
@@ -3685,12 +3685,12 @@ arches:
     checksum: sha256:0d0ccf69560a34c6702f1bb8b96f9914d6d1a1e4376701879eb7109e7be6dafe
     name: libproxy
     evr: 0.4.15-5.5.el8_10
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/source/SRPMS/Packages/l/libsoup-2.62.3-8.el8_10.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/source/SRPMS/Packages/l/libsoup-2.62.3-9.el8_10.src.rpm
     repoid: ubi-8-for-ppc64le-baseos-source-rpms
-    size: 1911953
-    checksum: sha256:771f53729c61c234222c6b25dccca8d41dcdebe7fb3ba03ac0e66ebf9a7cb55d
+    size: 1916233
+    checksum: sha256:9c821e032f0edc3581d43002074fec1507bb588688c78f4f0018257e1bf12e0b
     name: libsoup
-    evr: 2.62.3-8.el8_10
+    evr: 2.62.3-9.el8_10
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/source/SRPMS/Packages/l/libxcrypt-4.1.1-6.el8.src.rpm
     repoid: ubi-8-for-ppc64le-baseos-source-rpms
     size: 229519
@@ -3932,10 +3932,10 @@ arches:
     name: zip
     evr: 3.0-23.el8
   module_metadata:
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/appstream/os/repodata/1635ace850f2acdd4069fb328110dc8a2abac81c26e7a901ab9874e8b1d50ca8-modules.yaml.gz
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/appstream/os/repodata/8cd3eda08e2aa91744a352f52d9d3c1b16d503d9a99e65f8d0bd47119ba1e66f-modules.yaml.gz
     repoid: ubi-8-for-ppc64le-appstream-rpms
     size: 56218
-    checksum: sha256:1635ace850f2acdd4069fb328110dc8a2abac81c26e7a901ab9874e8b1d50ca8
+    checksum: sha256:8cd3eda08e2aa91744a352f52d9d3c1b16d503d9a99e65f8d0bd47119ba1e66f
 - arch: s390x
   packages:
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/appstream/os/Packages/a/abattis-cantarell-fonts-0.0.25-6.el8.noarch.rpm
@@ -4715,13 +4715,13 @@ arches:
     name: gsettings-desktop-schemas
     evr: 3.32.0-6.el8
     sourcerpm: gsettings-desktop-schemas-3.32.0-6.el8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/k/kernel-headers-4.18.0-553.52.1.el8_10.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/k/kernel-headers-4.18.0-553.54.1.el8_10.s390x.rpm
     repoid: ubi-8-for-s390x-baseos-rpms
-    size: 12405156
-    checksum: sha256:728d9fc8dc9e7022e66a2a52145f1ce243e40786e951e512ee079edbf1ff6ad3
+    size: 12407352
+    checksum: sha256:fc90b973aa059eeddab274e63218683bbcc1326316c882fe78b7f790760562c6
     name: kernel-headers
-    evr: 4.18.0-553.52.1.el8_10
-    sourcerpm: kernel-4.18.0-553.52.1.el8_10.src.rpm
+    evr: 4.18.0-553.54.1.el8_10
+    sourcerpm: kernel-4.18.0-553.54.1.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/l/less-530-3.el8_10.s390x.rpm
     repoid: ubi-8-for-s390x-baseos-rpms
     size: 168392
@@ -4799,13 +4799,13 @@ arches:
     name: libproxy
     evr: 0.4.15-5.5.el8_10
     sourcerpm: libproxy-0.4.15-5.5.el8_10.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/l/libsoup-2.62.3-8.el8_10.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/l/libsoup-2.62.3-9.el8_10.s390x.rpm
     repoid: ubi-8-for-s390x-baseos-rpms
-    size: 423396
-    checksum: sha256:910f7692de4ed827de4e1876e66019163ba7a6307ad7d13ddce1c55ce0567ffa
+    size: 423680
+    checksum: sha256:ca134f0d84397984b7f4e48b8c5776918265a3674ae9ef0a192945e64ac945d3
     name: libsoup
-    evr: 2.62.3-8.el8_10
-    sourcerpm: libsoup-2.62.3-8.el8_10.src.rpm
+    evr: 2.62.3-9.el8_10
+    sourcerpm: libsoup-2.62.3-9.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/l/libstdc++-8.5.0-26.el8_10.s390x.rpm
     repoid: ubi-8-for-s390x-baseos-rpms
     size: 487456
@@ -5652,12 +5652,12 @@ arches:
     checksum: sha256:0d0ccf69560a34c6702f1bb8b96f9914d6d1a1e4376701879eb7109e7be6dafe
     name: libproxy
     evr: 0.4.15-5.5.el8_10
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/source/SRPMS/Packages/l/libsoup-2.62.3-8.el8_10.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/source/SRPMS/Packages/l/libsoup-2.62.3-9.el8_10.src.rpm
     repoid: ubi-8-for-s390x-baseos-source-rpms
-    size: 1911953
-    checksum: sha256:771f53729c61c234222c6b25dccca8d41dcdebe7fb3ba03ac0e66ebf9a7cb55d
+    size: 1916233
+    checksum: sha256:9c821e032f0edc3581d43002074fec1507bb588688c78f4f0018257e1bf12e0b
     name: libsoup
-    evr: 2.62.3-8.el8_10
+    evr: 2.62.3-9.el8_10
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/source/SRPMS/Packages/l/libxcrypt-4.1.1-6.el8.src.rpm
     repoid: ubi-8-for-s390x-baseos-source-rpms
     size: 229519
@@ -5899,10 +5899,10 @@ arches:
     name: zip
     evr: 3.0-23.el8
   module_metadata:
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/appstream/os/repodata/f9a7c7547f6513e7046b0a45114cfc2d68b936b6a1776cc0fb61ce903ca8eaa0-modules.yaml.gz
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/appstream/os/repodata/4b7ed8278ca6a198df2fdeb594cd6bb8d01c633dce30494d6cced8c95d8b7350-modules.yaml.gz
     repoid: ubi-8-for-s390x-appstream-rpms
     size: 56339
-    checksum: sha256:f9a7c7547f6513e7046b0a45114cfc2d68b936b6a1776cc0fb61ce903ca8eaa0
+    checksum: sha256:4b7ed8278ca6a198df2fdeb594cd6bb8d01c633dce30494d6cced8c95d8b7350
 - arch: x86_64
   packages:
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/appstream/os/Packages/a/abattis-cantarell-fonts-0.0.25-6.el8.noarch.rpm
@@ -6682,13 +6682,13 @@ arches:
     name: gsettings-desktop-schemas
     evr: 3.32.0-6.el8
     sourcerpm: gsettings-desktop-schemas-3.32.0-6.el8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/k/kernel-headers-4.18.0-553.52.1.el8_10.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/k/kernel-headers-4.18.0-553.54.1.el8_10.x86_64.rpm
     repoid: ubi-8-for-x86_64-baseos-rpms
-    size: 12410376
-    checksum: sha256:a5cf156241df44525bc01fec8b67a0ff8cf7e40b61edfdb56a9491b3c2a853e7
+    size: 12412516
+    checksum: sha256:3ab9edd186d9095a70bce99e2ffe4bc827f4ffac8740aa61fe53bcbf895bf76b
     name: kernel-headers
-    evr: 4.18.0-553.52.1.el8_10
-    sourcerpm: kernel-4.18.0-553.52.1.el8_10.src.rpm
+    evr: 4.18.0-553.54.1.el8_10
+    sourcerpm: kernel-4.18.0-553.54.1.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/l/less-530-3.el8_10.x86_64.rpm
     repoid: ubi-8-for-x86_64-baseos-rpms
     size: 168216
@@ -6752,13 +6752,13 @@ arches:
     name: libproxy
     evr: 0.4.15-5.5.el8_10
     sourcerpm: libproxy-0.4.15-5.5.el8_10.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/l/libsoup-2.62.3-8.el8_10.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/l/libsoup-2.62.3-9.el8_10.x86_64.rpm
     repoid: ubi-8-for-x86_64-baseos-rpms
-    size: 436348
-    checksum: sha256:5d006a3c8e178c9861c18d4643bdba0543a0c4dea3af7b30484fb37d6e20aa98
+    size: 436576
+    checksum: sha256:10bd0222a54d329afa3727be621271ed49a74e23e766016b12ca231a9dc72e47
     name: libsoup
-    evr: 2.62.3-8.el8_10
-    sourcerpm: libsoup-2.62.3-8.el8_10.src.rpm
+    evr: 2.62.3-9.el8_10
+    sourcerpm: libsoup-2.62.3-9.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/l/libstdc++-8.5.0-26.el8_10.x86_64.rpm
     repoid: ubi-8-for-x86_64-baseos-rpms
     size: 484720
@@ -7598,12 +7598,12 @@ arches:
     checksum: sha256:0d0ccf69560a34c6702f1bb8b96f9914d6d1a1e4376701879eb7109e7be6dafe
     name: libproxy
     evr: 0.4.15-5.5.el8_10
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/source/SRPMS/Packages/l/libsoup-2.62.3-8.el8_10.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/source/SRPMS/Packages/l/libsoup-2.62.3-9.el8_10.src.rpm
     repoid: ubi-8-for-x86_64-baseos-source-rpms
-    size: 1911953
-    checksum: sha256:771f53729c61c234222c6b25dccca8d41dcdebe7fb3ba03ac0e66ebf9a7cb55d
+    size: 1916233
+    checksum: sha256:9c821e032f0edc3581d43002074fec1507bb588688c78f4f0018257e1bf12e0b
     name: libsoup
-    evr: 2.62.3-8.el8_10
+    evr: 2.62.3-9.el8_10
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/source/SRPMS/Packages/l/libxcrypt-4.1.1-6.el8.src.rpm
     repoid: ubi-8-for-x86_64-baseos-source-rpms
     size: 229519
@@ -7845,7 +7845,7 @@ arches:
     name: zip
     evr: 3.0-23.el8
   module_metadata:
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/appstream/os/repodata/a0f06c2f8c28ec51f78812b78b5bace3b404c802d0e0df6b64ae0a838cf6a47e-modules.yaml.gz
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/appstream/os/repodata/da484edf9b3f0977cc463fa1482852dc689187ecefd7b113ccc60607448da477-modules.yaml.gz
     repoid: ubi-8-for-x86_64-appstream-rpms
     size: 59187
-    checksum: sha256:a0f06c2f8c28ec51f78812b78b5bace3b404c802d0e0df6b64ae0a838cf6a47e
+    checksum: sha256:da484edf9b3f0977cc463fa1482852dc689187ecefd7b113ccc60607448da477
