@@ -305,13 +305,13 @@ arches:
     name: jbigkit-libs
     evr: 2.1-23.el9
     sourcerpm: jbigkit-2.1-23.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-570.17.1.el9_6.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-570.18.1.el9_6.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 3642217
-    checksum: sha256:20559facc5fadbe8e756240e4afc65252ce3fad4cd9b06d0fea5b594ca76d427
+    size: 3643493
+    checksum: sha256:57ca4dfe6e6a3913f347d86af648b8ca41c63fc28b945cdd89982bb0cd8e0177
     name: kernel-headers
-    evr: 5.14.0-570.17.1.el9_6
-    sourcerpm: kernel-5.14.0-570.17.1.el9_6.src.rpm
+    evr: 5.14.0-570.18.1.el9_6
+    sourcerpm: kernel-5.14.0-570.18.1.el9_6.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/lcms2-2.12-3.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
     size: 171119
@@ -592,13 +592,13 @@ arches:
     name: libsndfile
     evr: 1.0.31-9.el9
     sourcerpm: libsndfile-1.0.31-9.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libsoup-2.72.0-10.el9_6.1.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libsoup-2.72.0-10.el9_6.2.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 405720
-    checksum: sha256:0fa2e6a3bfbadc861ce64ba0f4dff4329884af07235c9d90d6d064df92c9d76b
+    size: 406075
+    checksum: sha256:b32b8dd690b98b1a3c318b97622215caa552b68f7543596384e37811b2ab5a08
     name: libsoup
-    evr: 2.72.0-10.el9_6.1
-    sourcerpm: libsoup-2.72.0-10.el9_6.1.src.rpm
+    evr: 2.72.0-10.el9_6.2
+    sourcerpm: libsoup-2.72.0-10.el9_6.2.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libstdc++-devel-11.5.0-5.el9_5.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
     size: 2526795
@@ -2140,12 +2140,12 @@ arches:
     checksum: sha256:1b96d89f94f0d25122b09565ab92d4b0217d3c3e230a3b4ce9cbe67a96a20aaf
     name: libsndfile
     evr: 1.0.31-9.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/l/libsoup-2.72.0-10.el9_6.1.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/l/libsoup-2.72.0-10.el9_6.2.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
-    size: 1513131
-    checksum: sha256:4de0b7579d6feb2f4784df01995a9063d35197290e563a21ae7325caf6659883
+    size: 1515442
+    checksum: sha256:206c644b09742022e04e437ce07a2602b46400b05a7ef1f86c04c843a74822b0
     name: libsoup
-    evr: 2.72.0-10.el9_6.1
+    evr: 2.72.0-10.el9_6.2
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/l/libstemmer-0-18.585svn.el9.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
     size: 142242
@@ -3140,13 +3140,13 @@ arches:
     name: jbigkit-libs
     evr: 2.1-23.el9
     sourcerpm: jbigkit-2.1-23.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/k/kernel-headers-5.14.0-570.17.1.el9_6.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/k/kernel-headers-5.14.0-570.18.1.el9_6.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
-    size: 3663917
-    checksum: sha256:9090a20dcbddda78f2a23ba9fa3becb7c2a40f276902b6e84ab203acbcdb6420
+    size: 3665225
+    checksum: sha256:ea88e99d3237c74bba2f324758b2e8921e95a581b6f79cf9f680cfa061bd6700
     name: kernel-headers
-    evr: 5.14.0-570.17.1.el9_6
-    sourcerpm: kernel-5.14.0-570.17.1.el9_6.src.rpm
+    evr: 5.14.0-570.18.1.el9_6
+    sourcerpm: kernel-5.14.0-570.18.1.el9_6.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/l/lcms2-2.12-3.el9.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
     size: 198719
@@ -3427,13 +3427,13 @@ arches:
     name: libsndfile
     evr: 1.0.31-9.el9
     sourcerpm: libsndfile-1.0.31-9.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/l/libsoup-2.72.0-10.el9_6.1.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/l/libsoup-2.72.0-10.el9_6.2.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
-    size: 434429
-    checksum: sha256:f0134746ed8393007592230dde01a54ba02c2f785ff37b722e52b6a29b90c56e
+    size: 434579
+    checksum: sha256:9d27743231dcd89721e57b2692c3ae130e82815fd3de208dd0f9efac6e2d9801
     name: libsoup
-    evr: 2.72.0-10.el9_6.1
-    sourcerpm: libsoup-2.72.0-10.el9_6.1.src.rpm
+    evr: 2.72.0-10.el9_6.2
+    sourcerpm: libsoup-2.72.0-10.el9_6.2.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/l/libstdc++-devel-11.5.0-5.el9_5.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
     size: 2532640
@@ -4975,12 +4975,12 @@ arches:
     checksum: sha256:1b96d89f94f0d25122b09565ab92d4b0217d3c3e230a3b4ce9cbe67a96a20aaf
     name: libsndfile
     evr: 1.0.31-9.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/l/libsoup-2.72.0-10.el9_6.1.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/l/libsoup-2.72.0-10.el9_6.2.src.rpm
     repoid: ubi-9-for-ppc64le-appstream-source-rpms
-    size: 1513131
-    checksum: sha256:4de0b7579d6feb2f4784df01995a9063d35197290e563a21ae7325caf6659883
+    size: 1515442
+    checksum: sha256:206c644b09742022e04e437ce07a2602b46400b05a7ef1f86c04c843a74822b0
     name: libsoup
-    evr: 2.72.0-10.el9_6.1
+    evr: 2.72.0-10.el9_6.2
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/l/libstemmer-0-18.585svn.el9.src.rpm
     repoid: ubi-9-for-ppc64le-appstream-source-rpms
     size: 142242
@@ -6003,13 +6003,13 @@ arches:
     name: jbigkit-libs
     evr: 2.1-23.el9
     sourcerpm: jbigkit-2.1-23.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/k/kernel-headers-5.14.0-570.17.1.el9_6.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/k/kernel-headers-5.14.0-570.18.1.el9_6.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
-    size: 3671885
-    checksum: sha256:588834117164357cde3790541f872931129785dcc44763fbf8cc7a42583cda90
+    size: 3673197
+    checksum: sha256:4896f2d5c47c05455ec8cbf476ef43df7720a1c19f8ec508110d6e017b6018a0
     name: kernel-headers
-    evr: 5.14.0-570.17.1.el9_6
-    sourcerpm: kernel-5.14.0-570.17.1.el9_6.src.rpm
+    evr: 5.14.0-570.18.1.el9_6
+    sourcerpm: kernel-5.14.0-570.18.1.el9_6.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/lcms2-2.12-3.el9.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
     size: 168399
@@ -6297,13 +6297,13 @@ arches:
     name: libsndfile
     evr: 1.0.31-9.el9
     sourcerpm: libsndfile-1.0.31-9.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/libsoup-2.72.0-10.el9_6.1.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/libsoup-2.72.0-10.el9_6.2.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
-    size: 405115
-    checksum: sha256:54d32229f389928debbe2e93a67174a5344fc3d4a644e21b25bf60fdf4137061
+    size: 403659
+    checksum: sha256:c52584311b35d9ca420886a33af342840a75065bdb751caa522d18314a260a05
     name: libsoup
-    evr: 2.72.0-10.el9_6.1
-    sourcerpm: libsoup-2.72.0-10.el9_6.1.src.rpm
+    evr: 2.72.0-10.el9_6.2
+    sourcerpm: libsoup-2.72.0-10.el9_6.2.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/libstdc++-devel-11.5.0-5.el9_5.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
     size: 2518321
@@ -7817,12 +7817,12 @@ arches:
     checksum: sha256:1b96d89f94f0d25122b09565ab92d4b0217d3c3e230a3b4ce9cbe67a96a20aaf
     name: libsndfile
     evr: 1.0.31-9.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/l/libsoup-2.72.0-10.el9_6.1.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/l/libsoup-2.72.0-10.el9_6.2.src.rpm
     repoid: ubi-9-for-s390x-appstream-source-rpms
-    size: 1513131
-    checksum: sha256:4de0b7579d6feb2f4784df01995a9063d35197290e563a21ae7325caf6659883
+    size: 1515442
+    checksum: sha256:206c644b09742022e04e437ce07a2602b46400b05a7ef1f86c04c843a74822b0
     name: libsoup
-    evr: 2.72.0-10.el9_6.1
+    evr: 2.72.0-10.el9_6.2
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/l/libstemmer-0-18.585svn.el9.src.rpm
     repoid: ubi-9-for-s390x-appstream-source-rpms
     size: 142242
@@ -8800,13 +8800,13 @@ arches:
     name: jbigkit-libs
     evr: 2.1-23.el9
     sourcerpm: jbigkit-2.1-23.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-570.17.1.el9_6.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-570.18.1.el9_6.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 3680573
-    checksum: sha256:03dcb738b60220f6576812e7d4c7afdeb732b76d5d48b04c0603cce638b4ee9e
+    size: 3681841
+    checksum: sha256:67dd8cdd0ad69f0fff631da9cbd14c3de0a92d1c1f42c9bd65b0ae9cc2659f7a
     name: kernel-headers
-    evr: 5.14.0-570.17.1.el9_6
-    sourcerpm: kernel-5.14.0-570.17.1.el9_6.src.rpm
+    evr: 5.14.0-570.18.1.el9_6
+    sourcerpm: kernel-5.14.0-570.18.1.el9_6.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/lcms2-2.12-3.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 173479
@@ -9080,13 +9080,13 @@ arches:
     name: libsndfile
     evr: 1.0.31-9.el9
     sourcerpm: libsndfile-1.0.31-9.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libsoup-2.72.0-10.el9_6.1.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libsoup-2.72.0-10.el9_6.2.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 412482
-    checksum: sha256:edf553f6aca5ea474b84f36898c55ab33091f9d06d8048e83b3197f4adf90da4
+    size: 413102
+    checksum: sha256:f9b3791cbc944efa8292275d0947daa039b61cb3a8c63f7a455a7faa19834f61
     name: libsoup
-    evr: 2.72.0-10.el9_6.1
-    sourcerpm: libsoup-2.72.0-10.el9_6.1.src.rpm
+    evr: 2.72.0-10.el9_6.2
+    sourcerpm: libsoup-2.72.0-10.el9_6.2.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libstdc++-devel-11.5.0-5.el9_5.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 2531717
@@ -10628,12 +10628,12 @@ arches:
     checksum: sha256:1b96d89f94f0d25122b09565ab92d4b0217d3c3e230a3b4ce9cbe67a96a20aaf
     name: libsndfile
     evr: 1.0.31-9.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/l/libsoup-2.72.0-10.el9_6.1.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/l/libsoup-2.72.0-10.el9_6.2.src.rpm
     repoid: ubi-9-for-x86_64-appstream-source-rpms
-    size: 1513131
-    checksum: sha256:4de0b7579d6feb2f4784df01995a9063d35197290e563a21ae7325caf6659883
+    size: 1515442
+    checksum: sha256:206c644b09742022e04e437ce07a2602b46400b05a7ef1f86c04c843a74822b0
     name: libsoup
-    evr: 2.72.0-10.el9_6.1
+    evr: 2.72.0-10.el9_6.2
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/l/libstemmer-0-18.585svn.el9.src.rpm
     repoid: ubi-9-for-x86_64-appstream-source-rpms
     size: 142242
