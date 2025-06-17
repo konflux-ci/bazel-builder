@@ -3,8 +3,8 @@ metadata:
   version: "1.0"
 artifacts:
   - download_url:  https://github.com/bazelbuild/bazel/releases/download/6.5.0/bazel-6.5.0-dist.zip
-    filename: bazel-6.5.0-dist.zip
-    checksum: "sha256:fc89da919415289f29e4ff18a5e01270ece9a6fe83cb60967218bac4a3bb3ed2"
+    filename: bazel-7.6.1-dist.zip
+    checksum: "sha256:c1106db93eb8a719a6e2e1e9327f41b003b6d7f7e9d04f206057990775a7760e"
   - download_url: https://github.com/bazelbuild/bazel/releases/download/6.5.0/bazel-6.5.0-dist.zip.sig
-    filename: bazel-6.5.0-dist.zip.sig
-    checksum: "sha256:eacb0545673f9ac555b7bb4de00dccd57887514d14e04fbc7f53c6f48f3ae6d7"
+    filename: bazel-7.6.1-dist.zip.sig
+    checksum: "sha256:8ae3e830872f82e7acc5745219f9e085d425adda7e41a2939005f022cc1c92de"
