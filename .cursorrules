@@ -1,0 +1,10 @@
+
+
+The directions for creating an RPM lockfile, also known as running 'rpm-lockfile-prototype' are here: https://github.com/konflux-ci/rpm-lockfile-prototype?tab=readme-ov-file#running-in-a-container
+Running in a container is the preferred methods. Instead of building container, just use the one at quay.io/bcook/rpm-lockfile-prototype:latest.
+
+Here is an example of how to run it when the rpms.in.yaml and rpm.lock.yaml are in the working directory:
+podman run --rm -v ${PWD}:/source localhost/rpm-lockfile-prototype:latest --outfile=/source/rpms.lock.yaml /source/rpms.in.yaml
+
+This works because the current working directory is mounted to the container volume as "/source"
+
