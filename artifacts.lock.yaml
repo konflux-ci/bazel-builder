@@ -2,9 +2,9 @@ metadata:
   # uses X.Y semantic versioning
   version: "1.0"
 artifacts:
-  - download_url:  https://github.com/bazelbuild/bazel/releases/download/6.5.0/bazel-6.5.0-dist.zip
+  - download_url:  https://github.com/bazelbuild/bazel/releases/download/7.6.1/bazel-7.6.1-dist.zip
     filename: bazel-7.6.1-dist.zip
     checksum: "sha256:c1106db93eb8a719a6e2e1e9327f41b003b6d7f7e9d04f206057990775a7760e"
-  - download_url: https://github.com/bazelbuild/bazel/releases/download/6.5.0/bazel-6.5.0-dist.zip.sig
+  - download_url: https://github.com/bazelbuild/bazel/releases/download/7.6.1/bazel-7.6.1-dist.zip.sig
     filename: bazel-7.6.1-dist.zip.sig
     checksum: "sha256:8ae3e830872f82e7acc5745219f9e085d425adda7e41a2939005f022cc1c92de"
