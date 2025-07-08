@@ -434,6 +434,30 @@ spec:
         operator: in
         values:
         - 'false'
+    - name: clamav-scan-v03
+      params:
+      - name: image-digest
+        value: $(tasks.build-image-index.results.IMAGE_DIGEST)
+      - name: image-url
+        value: $(tasks.build-image-index.results.IMAGE_URL)
+      - name: scan-threads
+        value: "4"
+      runAfter:
+      - build-image-index
+      taskRef:
+        params:
+        - name: url
+          value: https://github.com/brianwcook/build-definitions.git
+        - name: revision
+          value: clamdscan
+        - name: pathInRepo
+          value: task/clamav-scan/0.3/clamav-scan.yaml
+        resolver: git
+      when:
+      - input: $(params.skip-checks)
+        operator: in
+        values:
+        - 'false'
     - name: sast-coverity-check
       params:
       - name: image-digest
