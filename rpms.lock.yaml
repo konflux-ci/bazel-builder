@@ -1621,13 +1621,13 @@ arches:
     name: libgusb
     evr: 0.3.8-2.el9
     sourcerpm: libgusb-0.3.8-2.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/l/libicu-67.1-9.el9.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/l/libicu-67.1-10.el9_6.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
-    size: 9922543
-    checksum: sha256:2d97da343d37692d02063b9243815cea180c64c46c343b7dc704d93b2c3b5a84
+    size: 9930142
+    checksum: sha256:1d4cee4d0496363be30182e85d80ba9af3fa7157607e66b00a49ba08f5e0c78e
     name: libicu
-    evr: 67.1-9.el9
-    sourcerpm: icu-67.1-9.el9.src.rpm
+    evr: 67.1-10.el9_6
+    sourcerpm: icu-67.1-10.el9_6.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/l/libpkgconf-1.7.3-10.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
     size: 38310
@@ -2675,12 +2675,12 @@ arches:
     checksum: sha256:af6cdae99470d14fa48057ac70a01cc8ab8567577eb74fc8c8be32ac080ad0ba
     name: hwdata
     evr: 0.348-9.18.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/i/icu-67.1-9.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/i/icu-67.1-10.el9_6.src.rpm
     repoid: ubi-9-for-aarch64-baseos-source-rpms
-    size: 23182150
-    checksum: sha256:e02b9fac958c410f2c476bb2d3daf55c314700a320b96c1454b8cd63a37b5bfb
+    size: 23181317
+    checksum: sha256:3abe8dc1abc22213826dd6ffb214cdd88705def93dcb234ffc87c792909b0879
     name: icu
-    evr: 67.1-9.el9
+    evr: 67.1-10.el9_6
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/k/kbd-2.4.0-11.el9.src.rpm
     repoid: ubi-9-for-aarch64-baseos-source-rpms
     size: 1167414
@@ -4462,13 +4462,13 @@ arches:
     name: libgusb
     evr: 0.3.8-2.el9
     sourcerpm: libgusb-0.3.8-2.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/l/libicu-67.1-9.el9.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/l/libicu-67.1-10.el9_6.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
-    size: 10023600
-    checksum: sha256:d6a263811f4752dfaeb28c7e0f37f8300ed2355e66c5ad994f7ae2a4a4ac6fdd
+    size: 10037375
+    checksum: sha256:1ea6ee313827c1f5d1a73ea84c2f72b3f6567bf821a019efbd6caee00e3d5543
     name: libicu
-    evr: 67.1-9.el9
-    sourcerpm: icu-67.1-9.el9.src.rpm
+    evr: 67.1-10.el9_6
+    sourcerpm: icu-67.1-10.el9_6.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/l/libpciaccess-0.16-7.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
     size: 29603
@@ -5523,12 +5523,12 @@ arches:
     checksum: sha256:af6cdae99470d14fa48057ac70a01cc8ab8567577eb74fc8c8be32ac080ad0ba
     name: hwdata
     evr: 0.348-9.18.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/i/icu-67.1-9.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/i/icu-67.1-10.el9_6.src.rpm
     repoid: ubi-9-for-x86_64-baseos-source-rpms
-    size: 23182150
-    checksum: sha256:e02b9fac958c410f2c476bb2d3daf55c314700a320b96c1454b8cd63a37b5bfb
+    size: 23181317
+    checksum: sha256:3abe8dc1abc22213826dd6ffb214cdd88705def93dcb234ffc87c792909b0879
     name: icu
-    evr: 67.1-9.el9
+    evr: 67.1-10.el9_6
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/k/kbd-2.4.0-11.el9.src.rpm
     repoid: ubi-9-for-x86_64-baseos-source-rpms
     size: 1167414
