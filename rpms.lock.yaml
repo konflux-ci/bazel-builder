@@ -753,13 +753,13 @@ arches:
     name: gsettings-desktop-schemas
     evr: 3.32.0-6.el8
     sourcerpm: gsettings-desktop-schemas-3.32.0-6.el8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/os/Packages/k/kernel-headers-4.18.0-553.64.1.el8_10.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/os/Packages/k/kernel-headers-4.18.0-553.66.1.el8_10.aarch64.rpm
     repoid: ubi-8-for-aarch64-baseos-rpms
-    size: 12392804
-    checksum: sha256:e4858bec1fc884aaa846a1d94b6261039eaf3e91682fb7190464c5dc5ba110ee
+    size: 12393604
+    checksum: sha256:31e4d9f08f6b9b59906be560ffe85634fb7849d8e108bfb8bb879bc116c75e27
     name: kernel-headers
-    evr: 4.18.0-553.64.1.el8_10
-    sourcerpm: kernel-4.18.0-553.64.1.el8_10.src.rpm
+    evr: 4.18.0-553.66.1.el8_10
+    sourcerpm: kernel-4.18.0-553.66.1.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/os/Packages/l/less-530-3.el8_10.aarch64.rpm
     repoid: ubi-8-for-aarch64-baseos-rpms
     size: 165440
@@ -1923,10 +1923,10 @@ arches:
     name: zip
     evr: 3.0-23.el8
   module_metadata:
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/appstream/os/repodata/3c772a616fcd0e30a91f711739b939afedc59e298396b46982e1656ad458b064-modules.yaml.gz
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/appstream/os/repodata/f697541a071ca1cfefe16d36f9f60950d37e8e6b46fcda2e2a7d0a85684965b7-modules.yaml.gz
     repoid: ubi-8-for-aarch64-appstream-rpms
     size: 56552
-    checksum: sha256:3c772a616fcd0e30a91f711739b939afedc59e298396b46982e1656ad458b064
+    checksum: sha256:f697541a071ca1cfefe16d36f9f60950d37e8e6b46fcda2e2a7d0a85684965b7
 - arch: ppc64le
   packages:
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/appstream/os/Packages/a/abattis-cantarell-fonts-0.0.25-6.el8.noarch.rpm
@@ -3848,10 +3848,10 @@ arches:
     name: zip
     evr: 3.0-23.el8
   module_metadata:
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/appstream/os/repodata/dd659ac0305762c734732c2966657601cb695166dc31a36ace9551112153fb03-modules.yaml.gz
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/appstream/os/repodata/fa142a6c7a871bd7d76c29f103e80fcb4db99854219877f142e26f92c6102a62-modules.yaml.gz
     repoid: ubi-8-for-ppc64le-appstream-rpms
     size: 56712
-    checksum: sha256:dd659ac0305762c734732c2966657601cb695166dc31a36ace9551112153fb03
+    checksum: sha256:fa142a6c7a871bd7d76c29f103e80fcb4db99854219877f142e26f92c6102a62
 - arch: s390x
   packages:
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/appstream/os/Packages/a/abattis-cantarell-fonts-0.0.25-6.el8.noarch.rpm
@@ -4603,13 +4603,13 @@ arches:
     name: gsettings-desktop-schemas
     evr: 3.32.0-6.el8
     sourcerpm: gsettings-desktop-schemas-3.32.0-6.el8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/k/kernel-headers-4.18.0-553.64.1.el8_10.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/k/kernel-headers-4.18.0-553.66.1.el8_10.s390x.rpm
     repoid: ubi-8-for-s390x-baseos-rpms
-    size: 12419404
-    checksum: sha256:2de06da4c642a0c32de844922866a187fca922f828bbbb20091aa86fca2ed945
+    size: 12420304
+    checksum: sha256:0a448e4a93839892c2b639366b88c3311d8dc04a6dddfc3768bc85db849912f2
     name: kernel-headers
-    evr: 4.18.0-553.64.1.el8_10
-    sourcerpm: kernel-4.18.0-553.64.1.el8_10.src.rpm
+    evr: 4.18.0-553.66.1.el8_10
+    sourcerpm: kernel-4.18.0-553.66.1.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/l/less-530-3.el8_10.s390x.rpm
     repoid: ubi-8-for-s390x-baseos-rpms
     size: 168392
@@ -5773,10 +5773,10 @@ arches:
     name: zip
     evr: 3.0-23.el8
   module_metadata:
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/appstream/os/repodata/2cabeb5c206a237926c22cbfcd0ffcc373f08c06e558a89409f3c047ddcd1e69-modules.yaml.gz
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/appstream/os/repodata/465aaf2a02a1f03d33454e4275f63176a9639ea84c3deee5cc7b52904fbff91e-modules.yaml.gz
     repoid: ubi-8-for-s390x-appstream-rpms
     size: 56656
-    checksum: sha256:2cabeb5c206a237926c22cbfcd0ffcc373f08c06e558a89409f3c047ddcd1e69
+    checksum: sha256:465aaf2a02a1f03d33454e4275f63176a9639ea84c3deee5cc7b52904fbff91e
 - arch: x86_64
   packages:
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/appstream/os/Packages/a/abattis-cantarell-fonts-0.0.25-6.el8.noarch.rpm
@@ -6528,13 +6528,13 @@ arches:
     name: gsettings-desktop-schemas
     evr: 3.32.0-6.el8
     sourcerpm: gsettings-desktop-schemas-3.32.0-6.el8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/k/kernel-headers-4.18.0-553.64.1.el8_10.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/k/kernel-headers-4.18.0-553.66.1.el8_10.x86_64.rpm
     repoid: ubi-8-for-x86_64-baseos-rpms
-    size: 12424468
-    checksum: sha256:eca6071fdeb47daee28dddd1e48ed8447b1c41b58a883b6b26da680d561f2733
+    size: 12425328
+    checksum: sha256:8f6e3f6ea42b0b20404961154543084f2055e8f01419b002dfa73a4c5d5991fc
     name: kernel-headers
-    evr: 4.18.0-553.64.1.el8_10
-    sourcerpm: kernel-4.18.0-553.64.1.el8_10.src.rpm
+    evr: 4.18.0-553.66.1.el8_10
+    sourcerpm: kernel-4.18.0-553.66.1.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/l/less-530-3.el8_10.x86_64.rpm
     repoid: ubi-8-for-x86_64-baseos-rpms
     size: 168216
@@ -7677,7 +7677,7 @@ arches:
     name: zip
     evr: 3.0-23.el8
   module_metadata:
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/appstream/os/repodata/1c7a28e2960706def858d1889ac937dc5afff94e49764697ab48c5274570c45f-modules.yaml.gz
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/appstream/os/repodata/531ec976c54dd077fe8d94b8918e3cd4f9b957e1779d8172cc7afded2fdbee37-modules.yaml.gz
     repoid: ubi-8-for-x86_64-appstream-rpms
     size: 60209
-    checksum: sha256:1c7a28e2960706def858d1889ac937dc5afff94e49764697ab48c5274570c45f
+    checksum: sha256:531ec976c54dd077fe8d94b8918e3cd4f9b957e1779d8172cc7afded2fdbee37
