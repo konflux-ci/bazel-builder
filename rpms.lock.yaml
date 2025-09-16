@@ -305,13 +305,13 @@ arches:
     name: jbigkit-libs
     evr: 2.1-23.el9
     sourcerpm: jbigkit-2.1-23.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-570.41.1.el9_6.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-570.42.2.el9_6.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 3674165
-    checksum: sha256:c1746612074058c0ca24c2eb88c1a33823c5ac3f93616a0ad1c03a3014db733c
+    size: 3454725
+    checksum: sha256:1b9a0cc587627e0773b835f0a9cbffa82f80a2083184e8adc64adeaca70cb945
     name: kernel-headers
-    evr: 5.14.0-570.41.1.el9_6
-    sourcerpm: kernel-5.14.0-570.41.1.el9_6.src.rpm
+    evr: 5.14.0-570.42.2.el9_6
+    sourcerpm: kernel-5.14.0-570.42.2.el9_6.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/lcms2-2.12-3.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
     size: 171119
@@ -1460,13 +1460,13 @@ arches:
     name: cryptsetup-libs
     evr: 2.7.2-3.el9_6.1
     sourcerpm: cryptsetup-2.7.2-3.el9_6.1.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/c/cups-libs-2.3.3op2-33.el9.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/c/cups-libs-2.3.3op2-33.el9_6.1.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
-    size: 268062
-    checksum: sha256:b49e7fb7902f84c3a9ce630c92b98b2804f2d3bf698bd8a689e29f50810c3d4c
+    size: 266763
+    checksum: sha256:8f3c6e35a3f7d216c2f0279e816947cc64278d00fedccd8bf631071a51fd4a02
     name: cups-libs
-    evr: 1:2.3.3op2-33.el9
-    sourcerpm: cups-2.3.3op2-33.el9.src.rpm
+    evr: 1:2.3.3op2-33.el9_6.1
+    sourcerpm: cups-2.3.3op2-33.el9_6.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/d/device-mapper-1.02.202-6.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
     size: 144635
@@ -2609,12 +2609,12 @@ arches:
     checksum: sha256:0a8b07dac531288c2fb1987106664a4e762e1b985c8851d577aa8aac60636a06
     name: cryptsetup
     evr: 2.7.2-3.el9_6.1
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/c/cups-2.3.3op2-33.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/c/cups-2.3.3op2-33.el9_6.1.src.rpm
     repoid: ubi-9-for-aarch64-baseos-source-rpms
-    size: 8129461
-    checksum: sha256:9b52b33fc3a31eaa28fa02a9fec6c188cef1487136f095f1a164bd829651edaa
+    size: 8125712
+    checksum: sha256:d47b1ed7a8374a9881475617f7d1779e73960fbdc5a1402fd1327a144de06136
     name: cups
-    evr: 1:2.3.3op2-33.el9
+    evr: 1:2.3.3op2-33.el9_6.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/e/elfutils-0.192-6.el9_6.src.rpm
     repoid: ubi-9-for-aarch64-baseos-source-rpms
     size: 11944670
@@ -3153,13 +3153,13 @@ arches:
     name: jbigkit-libs
     evr: 2.1-23.el9
     sourcerpm: jbigkit-2.1-23.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/k/kernel-headers-5.14.0-570.41.1.el9_6.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/k/kernel-headers-5.14.0-570.42.2.el9_6.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
-    size: 3695881
-    checksum: sha256:44e7b843895104be9fd5cd5b9663c3c03f6b82da248c7aba5e8780883643d20c
+    size: 3472861
+    checksum: sha256:5666846673516264a691b89b3b25de90841e343c615c2faeba794858088a8bed
     name: kernel-headers
-    evr: 5.14.0-570.41.1.el9_6
-    sourcerpm: kernel-5.14.0-570.41.1.el9_6.src.rpm
+    evr: 5.14.0-570.42.2.el9_6
+    sourcerpm: kernel-5.14.0-570.42.2.el9_6.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/l/lcms2-2.12-3.el9.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
     size: 198719
@@ -4308,13 +4308,13 @@ arches:
     name: cryptsetup-libs
     evr: 2.7.2-3.el9_6.1
     sourcerpm: cryptsetup-2.7.2-3.el9_6.1.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/c/cups-libs-2.3.3op2-33.el9.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/c/cups-libs-2.3.3op2-33.el9_6.1.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-baseos-rpms
-    size: 321465
-    checksum: sha256:58560c0fb951102269c1fa59e50fc9f13e5ece954418cc92410ad4dcfaac868d
+    size: 318164
+    checksum: sha256:057cd1a4cd8f995186ed4258eab32994f7236d3f7b4d92a12b82dec3ef9e074b
     name: cups-libs
-    evr: 1:2.3.3op2-33.el9
-    sourcerpm: cups-2.3.3op2-33.el9.src.rpm
+    evr: 1:2.3.3op2-33.el9_6.1
+    sourcerpm: cups-2.3.3op2-33.el9_6.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/d/device-mapper-1.02.202-6.el9.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-baseos-rpms
     size: 149235
@@ -5457,12 +5457,12 @@ arches:
     checksum: sha256:0a8b07dac531288c2fb1987106664a4e762e1b985c8851d577aa8aac60636a06
     name: cryptsetup
     evr: 2.7.2-3.el9_6.1
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/source/SRPMS/Packages/c/cups-2.3.3op2-33.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/source/SRPMS/Packages/c/cups-2.3.3op2-33.el9_6.1.src.rpm
     repoid: ubi-9-for-ppc64le-baseos-source-rpms
-    size: 8129461
-    checksum: sha256:9b52b33fc3a31eaa28fa02a9fec6c188cef1487136f095f1a164bd829651edaa
+    size: 8125712
+    checksum: sha256:d47b1ed7a8374a9881475617f7d1779e73960fbdc5a1402fd1327a144de06136
     name: cups
-    evr: 1:2.3.3op2-33.el9
+    evr: 1:2.3.3op2-33.el9_6.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/source/SRPMS/Packages/e/elfutils-0.192-6.el9_6.src.rpm
     repoid: ubi-9-for-ppc64le-baseos-source-rpms
     size: 11944670
@@ -6029,13 +6029,13 @@ arches:
     name: jbigkit-libs
     evr: 2.1-23.el9
     sourcerpm: jbigkit-2.1-23.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/k/kernel-headers-5.14.0-570.41.1.el9_6.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/k/kernel-headers-5.14.0-570.42.2.el9_6.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
-    size: 3703849
-    checksum: sha256:84a925a03913d817925f871452211d08c0bd4603d2117c6d6755028158ef6071
+    size: 3479457
+    checksum: sha256:6793b4419f5d243769edcb8708d4442b14b99b6f1ddca682d6ed17d7ba9485d4
     name: kernel-headers
-    evr: 5.14.0-570.41.1.el9_6
-    sourcerpm: kernel-5.14.0-570.41.1.el9_6.src.rpm
+    evr: 5.14.0-570.42.2.el9_6
+    sourcerpm: kernel-5.14.0-570.42.2.el9_6.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/lcms2-2.12-3.el9.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
     size: 168399
@@ -7191,13 +7191,13 @@ arches:
     name: cryptsetup-libs
     evr: 2.7.2-3.el9_6.1
     sourcerpm: cryptsetup-2.7.2-3.el9_6.1.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/c/cups-libs-2.3.3op2-33.el9.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/c/cups-libs-2.3.3op2-33.el9_6.1.s390x.rpm
     repoid: ubi-9-for-s390x-baseos-rpms
-    size: 262331
-    checksum: sha256:0a01a1a8a35290b90390c95ef9bfb396506ddffbdb86b13cf24f37bf36017448
+    size: 257480
+    checksum: sha256:a89abd46b5b44aba92278ffea2d045dac56f32e6a6ac48cdeda47684585fee8b
     name: cups-libs
-    evr: 1:2.3.3op2-33.el9
-    sourcerpm: cups-2.3.3op2-33.el9.src.rpm
+    evr: 1:2.3.3op2-33.el9_6.1
+    sourcerpm: cups-2.3.3op2-33.el9_6.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/d/device-mapper-1.02.202-6.el9.s390x.rpm
     repoid: ubi-9-for-s390x-baseos-rpms
     size: 143587
@@ -8312,12 +8312,12 @@ arches:
     checksum: sha256:0a8b07dac531288c2fb1987106664a4e762e1b985c8851d577aa8aac60636a06
     name: cryptsetup
     evr: 2.7.2-3.el9_6.1
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/source/SRPMS/Packages/c/cups-2.3.3op2-33.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/source/SRPMS/Packages/c/cups-2.3.3op2-33.el9_6.1.src.rpm
     repoid: ubi-9-for-s390x-baseos-source-rpms
-    size: 8129461
-    checksum: sha256:9b52b33fc3a31eaa28fa02a9fec6c188cef1487136f095f1a164bd829651edaa
+    size: 8125712
+    checksum: sha256:d47b1ed7a8374a9881475617f7d1779e73960fbdc5a1402fd1327a144de06136
     name: cups
-    evr: 1:2.3.3op2-33.el9
+    evr: 1:2.3.3op2-33.el9_6.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/source/SRPMS/Packages/e/elfutils-0.192-6.el9_6.src.rpm
     repoid: ubi-9-for-s390x-baseos-source-rpms
     size: 11944670
@@ -9980,13 +9980,13 @@ arches:
     name: cryptsetup-libs
     evr: 2.7.2-3.el9_6.1
     sourcerpm: cryptsetup-2.7.2-3.el9_6.1.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/c/cups-libs-2.3.3op2-33.el9.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/c/cups-libs-2.3.3op2-33.el9_6.1.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
-    size: 270943
-    checksum: sha256:32c2f0f270bb0a8c8a9c821745a3d5fbee43e3ab5a070732e020f0bfb50ebfde
+    size: 266700
+    checksum: sha256:d430a82961d9d79cc3325cd662cc91d64d4479965462431b4244cb782c3647f4
     name: cups-libs
-    evr: 1:2.3.3op2-33.el9
-    sourcerpm: cups-2.3.3op2-33.el9.src.rpm
+    evr: 1:2.3.3op2-33.el9_6.1
+    sourcerpm: cups-2.3.3op2-33.el9_6.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/d/device-mapper-1.02.202-6.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
     size: 146604
@@ -11136,12 +11136,12 @@ arches:
     checksum: sha256:0a8b07dac531288c2fb1987106664a4e762e1b985c8851d577aa8aac60636a06
     name: cryptsetup
     evr: 2.7.2-3.el9_6.1
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/c/cups-2.3.3op2-33.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/c/cups-2.3.3op2-33.el9_6.1.src.rpm
     repoid: ubi-9-for-x86_64-baseos-source-rpms
-    size: 8129461
-    checksum: sha256:9b52b33fc3a31eaa28fa02a9fec6c188cef1487136f095f1a164bd829651edaa
+    size: 8125712
+    checksum: sha256:d47b1ed7a8374a9881475617f7d1779e73960fbdc5a1402fd1327a144de06136
     name: cups
-    evr: 1:2.3.3op2-33.el9
+    evr: 1:2.3.3op2-33.el9_6.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/e/elfutils-0.192-6.el9_6.src.rpm
     repoid: ubi-9-for-x86_64-baseos-source-rpms
     size: 11944670
