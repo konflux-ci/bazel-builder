@@ -788,13 +788,6 @@ arches:
     name: libedit
     evr: 3.1-23.20170329cvs.el8
     sourcerpm: libedit-3.1-23.20170329cvs.el8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/os/Packages/l/libgcc-8.5.0-28.el8_10.aarch64.rpm
-    repoid: ubi-8-for-aarch64-baseos-rpms
-    size: 77296
-    checksum: sha256:8482ad0342613035a098f6fa872d8bcdbf7a99966e17ac44a2ded9395929e5cc
-    name: libgcc
-    evr: 8.5.0-28.el8_10
-    sourcerpm: gcc-8.5.0-28.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/os/Packages/l/libgomp-8.5.0-28.el8_10.aarch64.rpm
     repoid: ubi-8-for-aarch64-baseos-rpms
     size: 205940
@@ -844,13 +837,6 @@ arches:
     name: libsoup
     evr: 2.62.3-9.el8_10
     sourcerpm: libsoup-2.62.3-9.el8_10.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/os/Packages/l/libstdc++-8.5.0-28.el8_10.aarch64.rpm
-    repoid: ubi-8-for-aarch64-baseos-rpms
-    size: 454548
-    checksum: sha256:ed9b07dc30a3a832aad5418052600fa33ce8ba42b62c7be1a17f5f7897eb1e8f
-    name: libstdc++
-    evr: 8.5.0-28.el8_10
-    sourcerpm: gcc-8.5.0-28.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/os/Packages/l/libubsan-8.5.0-28.el8_10.aarch64.rpm
     repoid: ubi-8-for-aarch64-baseos-rpms
     size: 149388
@@ -2727,13 +2713,6 @@ arches:
     name: libedit
     evr: 3.1-23.20170329cvs.el8
     sourcerpm: libedit-3.1-23.20170329cvs.el8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/os/Packages/l/libgcc-8.5.0-28.el8_10.ppc64le.rpm
-    repoid: ubi-8-for-ppc64le-baseos-rpms
-    size: 72884
-    checksum: sha256:6e424671e1ed9790d62a65edfcf0bde415318d007194f1b9a43a0f8bfb7f9fe1
-    name: libgcc
-    evr: 8.5.0-28.el8_10
-    sourcerpm: gcc-8.5.0-28.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/os/Packages/l/libgomp-8.5.0-28.el8_10.ppc64le.rpm
     repoid: ubi-8-for-ppc64le-baseos-rpms
     size: 219356
@@ -2783,13 +2762,6 @@ arches:
     name: libsoup
     evr: 2.62.3-9.el8_10
     sourcerpm: libsoup-2.62.3-9.el8_10.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/os/Packages/l/libstdc++-8.5.0-28.el8_10.ppc64le.rpm
-    repoid: ubi-8-for-ppc64le-baseos-rpms
-    size: 528908
-    checksum: sha256:b473d8fe0fbdfb10f124f1d9a0fe15307d455ca1a37eb2b5a870c75abc37013b
-    name: libstdc++
-    evr: 8.5.0-28.el8_10
-    sourcerpm: gcc-8.5.0-28.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/os/Packages/l/libubsan-8.5.0-28.el8_10.ppc64le.rpm
     repoid: ubi-8-for-ppc64le-baseos-rpms
     size: 170360
@@ -4666,13 +4638,6 @@ arches:
     name: libedit
     evr: 3.1-23.20170329cvs.el8
     sourcerpm: libedit-3.1-23.20170329cvs.el8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/l/libgcc-8.5.0-28.el8_10.s390x.rpm
-    repoid: ubi-8-for-s390x-baseos-rpms
-    size: 68068
-    checksum: sha256:cdde9e600223c1fdbfc3a180be5587efd627cc8704c3be29899677cec4d443c9
-    name: libgcc
-    evr: 8.5.0-28.el8_10
-    sourcerpm: gcc-8.5.0-28.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/l/libgomp-8.5.0-28.el8_10.s390x.rpm
     repoid: ubi-8-for-s390x-baseos-rpms
     size: 208212
@@ -4722,13 +4687,6 @@ arches:
     name: libsoup
     evr: 2.62.3-9.el8_10
     sourcerpm: libsoup-2.62.3-9.el8_10.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/l/libstdc++-8.5.0-28.el8_10.s390x.rpm
-    repoid: ubi-8-for-s390x-baseos-rpms
-    size: 487712
-    checksum: sha256:be6feb84fcb5ecb31d8b7444af28d3135b38ba09cc9925f735b7440cb085f0e3
-    name: libstdc++
-    evr: 8.5.0-28.el8_10
-    sourcerpm: gcc-8.5.0-28.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/l/libubsan-8.5.0-28.el8_10.s390x.rpm
     repoid: ubi-8-for-s390x-baseos-rpms
     size: 151336
@@ -6591,13 +6549,6 @@ arches:
     name: libedit
     evr: 3.1-23.20170329cvs.el8
     sourcerpm: libedit-3.1-23.20170329cvs.el8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/l/libgcc-8.5.0-28.el8_10.x86_64.rpm
-    repoid: ubi-8-for-x86_64-baseos-rpms
-    size: 84328
-    checksum: sha256:6901d0887709832430ac8c5ed9d38ff4210b1ecbf7b561807bfa427ae8dcab4e
-    name: libgcc
-    evr: 8.5.0-28.el8_10
-    sourcerpm: gcc-8.5.0-28.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/l/libgomp-8.5.0-28.el8_10.x86_64.rpm
     repoid: ubi-8-for-x86_64-baseos-rpms
     size: 213900
@@ -6647,13 +6598,6 @@ arches:
     name: libsoup
     evr: 2.62.3-9.el8_10
     sourcerpm: libsoup-2.62.3-9.el8_10.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/l/libstdc++-8.5.0-28.el8_10.x86_64.rpm
-    repoid: ubi-8-for-x86_64-baseos-rpms
-    size: 485052
-    checksum: sha256:3f679b1a3d0034c33546e76b9280414d5ce16c79b7b8d93358f5302f26943403
-    name: libstdc++
-    evr: 8.5.0-28.el8_10
-    sourcerpm: gcc-8.5.0-28.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/l/libxcrypt-devel-4.1.1-6.el8.x86_64.rpm
     repoid: ubi-8-for-x86_64-baseos-rpms
     size: 25844
