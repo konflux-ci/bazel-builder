@@ -1,27 +1,27 @@
 {
-   "automerge":true,
-   "automergeSchedule":[
+   "automerge": true,
+   "automergeSchedule": [
       "* * * * 1-4"
    ],
-   "lockFileMaintenance":{
-      "enabled":true
+   "lockFileMaintenance": {
+      "enabled": true
    },
-   "extends":[
+   "extends": [
       "group:allNonMajor"
    ],
-   "$schema":"https://docs.renovatebot.com/renovate-schema.json",
-   "customManagers":[
+   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+   "customManagers": [
       {
-         "fileMatch":[
-            "(^|/)argfile",
-            "(^|/)rpms\\.in\\.yaml"
+         "managerFilePatterns": [
+            "/(^|/)argfile/",
+            "/(^|/)rpms\\.in\\.yaml/"
          ],
-         "customType":"regex",
-         "datasourceTemplate":"docker",
-         "matchStrings":[
+         "customType": "regex",
+         "datasourceTemplate": "docker",
+         "matchStrings": [
             "(?<depName>[\\w\\.\\/]+):?(?<currentValue>[\\w]+)?@(?<currentDigest>sha256:[a-f0-9]+)"
          ],
-         "versioningTemplate":"docker"
+         "versioningTemplate": "docker"
       }
    ]
 }
