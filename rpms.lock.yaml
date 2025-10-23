@@ -655,13 +655,13 @@ arches:
     name: avahi-libs
     evr: 0.7-27.el8_10.1
     sourcerpm: avahi-0.7-27.el8_10.1.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/os/Packages/b/binutils-2.30-125.el8_10.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/os/Packages/b/binutils-2.30-127.el8_10.aarch64.rpm
     repoid: ubi-8-for-aarch64-baseos-rpms
-    size: 6313884
-    checksum: sha256:7cac671da21dd848d63b9865c1aaf74f346fe4af80997c70a944d367531c10f7
+    size: 6314592
+    checksum: sha256:61d81261fe36b9c893e4c3918adca086d4dad0c638dbe4e08e7ccc4bd213931d
     name: binutils
-    evr: 2.30-125.el8_10
-    sourcerpm: binutils-2.30-125.el8_10.src.rpm
+    evr: 2.30-127.el8_10
+    sourcerpm: binutils-2.30-127.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/os/Packages/c/cups-libs-2.2.6-63.el8_10.aarch64.rpm
     repoid: ubi-8-for-aarch64-baseos-rpms
     size: 430940
@@ -753,13 +753,13 @@ arches:
     name: gsettings-desktop-schemas
     evr: 3.32.0-6.el8
     sourcerpm: gsettings-desktop-schemas-3.32.0-6.el8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/os/Packages/k/kernel-headers-4.18.0-553.76.1.el8_10.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/os/Packages/k/kernel-headers-4.18.0-553.80.1.el8_10.aarch64.rpm
     repoid: ubi-8-for-aarch64-baseos-rpms
-    size: 12406224
-    checksum: sha256:28f37e2d9cca837b5ac815762cab5540b6763cebee01725287625c28f701c175
+    size: 12408460
+    checksum: sha256:dce44720a1866a7730f17f4b263db7af60bdb6c655c7d17caf0a47fe42acca1d
     name: kernel-headers
-    evr: 4.18.0-553.76.1.el8_10
-    sourcerpm: kernel-4.18.0-553.76.1.el8_10.src.rpm
+    evr: 4.18.0-553.80.1.el8_10
+    sourcerpm: kernel-4.18.0-553.80.1.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/os/Packages/l/less-530-3.el8_10.aarch64.rpm
     repoid: ubi-8-for-aarch64-baseos-rpms
     size: 165440
@@ -1562,12 +1562,12 @@ arches:
     checksum: sha256:60a5d3fe646301e6b866b66d84c3e4b54b3ef2db5d7e15e8c9c14f6c93e1ccad
     name: avahi
     evr: 0.7-27.el8_10.1
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/source/SRPMS/Packages/b/binutils-2.30-125.el8_10.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/source/SRPMS/Packages/b/binutils-2.30-127.el8_10.src.rpm
     repoid: ubi-8-for-aarch64-baseos-source-rpms
-    size: 21080005
-    checksum: sha256:3dfe179ebe80b9640e735710b9f01476905687dc10e5a3516438b24d65e66ff3
+    size: 21097538
+    checksum: sha256:397c7a782b75bc924ccb082718e852a3c9770c415dfaabc3a0170e91a92c3433
     name: binutils
-    evr: 2.30-125.el8_10
+    evr: 2.30-127.el8_10
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/source/SRPMS/Packages/c/cups-2.2.6-63.el8_10.src.rpm
     repoid: ubi-8-for-aarch64-baseos-source-rpms
     size: 10593861
@@ -1923,10 +1923,10 @@ arches:
     name: zip
     evr: 3.0-23.el8
   module_metadata:
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/appstream/os/repodata/bca882080557f25c0e9a2847b2b1791ef62537f5cbd2df29a2ae82ce6f914651-modules.yaml.gz
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/appstream/os/repodata/1a4a53275524e639ea9b464058d2947311ed47789b3f52f31564cff12dd2fabd-modules.yaml.gz
     repoid: ubi-8-for-aarch64-appstream-rpms
-    size: 56800
-    checksum: sha256:bca882080557f25c0e9a2847b2b1791ef62537f5cbd2df29a2ae82ce6f914651
+    size: 57035
+    checksum: sha256:1a4a53275524e639ea9b464058d2947311ed47789b3f52f31564cff12dd2fabd
 - arch: ppc64le
   packages:
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/appstream/os/Packages/a/abattis-cantarell-fonts-0.0.25-6.el8.noarch.rpm
@@ -2580,13 +2580,13 @@ arches:
     name: avahi-libs
     evr: 0.7-27.el8_10.1
     sourcerpm: avahi-0.7-27.el8_10.1.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/os/Packages/b/binutils-2.30-125.el8_10.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/os/Packages/b/binutils-2.30-127.el8_10.ppc64le.rpm
     repoid: ubi-8-for-ppc64le-baseos-rpms
-    size: 6765012
-    checksum: sha256:2c91d02667dfc824ac17592db538d500e38e2224dd83d17b22dceb3a5ca44638
+    size: 6765428
+    checksum: sha256:6666776e41fac97f195d97190975dd0a60a5267db989d2e0daf7f194226e3f38
     name: binutils
-    evr: 2.30-125.el8_10
-    sourcerpm: binutils-2.30-125.el8_10.src.rpm
+    evr: 2.30-127.el8_10
+    sourcerpm: binutils-2.30-127.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/os/Packages/c/cups-libs-2.2.6-63.el8_10.ppc64le.rpm
     repoid: ubi-8-for-ppc64le-baseos-rpms
     size: 503612
@@ -2678,13 +2678,13 @@ arches:
     name: gsettings-desktop-schemas
     evr: 3.32.0-6.el8
     sourcerpm: gsettings-desktop-schemas-3.32.0-6.el8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/os/Packages/k/kernel-headers-4.18.0-553.76.1.el8_10.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/os/Packages/k/kernel-headers-4.18.0-553.80.1.el8_10.ppc64le.rpm
     repoid: ubi-8-for-ppc64le-baseos-rpms
-    size: 12425464
-    checksum: sha256:9c5c2490ce09d1c05642e1d9f472e0df5c69b16f988be4127c8779428a227fc8
+    size: 12427796
+    checksum: sha256:9729f36ae2e659393e533d4fe806b42c40032ccc6f33150c063b7e7d81df8619
     name: kernel-headers
-    evr: 4.18.0-553.76.1.el8_10
-    sourcerpm: kernel-4.18.0-553.76.1.el8_10.src.rpm
+    evr: 4.18.0-553.80.1.el8_10
+    sourcerpm: kernel-4.18.0-553.80.1.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/os/Packages/l/less-530-3.el8_10.ppc64le.rpm
     repoid: ubi-8-for-ppc64le-baseos-rpms
     size: 178908
@@ -3487,12 +3487,12 @@ arches:
     checksum: sha256:60a5d3fe646301e6b866b66d84c3e4b54b3ef2db5d7e15e8c9c14f6c93e1ccad
     name: avahi
     evr: 0.7-27.el8_10.1
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/source/SRPMS/Packages/b/binutils-2.30-125.el8_10.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/source/SRPMS/Packages/b/binutils-2.30-127.el8_10.src.rpm
     repoid: ubi-8-for-ppc64le-baseos-source-rpms
-    size: 21080005
-    checksum: sha256:3dfe179ebe80b9640e735710b9f01476905687dc10e5a3516438b24d65e66ff3
+    size: 21097538
+    checksum: sha256:397c7a782b75bc924ccb082718e852a3c9770c415dfaabc3a0170e91a92c3433
     name: binutils
-    evr: 2.30-125.el8_10
+    evr: 2.30-127.el8_10
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/source/SRPMS/Packages/c/cups-2.2.6-63.el8_10.src.rpm
     repoid: ubi-8-for-ppc64le-baseos-source-rpms
     size: 10593861
@@ -3848,10 +3848,10 @@ arches:
     name: zip
     evr: 3.0-23.el8
   module_metadata:
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/appstream/os/repodata/37ef8049eae2d41d4cf35ac7ce672efe007b2c4e61077b15a63f15306f071ce4-modules.yaml.gz
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/appstream/os/repodata/f0eb747a7775dd5474d980774e8f7e5d793c0373c4ca2303a452022681247e0b-modules.yaml.gz
     repoid: ubi-8-for-ppc64le-appstream-rpms
-    size: 56970
-    checksum: sha256:37ef8049eae2d41d4cf35ac7ce672efe007b2c4e61077b15a63f15306f071ce4
+    size: 55946
+    checksum: sha256:f0eb747a7775dd5474d980774e8f7e5d793c0373c4ca2303a452022681247e0b
 - arch: s390x
   packages:
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/appstream/os/Packages/a/abattis-cantarell-fonts-0.0.25-6.el8.noarch.rpm
@@ -4505,13 +4505,13 @@ arches:
     name: avahi-libs
     evr: 0.7-27.el8_10.1
     sourcerpm: avahi-0.7-27.el8_10.1.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/b/binutils-2.30-125.el8_10.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/b/binutils-2.30-127.el8_10.s390x.rpm
     repoid: ubi-8-for-s390x-baseos-rpms
-    size: 10194120
-    checksum: sha256:4fe1ec520732e21632b62f1a5ed4c9baf90ba75636cf50f55ecda702489f8c49
+    size: 10195164
+    checksum: sha256:2065acc80fd1c671131d454811c06946c2a30086e1e426fca20d54de0ac8b83a
     name: binutils
-    evr: 2.30-125.el8_10
-    sourcerpm: binutils-2.30-125.el8_10.src.rpm
+    evr: 2.30-127.el8_10
+    sourcerpm: binutils-2.30-127.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/c/cups-libs-2.2.6-63.el8_10.s390x.rpm
     repoid: ubi-8-for-s390x-baseos-rpms
     size: 422036
@@ -4603,13 +4603,13 @@ arches:
     name: gsettings-desktop-schemas
     evr: 3.32.0-6.el8
     sourcerpm: gsettings-desktop-schemas-3.32.0-6.el8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/k/kernel-headers-4.18.0-553.76.1.el8_10.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/k/kernel-headers-4.18.0-553.80.1.el8_10.s390x.rpm
     repoid: ubi-8-for-s390x-baseos-rpms
-    size: 12432836
-    checksum: sha256:2fab5a00b00389303e090c6886d9e5c71719693ff982d21e62d79d810f004153
+    size: 12435040
+    checksum: sha256:398fc910446102d29e70cd6b655a0db43c961ce136722d28fd133e52c150c431
     name: kernel-headers
-    evr: 4.18.0-553.76.1.el8_10
-    sourcerpm: kernel-4.18.0-553.76.1.el8_10.src.rpm
+    evr: 4.18.0-553.80.1.el8_10
+    sourcerpm: kernel-4.18.0-553.80.1.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/l/less-530-3.el8_10.s390x.rpm
     repoid: ubi-8-for-s390x-baseos-rpms
     size: 168392
@@ -5412,12 +5412,12 @@ arches:
     checksum: sha256:60a5d3fe646301e6b866b66d84c3e4b54b3ef2db5d7e15e8c9c14f6c93e1ccad
     name: avahi
     evr: 0.7-27.el8_10.1
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/source/SRPMS/Packages/b/binutils-2.30-125.el8_10.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/source/SRPMS/Packages/b/binutils-2.30-127.el8_10.src.rpm
     repoid: ubi-8-for-s390x-baseos-source-rpms
-    size: 21080005
-    checksum: sha256:3dfe179ebe80b9640e735710b9f01476905687dc10e5a3516438b24d65e66ff3
+    size: 21097538
+    checksum: sha256:397c7a782b75bc924ccb082718e852a3c9770c415dfaabc3a0170e91a92c3433
     name: binutils
-    evr: 2.30-125.el8_10
+    evr: 2.30-127.el8_10
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/source/SRPMS/Packages/c/cups-2.2.6-63.el8_10.src.rpm
     repoid: ubi-8-for-s390x-baseos-source-rpms
     size: 10593861
@@ -5773,10 +5773,10 @@ arches:
     name: zip
     evr: 3.0-23.el8
   module_metadata:
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/appstream/os/repodata/859a2bc9cfa3a0e7ddd8e49c67debc67ed8c6f6c5d9bfda91249edada0c097a5-modules.yaml.gz
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/appstream/os/repodata/a4cbf13f0084e36e1b55bba128f10ab7f034de36620f66fd26e1262fab70f615-modules.yaml.gz
     repoid: ubi-8-for-s390x-appstream-rpms
-    size: 57083
-    checksum: sha256:859a2bc9cfa3a0e7ddd8e49c67debc67ed8c6f6c5d9bfda91249edada0c097a5
+    size: 56989
+    checksum: sha256:a4cbf13f0084e36e1b55bba128f10ab7f034de36620f66fd26e1262fab70f615
 - arch: x86_64
   packages:
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/appstream/os/Packages/a/abattis-cantarell-fonts-0.0.25-6.el8.noarch.rpm
@@ -6430,13 +6430,13 @@ arches:
     name: avahi-libs
     evr: 0.7-27.el8_10.1
     sourcerpm: avahi-0.7-27.el8_10.1.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/b/binutils-2.30-125.el8_10.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/b/binutils-2.30-127.el8_10.x86_64.rpm
     repoid: ubi-8-for-x86_64-baseos-rpms
-    size: 6049096
-    checksum: sha256:047fc8bd5bb6def766c46397c8a535faa3634a54832edb301c4d27dd92400cc0
+    size: 6049476
+    checksum: sha256:c5af511a1bb5cf2f4dc2dbd11c7b1a793d0b3669ea8c799adca453a0adcb67ae
     name: binutils
-    evr: 2.30-125.el8_10
-    sourcerpm: binutils-2.30-125.el8_10.src.rpm
+    evr: 2.30-127.el8_10
+    sourcerpm: binutils-2.30-127.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/c/cups-libs-2.2.6-63.el8_10.x86_64.rpm
     repoid: ubi-8-for-x86_64-baseos-rpms
     size: 446968
@@ -6528,13 +6528,13 @@ arches:
     name: gsettings-desktop-schemas
     evr: 3.32.0-6.el8
     sourcerpm: gsettings-desktop-schemas-3.32.0-6.el8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/k/kernel-headers-4.18.0-553.76.1.el8_10.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/k/kernel-headers-4.18.0-553.80.1.el8_10.x86_64.rpm
     repoid: ubi-8-for-x86_64-baseos-rpms
-    size: 12438012
-    checksum: sha256:6f141d11480b64f97c47190e3f06fc793998ee080123377ed6155820eb631c50
+    size: 12440168
+    checksum: sha256:f8be82dcb2b73527c6c2a491c3442d52d4bad83825929a68b1d07eb14671d098
     name: kernel-headers
-    evr: 4.18.0-553.76.1.el8_10
-    sourcerpm: kernel-4.18.0-553.76.1.el8_10.src.rpm
+    evr: 4.18.0-553.80.1.el8_10
+    sourcerpm: kernel-4.18.0-553.80.1.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/l/less-530-3.el8_10.x86_64.rpm
     repoid: ubi-8-for-x86_64-baseos-rpms
     size: 168216
@@ -7316,12 +7316,12 @@ arches:
     checksum: sha256:60a5d3fe646301e6b866b66d84c3e4b54b3ef2db5d7e15e8c9c14f6c93e1ccad
     name: avahi
     evr: 0.7-27.el8_10.1
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/source/SRPMS/Packages/b/binutils-2.30-125.el8_10.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/source/SRPMS/Packages/b/binutils-2.30-127.el8_10.src.rpm
     repoid: ubi-8-for-x86_64-baseos-source-rpms
-    size: 21080005
-    checksum: sha256:3dfe179ebe80b9640e735710b9f01476905687dc10e5a3516438b24d65e66ff3
+    size: 21097538
+    checksum: sha256:397c7a782b75bc924ccb082718e852a3c9770c415dfaabc3a0170e91a92c3433
     name: binutils
-    evr: 2.30-125.el8_10
+    evr: 2.30-127.el8_10
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/source/SRPMS/Packages/c/cups-2.2.6-63.el8_10.src.rpm
     repoid: ubi-8-for-x86_64-baseos-source-rpms
     size: 10593861
@@ -7677,7 +7677,7 @@ arches:
     name: zip
     evr: 3.0-23.el8
   module_metadata:
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/appstream/os/repodata/cae8b4cab20b02037a0f03caa27dfed5beacfc9a9df35df4f0a8c24ea86477ee-modules.yaml.gz
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/appstream/os/repodata/15aad3221165af96b49d2aea94edb580c8ce58f28daa9459fdb68e419decb4fd-modules.yaml.gz
     repoid: ubi-8-for-x86_64-appstream-rpms
-    size: 59284
-    checksum: sha256:cae8b4cab20b02037a0f03caa27dfed5beacfc9a9df35df4f0a8c24ea86477ee
+    size: 59092
+    checksum: sha256:15aad3221165af96b49d2aea94edb580c8ce58f28daa9459fdb68e419decb4fd
