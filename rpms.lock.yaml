@@ -4232,13 +4232,13 @@ arches:
     name: libthai
     evr: 0.1.27-2.el8
     sourcerpm: libthai-0.1.27-2.el8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/appstream/os/Packages/l/libtiff-4.0.9-34.el8_10.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/appstream/os/Packages/l/libtiff-4.0.9-35.el8_10.s390x.rpm
     repoid: ubi-8-for-s390x-appstream-rpms
-    size: 186452
-    checksum: sha256:fc5d9ae2206bf9f45fe0dd964875f496677a087418c0c3f1380262341b1d961a
+    size: 185456
+    checksum: sha256:677c7f7ae01729bffc149d43ccd7360c64a986e1b4a13150de0a86467dffdb64
     name: libtiff
-    evr: 4.0.9-34.el8_10
-    sourcerpm: libtiff-4.0.9-34.el8_10.src.rpm
+    evr: 4.0.9-35.el8_10
+    sourcerpm: libtiff-4.0.9-35.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/appstream/os/Packages/l/libwayland-client-1.21.0-1.el8.s390x.rpm
     repoid: ubi-8-for-s390x-appstream-rpms
     size: 40764
@@ -5250,12 +5250,12 @@ arches:
     checksum: sha256:9a113dd280215f38d88f16fbead395b97bd27d94bf7a237e4ed46f6edb5e3425
     name: libthai
     evr: 0.1.27-2.el8
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/appstream/source/SRPMS/Packages/l/libtiff-4.0.9-34.el8_10.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/appstream/source/SRPMS/Packages/l/libtiff-4.0.9-35.el8_10.src.rpm
     repoid: ubi-8-for-s390x-appstream-source-rpms
-    size: 2389663
-    checksum: sha256:84e1c107d528cfff29c0cf00f948b7d944f34bbca22b0163b9d42dc83f6c0778
+    size: 2389389
+    checksum: sha256:998f1f3e8afed47b4c5a46c707eaa5f0fbcfcd025e7911f390977d2dc7123d73
     name: libtiff
-    evr: 4.0.9-34.el8_10
+    evr: 4.0.9-35.el8_10
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/appstream/source/SRPMS/Packages/l/libxcb-1.13.1-1.el8.src.rpm
     repoid: ubi-8-for-s390x-appstream-source-rpms
     size: 521714
@@ -5773,10 +5773,10 @@ arches:
     name: zip
     evr: 3.0-23.el8
   module_metadata:
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/appstream/os/repodata/ba775bf0d1c58ed444736628d96a5798ee28260c42ba4796ae904858ae9993a8-modules.yaml.gz
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/appstream/os/repodata/7c3a71b4cba836ea0d5068b74029ae5bc87a79af085457e3e80cea09c068f066-modules.yaml.gz
     repoid: ubi-8-for-s390x-appstream-rpms
     size: 56989
-    checksum: sha256:ba775bf0d1c58ed444736628d96a5798ee28260c42ba4796ae904858ae9993a8
+    checksum: sha256:7c3a71b4cba836ea0d5068b74029ae5bc87a79af085457e3e80cea09c068f066
 - arch: x86_64
   packages:
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/appstream/os/Packages/a/abattis-cantarell-fonts-0.0.25-6.el8.noarch.rpm
