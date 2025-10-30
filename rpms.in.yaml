@@ -35,5 +35,5 @@ context:
     # Alternative to setting command line options. Usually you will only want
     # to include one of these options, with the exception of `flatpak` that
     # can be combined with `image` and `containerfile` 
-    image: registry.access.redhat.com/ubi8/ubi@sha256:2f698e145dd30ac9f611b8984b910640bc210fae476dc36aa9ba200fad2a30ed
+    image: registry.access.redhat.com/ubi8/ubi@sha256:bcfca5f27e2d2a822bdbbe7390601edefee48c3cae03b552a33235dcca4a0e24
 
