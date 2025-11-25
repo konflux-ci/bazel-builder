@@ -4603,13 +4603,13 @@ arches:
     name: gsettings-desktop-schemas
     evr: 3.32.0-6.el8
     sourcerpm: gsettings-desktop-schemas-3.32.0-6.el8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/k/kernel-headers-4.18.0-553.84.1.el8_10.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/k/kernel-headers-4.18.0-553.85.1.el8_10.s390x.rpm
     repoid: ubi-8-for-s390x-baseos-rpms
-    size: 12460032
-    checksum: sha256:a90fc15c3387d8ace147f57fc43bf6243f72b73580c85bb17f284af3aaaedb0a
+    size: 12461000
+    checksum: sha256:50ad25b96dca6a4d475634625badbf36f7a2a8467e4ec57a5a1845983d0909b8
     name: kernel-headers
-    evr: 4.18.0-553.84.1.el8_10
-    sourcerpm: kernel-4.18.0-553.84.1.el8_10.src.rpm
+    evr: 4.18.0-553.85.1.el8_10
+    sourcerpm: kernel-4.18.0-553.85.1.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/l/less-530-3.el8_10.s390x.rpm
     repoid: ubi-8-for-s390x-baseos-rpms
     size: 168392
@@ -7677,7 +7677,7 @@ arches:
     name: zip
     evr: 3.0-23.el8
   module_metadata:
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/appstream/os/repodata/e842b998f5bad51a8fee27c6bdee09bb826c45862fd81bd06b720b75b588bdae-modules.yaml.gz
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/appstream/os/repodata/9215ac8d1279f1de1cb37d8eac3ca002ecb3b43ed292a8b7b36f22c2ace314c3-modules.yaml.gz
     repoid: ubi-8-for-x86_64-appstream-rpms
     size: 59446
-    checksum: sha256:e842b998f5bad51a8fee27c6bdee09bb826c45862fd81bd06b720b75b588bdae
+    checksum: sha256:9215ac8d1279f1de1cb37d8eac3ca002ecb3b43ed292a8b7b36f22c2ace314c3
