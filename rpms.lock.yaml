@@ -662,13 +662,13 @@ arches:
     name: binutils
     evr: 2.30-127.el8_10
     sourcerpm: binutils-2.30-127.el8_10.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/os/Packages/c/cups-libs-2.2.6-63.el8_10.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/os/Packages/c/cups-libs-2.2.6-64.el8_10.aarch64.rpm
     repoid: ubi-8-for-aarch64-baseos-rpms
-    size: 430940
-    checksum: sha256:7df0ef7b0537b32867ded48ddf8908c5632183cdd328064bd4a65f954651fd3a
+    size: 430744
+    checksum: sha256:2710fc91c7372281879df3d27d52d8fee57e834aeb2fb347a9bea479f9df72de
     name: cups-libs
-    evr: 1:2.2.6-63.el8_10
-    sourcerpm: cups-2.2.6-63.el8_10.src.rpm
+    evr: 1:2.2.6-64.el8_10
+    sourcerpm: cups-2.2.6-64.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/os/Packages/d/dejavu-fonts-common-2.35-7.el8.noarch.rpm
     repoid: ubi-8-for-aarch64-baseos-rpms
     size: 76096
@@ -1568,12 +1568,12 @@ arches:
     checksum: sha256:397c7a782b75bc924ccb082718e852a3c9770c415dfaabc3a0170e91a92c3433
     name: binutils
     evr: 2.30-127.el8_10
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/source/SRPMS/Packages/c/cups-2.2.6-63.el8_10.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/source/SRPMS/Packages/c/cups-2.2.6-64.el8_10.src.rpm
     repoid: ubi-8-for-aarch64-baseos-source-rpms
-    size: 10593861
-    checksum: sha256:68eff0240fd55815b5d029facc28e2e07fed8fb5806cf52e22807c0ee4ba0c79
+    size: 10594770
+    checksum: sha256:dd7c246d4bec15c7b0ee86bc68c89e2a34655a4c1d09218c881f62bbac6d33da
     name: cups
-    evr: 1:2.2.6-63.el8_10
+    evr: 1:2.2.6-64.el8_10
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/source/SRPMS/Packages/d/dejavu-fonts-2.35-7.el8.src.rpm
     repoid: ubi-8-for-aarch64-baseos-source-rpms
     size: 11479749
@@ -1923,10 +1923,10 @@ arches:
     name: zip
     evr: 3.0-23.el8
   module_metadata:
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/appstream/os/repodata/beff8868a981731e641731379387bb9a28cb26a508511ccafa329ec92ed2a4e9-modules.yaml.gz
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/appstream/os/repodata/5e5a2c059fa5e23fc23d88f8664805a67b722aa78ec20c097f2ccd69c14f0ed2-modules.yaml.gz
     repoid: ubi-8-for-aarch64-appstream-rpms
     size: 58174
-    checksum: sha256:beff8868a981731e641731379387bb9a28cb26a508511ccafa329ec92ed2a4e9
+    checksum: sha256:5e5a2c059fa5e23fc23d88f8664805a67b722aa78ec20c097f2ccd69c14f0ed2
 - arch: ppc64le
   packages:
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/appstream/os/Packages/a/abattis-cantarell-fonts-0.0.25-6.el8.noarch.rpm
@@ -2587,13 +2587,13 @@ arches:
     name: binutils
     evr: 2.30-127.el8_10
     sourcerpm: binutils-2.30-127.el8_10.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/os/Packages/c/cups-libs-2.2.6-63.el8_10.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/os/Packages/c/cups-libs-2.2.6-64.el8_10.ppc64le.rpm
     repoid: ubi-8-for-ppc64le-baseos-rpms
-    size: 503612
-    checksum: sha256:2cde7b5a3ea47e637be7665c8cc5dcbe62bed14d210171b2d4249115a80f8b5c
+    size: 503604
+    checksum: sha256:c4336c3cc974ee5eacb986a005d0e116795d81e9f13865d0cf32571d84f621c4
     name: cups-libs
-    evr: 1:2.2.6-63.el8_10
-    sourcerpm: cups-2.2.6-63.el8_10.src.rpm
+    evr: 1:2.2.6-64.el8_10
+    sourcerpm: cups-2.2.6-64.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/os/Packages/d/dejavu-fonts-common-2.35-7.el8.noarch.rpm
     repoid: ubi-8-for-ppc64le-baseos-rpms
     size: 76096
@@ -3493,12 +3493,12 @@ arches:
     checksum: sha256:397c7a782b75bc924ccb082718e852a3c9770c415dfaabc3a0170e91a92c3433
     name: binutils
     evr: 2.30-127.el8_10
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/source/SRPMS/Packages/c/cups-2.2.6-63.el8_10.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/source/SRPMS/Packages/c/cups-2.2.6-64.el8_10.src.rpm
     repoid: ubi-8-for-ppc64le-baseos-source-rpms
-    size: 10593861
-    checksum: sha256:68eff0240fd55815b5d029facc28e2e07fed8fb5806cf52e22807c0ee4ba0c79
+    size: 10594770
+    checksum: sha256:dd7c246d4bec15c7b0ee86bc68c89e2a34655a4c1d09218c881f62bbac6d33da
     name: cups
-    evr: 1:2.2.6-63.el8_10
+    evr: 1:2.2.6-64.el8_10
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/source/SRPMS/Packages/d/dejavu-fonts-2.35-7.el8.src.rpm
     repoid: ubi-8-for-ppc64le-baseos-source-rpms
     size: 11479749
@@ -3848,10 +3848,10 @@ arches:
     name: zip
     evr: 3.0-23.el8
   module_metadata:
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/appstream/os/repodata/813b9bed3a2c0a095be844ccb73258f094d1b903eb83e97f2c4c003462fca775-modules.yaml.gz
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/appstream/os/repodata/858638000b95208980e3255c109ac4d241e6cfe4498fe27e01991c6fd856e1d0-modules.yaml.gz
     repoid: ubi-8-for-ppc64le-appstream-rpms
     size: 56043
-    checksum: sha256:813b9bed3a2c0a095be844ccb73258f094d1b903eb83e97f2c4c003462fca775
+    checksum: sha256:858638000b95208980e3255c109ac4d241e6cfe4498fe27e01991c6fd856e1d0
 - arch: s390x
   packages:
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/appstream/os/Packages/a/abattis-cantarell-fonts-0.0.25-6.el8.noarch.rpm
@@ -4512,13 +4512,13 @@ arches:
     name: binutils
     evr: 2.30-127.el8_10
     sourcerpm: binutils-2.30-127.el8_10.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/c/cups-libs-2.2.6-63.el8_10.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/c/cups-libs-2.2.6-64.el8_10.s390x.rpm
     repoid: ubi-8-for-s390x-baseos-rpms
-    size: 422036
-    checksum: sha256:aa6efb3d800c24cc99e1d9a08e9adb201398aca19e1f76cbaba3d189cac7129a
+    size: 422164
+    checksum: sha256:7c368010dd0ac9e5b3ba3f6a50d447dee125fa029a511fab9f8e032de75318b9
     name: cups-libs
-    evr: 1:2.2.6-63.el8_10
-    sourcerpm: cups-2.2.6-63.el8_10.src.rpm
+    evr: 1:2.2.6-64.el8_10
+    sourcerpm: cups-2.2.6-64.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/d/dejavu-fonts-common-2.35-7.el8.noarch.rpm
     repoid: ubi-8-for-s390x-baseos-rpms
     size: 76096
@@ -5418,12 +5418,12 @@ arches:
     checksum: sha256:397c7a782b75bc924ccb082718e852a3c9770c415dfaabc3a0170e91a92c3433
     name: binutils
     evr: 2.30-127.el8_10
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/source/SRPMS/Packages/c/cups-2.2.6-63.el8_10.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/source/SRPMS/Packages/c/cups-2.2.6-64.el8_10.src.rpm
     repoid: ubi-8-for-s390x-baseos-source-rpms
-    size: 10593861
-    checksum: sha256:68eff0240fd55815b5d029facc28e2e07fed8fb5806cf52e22807c0ee4ba0c79
+    size: 10594770
+    checksum: sha256:dd7c246d4bec15c7b0ee86bc68c89e2a34655a4c1d09218c881f62bbac6d33da
     name: cups
-    evr: 1:2.2.6-63.el8_10
+    evr: 1:2.2.6-64.el8_10
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/source/SRPMS/Packages/d/dejavu-fonts-2.35-7.el8.src.rpm
     repoid: ubi-8-for-s390x-baseos-source-rpms
     size: 11479749
@@ -5773,10 +5773,10 @@ arches:
     name: zip
     evr: 3.0-23.el8
   module_metadata:
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/appstream/os/repodata/1b312afe0f59219665bd480ab06ec357d540630f6dcdd0770120d07520c09c78-modules.yaml.gz
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/appstream/os/repodata/176753c7a6fd6d97f61294c78b449c6175802e1420b8999cf76807a66d0b3658-modules.yaml.gz
     repoid: ubi-8-for-s390x-appstream-rpms
     size: 57030
-    checksum: sha256:1b312afe0f59219665bd480ab06ec357d540630f6dcdd0770120d07520c09c78
+    checksum: sha256:176753c7a6fd6d97f61294c78b449c6175802e1420b8999cf76807a66d0b3658
 - arch: x86_64
   packages:
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/appstream/os/Packages/a/abattis-cantarell-fonts-0.0.25-6.el8.noarch.rpm
@@ -6437,13 +6437,13 @@ arches:
     name: binutils
     evr: 2.30-127.el8_10
     sourcerpm: binutils-2.30-127.el8_10.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/c/cups-libs-2.2.6-63.el8_10.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/c/cups-libs-2.2.6-64.el8_10.x86_64.rpm
     repoid: ubi-8-for-x86_64-baseos-rpms
-    size: 446968
-    checksum: sha256:24a4e0a44b9bf2e8d1a909c207b3e09b7c678e9146298b3750a049f36c1ad85f
+    size: 447004
+    checksum: sha256:0935aa274c362a4126aa4b50767d8fa7193cd49dd785cbcfefb37d55d550f991
     name: cups-libs
-    evr: 1:2.2.6-63.el8_10
-    sourcerpm: cups-2.2.6-63.el8_10.src.rpm
+    evr: 1:2.2.6-64.el8_10
+    sourcerpm: cups-2.2.6-64.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/d/dejavu-fonts-common-2.35-7.el8.noarch.rpm
     repoid: ubi-8-for-x86_64-baseos-rpms
     size: 76096
@@ -7322,12 +7322,12 @@ arches:
     checksum: sha256:397c7a782b75bc924ccb082718e852a3c9770c415dfaabc3a0170e91a92c3433
     name: binutils
     evr: 2.30-127.el8_10
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/source/SRPMS/Packages/c/cups-2.2.6-63.el8_10.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/source/SRPMS/Packages/c/cups-2.2.6-64.el8_10.src.rpm
     repoid: ubi-8-for-x86_64-baseos-source-rpms
-    size: 10593861
-    checksum: sha256:68eff0240fd55815b5d029facc28e2e07fed8fb5806cf52e22807c0ee4ba0c79
+    size: 10594770
+    checksum: sha256:dd7c246d4bec15c7b0ee86bc68c89e2a34655a4c1d09218c881f62bbac6d33da
     name: cups
-    evr: 1:2.2.6-63.el8_10
+    evr: 1:2.2.6-64.el8_10
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/source/SRPMS/Packages/d/dejavu-fonts-2.35-7.el8.src.rpm
     repoid: ubi-8-for-x86_64-baseos-source-rpms
     size: 11479749
@@ -7677,7 +7677,7 @@ arches:
     name: zip
     evr: 3.0-23.el8
   module_metadata:
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/appstream/os/repodata/cf78e8ae3beea40ae183db2a530f95fa402ffbc0efe0797963b066dbfadaa4c2-modules.yaml.gz
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/appstream/os/repodata/bb5e89dc1b70a98f11b0094ead6761ffecc333bfc2f633ef98c327046939a3e0-modules.yaml.gz
     repoid: ubi-8-for-x86_64-appstream-rpms
     size: 59446
-    checksum: sha256:cf78e8ae3beea40ae183db2a530f95fa402ffbc0efe0797963b066dbfadaa4c2
+    checksum: sha256:bb5e89dc1b70a98f11b0094ead6761ffecc333bfc2f633ef98c327046939a3e0
