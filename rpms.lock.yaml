@@ -305,13 +305,13 @@ arches:
     name: jbigkit-libs
     evr: 2.1-23.el9
     sourcerpm: jbigkit-2.1-23.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-611.9.1.el9_7.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-611.11.1.el9_7.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 2947053
-    checksum: sha256:027e7b92ff011661916bb1ceda09904321fdcd3f2ec59f3b672a4fa0eedea79f
+    size: 2949005
+    checksum: sha256:52fa6c55d23ea04ab1c2c553189b5e0c5144f03f15aa6f8a0367b41fdac639c5
     name: kernel-headers
-    evr: 5.14.0-611.9.1.el9_7
-    sourcerpm: kernel-5.14.0-611.9.1.el9_7.src.rpm
+    evr: 5.14.0-611.11.1.el9_7
+    sourcerpm: kernel-5.14.0-611.11.1.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/lcms2-2.12-3.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
     size: 171119
@@ -3166,13 +3166,13 @@ arches:
     name: jbigkit-libs
     evr: 2.1-23.el9
     sourcerpm: jbigkit-2.1-23.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/k/kernel-headers-5.14.0-611.9.1.el9_7.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/k/kernel-headers-5.14.0-611.11.1.el9_7.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
-    size: 2968717
-    checksum: sha256:96d9b573bc2d259cb1dae82ed834f6764a41adfe1df4000f69bcb4ce0177cb55
+    size: 2970697
+    checksum: sha256:a868f49df4fd6b2a613568677728ac5f97670bc1d086a6186b77f8f9823cf65f
     name: kernel-headers
-    evr: 5.14.0-611.9.1.el9_7
-    sourcerpm: kernel-5.14.0-611.9.1.el9_7.src.rpm
+    evr: 5.14.0-611.11.1.el9_7
+    sourcerpm: kernel-5.14.0-611.11.1.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/l/lcms2-2.12-3.el9.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
     size: 198719
@@ -6055,13 +6055,13 @@ arches:
     name: jbigkit-libs
     evr: 2.1-23.el9
     sourcerpm: jbigkit-2.1-23.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/k/kernel-headers-5.14.0-611.9.1.el9_7.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/k/kernel-headers-5.14.0-611.11.1.el9_7.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
-    size: 2977293
-    checksum: sha256:e8175799bea2887154e6b820d414c4001a7c2301fc5854365c2a395d52ebb1a7
+    size: 2979241
+    checksum: sha256:7540f24158e85f4d0d76cb170b3baadc6cb9d30cfda8d07dba9ca075e4ad2203
     name: kernel-headers
-    evr: 5.14.0-611.9.1.el9_7
-    sourcerpm: kernel-5.14.0-611.9.1.el9_7.src.rpm
+    evr: 5.14.0-611.11.1.el9_7
+    sourcerpm: kernel-5.14.0-611.11.1.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/lcms2-2.12-3.el9.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
     size: 168399
@@ -8878,13 +8878,13 @@ arches:
     name: jbigkit-libs
     evr: 2.1-23.el9
     sourcerpm: jbigkit-2.1-23.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-611.9.1.el9_7.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-611.11.1.el9_7.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 2986133
-    checksum: sha256:1220af276eeadf50e03825d4013fffdd571f70a7033e8988f24f5d78b0358187
+    size: 2988057
+    checksum: sha256:55d22b98fe2fd0646dd7832b4355bf95d5949d62f3196328592d3597b1e843da
     name: kernel-headers
-    evr: 5.14.0-611.9.1.el9_7
-    sourcerpm: kernel-5.14.0-611.9.1.el9_7.src.rpm
+    evr: 5.14.0-611.11.1.el9_7
+    sourcerpm: kernel-5.14.0-611.11.1.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/lcms2-2.12-3.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 173479
