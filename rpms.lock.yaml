@@ -753,13 +753,13 @@ arches:
     name: gsettings-desktop-schemas
     evr: 3.32.0-6.el8
     sourcerpm: gsettings-desktop-schemas-3.32.0-6.el8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/os/Packages/k/kernel-headers-4.18.0-553.85.1.el8_10.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/os/Packages/k/kernel-headers-4.18.0-553.87.1.el8_10.aarch64.rpm
     repoid: ubi-8-for-aarch64-baseos-rpms
-    size: 12434048
-    checksum: sha256:03b48101c59c309177d1ca515697f1881fa19645329520d5de46ebbc1510e78b
+    size: 12435808
+    checksum: sha256:fdfd78488bc4c1635ba23f0275b75131ee32f8d41578c07be1d4e9d66bd2e69b
     name: kernel-headers
-    evr: 4.18.0-553.85.1.el8_10
-    sourcerpm: kernel-4.18.0-553.85.1.el8_10.src.rpm
+    evr: 4.18.0-553.87.1.el8_10
+    sourcerpm: kernel-4.18.0-553.87.1.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/aarch64/baseos/os/Packages/l/less-530-3.el8_10.aarch64.rpm
     repoid: ubi-8-for-aarch64-baseos-rpms
     size: 165440
@@ -2678,13 +2678,13 @@ arches:
     name: gsettings-desktop-schemas
     evr: 3.32.0-6.el8
     sourcerpm: gsettings-desktop-schemas-3.32.0-6.el8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/os/Packages/k/kernel-headers-4.18.0-553.85.1.el8_10.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/os/Packages/k/kernel-headers-4.18.0-553.87.1.el8_10.ppc64le.rpm
     repoid: ubi-8-for-ppc64le-baseos-rpms
-    size: 12453284
-    checksum: sha256:b8d904e85538e996aecf0733a88f02b5f294889a16b9ad367d2c9bbbab0fc02b
+    size: 12454988
+    checksum: sha256:7af7b5c05704696ac62602e35164bdfd60882fb40bd0844b4f1d2dbdd9b78ee8
     name: kernel-headers
-    evr: 4.18.0-553.85.1.el8_10
-    sourcerpm: kernel-4.18.0-553.85.1.el8_10.src.rpm
+    evr: 4.18.0-553.87.1.el8_10
+    sourcerpm: kernel-4.18.0-553.87.1.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/ppc64le/baseos/os/Packages/l/less-530-3.el8_10.ppc64le.rpm
     repoid: ubi-8-for-ppc64le-baseos-rpms
     size: 178908
@@ -4603,13 +4603,13 @@ arches:
     name: gsettings-desktop-schemas
     evr: 3.32.0-6.el8
     sourcerpm: gsettings-desktop-schemas-3.32.0-6.el8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/k/kernel-headers-4.18.0-553.85.1.el8_10.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/k/kernel-headers-4.18.0-553.87.1.el8_10.s390x.rpm
     repoid: ubi-8-for-s390x-baseos-rpms
-    size: 12461000
-    checksum: sha256:50ad25b96dca6a4d475634625badbf36f7a2a8467e4ec57a5a1845983d0909b8
+    size: 12463124
+    checksum: sha256:67861db6c4311d406b432464a903e3699c8f01e5379ec4f06f12996c7c76976a
     name: kernel-headers
-    evr: 4.18.0-553.85.1.el8_10
-    sourcerpm: kernel-4.18.0-553.85.1.el8_10.src.rpm
+    evr: 4.18.0-553.87.1.el8_10
+    sourcerpm: kernel-4.18.0-553.87.1.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/s390x/baseos/os/Packages/l/less-530-3.el8_10.s390x.rpm
     repoid: ubi-8-for-s390x-baseos-rpms
     size: 168392
@@ -6528,13 +6528,13 @@ arches:
     name: gsettings-desktop-schemas
     evr: 3.32.0-6.el8
     sourcerpm: gsettings-desktop-schemas-3.32.0-6.el8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/k/kernel-headers-4.18.0-553.85.1.el8_10.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/k/kernel-headers-4.18.0-553.87.1.el8_10.x86_64.rpm
     repoid: ubi-8-for-x86_64-baseos-rpms
-    size: 12465736
-    checksum: sha256:76fb34f2e8379b670e9acc8b9f513b115aeff8d60dddc9e2db4fe052be7633ba
+    size: 12467464
+    checksum: sha256:2eaf1fe2bac157e0822d2df430260eaf03abe853e1ff93219b64a228d5f29f29
     name: kernel-headers
-    evr: 4.18.0-553.85.1.el8_10
-    sourcerpm: kernel-4.18.0-553.85.1.el8_10.src.rpm
+    evr: 4.18.0-553.87.1.el8_10
+    sourcerpm: kernel-4.18.0-553.87.1.el8_10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/l/less-530-3.el8_10.x86_64.rpm
     repoid: ubi-8-for-x86_64-baseos-rpms
     size: 168216
