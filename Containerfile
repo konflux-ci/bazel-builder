@@ -1,4 +1,3 @@
-
 ARG IMAGE
 FROM $IMAGE as builder
 
@@ -10,12 +9,10 @@ ARG UBI_VERSION
 RUN test "$UBI_VERSION" = "8" && dnf -y install gcc-c++ zip unzip java-"$OPENJDK_VERSION"-openjdk-devel python39 gpg || true
 RUN test "$UBI_VERSION" = "9" && dnf -y install gcc-c++ zip unzip java-"$OPENJDK_VERSION"-openjdk-devel python3 gpg || true
 
-# fetch source
-# RUN curl -LO https://github.com/bazelbuild/bazel/releases/download/"$BAZEL_VERSION"/bazel-"$BAZEL_VERSION"-dist.zip
-# COPY ./cachi2/output/deps/generic/bazel-"$BAZEL_VERSION"-dist.zip bazel-"$BAZEL_VERSION"-dist.zip
+## used for local build only
+#RUN curl -LO https://github.com/bazelbuild/bazel/releases/download/"$BAZEL_VERSION"/bazel-"$BAZEL_VERSION"-dist.zip
+#RUN unzip ./bazel-"$BAZEL_VERSION"-dist.zip -d /bazel
 
-# verify signature
-# RUN curl -LO https://github.com/bazelbuild/bazel/releases/download/"$BAZEL_VERSION"/bazel-"$BAZEL_VERSION"-dist.zip.sig
 COPY bazel-release.pub.gpg bazel-release.pub.gpg
 RUN gpg --import bazel-release.pub.gpg
 RUN gpg --verify ./cachi2/output/deps/generic/bazel-$BAZEL_VERSION-dist.zip.sig  ./cachi2/output/deps/generic/bazel-"$BAZEL_VERSION"-dist.zip
@@ -23,7 +20,9 @@ RUN gpg --verify ./cachi2/output/deps/generic/bazel-$BAZEL_VERSION-dist.zip.sig 
 # build
 RUN unzip ./cachi2/output/deps/generic/bazel-"$BAZEL_VERSION"-dist.zip -d /bazel
 WORKDIR /bazel
-RUN  env EXTRA_BAZEL_ARGS="--tool_java_runtime_version=local_jdk" bash ./compile.sh
+# Pin bazel_features to 1.11.0 by adding a single_version_override to MODULE.bazel
+RUN echo 'single_version_override(module_name = "bazel_features", version = "1.11.0")' >> MODULE.bazel
+RUN env EXTRA_BAZEL_ARGS="--tool_java_runtime_version=local_jdk --lockfile_mode=off" bash ./compile.sh
 RUN scripts/generate_bash_completion.sh --bazel=output/bazel --output=output/bazel-complete.bash
 
 # Copy
