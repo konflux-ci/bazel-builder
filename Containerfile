@@ -20,9 +20,8 @@ RUN gpg --verify ./cachi2/output/deps/generic/bazel-$BAZEL_VERSION-dist.zip.sig 
 # build
 RUN unzip ./cachi2/output/deps/generic/bazel-"$BAZEL_VERSION"-dist.zip -d /bazel
 WORKDIR /bazel
-# Pin bazel_features to 1.11.0 by adding a single_version_override to MODULE.bazel
-RUN echo 'single_version_override(module_name = "bazel_features", version = "1.11.0")' >> MODULE.bazel
-RUN env EXTRA_BAZEL_ARGS="--tool_java_runtime_version=local_jdk --lockfile_mode=off" bash ./compile.sh
+# workaround for https://github.com/bazelbuild/bazel/issues/27401
+RUN env BAZEL_DEV_VERSION_OVERRIDE=7.7.1 EXTRA_BAZEL_ARGS="--tool_java_runtime_version=local_jdk --lockfile_mode=off" bash ./compile.sh
 RUN scripts/generate_bash_completion.sh --bazel=output/bazel --output=output/bazel-complete.bash
 
 # Copy
