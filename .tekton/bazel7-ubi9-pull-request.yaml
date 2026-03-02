@@ -616,6 +616,13 @@ spec:
       optional: true
   taskRunTemplate:
     serviceAccountName: build-pipeline-bazel7-ubi9
+    computeResources:
+      requests:
+        cpu: "4"
+        memory: 8Gi
+      limits:
+        cpu: "4"
+        memory: 8Gi
   workspaces:
   - name: git-auth
     secret:
