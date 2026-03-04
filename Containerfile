@@ -21,7 +21,7 @@ RUN gpg --verify ./cachi2/output/deps/generic/bazel-$BAZEL_VERSION-dist.zip.sig 
 RUN unzip ./cachi2/output/deps/generic/bazel-"$BAZEL_VERSION"-dist.zip -d /bazel
 WORKDIR /bazel
 # workaround for https://github.com/bazelbuild/bazel/issues/27401
-RUN env BAZEL_DEV_VERSION_OVERRIDE=7.7.1 EXTRA_BAZEL_ARGS="--tool_java_runtime_version=local_jdk --lockfile_mode=off" bash ./compile.sh
+RUN env BAZEL_DEV_VERSION_OVERRIDE=${BAZEL_VERSION} EXTRA_BAZEL_ARGS="--tool_java_runtime_version=local_jdk --lockfile_mode=off" bash ./compile.sh
 RUN scripts/generate_bash_completion.sh --bazel=output/bazel --output=output/bazel-complete.bash
 
 # Copy
