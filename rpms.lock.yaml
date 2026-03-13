@@ -753,41 +753,41 @@ arches:
     name: lua-posix
     evr: 35.0-8.el9
     sourcerpm: lua-posix-35.0-8.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/m/mesa-dri-drivers-25.0.7-4.el9_7.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/m/mesa-dri-drivers-25.0.7-5.el9_7.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 8605539
-    checksum: sha256:64cc3f77744d062dfb879b0c146ab0b2b83298d4217028a5bf0331a6a5c11151
+    size: 8591702
+    checksum: sha256:07bd4e85ab2e2280d8558fd283fa1d1e193d1ca90bfd71fcf4ff828336e5a9e2
     name: mesa-dri-drivers
-    evr: 25.0.7-4.el9_7
-    sourcerpm: mesa-25.0.7-4.el9_7.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/m/mesa-filesystem-25.0.7-4.el9_7.aarch64.rpm
+    evr: 25.0.7-5.el9_7
+    sourcerpm: mesa-25.0.7-5.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/m/mesa-filesystem-25.0.7-5.el9_7.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 17197
-    checksum: sha256:ec820aa77391a510c3793986b35ac552700077b7b0329a84b974c2e288b93d92
+    size: 17237
+    checksum: sha256:55b9dd9731fe483fd6679bc569f7edfbbc4ae89de2fdd55e989ae5891c78b620
     name: mesa-filesystem
-    evr: 25.0.7-4.el9_7
-    sourcerpm: mesa-25.0.7-4.el9_7.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/m/mesa-libEGL-25.0.7-4.el9_7.aarch64.rpm
+    evr: 25.0.7-5.el9_7
+    sourcerpm: mesa-25.0.7-5.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/m/mesa-libEGL-25.0.7-5.el9_7.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 141105
-    checksum: sha256:9825f638f3b839893410885cfc8bf476bd70046e75e9f582cd0aff4bb592bc99
+    size: 141131
+    checksum: sha256:3df6a65a2ac35f48875c4af4ad02dbf938dc7c0fe2daf1ae1061ed3c07d1e1ac
     name: mesa-libEGL
-    evr: 25.0.7-4.el9_7
-    sourcerpm: mesa-25.0.7-4.el9_7.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/m/mesa-libGL-25.0.7-4.el9_7.aarch64.rpm
+    evr: 25.0.7-5.el9_7
+    sourcerpm: mesa-25.0.7-5.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/m/mesa-libGL-25.0.7-5.el9_7.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 171186
-    checksum: sha256:fde833581230a93d2f28fe014d40d0c6681e8f1dce1db1b87e1ba7437db7c1ff
+    size: 171711
+    checksum: sha256:89eed43268c51b74821c31ec7557f8ebf06cfa04206b804aee05de33cc1e0d46
     name: mesa-libGL
-    evr: 25.0.7-4.el9_7
-    sourcerpm: mesa-25.0.7-4.el9_7.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/m/mesa-libgbm-25.0.7-4.el9_7.aarch64.rpm
+    evr: 25.0.7-5.el9_7
+    sourcerpm: mesa-25.0.7-5.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/m/mesa-libgbm-25.0.7-5.el9_7.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 23112
-    checksum: sha256:ac8f0e7b3189455fc27a560e10c39f049b32164e8ffb983aab2b78b1539d2468
+    size: 23146
+    checksum: sha256:1968e94519cfea3eaa9148838bbd1de37acb2bb92b28ee80685d3d01aa61592e
     name: mesa-libgbm
-    evr: 25.0.7-4.el9_7
-    sourcerpm: mesa-25.0.7-4.el9_7.src.rpm
+    evr: 25.0.7-5.el9_7
+    sourcerpm: mesa-25.0.7-5.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/m/mkfontscale-1.2.1-3.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
     size: 34837
@@ -2225,12 +2225,12 @@ arches:
     checksum: sha256:dba43478e632a56d95cdbbda1fba2e4c1e626126902cfe5ae9985f088928e431
     name: lua-posix
     evr: 35.0-8.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/m/mesa-25.0.7-4.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/m/mesa-25.0.7-5.el9_7.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
-    size: 50526037
-    checksum: sha256:e3623c5c4cdedeb85987e91b20cbd30d8db5f2199cd895672e221f9b941b0b1f
+    size: 50528337
+    checksum: sha256:8c47f86f18e88610a6909de37064d54aebc69345941adea2c25d2ad6b11d20d3
     name: mesa
-    evr: 25.0.7-4.el9_7
+    evr: 25.0.7-5.el9_7
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/m/mkfontscale-1.2.1-3.el9.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
     size: 161434
@@ -3601,41 +3601,41 @@ arches:
     name: lua-posix
     evr: 35.0-8.el9
     sourcerpm: lua-posix-35.0-8.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/m/mesa-dri-drivers-25.0.7-4.el9_7.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/m/mesa-dri-drivers-25.0.7-5.el9_7.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
-    size: 7938750
-    checksum: sha256:ba8b0bfcb7d92399c4b2809b9961f4298a4952c81fa25a027f66bcc14afdebc0
+    size: 7932275
+    checksum: sha256:d1153fbb9d6229a7a47fad41ac9c161a1830e225f2c13500e3cb89f423fbe069
     name: mesa-dri-drivers
-    evr: 25.0.7-4.el9_7
-    sourcerpm: mesa-25.0.7-4.el9_7.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/m/mesa-filesystem-25.0.7-4.el9_7.ppc64le.rpm
+    evr: 25.0.7-5.el9_7
+    sourcerpm: mesa-25.0.7-5.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/m/mesa-filesystem-25.0.7-5.el9_7.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
-    size: 17209
-    checksum: sha256:e87e581bd5a9ee62c6df5783c334e4cb72ac76e81bb630e9a2db9e336f346c2d
+    size: 17246
+    checksum: sha256:3e970a8c83abe64360768aad0b9fbef9113ad2bc925abe899d3d038d0fd08551
     name: mesa-filesystem
-    evr: 25.0.7-4.el9_7
-    sourcerpm: mesa-25.0.7-4.el9_7.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/m/mesa-libEGL-25.0.7-4.el9_7.ppc64le.rpm
+    evr: 25.0.7-5.el9_7
+    sourcerpm: mesa-25.0.7-5.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/m/mesa-libEGL-25.0.7-5.el9_7.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
-    size: 156774
-    checksum: sha256:24445b93c206868bf4e0c46fd39ca2f867f41a2b2e1ebf70eb4a5b07a782a455
+    size: 156854
+    checksum: sha256:4860f2aee6f7c65d801fdae656e2e3447a028c799dc260c7babea0c13691a837
     name: mesa-libEGL
-    evr: 25.0.7-4.el9_7
-    sourcerpm: mesa-25.0.7-4.el9_7.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/m/mesa-libGL-25.0.7-4.el9_7.ppc64le.rpm
+    evr: 25.0.7-5.el9_7
+    sourcerpm: mesa-25.0.7-5.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/m/mesa-libGL-25.0.7-5.el9_7.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
-    size: 181072
-    checksum: sha256:fb033316d41d4028238732a1896f96bb94c5aa4facb29f3a9ca33ceae1ff2cc9
+    size: 181106
+    checksum: sha256:fcc4cdbddc7411c1e2fa96382b2ef5767877cb16b9b2c7ddb8dd5c7d3c75540a
     name: mesa-libGL
-    evr: 25.0.7-4.el9_7
-    sourcerpm: mesa-25.0.7-4.el9_7.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/m/mesa-libgbm-25.0.7-4.el9_7.ppc64le.rpm
+    evr: 25.0.7-5.el9_7
+    sourcerpm: mesa-25.0.7-5.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/m/mesa-libgbm-25.0.7-5.el9_7.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
-    size: 23512
-    checksum: sha256:db526290a61f8c48662ff50c17fb5dca552a91f2bd5413dbf0181abc7f278ed7
+    size: 23563
+    checksum: sha256:ca2b21bca07d4fb0ae58f9da216c28c9715e665720e6b46cd003554e675e06b7
     name: mesa-libgbm
-    evr: 25.0.7-4.el9_7
-    sourcerpm: mesa-25.0.7-4.el9_7.src.rpm
+    evr: 25.0.7-5.el9_7
+    sourcerpm: mesa-25.0.7-5.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/m/mkfontscale-1.2.1-3.el9.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
     size: 37595
@@ -5073,12 +5073,12 @@ arches:
     checksum: sha256:dba43478e632a56d95cdbbda1fba2e4c1e626126902cfe5ae9985f088928e431
     name: lua-posix
     evr: 35.0-8.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/m/mesa-25.0.7-4.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/m/mesa-25.0.7-5.el9_7.src.rpm
     repoid: ubi-9-for-ppc64le-appstream-source-rpms
-    size: 50526037
-    checksum: sha256:e3623c5c4cdedeb85987e91b20cbd30d8db5f2199cd895672e221f9b941b0b1f
+    size: 50528337
+    checksum: sha256:8c47f86f18e88610a6909de37064d54aebc69345941adea2c25d2ad6b11d20d3
     name: mesa
-    evr: 25.0.7-4.el9_7
+    evr: 25.0.7-5.el9_7
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/m/mkfontscale-1.2.1-3.el9.src.rpm
     repoid: ubi-9-for-ppc64le-appstream-source-rpms
     size: 161434
@@ -6484,41 +6484,41 @@ arches:
     name: lua-posix
     evr: 35.0-8.el9
     sourcerpm: lua-posix-35.0-8.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/m/mesa-dri-drivers-25.0.7-4.el9_7.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/m/mesa-dri-drivers-25.0.7-5.el9_7.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
-    size: 3581988
-    checksum: sha256:fc750d9e2647eabe72e5e31d793b2dc83e2eb324d52b2f7e5f2bbc32cc998b6f
+    size: 3580792
+    checksum: sha256:316796c053ea92cc5d5f53ff7d75cd939a0d0b9238af2dbfd012cd63fcc080ca
     name: mesa-dri-drivers
-    evr: 25.0.7-4.el9_7
-    sourcerpm: mesa-25.0.7-4.el9_7.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/m/mesa-filesystem-25.0.7-4.el9_7.s390x.rpm
+    evr: 25.0.7-5.el9_7
+    sourcerpm: mesa-25.0.7-5.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/m/mesa-filesystem-25.0.7-5.el9_7.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
-    size: 17199
-    checksum: sha256:9e9df8c561c5e92859b5e31884197d4a83847cf4feb4ab263c594cca07b352d8
+    size: 17234
+    checksum: sha256:826ff342b8ceb7952f1fa012402678f2c67d2dc20fb79eae2fe06f16c000b05e
     name: mesa-filesystem
-    evr: 25.0.7-4.el9_7
-    sourcerpm: mesa-25.0.7-4.el9_7.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/m/mesa-libEGL-25.0.7-4.el9_7.s390x.rpm
+    evr: 25.0.7-5.el9_7
+    sourcerpm: mesa-25.0.7-5.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/m/mesa-libEGL-25.0.7-5.el9_7.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
-    size: 139440
-    checksum: sha256:167fc3c6a58b078d63adb41d90913726fca2138918c15fa4a5493e65d816ae74
+    size: 139436
+    checksum: sha256:d46cb9358fccbd983b37c762b176a33fd4ce2894fbb129903a57ec825d676fbf
     name: mesa-libEGL
-    evr: 25.0.7-4.el9_7
-    sourcerpm: mesa-25.0.7-4.el9_7.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/m/mesa-libGL-25.0.7-4.el9_7.s390x.rpm
+    evr: 25.0.7-5.el9_7
+    sourcerpm: mesa-25.0.7-5.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/m/mesa-libGL-25.0.7-5.el9_7.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
-    size: 175141
-    checksum: sha256:fe07a0e7cd5f169b0cc71b917a102299cc0490171569571918e41ef3b914d10f
+    size: 175103
+    checksum: sha256:746a08247c1304f59a7a4b4b7d1c54a3659a28feb5547dd8ebaea1b7f649bfb5
     name: mesa-libGL
-    evr: 25.0.7-4.el9_7
-    sourcerpm: mesa-25.0.7-4.el9_7.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/m/mesa-libgbm-25.0.7-4.el9_7.s390x.rpm
+    evr: 25.0.7-5.el9_7
+    sourcerpm: mesa-25.0.7-5.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/m/mesa-libgbm-25.0.7-5.el9_7.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
-    size: 22979
-    checksum: sha256:bc920d2b02c69b06d78bcf40f869987c6b9f99133e7e30d1ab7e9d312733cd3e
+    size: 23017
+    checksum: sha256:217921cc710356d1dee831e7eb41f37324b5f1f745d8bb78e8e8b26fc6b8b528
     name: mesa-libgbm
-    evr: 25.0.7-4.el9_7
-    sourcerpm: mesa-25.0.7-4.el9_7.src.rpm
+    evr: 25.0.7-5.el9_7
+    sourcerpm: mesa-25.0.7-5.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/m/mkfontscale-1.2.1-3.el9.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
     size: 34797
@@ -7928,12 +7928,12 @@ arches:
     checksum: sha256:dba43478e632a56d95cdbbda1fba2e4c1e626126902cfe5ae9985f088928e431
     name: lua-posix
     evr: 35.0-8.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/m/mesa-25.0.7-4.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/m/mesa-25.0.7-5.el9_7.src.rpm
     repoid: ubi-9-for-s390x-appstream-source-rpms
-    size: 50526037
-    checksum: sha256:e3623c5c4cdedeb85987e91b20cbd30d8db5f2199cd895672e221f9b941b0b1f
+    size: 50528337
+    checksum: sha256:8c47f86f18e88610a6909de37064d54aebc69345941adea2c25d2ad6b11d20d3
     name: mesa
-    evr: 25.0.7-4.el9_7
+    evr: 25.0.7-5.el9_7
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/m/mkfontscale-1.2.1-3.el9.src.rpm
     repoid: ubi-9-for-s390x-appstream-source-rpms
     size: 161434
@@ -9273,41 +9273,41 @@ arches:
     name: lua-posix
     evr: 35.0-8.el9
     sourcerpm: lua-posix-35.0-8.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/m/mesa-dri-drivers-25.0.7-4.el9_7.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/m/mesa-dri-drivers-25.0.7-5.el9_7.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 10130517
-    checksum: sha256:8f648e43ac5f8fb789ee2edeedd3d8f3cf9b2a0faa3023a89e373174c40ddf90
+    size: 10130792
+    checksum: sha256:8e9069f222864aebc2ee8446e40bc46e58dfe902faedb4b158358d36d173dbe7
     name: mesa-dri-drivers
-    evr: 25.0.7-4.el9_7
-    sourcerpm: mesa-25.0.7-4.el9_7.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/m/mesa-filesystem-25.0.7-4.el9_7.x86_64.rpm
+    evr: 25.0.7-5.el9_7
+    sourcerpm: mesa-25.0.7-5.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/m/mesa-filesystem-25.0.7-5.el9_7.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 17223
-    checksum: sha256:34d17aedbed075ff4438ec5f3e3fab5010b44223099d9134727ebd060f265c5c
+    size: 17259
+    checksum: sha256:00170cbccc6cbde925d5c0a3a9bc1573e0698089ba73b5b6ce58c1ac3481e107
     name: mesa-filesystem
-    evr: 25.0.7-4.el9_7
-    sourcerpm: mesa-25.0.7-4.el9_7.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/m/mesa-libEGL-25.0.7-4.el9_7.x86_64.rpm
+    evr: 25.0.7-5.el9_7
+    sourcerpm: mesa-25.0.7-5.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/m/mesa-libEGL-25.0.7-5.el9_7.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 145496
-    checksum: sha256:4d7da18b6257e3bbf2dbd0e7f562d9fa66c8ab6f79f75ff6ea396ae9740ffbfd
+    size: 145490
+    checksum: sha256:ed4c8f29c90eb1a1886c6684194f8df3a5c429e4aea34550cf0c2502a525d96d
     name: mesa-libEGL
-    evr: 25.0.7-4.el9_7
-    sourcerpm: mesa-25.0.7-4.el9_7.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/m/mesa-libGL-25.0.7-4.el9_7.x86_64.rpm
+    evr: 25.0.7-5.el9_7
+    sourcerpm: mesa-25.0.7-5.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/m/mesa-libGL-25.0.7-5.el9_7.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 164663
-    checksum: sha256:cd037d4f861f8c854cb8344ef3fa354ab09df9091130770113673e6992623520
+    size: 164690
+    checksum: sha256:3aa11785826c18f6fe62b600fd70a0a401bb019d80cb1ecb9d70f64bdb96264f
     name: mesa-libGL
-    evr: 25.0.7-4.el9_7
-    sourcerpm: mesa-25.0.7-4.el9_7.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/m/mesa-libgbm-25.0.7-4.el9_7.x86_64.rpm
+    evr: 25.0.7-5.el9_7
+    sourcerpm: mesa-25.0.7-5.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/m/mesa-libgbm-25.0.7-5.el9_7.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 23182
-    checksum: sha256:336a0e255659dcb018313ec1cf69d026c5f295eb34550067c4aae7f358e82c87
+    size: 23220
+    checksum: sha256:1534ba2175911314bad6f891e55c9284bc24abdd6974ff64be57f841694af437
     name: mesa-libgbm
-    evr: 25.0.7-4.el9_7
-    sourcerpm: mesa-25.0.7-4.el9_7.src.rpm
+    evr: 25.0.7-5.el9_7
+    sourcerpm: mesa-25.0.7-5.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/m/mkfontscale-1.2.1-3.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 35081
@@ -10745,12 +10745,12 @@ arches:
     checksum: sha256:dba43478e632a56d95cdbbda1fba2e4c1e626126902cfe5ae9985f088928e431
     name: lua-posix
     evr: 35.0-8.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/m/mesa-25.0.7-4.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/m/mesa-25.0.7-5.el9_7.src.rpm
     repoid: ubi-9-for-x86_64-appstream-source-rpms
-    size: 50526037
-    checksum: sha256:e3623c5c4cdedeb85987e91b20cbd30d8db5f2199cd895672e221f9b941b0b1f
+    size: 50528337
+    checksum: sha256:8c47f86f18e88610a6909de37064d54aebc69345941adea2c25d2ad6b11d20d3
     name: mesa
-    evr: 25.0.7-4.el9_7
+    evr: 25.0.7-5.el9_7
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/m/mkfontscale-1.2.1-3.el9.src.rpm
     repoid: ubi-9-for-x86_64-appstream-source-rpms
     size: 161434
