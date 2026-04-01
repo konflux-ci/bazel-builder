@@ -235,13 +235,13 @@ arches:
     name: gstreamer1
     evr: 1.22.12-3.el9
     sourcerpm: gstreamer1-1.22.12-3.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/g/gstreamer1-plugins-base-1.22.12-4.el9.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/g/gstreamer1-plugins-base-1.22.12-5.el9_7.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 2230704
-    checksum: sha256:5a8659cf5abadfebf7b133f7f8610f5351436825545323ad598b6ecf7c9d6859
+    size: 2228231
+    checksum: sha256:73a59873d7f0663f233d33ad97bebf5bb4ede9b9f25e437a234cf90f96c078a9
     name: gstreamer1-plugins-base
-    evr: 1.22.12-4.el9
-    sourcerpm: gstreamer1-plugins-base-1.22.12-4.el9.src.rpm
+    evr: 1.22.12-5.el9_7
+    sourcerpm: gstreamer1-plugins-base-1.22.12-5.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/g/gtk-update-icon-cache-3.24.31-8.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
     size: 33656
@@ -305,13 +305,13 @@ arches:
     name: jbigkit-libs
     evr: 2.1-23.el9
     sourcerpm: jbigkit-2.1-23.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-611.42.1.el9_7.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-611.45.1.el9_7.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 2983905
-    checksum: sha256:6cb300c43d383278e6419f20536ec6d06d4972d8e512687eaf3d54a606b52f84
+    size: 2986145
+    checksum: sha256:fbdcc54177b86fc7047b81f326cde1d606f97b722169d2c6319e47559bad89bc
     name: kernel-headers
-    evr: 5.14.0-611.42.1.el9_7
-    sourcerpm: kernel-5.14.0-611.42.1.el9_7.src.rpm
+    evr: 5.14.0-611.45.1.el9_7
+    sourcerpm: kernel-5.14.0-611.45.1.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/lcms2-2.12-3.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
     size: 171119
@@ -718,13 +718,13 @@ arches:
     name: libxshmfence
     evr: 1.3-10.el9
     sourcerpm: libxshmfence-1.3-10.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libxslt-1.1.34-13.el9_6.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libxslt-1.1.34-14.el9_7.1.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 248330
-    checksum: sha256:973e5e7144917cb7c9e0552a444159004b330346dc5212d744312304dfdd4610
+    size: 251669
+    checksum: sha256:2b1fc002c4f57960df438791f7dfb5d4defa964f1afc73c3556451bc7f5ea01c
     name: libxslt
-    evr: 1.1.34-13.el9_6
-    sourcerpm: libxslt-1.1.34-13.el9_6.src.rpm
+    evr: 1.1.34-14.el9_7.1
+    sourcerpm: libxslt-1.1.34-14.el9_7.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/llvm-filesystem-20.1.8-3.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
     size: 9320
@@ -1914,12 +1914,12 @@ arches:
     checksum: sha256:cc25d402dff67470712a6032acc99f393898df78cdf30a2e346550db5a8ec091
     name: gstreamer1
     evr: 1.22.12-3.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/g/gstreamer1-plugins-base-1.22.12-4.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/g/gstreamer1-plugins-base-1.22.12-5.el9_7.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
-    size: 2407166
-    checksum: sha256:311cb757f3f594bcfd7b80beaa5fe11645bca6b6473036f05a9725330af2b4f8
+    size: 2409592
+    checksum: sha256:f70c156fe34597d0c0181baa828e30d2c7bdab3fc9da24e97f34cec856dc1a90
     name: gstreamer1-plugins-base
-    evr: 1.22.12-4.el9
+    evr: 1.22.12-5.el9_7
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/g/gtk3-3.24.31-8.el9.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
     size: 22493959
@@ -2214,12 +2214,12 @@ arches:
     checksum: sha256:9a36c33eafdf600040cb41cc1d8ca40395a3e00f2fd6a41a28ad66644d90edaa
     name: libxshmfence
     evr: 1.3-10.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/l/libxslt-1.1.34-13.el9_6.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/l/libxslt-1.1.34-14.el9_7.1.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
-    size: 3555712
-    checksum: sha256:c56b2595a736692ae40af40759c7ce7a29fd8871f69c15359f6772e6570d1d72
+    size: 3567277
+    checksum: sha256:52dfaf51f4dd59eeaf60b6b0c1a4ef41c83001f29568cd9d3521696ba3e50c3d
     name: libxslt
-    evr: 1.1.34-13.el9_6
+    evr: 1.1.34-14.el9_7.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/l/llvm-20.1.8-3.el9.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
     size: 147354701
@@ -3103,13 +3103,13 @@ arches:
     name: gstreamer1
     evr: 1.22.12-3.el9
     sourcerpm: gstreamer1-1.22.12-3.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/g/gstreamer1-plugins-base-1.22.12-4.el9.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/g/gstreamer1-plugins-base-1.22.12-5.el9_7.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 2367155
-    checksum: sha256:0dc3dbd41054388a3927ac6d12b709776aa77b4cfba48aedb8327f9b5f1b62a8
+    size: 2365764
+    checksum: sha256:e33eb48d1516970f87e75ad21a824a974ee67bc7245c61b825293d5fc5ad76ea
     name: gstreamer1-plugins-base
-    evr: 1.22.12-4.el9
-    sourcerpm: gstreamer1-plugins-base-1.22.12-4.el9.src.rpm
+    evr: 1.22.12-5.el9_7
+    sourcerpm: gstreamer1-plugins-base-1.22.12-5.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/g/gtk-update-icon-cache-3.24.31-8.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 33934
@@ -3173,13 +3173,13 @@ arches:
     name: jbigkit-libs
     evr: 2.1-23.el9
     sourcerpm: jbigkit-2.1-23.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-611.42.1.el9_7.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-611.45.1.el9_7.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 3022957
-    checksum: sha256:9e5cf3e6a7d3aca6008da1f64dc2a5dbf8466645154f0ccfccee4bbd4de7e6f2
+    size: 3025189
+    checksum: sha256:eb6aafff64717dc24622c8990dfd50c2a5778b6ec71fac8360d28a524d22bc41
     name: kernel-headers
-    evr: 5.14.0-611.42.1.el9_7
-    sourcerpm: kernel-5.14.0-611.42.1.el9_7.src.rpm
+    evr: 5.14.0-611.45.1.el9_7
+    sourcerpm: kernel-5.14.0-611.45.1.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/lcms2-2.12-3.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 173479
@@ -3572,13 +3572,13 @@ arches:
     name: libxshmfence
     evr: 1.3-10.el9
     sourcerpm: libxshmfence-1.3-10.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libxslt-1.1.34-13.el9_6.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libxslt-1.1.34-14.el9_7.1.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 250837
-    checksum: sha256:b22bb9f995e96b2b00711760c57fe4e93b4328815de61c39d53717b6a61f6d8c
+    size: 254259
+    checksum: sha256:d92873a046c78ae6837d8b23deecbfa1d6376b81bf587382e89ed345c1d5bad5
     name: libxslt
-    evr: 1.1.34-13.el9_6
-    sourcerpm: libxslt-1.1.34-13.el9_6.src.rpm
+    evr: 1.1.34-14.el9_7.1
+    sourcerpm: libxslt-1.1.34-14.el9_7.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/llvm-filesystem-20.1.8-3.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 9374
@@ -4768,12 +4768,12 @@ arches:
     checksum: sha256:cc25d402dff67470712a6032acc99f393898df78cdf30a2e346550db5a8ec091
     name: gstreamer1
     evr: 1.22.12-3.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/g/gstreamer1-plugins-base-1.22.12-4.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/g/gstreamer1-plugins-base-1.22.12-5.el9_7.src.rpm
     repoid: ubi-9-for-x86_64-appstream-source-rpms
-    size: 2407166
-    checksum: sha256:311cb757f3f594bcfd7b80beaa5fe11645bca6b6473036f05a9725330af2b4f8
+    size: 2409592
+    checksum: sha256:f70c156fe34597d0c0181baa828e30d2c7bdab3fc9da24e97f34cec856dc1a90
     name: gstreamer1-plugins-base
-    evr: 1.22.12-4.el9
+    evr: 1.22.12-5.el9_7
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/g/gtk3-3.24.31-8.el9.src.rpm
     repoid: ubi-9-for-x86_64-appstream-source-rpms
     size: 22493959
@@ -5068,12 +5068,12 @@ arches:
     checksum: sha256:9a36c33eafdf600040cb41cc1d8ca40395a3e00f2fd6a41a28ad66644d90edaa
     name: libxshmfence
     evr: 1.3-10.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/l/libxslt-1.1.34-13.el9_6.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/l/libxslt-1.1.34-14.el9_7.1.src.rpm
     repoid: ubi-9-for-x86_64-appstream-source-rpms
-    size: 3555712
-    checksum: sha256:c56b2595a736692ae40af40759c7ce7a29fd8871f69c15359f6772e6570d1d72
+    size: 3567277
+    checksum: sha256:52dfaf51f4dd59eeaf60b6b0c1a4ef41c83001f29568cd9d3521696ba3e50c3d
     name: libxslt
-    evr: 1.1.34-13.el9_6
+    evr: 1.1.34-14.el9_7.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/l/llvm-20.1.8-3.el9.src.rpm
     repoid: ubi-9-for-x86_64-appstream-source-rpms
     size: 147354701
