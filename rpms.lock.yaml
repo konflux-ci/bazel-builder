@@ -305,13 +305,13 @@ arches:
     name: jbigkit-libs
     evr: 2.1-23.el9
     sourcerpm: jbigkit-2.1-23.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-611.45.1.el9_7.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-611.47.1.el9_7.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 2986145
-    checksum: sha256:fbdcc54177b86fc7047b81f326cde1d606f97b722169d2c6319e47559bad89bc
+    size: 2986913
+    checksum: sha256:f768b38bcf574477b6b0fd6a621948447cb8f5aa4e3cf7392cc1a272e794049c
     name: kernel-headers
-    evr: 5.14.0-611.45.1.el9_7
-    sourcerpm: kernel-5.14.0-611.45.1.el9_7.src.rpm
+    evr: 5.14.0-611.47.1.el9_7
+    sourcerpm: kernel-5.14.0-611.47.1.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/lcms2-2.12-3.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
     size: 171119
@@ -1684,13 +1684,13 @@ arches:
     name: make
     evr: 1:4.3-8.el9
     sourcerpm: make-4.3-8.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/n/NetworkManager-libnm-1.54.0-3.el9_7.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/n/NetworkManager-libnm-1.54.0-4.el9_7.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
-    size: 1964643
-    checksum: sha256:6c56cc1c85d18c58f19687c332f23a79d10e5f3df7ed714af9869bb12b55c31a
+    size: 1969239
+    checksum: sha256:f4afeba6ed6227786daca4d1b2caadf3d6fc91f6229091e0b383ed8c24378a02
     name: NetworkManager-libnm
-    evr: 1:1.54.0-3.el9_7
-    sourcerpm: NetworkManager-1.54.0-3.el9_7.src.rpm
+    evr: 1:1.54.0-4.el9_7
+    sourcerpm: NetworkManager-1.54.0-4.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/n/ncurses-6.2-12.20210508.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
     size: 414136
@@ -1747,13 +1747,13 @@ arches:
     name: shared-mime-info
     evr: 2.1-5.el9
     sourcerpm: shared-mime-info-2.1-5.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/s/systemd-udev-252-55.el9_7.7.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/s/systemd-udev-252-55.el9_7.8.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
-    size: 2089553
-    checksum: sha256:a97e8905a67c8064ac710946f27f6200333004aa5e0bd03a6159bb2a44ff639b
+    size: 2075090
+    checksum: sha256:ad600e560241b7676e6933624679c24115192067349e0fc1f508447a1d0f31c0
     name: systemd-udev
-    evr: 252-55.el9_7.7
-    sourcerpm: systemd-252-55.el9_7.7.src.rpm
+    evr: 252-55.el9_7.8
+    sourcerpm: systemd-252-55.el9_7.8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/u/unzip-6.0-59.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
     size: 182284
@@ -2795,12 +2795,12 @@ arches:
     checksum: sha256:a5cc45d6c158b255cda528c496dbb8bc7783acb9898b97a39a1811230e102d7c
     name: make
     evr: 1:4.3-8.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/n/NetworkManager-1.54.0-3.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/n/NetworkManager-1.54.0-4.el9_7.src.rpm
     repoid: ubi-9-for-aarch64-baseos-source-rpms
-    size: 6285887
-    checksum: sha256:78c3d41b401086a5325f80d47fecdb51182b473844a0c58add9e15738c7b9fbd
+    size: 6291564
+    checksum: sha256:dae83b9935d302881122919e49b51505e9d1df90c4da521e8c9b38a2508835cc
     name: NetworkManager
-    evr: 1:1.54.0-3.el9_7
+    evr: 1:1.54.0-4.el9_7
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/n/ncurses-6.2-12.20210508.el9.src.rpm
     repoid: ubi-9-for-aarch64-baseos-source-rpms
     size: 3586993
@@ -2831,12 +2831,12 @@ arches:
     checksum: sha256:93b45d557d2958d316a6ee4645a9fdccb824cad2133c451ba22221fc933e6f9f
     name: shared-mime-info
     evr: 2.1-5.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/s/systemd-252-55.el9_7.7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/s/systemd-252-55.el9_7.8.src.rpm
     repoid: ubi-9-for-aarch64-baseos-source-rpms
-    size: 44902530
-    checksum: sha256:c3ec3a6af5ab03b57450f24d12297eaf66191292c699cec4f52ee47688159d9c
+    size: 44888096
+    checksum: sha256:a633587c7170f5928a0bf1ba144f8f58d759cfdcbc4e6437c4dcb74b1742c69b
     name: systemd
-    evr: 252-55.el9_7.7
+    evr: 252-55.el9_7.8
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/u/unzip-6.0-59.el9.src.rpm
     repoid: ubi-9-for-aarch64-baseos-source-rpms
     size: 1433595
@@ -3153,13 +3153,13 @@ arches:
     name: jbigkit-libs
     evr: 2.1-23.el9
     sourcerpm: jbigkit-2.1-23.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/k/kernel-headers-5.14.0-611.45.1.el9_7.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/k/kernel-headers-5.14.0-611.47.1.el9_7.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
-    size: 3007813
-    checksum: sha256:5d0ee7e2e6a8915f6b6ed21afa67eadc7c1de1d9a596e791af4bd335b083b30c
+    size: 3008577
+    checksum: sha256:7eb6ce67e2ba48169392a4518c6941eeae855563070d07f6eaa831cf80606a74
     name: kernel-headers
-    evr: 5.14.0-611.45.1.el9_7
-    sourcerpm: kernel-5.14.0-611.45.1.el9_7.src.rpm
+    evr: 5.14.0-611.47.1.el9_7
+    sourcerpm: kernel-5.14.0-611.47.1.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/l/lcms2-2.12-3.el9.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
     size: 198719
@@ -4532,13 +4532,13 @@ arches:
     name: make
     evr: 1:4.3-8.el9
     sourcerpm: make-4.3-8.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/n/NetworkManager-libnm-1.54.0-3.el9_7.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/n/NetworkManager-libnm-1.54.0-4.el9_7.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-baseos-rpms
-    size: 2037543
-    checksum: sha256:28b29f982f535c53df281f2119ed18e35b036d20ece713d517a96c46428c7ccd
+    size: 2042613
+    checksum: sha256:55c7a07e23fedf5713b35aa40f2efa64196c2f946e8cff6b8f769a708c661beb
     name: NetworkManager-libnm
-    evr: 1:1.54.0-3.el9_7
-    sourcerpm: NetworkManager-1.54.0-3.el9_7.src.rpm
+    evr: 1:1.54.0-4.el9_7
+    sourcerpm: NetworkManager-1.54.0-4.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/n/ncurses-6.2-12.20210508.el9.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-baseos-rpms
     size: 422717
@@ -4595,13 +4595,13 @@ arches:
     name: shared-mime-info
     evr: 2.1-5.el9
     sourcerpm: shared-mime-info-2.1-5.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/s/systemd-udev-252-55.el9_7.7.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/s/systemd-udev-252-55.el9_7.8.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-baseos-rpms
-    size: 2029686
-    checksum: sha256:1f59350a291f882664fe140c5a836f642daea80f1b934768c84118e485f214c9
+    size: 2014281
+    checksum: sha256:df6bb7a2e9c534befa14808c807960aebcbd252046d80d111f221c9810bd541a
     name: systemd-udev
-    evr: 252-55.el9_7.7
-    sourcerpm: systemd-252-55.el9_7.7.src.rpm
+    evr: 252-55.el9_7.8
+    sourcerpm: systemd-252-55.el9_7.8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/u/unzip-6.0-59.el9.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-baseos-rpms
     size: 190400
@@ -5643,12 +5643,12 @@ arches:
     checksum: sha256:a5cc45d6c158b255cda528c496dbb8bc7783acb9898b97a39a1811230e102d7c
     name: make
     evr: 1:4.3-8.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/source/SRPMS/Packages/n/NetworkManager-1.54.0-3.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/source/SRPMS/Packages/n/NetworkManager-1.54.0-4.el9_7.src.rpm
     repoid: ubi-9-for-ppc64le-baseos-source-rpms
-    size: 6285887
-    checksum: sha256:78c3d41b401086a5325f80d47fecdb51182b473844a0c58add9e15738c7b9fbd
+    size: 6291564
+    checksum: sha256:dae83b9935d302881122919e49b51505e9d1df90c4da521e8c9b38a2508835cc
     name: NetworkManager
-    evr: 1:1.54.0-3.el9_7
+    evr: 1:1.54.0-4.el9_7
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/source/SRPMS/Packages/n/ncurses-6.2-12.20210508.el9.src.rpm
     repoid: ubi-9-for-ppc64le-baseos-source-rpms
     size: 3586993
@@ -5679,12 +5679,12 @@ arches:
     checksum: sha256:93b45d557d2958d316a6ee4645a9fdccb824cad2133c451ba22221fc933e6f9f
     name: shared-mime-info
     evr: 2.1-5.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/source/SRPMS/Packages/s/systemd-252-55.el9_7.7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/source/SRPMS/Packages/s/systemd-252-55.el9_7.8.src.rpm
     repoid: ubi-9-for-ppc64le-baseos-source-rpms
-    size: 44902530
-    checksum: sha256:c3ec3a6af5ab03b57450f24d12297eaf66191292c699cec4f52ee47688159d9c
+    size: 44888096
+    checksum: sha256:a633587c7170f5928a0bf1ba144f8f58d759cfdcbc4e6437c4dcb74b1742c69b
     name: systemd
-    evr: 252-55.el9_7.7
+    evr: 252-55.el9_7.8
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/source/SRPMS/Packages/u/unzip-6.0-59.el9.src.rpm
     repoid: ubi-9-for-ppc64le-baseos-source-rpms
     size: 1433595
@@ -6029,13 +6029,13 @@ arches:
     name: jbigkit-libs
     evr: 2.1-23.el9
     sourcerpm: jbigkit-2.1-23.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/k/kernel-headers-5.14.0-611.45.1.el9_7.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/k/kernel-headers-5.14.0-611.47.1.el9_7.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
-    size: 3016369
-    checksum: sha256:f9a73a1c848773ca4319f6c0e9bc7b09337dd63ae57929e6e569acc223873765
+    size: 3017165
+    checksum: sha256:bccf67fd38fb285adc59ba6a0f0427553e39b917b699258cb8a7da8c7ca2a6dd
     name: kernel-headers
-    evr: 5.14.0-611.45.1.el9_7
-    sourcerpm: kernel-5.14.0-611.45.1.el9_7.src.rpm
+    evr: 5.14.0-611.47.1.el9_7
+    sourcerpm: kernel-5.14.0-611.47.1.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/lcms2-2.12-3.el9.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
     size: 168399
@@ -7387,13 +7387,13 @@ arches:
     name: make
     evr: 1:4.3-8.el9
     sourcerpm: make-4.3-8.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/n/NetworkManager-libnm-1.54.0-3.el9_7.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/n/NetworkManager-libnm-1.54.0-4.el9_7.s390x.rpm
     repoid: ubi-9-for-s390x-baseos-rpms
-    size: 1971611
-    checksum: sha256:656ad2dfdd35a426f1b2d7878c6276715529686e53044bfe68e54c13546d2b8d
+    size: 1976465
+    checksum: sha256:26663ac050a5ee97b4eae11adec494915e16dc478283a5a7c1aee4ea59adc3b8
     name: NetworkManager-libnm
-    evr: 1:1.54.0-3.el9_7
-    sourcerpm: NetworkManager-1.54.0-3.el9_7.src.rpm
+    evr: 1:1.54.0-4.el9_7
+    sourcerpm: NetworkManager-1.54.0-4.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/n/ncurses-6.2-12.20210508.el9.s390x.rpm
     repoid: ubi-9-for-s390x-baseos-rpms
     size: 417044
@@ -7450,13 +7450,13 @@ arches:
     name: shared-mime-info
     evr: 2.1-5.el9
     sourcerpm: shared-mime-info-2.1-5.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/s/systemd-udev-252-55.el9_7.7.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/s/systemd-udev-252-55.el9_7.8.s390x.rpm
     repoid: ubi-9-for-s390x-baseos-rpms
-    size: 1992829
-    checksum: sha256:524f09dd72efe758300bb3057ba2a0bff4570f6529264d2d432f6d76b0958e8e
+    size: 1977713
+    checksum: sha256:899b366dec00fde238169b209f6862e86cdb063af8625ded45a11c248ff70d3a
     name: systemd-udev
-    evr: 252-55.el9_7.7
-    sourcerpm: systemd-252-55.el9_7.7.src.rpm
+    evr: 252-55.el9_7.8
+    sourcerpm: systemd-252-55.el9_7.8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/u/unzip-6.0-59.el9.s390x.rpm
     repoid: ubi-9-for-s390x-baseos-rpms
     size: 180857
@@ -8474,12 +8474,12 @@ arches:
     checksum: sha256:a5cc45d6c158b255cda528c496dbb8bc7783acb9898b97a39a1811230e102d7c
     name: make
     evr: 1:4.3-8.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/source/SRPMS/Packages/n/NetworkManager-1.54.0-3.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/source/SRPMS/Packages/n/NetworkManager-1.54.0-4.el9_7.src.rpm
     repoid: ubi-9-for-s390x-baseos-source-rpms
-    size: 6285887
-    checksum: sha256:78c3d41b401086a5325f80d47fecdb51182b473844a0c58add9e15738c7b9fbd
+    size: 6291564
+    checksum: sha256:dae83b9935d302881122919e49b51505e9d1df90c4da521e8c9b38a2508835cc
     name: NetworkManager
-    evr: 1:1.54.0-3.el9_7
+    evr: 1:1.54.0-4.el9_7
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/source/SRPMS/Packages/n/ncurses-6.2-12.20210508.el9.src.rpm
     repoid: ubi-9-for-s390x-baseos-source-rpms
     size: 3586993
@@ -8510,12 +8510,12 @@ arches:
     checksum: sha256:93b45d557d2958d316a6ee4645a9fdccb824cad2133c451ba22221fc933e6f9f
     name: shared-mime-info
     evr: 2.1-5.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/source/SRPMS/Packages/s/systemd-252-55.el9_7.7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/source/SRPMS/Packages/s/systemd-252-55.el9_7.8.src.rpm
     repoid: ubi-9-for-s390x-baseos-source-rpms
-    size: 44902530
-    checksum: sha256:c3ec3a6af5ab03b57450f24d12297eaf66191292c699cec4f52ee47688159d9c
+    size: 44888096
+    checksum: sha256:a633587c7170f5928a0bf1ba144f8f58d759cfdcbc4e6437c4dcb74b1742c69b
     name: systemd
-    evr: 252-55.el9_7.7
+    evr: 252-55.el9_7.8
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/source/SRPMS/Packages/u/unzip-6.0-59.el9.src.rpm
     repoid: ubi-9-for-s390x-baseos-source-rpms
     size: 1433595
@@ -8839,13 +8839,13 @@ arches:
     name: jbigkit-libs
     evr: 2.1-23.el9
     sourcerpm: jbigkit-2.1-23.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-611.45.1.el9_7.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-611.47.1.el9_7.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 3025189
-    checksum: sha256:eb6aafff64717dc24622c8990dfd50c2a5778b6ec71fac8360d28a524d22bc41
+    size: 3025981
+    checksum: sha256:551f1d5cb5981a364fd119aaeacaad54e69c886308a7aaba3b4fa2e507b58d5d
     name: kernel-headers
-    evr: 5.14.0-611.45.1.el9_7
-    sourcerpm: kernel-5.14.0-611.45.1.el9_7.src.rpm
+    evr: 5.14.0-611.47.1.el9_7
+    sourcerpm: kernel-5.14.0-611.47.1.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/lcms2-2.12-3.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 173479
@@ -10204,13 +10204,13 @@ arches:
     name: make
     evr: 1:4.3-8.el9
     sourcerpm: make-4.3-8.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/n/NetworkManager-libnm-1.54.0-3.el9_7.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/n/NetworkManager-libnm-1.54.0-4.el9_7.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
-    size: 1990323
-    checksum: sha256:fcc9c33b3dca2866c006beb65f8ae26e95c0381b6a088d6459dbf41ccc08a53a
+    size: 1995133
+    checksum: sha256:eb32e82b18dfb99a455afa0f43d5d0d942f6242e79e7fff4870cb9efcb3764aa
     name: NetworkManager-libnm
-    evr: 1:1.54.0-3.el9_7
-    sourcerpm: NetworkManager-1.54.0-3.el9_7.src.rpm
+    evr: 1:1.54.0-4.el9_7
+    sourcerpm: NetworkManager-1.54.0-4.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/n/ncurses-6.2-12.20210508.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
     size: 416252
@@ -10267,13 +10267,13 @@ arches:
     name: shared-mime-info
     evr: 2.1-5.el9
     sourcerpm: shared-mime-info-2.1-5.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/s/systemd-udev-252-55.el9_7.7.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/s/systemd-udev-252-55.el9_7.8.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
-    size: 2138460
-    checksum: sha256:62698d739f1582842e8d4f402e521beb9fb2a74beb26ea5b9488ec259fa6b2a0
+    size: 2120702
+    checksum: sha256:5cfe3d2fd531fe5027951298d978b12ca51fc910354abfcc534f80a303235713
     name: systemd-udev
-    evr: 252-55.el9_7.7
-    sourcerpm: systemd-252-55.el9_7.7.src.rpm
+    evr: 252-55.el9_7.8
+    sourcerpm: systemd-252-55.el9_7.8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/u/unzip-6.0-59.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
     size: 186130
@@ -11321,12 +11321,12 @@ arches:
     checksum: sha256:a5cc45d6c158b255cda528c496dbb8bc7783acb9898b97a39a1811230e102d7c
     name: make
     evr: 1:4.3-8.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/n/NetworkManager-1.54.0-3.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/n/NetworkManager-1.54.0-4.el9_7.src.rpm
     repoid: ubi-9-for-x86_64-baseos-source-rpms
-    size: 6285887
-    checksum: sha256:78c3d41b401086a5325f80d47fecdb51182b473844a0c58add9e15738c7b9fbd
+    size: 6291564
+    checksum: sha256:dae83b9935d302881122919e49b51505e9d1df90c4da521e8c9b38a2508835cc
     name: NetworkManager
-    evr: 1:1.54.0-3.el9_7
+    evr: 1:1.54.0-4.el9_7
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/n/ncurses-6.2-12.20210508.el9.src.rpm
     repoid: ubi-9-for-x86_64-baseos-source-rpms
     size: 3586993
@@ -11357,12 +11357,12 @@ arches:
     checksum: sha256:93b45d557d2958d316a6ee4645a9fdccb824cad2133c451ba22221fc933e6f9f
     name: shared-mime-info
     evr: 2.1-5.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/s/systemd-252-55.el9_7.7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/s/systemd-252-55.el9_7.8.src.rpm
     repoid: ubi-9-for-x86_64-baseos-source-rpms
-    size: 44902530
-    checksum: sha256:c3ec3a6af5ab03b57450f24d12297eaf66191292c699cec4f52ee47688159d9c
+    size: 44888096
+    checksum: sha256:a633587c7170f5928a0bf1ba144f8f58d759cfdcbc4e6437c4dcb74b1742c69b
     name: systemd
-    evr: 252-55.el9_7.7
+    evr: 252-55.el9_7.8
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/u/unzip-6.0-59.el9.src.rpm
     repoid: ubi-9-for-x86_64-baseos-source-rpms
     size: 1433595
