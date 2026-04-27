@@ -165,20 +165,20 @@ arches:
     name: gcc-c++
     evr: 11.5.0-11.el9
     sourcerpm: gcc-11.5.0-11.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/g/gdk-pixbuf2-2.42.6-6.el9_6.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/g/gdk-pixbuf2-2.42.6-6.el9_7.1.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 500725
-    checksum: sha256:2a0d7efe3d55ee215b954d9958ad78889750565b927af763aa27f094248339cf
+    size: 507947
+    checksum: sha256:2870bcd420d22cd088f2b44f5b1ea99e91d84fb236eeb2fce3c8254400462a78
     name: gdk-pixbuf2
-    evr: 2.42.6-6.el9_6
-    sourcerpm: gdk-pixbuf2-2.42.6-6.el9_6.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/g/gdk-pixbuf2-modules-2.42.6-6.el9_6.aarch64.rpm
+    evr: 2.42.6-6.el9_7.1
+    sourcerpm: gdk-pixbuf2-2.42.6-6.el9_7.1.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/g/gdk-pixbuf2-modules-2.42.6-6.el9_7.1.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 88451
-    checksum: sha256:b24c89528a82b1c95f1579e99e80ae43f294e4991793711a4f578f1c42b74a2d
+    size: 95166
+    checksum: sha256:71997f875f599e30d4c1bce29285f6812d5e7aa3f43d78d5150ece5380f12eb7
     name: gdk-pixbuf2-modules
-    evr: 2.42.6-6.el9_6
-    sourcerpm: gdk-pixbuf2-2.42.6-6.el9_6.src.rpm
+    evr: 2.42.6-6.el9_7.1
+    sourcerpm: gdk-pixbuf2-2.42.6-6.el9_7.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/g/giflib-5.2.1-9.el9_7.1.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
     size: 54225
@@ -270,27 +270,27 @@ arches:
     name: iso-codes
     evr: 4.6.0-3.el9
     sourcerpm: iso-codes-4.6.0-3.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/j/java-21-openjdk-21.0.10.0.7-1.el9.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/j/java-21-openjdk-21.0.11.0.10-2.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 405111
-    checksum: sha256:d9923edc8b02a1bcebd1101e7756a1d64619222bb75f5c329bc58b7b25f16005
+    size: 410640
+    checksum: sha256:e6898ffde56cc85bc206b33ca8d7a708ad35e7ef42f6b5cbbe61dcdc66abf907
     name: java-21-openjdk
-    evr: 1:21.0.10.0.7-1.el9
-    sourcerpm: java-21-openjdk-21.0.10.0.7-1.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/j/java-21-openjdk-devel-21.0.10.0.7-1.el9.aarch64.rpm
+    evr: 1:21.0.11.0.10-2.el9
+    sourcerpm: java-21-openjdk-21.0.11.0.10-2.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/j/java-21-openjdk-devel-21.0.11.0.10-2.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 5253986
-    checksum: sha256:cab40884b490500ea6cd5b44e4468f6a140ad6bcb802d32c27e33f9584c48028
+    size: 5258711
+    checksum: sha256:582c5aa0dae47f3492213c2dcfa33b969c0f00b8c52266b53a302eaaecbfbb9b
     name: java-21-openjdk-devel
-    evr: 1:21.0.10.0.7-1.el9
-    sourcerpm: java-21-openjdk-21.0.10.0.7-1.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/j/java-21-openjdk-headless-21.0.10.0.7-1.el9.aarch64.rpm
+    evr: 1:21.0.11.0.10-2.el9
+    sourcerpm: java-21-openjdk-21.0.11.0.10-2.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/j/java-21-openjdk-headless-21.0.11.0.10-2.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 50774559
-    checksum: sha256:0d4ccb5d4ade0a83223140ea05be6d4e61b294a2bfbcbe99190adfe0051397fc
+    size: 50928542
+    checksum: sha256:18d68bfd2ad334d77992af244556fbb9fd3ab4b48d169cdb9e631a4da5924562
     name: java-21-openjdk-headless
-    evr: 1:21.0.10.0.7-1.el9
-    sourcerpm: java-21-openjdk-21.0.10.0.7-1.el9.src.rpm
+    evr: 1:21.0.11.0.10-2.el9
+    sourcerpm: java-21-openjdk-21.0.11.0.10-2.el9.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/j/javapackages-filesystem-6.4.0-1.el9.noarch.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
     size: 17320
@@ -1878,12 +1878,12 @@ arches:
     checksum: sha256:d5e12deb110f7a5a8776435efa8f6c5e42ecf990e0ed27f95293020b65891254
     name: fribidi
     evr: 1.0.10-6.el9.2
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/g/gdk-pixbuf2-2.42.6-6.el9_6.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/g/gdk-pixbuf2-2.42.6-6.el9_7.1.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
-    size: 7737635
-    checksum: sha256:d6ce370a8808b72dbca01cc913617b80682197f7affb3d45b1e2956f88ba9600
+    size: 7743916
+    checksum: sha256:2b2768146443d902e33989ec0b934dfb8aea3c8dcede63f690d03bec9b717c94
     name: gdk-pixbuf2
-    evr: 2.42.6-6.el9_6
+    evr: 2.42.6-6.el9_7.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/g/giflib-5.2.1-9.el9_7.1.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
     size: 461115
@@ -1938,12 +1938,12 @@ arches:
     checksum: sha256:3b17af011d4074e0fac62f3cf699090889892a45cf317df37942ebd2b39bc934
     name: iso-codes
     evr: 4.6.0-3.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/j/java-21-openjdk-21.0.10.0.7-1.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/j/java-21-openjdk-21.0.11.0.10-2.el9.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
-    size: 71099098
-    checksum: sha256:37b709b59e860b571c305d2c86e4df9548ff2deb1fda036ef6f3e0b8306be417
+    size: 71238478
+    checksum: sha256:3767d9ea0f4e6fb6b5ea35497217162c643ec7a85629d0ca5d9e2884fef5de69
     name: java-21-openjdk
-    evr: 1:21.0.10.0.7-1.el9
+    evr: 1:21.0.11.0.10-2.el9
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/j/javapackages-tools-6.4.0-1.el9.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
     size: 210942
@@ -3026,20 +3026,20 @@ arches:
     name: gcc-c++
     evr: 11.5.0-11.el9
     sourcerpm: gcc-11.5.0-11.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/g/gdk-pixbuf2-2.42.6-6.el9_6.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/g/gdk-pixbuf2-2.42.6-6.el9_7.1.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 502997
-    checksum: sha256:0a6c5574be7627d4e4bcd9afc4ee3ab671dddd0bbe6344dd5575c2fbbee785a8
+    size: 509737
+    checksum: sha256:fe6f010e0953f0e421015466a007e3586d570587ecad288c80a8750c6088597f
     name: gdk-pixbuf2
-    evr: 2.42.6-6.el9_6
-    sourcerpm: gdk-pixbuf2-2.42.6-6.el9_6.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/g/gdk-pixbuf2-modules-2.42.6-6.el9_6.x86_64.rpm
+    evr: 2.42.6-6.el9_7.1
+    sourcerpm: gdk-pixbuf2-2.42.6-6.el9_7.1.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/g/gdk-pixbuf2-modules-2.42.6-6.el9_7.1.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 89943
-    checksum: sha256:1ca5c66e639bf8a7499747eb6fefe4cd4cc9318ef1525fe5745da986f46c7156
+    size: 96658
+    checksum: sha256:9f0d06c2d927c062e5cc3352df9c8fd52d1fee8a3fdbbc7e2e36f992b3a83923
     name: gdk-pixbuf2-modules
-    evr: 2.42.6-6.el9_6
-    sourcerpm: gdk-pixbuf2-2.42.6-6.el9_6.src.rpm
+    evr: 2.42.6-6.el9_7.1
+    sourcerpm: gdk-pixbuf2-2.42.6-6.el9_7.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/g/giflib-5.2.1-9.el9_7.1.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 54039
@@ -3138,27 +3138,27 @@ arches:
     name: iso-codes
     evr: 4.6.0-3.el9
     sourcerpm: iso-codes-4.6.0-3.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/j/java-21-openjdk-21.0.10.0.7-1.el9.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/j/java-21-openjdk-21.0.11.0.10-2.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 406815
-    checksum: sha256:aae965b3aa76163668e12d68e8fb4652551934ad44f7dfce8c7ecfb367089cee
+    size: 410727
+    checksum: sha256:492b8a58183837f21f5f9b541f1310d8d83d3898058a5f5ffd82ef4029ab1ea3
     name: java-21-openjdk
-    evr: 1:21.0.10.0.7-1.el9
-    sourcerpm: java-21-openjdk-21.0.10.0.7-1.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/j/java-21-openjdk-devel-21.0.10.0.7-1.el9.x86_64.rpm
+    evr: 1:21.0.11.0.10-2.el9
+    sourcerpm: java-21-openjdk-21.0.11.0.10-2.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/j/java-21-openjdk-devel-21.0.11.0.10-2.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 5254085
-    checksum: sha256:f8d4dff5ec2a3d5ebb5473ae304766307402ed10246f8724e25c7213e51c8a32
+    size: 5257981
+    checksum: sha256:5f6abfbceb24d28e4c5144e28a86f468ba1f890ed52e28383db39c3bf8d6ab24
     name: java-21-openjdk-devel
-    evr: 1:21.0.10.0.7-1.el9
-    sourcerpm: java-21-openjdk-21.0.10.0.7-1.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/j/java-21-openjdk-headless-21.0.10.0.7-1.el9.x86_64.rpm
+    evr: 1:21.0.11.0.10-2.el9
+    sourcerpm: java-21-openjdk-21.0.11.0.10-2.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/j/java-21-openjdk-headless-21.0.11.0.10-2.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 51628648
-    checksum: sha256:91d5e3ada8a03d81167ae12097f4675096545a2bdb8fc62477e9e55249df899f
+    size: 51735301
+    checksum: sha256:62e1a842bfd10dbc8eafa58b865515bf55bf7ae696645013320a990d4a37e56c
     name: java-21-openjdk-headless
-    evr: 1:21.0.10.0.7-1.el9
-    sourcerpm: java-21-openjdk-21.0.10.0.7-1.el9.src.rpm
+    evr: 1:21.0.11.0.10-2.el9
+    sourcerpm: java-21-openjdk-21.0.11.0.10-2.el9.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/j/javapackages-filesystem-6.4.0-1.el9.noarch.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 17320
@@ -4732,12 +4732,12 @@ arches:
     checksum: sha256:d5e12deb110f7a5a8776435efa8f6c5e42ecf990e0ed27f95293020b65891254
     name: fribidi
     evr: 1.0.10-6.el9.2
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/g/gdk-pixbuf2-2.42.6-6.el9_6.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/g/gdk-pixbuf2-2.42.6-6.el9_7.1.src.rpm
     repoid: ubi-9-for-x86_64-appstream-source-rpms
-    size: 7737635
-    checksum: sha256:d6ce370a8808b72dbca01cc913617b80682197f7affb3d45b1e2956f88ba9600
+    size: 7743916
+    checksum: sha256:2b2768146443d902e33989ec0b934dfb8aea3c8dcede63f690d03bec9b717c94
     name: gdk-pixbuf2
-    evr: 2.42.6-6.el9_6
+    evr: 2.42.6-6.el9_7.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/g/giflib-5.2.1-9.el9_7.1.src.rpm
     repoid: ubi-9-for-x86_64-appstream-source-rpms
     size: 461115
@@ -4792,12 +4792,12 @@ arches:
     checksum: sha256:3b17af011d4074e0fac62f3cf699090889892a45cf317df37942ebd2b39bc934
     name: iso-codes
     evr: 4.6.0-3.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/j/java-21-openjdk-21.0.10.0.7-1.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/j/java-21-openjdk-21.0.11.0.10-2.el9.src.rpm
     repoid: ubi-9-for-x86_64-appstream-source-rpms
-    size: 71099098
-    checksum: sha256:37b709b59e860b571c305d2c86e4df9548ff2deb1fda036ef6f3e0b8306be417
+    size: 71238478
+    checksum: sha256:3767d9ea0f4e6fb6b5ea35497217162c643ec7a85629d0ca5d9e2884fef5de69
     name: java-21-openjdk
-    evr: 1:21.0.10.0.7-1.el9
+    evr: 1:21.0.11.0.10-2.el9
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/j/javapackages-tools-6.4.0-1.el9.src.rpm
     repoid: ubi-9-for-x86_64-appstream-source-rpms
     size: 210942
