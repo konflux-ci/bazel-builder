@@ -165,20 +165,20 @@ arches:
     name: gcc-c++
     evr: 11.5.0-11.el9
     sourcerpm: gcc-11.5.0-11.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/g/gdk-pixbuf2-2.42.6-6.el9_6.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/g/gdk-pixbuf2-2.42.6-6.el9_7.1.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 500725
-    checksum: sha256:2a0d7efe3d55ee215b954d9958ad78889750565b927af763aa27f094248339cf
+    size: 507947
+    checksum: sha256:2870bcd420d22cd088f2b44f5b1ea99e91d84fb236eeb2fce3c8254400462a78
     name: gdk-pixbuf2
-    evr: 2.42.6-6.el9_6
-    sourcerpm: gdk-pixbuf2-2.42.6-6.el9_6.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/g/gdk-pixbuf2-modules-2.42.6-6.el9_6.aarch64.rpm
+    evr: 2.42.6-6.el9_7.1
+    sourcerpm: gdk-pixbuf2-2.42.6-6.el9_7.1.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/g/gdk-pixbuf2-modules-2.42.6-6.el9_7.1.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 88451
-    checksum: sha256:b24c89528a82b1c95f1579e99e80ae43f294e4991793711a4f578f1c42b74a2d
+    size: 95166
+    checksum: sha256:71997f875f599e30d4c1bce29285f6812d5e7aa3f43d78d5150ece5380f12eb7
     name: gdk-pixbuf2-modules
-    evr: 2.42.6-6.el9_6
-    sourcerpm: gdk-pixbuf2-2.42.6-6.el9_6.src.rpm
+    evr: 2.42.6-6.el9_7.1
+    sourcerpm: gdk-pixbuf2-2.42.6-6.el9_7.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/g/giflib-5.2.1-9.el9_7.1.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
     size: 54225
@@ -1871,12 +1871,12 @@ arches:
     checksum: sha256:d5e12deb110f7a5a8776435efa8f6c5e42ecf990e0ed27f95293020b65891254
     name: fribidi
     evr: 1.0.10-6.el9.2
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/g/gdk-pixbuf2-2.42.6-6.el9_6.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/g/gdk-pixbuf2-2.42.6-6.el9_7.1.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
-    size: 7737635
-    checksum: sha256:d6ce370a8808b72dbca01cc913617b80682197f7affb3d45b1e2956f88ba9600
+    size: 7743916
+    checksum: sha256:2b2768146443d902e33989ec0b934dfb8aea3c8dcede63f690d03bec9b717c94
     name: gdk-pixbuf2
-    evr: 2.42.6-6.el9_6
+    evr: 2.42.6-6.el9_7.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/g/giflib-5.2.1-9.el9_7.1.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
     size: 461115
@@ -3013,20 +3013,20 @@ arches:
     name: gcc-c++
     evr: 11.5.0-11.el9
     sourcerpm: gcc-11.5.0-11.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/g/gdk-pixbuf2-2.42.6-6.el9_6.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/g/gdk-pixbuf2-2.42.6-6.el9_7.1.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
-    size: 510183
-    checksum: sha256:650ffcc930f4b66208a8e49624bac8f2d3b664ffd78edc9111e8abd8cf6ac30e
+    size: 517240
+    checksum: sha256:1d582825cf664293aa13bc284b00596f39d07df61808ed15fec91bb94168e239
     name: gdk-pixbuf2
-    evr: 2.42.6-6.el9_6
-    sourcerpm: gdk-pixbuf2-2.42.6-6.el9_6.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/g/gdk-pixbuf2-modules-2.42.6-6.el9_6.ppc64le.rpm
+    evr: 2.42.6-6.el9_7.1
+    sourcerpm: gdk-pixbuf2-2.42.6-6.el9_7.1.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/g/gdk-pixbuf2-modules-2.42.6-6.el9_7.1.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
-    size: 95933
-    checksum: sha256:10e36c36276df1c61673ad862a24e680717702e7665787091896c8b1fe6bd008
+    size: 103332
+    checksum: sha256:ad7edd6e634cd7268cc589588e6d7a35c110d2e4176114e66504406c385d19e4
     name: gdk-pixbuf2-modules
-    evr: 2.42.6-6.el9_6
-    sourcerpm: gdk-pixbuf2-2.42.6-6.el9_6.src.rpm
+    evr: 2.42.6-6.el9_7.1
+    sourcerpm: gdk-pixbuf2-2.42.6-6.el9_7.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/g/giflib-5.2.1-9.el9_7.1.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
     size: 57842
@@ -4719,12 +4719,12 @@ arches:
     checksum: sha256:d5e12deb110f7a5a8776435efa8f6c5e42ecf990e0ed27f95293020b65891254
     name: fribidi
     evr: 1.0.10-6.el9.2
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/g/gdk-pixbuf2-2.42.6-6.el9_6.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/g/gdk-pixbuf2-2.42.6-6.el9_7.1.src.rpm
     repoid: ubi-9-for-ppc64le-appstream-source-rpms
-    size: 7737635
-    checksum: sha256:d6ce370a8808b72dbca01cc913617b80682197f7affb3d45b1e2956f88ba9600
+    size: 7743916
+    checksum: sha256:2b2768146443d902e33989ec0b934dfb8aea3c8dcede63f690d03bec9b717c94
     name: gdk-pixbuf2
-    evr: 2.42.6-6.el9_6
+    evr: 2.42.6-6.el9_7.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/g/giflib-5.2.1-9.el9_7.1.src.rpm
     repoid: ubi-9-for-ppc64le-appstream-source-rpms
     size: 461115
@@ -5868,20 +5868,20 @@ arches:
     name: gcc-c++
     evr: 11.5.0-11.el9
     sourcerpm: gcc-11.5.0-11.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/g/gdk-pixbuf2-2.42.6-6.el9_6.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/g/gdk-pixbuf2-2.42.6-6.el9_7.1.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
-    size: 499972
-    checksum: sha256:a154a4031e83e3e178d72d683c621e4431b9ae9c671766579e4d8a23ebc924c1
+    size: 507061
+    checksum: sha256:b1b9871872a91c0503503371a018814c7825c2157b8c12ca0c8a593f76092b31
     name: gdk-pixbuf2
-    evr: 2.42.6-6.el9_6
-    sourcerpm: gdk-pixbuf2-2.42.6-6.el9_6.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/g/gdk-pixbuf2-modules-2.42.6-6.el9_6.s390x.rpm
+    evr: 2.42.6-6.el9_7.1
+    sourcerpm: gdk-pixbuf2-2.42.6-6.el9_7.1.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/g/gdk-pixbuf2-modules-2.42.6-6.el9_7.1.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
-    size: 88336
-    checksum: sha256:e4591103182bd57cad99f0c790aafd23ad3ea697722a031f0b33a7abe10643a5
+    size: 94958
+    checksum: sha256:143391211e9bbd4fd54b5c6ee038474d2c0b302a710b24f3be5f346b88b6b031
     name: gdk-pixbuf2-modules
-    evr: 2.42.6-6.el9_6
-    sourcerpm: gdk-pixbuf2-2.42.6-6.el9_6.src.rpm
+    evr: 2.42.6-6.el9_7.1
+    sourcerpm: gdk-pixbuf2-2.42.6-6.el9_7.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/g/giflib-5.2.1-9.el9_7.1.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
     size: 54211
@@ -7574,12 +7574,12 @@ arches:
     checksum: sha256:d5e12deb110f7a5a8776435efa8f6c5e42ecf990e0ed27f95293020b65891254
     name: fribidi
     evr: 1.0.10-6.el9.2
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/g/gdk-pixbuf2-2.42.6-6.el9_6.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/g/gdk-pixbuf2-2.42.6-6.el9_7.1.src.rpm
     repoid: ubi-9-for-s390x-appstream-source-rpms
-    size: 7737635
-    checksum: sha256:d6ce370a8808b72dbca01cc913617b80682197f7affb3d45b1e2956f88ba9600
+    size: 7743916
+    checksum: sha256:2b2768146443d902e33989ec0b934dfb8aea3c8dcede63f690d03bec9b717c94
     name: gdk-pixbuf2
-    evr: 2.42.6-6.el9_6
+    evr: 2.42.6-6.el9_7.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/g/giflib-5.2.1-9.el9_7.1.src.rpm
     repoid: ubi-9-for-s390x-appstream-source-rpms
     size: 461115
@@ -8692,20 +8692,20 @@ arches:
     name: gcc-c++
     evr: 11.5.0-11.el9
     sourcerpm: gcc-11.5.0-11.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/g/gdk-pixbuf2-2.42.6-6.el9_6.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/g/gdk-pixbuf2-2.42.6-6.el9_7.1.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 502997
-    checksum: sha256:0a6c5574be7627d4e4bcd9afc4ee3ab671dddd0bbe6344dd5575c2fbbee785a8
+    size: 509737
+    checksum: sha256:fe6f010e0953f0e421015466a007e3586d570587ecad288c80a8750c6088597f
     name: gdk-pixbuf2
-    evr: 2.42.6-6.el9_6
-    sourcerpm: gdk-pixbuf2-2.42.6-6.el9_6.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/g/gdk-pixbuf2-modules-2.42.6-6.el9_6.x86_64.rpm
+    evr: 2.42.6-6.el9_7.1
+    sourcerpm: gdk-pixbuf2-2.42.6-6.el9_7.1.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/g/gdk-pixbuf2-modules-2.42.6-6.el9_7.1.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 89943
-    checksum: sha256:1ca5c66e639bf8a7499747eb6fefe4cd4cc9318ef1525fe5745da986f46c7156
+    size: 96658
+    checksum: sha256:9f0d06c2d927c062e5cc3352df9c8fd52d1fee8a3fdbbc7e2e36f992b3a83923
     name: gdk-pixbuf2-modules
-    evr: 2.42.6-6.el9_6
-    sourcerpm: gdk-pixbuf2-2.42.6-6.el9_6.src.rpm
+    evr: 2.42.6-6.el9_7.1
+    sourcerpm: gdk-pixbuf2-2.42.6-6.el9_7.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/g/giflib-5.2.1-9.el9_7.1.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 54039
@@ -10391,12 +10391,12 @@ arches:
     checksum: sha256:d5e12deb110f7a5a8776435efa8f6c5e42ecf990e0ed27f95293020b65891254
     name: fribidi
     evr: 1.0.10-6.el9.2
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/g/gdk-pixbuf2-2.42.6-6.el9_6.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/g/gdk-pixbuf2-2.42.6-6.el9_7.1.src.rpm
     repoid: ubi-9-for-x86_64-appstream-source-rpms
-    size: 7737635
-    checksum: sha256:d6ce370a8808b72dbca01cc913617b80682197f7affb3d45b1e2956f88ba9600
+    size: 7743916
+    checksum: sha256:2b2768146443d902e33989ec0b934dfb8aea3c8dcede63f690d03bec9b717c94
     name: gdk-pixbuf2
-    evr: 2.42.6-6.el9_6
+    evr: 2.42.6-6.el9_7.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/g/giflib-5.2.1-9.el9_7.1.src.rpm
     repoid: ubi-9-for-x86_64-appstream-source-rpms
     size: 461115
