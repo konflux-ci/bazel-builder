@@ -592,13 +592,13 @@ arches:
     name: libsndfile
     evr: 1.0.31-9.el9
     sourcerpm: libsndfile-1.0.31-9.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libsoup-2.72.0-12.el9_7.5.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libsoup-2.72.0-12.el9_7.6.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 413306
-    checksum: sha256:12c74cb293e97e461b88d4431ec6abeb4fc4cb436af1d74b09c229b8e877ab5c
+    size: 414064
+    checksum: sha256:c50d3c35d684ab55968d034635b492fdbfdbbdf166101370fd16c9fdd9f05724
     name: libsoup
-    evr: 2.72.0-12.el9_7.5
-    sourcerpm: libsoup-2.72.0-12.el9_7.5.src.rpm
+    evr: 2.72.0-12.el9_7.6
+    sourcerpm: libsoup-2.72.0-12.el9_7.6.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libstdc++-devel-11.5.0-11.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
     size: 2519490
@@ -1747,13 +1747,13 @@ arches:
     name: shared-mime-info
     evr: 2.1-5.el9
     sourcerpm: shared-mime-info-2.1-5.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/s/systemd-udev-252-55.el9_7.8.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/s/systemd-udev-252-55.el9_7.9.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
-    size: 2075090
-    checksum: sha256:ad600e560241b7676e6933624679c24115192067349e0fc1f508447a1d0f31c0
+    size: 2073283
+    checksum: sha256:f36f5b869c20db66969e83dacb3141bc86bc8b243ada054e458b931c3d89a159
     name: systemd-udev
-    evr: 252-55.el9_7.8
-    sourcerpm: systemd-252-55.el9_7.8.src.rpm
+    evr: 252-55.el9_7.9
+    sourcerpm: systemd-252-55.el9_7.9.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/u/unzip-6.0-59.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
     size: 182284
@@ -2147,12 +2147,12 @@ arches:
     checksum: sha256:1b96d89f94f0d25122b09565ab92d4b0217d3c3e230a3b4ce9cbe67a96a20aaf
     name: libsndfile
     evr: 1.0.31-9.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/l/libsoup-2.72.0-12.el9_7.5.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/l/libsoup-2.72.0-12.el9_7.6.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
-    size: 1532055
-    checksum: sha256:8aa1972bc9f23413707ed5f243c1e147580e559c0c834a2d5327c1fa2b1a202b
+    size: 1533489
+    checksum: sha256:819fbf8aa0df3adf2fee668d02397f3b733b1d182c759d218206d65d7c74dd8d
     name: libsoup
-    evr: 2.72.0-12.el9_7.5
+    evr: 2.72.0-12.el9_7.6
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/l/libstemmer-0-18.585svn.el9.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
     size: 142242
@@ -2831,12 +2831,12 @@ arches:
     checksum: sha256:93b45d557d2958d316a6ee4645a9fdccb824cad2133c451ba22221fc933e6f9f
     name: shared-mime-info
     evr: 2.1-5.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/s/systemd-252-55.el9_7.8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/s/systemd-252-55.el9_7.9.src.rpm
     repoid: ubi-9-for-aarch64-baseos-source-rpms
-    size: 44888096
-    checksum: sha256:a633587c7170f5928a0bf1ba144f8f58d759cfdcbc4e6437c4dcb74b1742c69b
+    size: 44887683
+    checksum: sha256:9a5aa7d99c99c2114e7437f1740324e17bb6ee26d281044ab3bf402bf0d9b353
     name: systemd
-    evr: 252-55.el9_7.8
+    evr: 252-55.el9_7.9
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/u/unzip-6.0-59.el9.src.rpm
     repoid: ubi-9-for-aarch64-baseos-source-rpms
     size: 1433595
@@ -3440,13 +3440,13 @@ arches:
     name: libsndfile
     evr: 1.0.31-9.el9
     sourcerpm: libsndfile-1.0.31-9.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/l/libsoup-2.72.0-12.el9_7.5.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/l/libsoup-2.72.0-12.el9_7.6.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
-    size: 442084
-    checksum: sha256:7ca8e12e2f96ed296ed137d069068f1cb80f5d49052a393a7855938fe9f43c20
+    size: 442600
+    checksum: sha256:bc894291c82c70a5331557f6751eaae05fc1e13b55c07a04f3c9823674c38cc0
     name: libsoup
-    evr: 2.72.0-12.el9_7.5
-    sourcerpm: libsoup-2.72.0-12.el9_7.5.src.rpm
+    evr: 2.72.0-12.el9_7.6
+    sourcerpm: libsoup-2.72.0-12.el9_7.6.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/l/libstdc++-devel-11.5.0-11.el9.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
     size: 2525476
@@ -4595,13 +4595,13 @@ arches:
     name: shared-mime-info
     evr: 2.1-5.el9
     sourcerpm: shared-mime-info-2.1-5.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/s/systemd-udev-252-55.el9_7.8.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/s/systemd-udev-252-55.el9_7.9.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-baseos-rpms
-    size: 2014281
-    checksum: sha256:df6bb7a2e9c534befa14808c807960aebcbd252046d80d111f221c9810bd541a
+    size: 2012304
+    checksum: sha256:75e9f5ec490f58c6bb6f4435216ac3acc176709204d303cfd24eac2f00d418db
     name: systemd-udev
-    evr: 252-55.el9_7.8
-    sourcerpm: systemd-252-55.el9_7.8.src.rpm
+    evr: 252-55.el9_7.9
+    sourcerpm: systemd-252-55.el9_7.9.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/u/unzip-6.0-59.el9.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-baseos-rpms
     size: 190400
@@ -4995,12 +4995,12 @@ arches:
     checksum: sha256:1b96d89f94f0d25122b09565ab92d4b0217d3c3e230a3b4ce9cbe67a96a20aaf
     name: libsndfile
     evr: 1.0.31-9.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/l/libsoup-2.72.0-12.el9_7.5.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/l/libsoup-2.72.0-12.el9_7.6.src.rpm
     repoid: ubi-9-for-ppc64le-appstream-source-rpms
-    size: 1532055
-    checksum: sha256:8aa1972bc9f23413707ed5f243c1e147580e559c0c834a2d5327c1fa2b1a202b
+    size: 1533489
+    checksum: sha256:819fbf8aa0df3adf2fee668d02397f3b733b1d182c759d218206d65d7c74dd8d
     name: libsoup
-    evr: 2.72.0-12.el9_7.5
+    evr: 2.72.0-12.el9_7.6
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/l/libstemmer-0-18.585svn.el9.src.rpm
     repoid: ubi-9-for-ppc64le-appstream-source-rpms
     size: 142242
@@ -5679,12 +5679,12 @@ arches:
     checksum: sha256:93b45d557d2958d316a6ee4645a9fdccb824cad2133c451ba22221fc933e6f9f
     name: shared-mime-info
     evr: 2.1-5.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/source/SRPMS/Packages/s/systemd-252-55.el9_7.8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/source/SRPMS/Packages/s/systemd-252-55.el9_7.9.src.rpm
     repoid: ubi-9-for-ppc64le-baseos-source-rpms
-    size: 44888096
-    checksum: sha256:a633587c7170f5928a0bf1ba144f8f58d759cfdcbc4e6437c4dcb74b1742c69b
+    size: 44887683
+    checksum: sha256:9a5aa7d99c99c2114e7437f1740324e17bb6ee26d281044ab3bf402bf0d9b353
     name: systemd
-    evr: 252-55.el9_7.8
+    evr: 252-55.el9_7.9
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/source/SRPMS/Packages/u/unzip-6.0-59.el9.src.rpm
     repoid: ubi-9-for-ppc64le-baseos-source-rpms
     size: 1433595
@@ -6323,13 +6323,13 @@ arches:
     name: libsndfile
     evr: 1.0.31-9.el9
     sourcerpm: libsndfile-1.0.31-9.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/libsoup-2.72.0-12.el9_7.5.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/libsoup-2.72.0-12.el9_7.6.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
-    size: 411237
-    checksum: sha256:da8cba0e1b9c732608f58fd7028a1f71703f9233d4bc5780ab38b49e367510a0
+    size: 411292
+    checksum: sha256:c0502f43104971516e6f209f244668f74b6b2ac9f50fc4ded66e595e61bda022
     name: libsoup
-    evr: 2.72.0-12.el9_7.5
-    sourcerpm: libsoup-2.72.0-12.el9_7.5.src.rpm
+    evr: 2.72.0-12.el9_7.6
+    sourcerpm: libsoup-2.72.0-12.el9_7.6.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/libstdc++-devel-11.5.0-11.el9.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
     size: 2511189
@@ -7450,13 +7450,13 @@ arches:
     name: shared-mime-info
     evr: 2.1-5.el9
     sourcerpm: shared-mime-info-2.1-5.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/s/systemd-udev-252-55.el9_7.8.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/s/systemd-udev-252-55.el9_7.9.s390x.rpm
     repoid: ubi-9-for-s390x-baseos-rpms
-    size: 1977713
-    checksum: sha256:899b366dec00fde238169b209f6862e86cdb063af8625ded45a11c248ff70d3a
+    size: 1977430
+    checksum: sha256:6b2f09c91f03bedb41fe23ad0f8ce3d1fec3b2f089466fa856bb085ad51c0691
     name: systemd-udev
-    evr: 252-55.el9_7.8
-    sourcerpm: systemd-252-55.el9_7.8.src.rpm
+    evr: 252-55.el9_7.9
+    sourcerpm: systemd-252-55.el9_7.9.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/u/unzip-6.0-59.el9.s390x.rpm
     repoid: ubi-9-for-s390x-baseos-rpms
     size: 180857
@@ -7850,12 +7850,12 @@ arches:
     checksum: sha256:1b96d89f94f0d25122b09565ab92d4b0217d3c3e230a3b4ce9cbe67a96a20aaf
     name: libsndfile
     evr: 1.0.31-9.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/l/libsoup-2.72.0-12.el9_7.5.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/l/libsoup-2.72.0-12.el9_7.6.src.rpm
     repoid: ubi-9-for-s390x-appstream-source-rpms
-    size: 1532055
-    checksum: sha256:8aa1972bc9f23413707ed5f243c1e147580e559c0c834a2d5327c1fa2b1a202b
+    size: 1533489
+    checksum: sha256:819fbf8aa0df3adf2fee668d02397f3b733b1d182c759d218206d65d7c74dd8d
     name: libsoup
-    evr: 2.72.0-12.el9_7.5
+    evr: 2.72.0-12.el9_7.6
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/l/libstemmer-0-18.585svn.el9.src.rpm
     repoid: ubi-9-for-s390x-appstream-source-rpms
     size: 142242
@@ -8510,12 +8510,12 @@ arches:
     checksum: sha256:93b45d557d2958d316a6ee4645a9fdccb824cad2133c451ba22221fc933e6f9f
     name: shared-mime-info
     evr: 2.1-5.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/source/SRPMS/Packages/s/systemd-252-55.el9_7.8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/source/SRPMS/Packages/s/systemd-252-55.el9_7.9.src.rpm
     repoid: ubi-9-for-s390x-baseos-source-rpms
-    size: 44888096
-    checksum: sha256:a633587c7170f5928a0bf1ba144f8f58d759cfdcbc4e6437c4dcb74b1742c69b
+    size: 44887683
+    checksum: sha256:9a5aa7d99c99c2114e7437f1740324e17bb6ee26d281044ab3bf402bf0d9b353
     name: systemd
-    evr: 252-55.el9_7.8
+    evr: 252-55.el9_7.9
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/source/SRPMS/Packages/u/unzip-6.0-59.el9.src.rpm
     repoid: ubi-9-for-s390x-baseos-source-rpms
     size: 1433595
@@ -9119,13 +9119,13 @@ arches:
     name: libsndfile
     evr: 1.0.31-9.el9
     sourcerpm: libsndfile-1.0.31-9.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libsoup-2.72.0-12.el9_7.5.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libsoup-2.72.0-12.el9_7.6.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 420847
-    checksum: sha256:77f14bc81e45a61618e836049a968acdd998df82263d9eaa7cd83073267ec02d
+    size: 420955
+    checksum: sha256:293af2490e3e55e861a6424756b0b0f0dc69b4efce71dc6570690f8f98c4df69
     name: libsoup
-    evr: 2.72.0-12.el9_7.5
-    sourcerpm: libsoup-2.72.0-12.el9_7.5.src.rpm
+    evr: 2.72.0-12.el9_7.6
+    sourcerpm: libsoup-2.72.0-12.el9_7.6.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libstdc++-devel-11.5.0-11.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 2524732
@@ -10267,13 +10267,13 @@ arches:
     name: shared-mime-info
     evr: 2.1-5.el9
     sourcerpm: shared-mime-info-2.1-5.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/s/systemd-udev-252-55.el9_7.8.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/s/systemd-udev-252-55.el9_7.9.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
-    size: 2120702
-    checksum: sha256:5cfe3d2fd531fe5027951298d978b12ca51fc910354abfcc534f80a303235713
+    size: 2120626
+    checksum: sha256:802a48b683c2531b50e996f43f8fe3ad0826832ebaa9a6ca6142353bdd687aa7
     name: systemd-udev
-    evr: 252-55.el9_7.8
-    sourcerpm: systemd-252-55.el9_7.8.src.rpm
+    evr: 252-55.el9_7.9
+    sourcerpm: systemd-252-55.el9_7.9.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/u/unzip-6.0-59.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
     size: 186130
@@ -10667,12 +10667,12 @@ arches:
     checksum: sha256:1b96d89f94f0d25122b09565ab92d4b0217d3c3e230a3b4ce9cbe67a96a20aaf
     name: libsndfile
     evr: 1.0.31-9.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/l/libsoup-2.72.0-12.el9_7.5.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/l/libsoup-2.72.0-12.el9_7.6.src.rpm
     repoid: ubi-9-for-x86_64-appstream-source-rpms
-    size: 1532055
-    checksum: sha256:8aa1972bc9f23413707ed5f243c1e147580e559c0c834a2d5327c1fa2b1a202b
+    size: 1533489
+    checksum: sha256:819fbf8aa0df3adf2fee668d02397f3b733b1d182c759d218206d65d7c74dd8d
     name: libsoup
-    evr: 2.72.0-12.el9_7.5
+    evr: 2.72.0-12.el9_7.6
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/l/libstemmer-0-18.585svn.el9.src.rpm
     repoid: ubi-9-for-x86_64-appstream-source-rpms
     size: 142242
@@ -11357,12 +11357,12 @@ arches:
     checksum: sha256:93b45d557d2958d316a6ee4645a9fdccb824cad2133c451ba22221fc933e6f9f
     name: shared-mime-info
     evr: 2.1-5.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/s/systemd-252-55.el9_7.8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/s/systemd-252-55.el9_7.9.src.rpm
     repoid: ubi-9-for-x86_64-baseos-source-rpms
-    size: 44888096
-    checksum: sha256:a633587c7170f5928a0bf1ba144f8f58d759cfdcbc4e6437c4dcb74b1742c69b
+    size: 44887683
+    checksum: sha256:9a5aa7d99c99c2114e7437f1740324e17bb6ee26d281044ab3bf402bf0d9b353
     name: systemd
-    evr: 252-55.el9_7.8
+    evr: 252-55.el9_7.9
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/u/unzip-6.0-59.el9.src.rpm
     repoid: ubi-9-for-x86_64-baseos-source-rpms
     size: 1433595
