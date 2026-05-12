@@ -1635,13 +1635,13 @@ arches:
     name: libpkgconf
     evr: 1.7.3-10.el9
     sourcerpm: pkgconf-1.7.3-10.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/l/libpng-1.6.37-12.el9_7.2.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/l/libpng-1.6.37-12.el9_7.3.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
-    size: 122776
-    checksum: sha256:fdc3b1562a25f0d4e5d2ce45ea7d31de79fdd7e28043092be081cb19a285b0ee
+    size: 122928
+    checksum: sha256:7fc2812cbdf49957466da0bd80e3825a8937bdf0b85aee94651149b56a33bb23
     name: libpng
-    evr: 2:1.6.37-12.el9_7.2
-    sourcerpm: libpng-1.6.37-12.el9_7.2.src.rpm
+    evr: 2:1.6.37-12.el9_7.3
+    sourcerpm: libpng-1.6.37-12.el9_7.3.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/l/libproxy-0.4.15-35.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
     size: 75974
@@ -2735,12 +2735,12 @@ arches:
     checksum: sha256:18f50c2b798110da109d5d0b429948c762d5b98ba5d37705b6d1b4d327200847
     name: libgusb
     evr: 0.3.8-2.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/l/libpng-1.6.37-12.el9_7.2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/l/libpng-1.6.37-12.el9_7.3.src.rpm
     repoid: ubi-9-for-aarch64-baseos-source-rpms
-    size: 1537419
-    checksum: sha256:ee557033d0e7472d41825b9c4b9f2b142857cfa17caf43d12d9ecf08c8a5e290
+    size: 1538697
+    checksum: sha256:a9f6893aab05b27ee097ef9ea68843db3c0e621081b39083ff6b1a3988137cd5
     name: libpng
-    evr: 2:1.6.37-12.el9_7.2
+    evr: 2:1.6.37-12.el9_7.3
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/l/libproxy-0.4.15-35.el9.src.rpm
     repoid: ubi-9-for-aarch64-baseos-source-rpms
     size: 123932
@@ -4483,13 +4483,13 @@ arches:
     name: libpkgconf
     evr: 1.7.3-10.el9
     sourcerpm: pkgconf-1.7.3-10.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/l/libpng-1.6.37-12.el9_7.2.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/l/libpng-1.6.37-12.el9_7.3.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-baseos-rpms
-    size: 145235
-    checksum: sha256:db82e5bf347b2c72408d9153827bb903f65a51d6f83d810bd3ea1afe1131a937
+    size: 145377
+    checksum: sha256:d50dd5684e307d936c9818d1bca0badab2c4d5b0b29ecf5b4caa05c48c4502c3
     name: libpng
-    evr: 2:1.6.37-12.el9_7.2
-    sourcerpm: libpng-1.6.37-12.el9_7.2.src.rpm
+    evr: 2:1.6.37-12.el9_7.3
+    sourcerpm: libpng-1.6.37-12.el9_7.3.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/l/libproxy-0.4.15-35.el9.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-baseos-rpms
     size: 82192
@@ -5583,12 +5583,12 @@ arches:
     checksum: sha256:18f50c2b798110da109d5d0b429948c762d5b98ba5d37705b6d1b4d327200847
     name: libgusb
     evr: 0.3.8-2.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/source/SRPMS/Packages/l/libpng-1.6.37-12.el9_7.2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/source/SRPMS/Packages/l/libpng-1.6.37-12.el9_7.3.src.rpm
     repoid: ubi-9-for-ppc64le-baseos-source-rpms
-    size: 1537419
-    checksum: sha256:ee557033d0e7472d41825b9c4b9f2b142857cfa17caf43d12d9ecf08c8a5e290
+    size: 1538697
+    checksum: sha256:a9f6893aab05b27ee097ef9ea68843db3c0e621081b39083ff6b1a3988137cd5
     name: libpng
-    evr: 2:1.6.37-12.el9_7.2
+    evr: 2:1.6.37-12.el9_7.3
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/source/SRPMS/Packages/l/libproxy-0.4.15-35.el9.src.rpm
     repoid: ubi-9-for-ppc64le-baseos-source-rpms
     size: 123932
@@ -6302,13 +6302,13 @@ arches:
     name: libosinfo
     evr: 1.10.0-1.el9
     sourcerpm: libosinfo-1.10.0-1.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/libpng-1.6.37-12.el9_7.2.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/libpng-1.6.37-12.el9_7.3.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
-    size: 123290
-    checksum: sha256:dde1fee027278ae568355e423e058db44271d84f18bb11255678477d4ef3385b
+    size: 123452
+    checksum: sha256:7bac5bf3460d8c3d3c0a2039d2f78762daf375f83c1525aa612c3aadcf5e7226
     name: libpng
-    evr: 2:1.6.37-12.el9_7.2
-    sourcerpm: libpng-1.6.37-12.el9_7.2.src.rpm
+    evr: 2:1.6.37-12.el9_7.3
+    sourcerpm: libpng-1.6.37-12.el9_7.3.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/libproxy-webkitgtk4-0.4.15-35.el9.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
     size: 22139
@@ -10155,13 +10155,13 @@ arches:
     name: libpkgconf
     evr: 1.7.3-10.el9
     sourcerpm: pkgconf-1.7.3-10.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/l/libpng-1.6.37-12.el9_7.2.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/l/libpng-1.6.37-12.el9_7.3.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
-    size: 124468
-    checksum: sha256:19b5cf6b3a14137a159ea956c61559fb776a72d251b6c60a4d4959cdd88db3d1
+    size: 124610
+    checksum: sha256:46809ed973fe057afdba595cd6672116ae4c73cadcac6d885e5710b9d1c56550
     name: libpng
-    evr: 2:1.6.37-12.el9_7.2
-    sourcerpm: libpng-1.6.37-12.el9_7.2.src.rpm
+    evr: 2:1.6.37-12.el9_7.3
+    sourcerpm: libpng-1.6.37-12.el9_7.3.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/l/libproxy-0.4.15-35.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
     size: 79470
@@ -11261,12 +11261,12 @@ arches:
     checksum: sha256:1db6df2f1176960c34a4c87ee533b039ea2db8a2e2f1cb0312399a2ec5d37f8b
     name: libpciaccess
     evr: 0.16-7.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/l/libpng-1.6.37-12.el9_7.2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/l/libpng-1.6.37-12.el9_7.3.src.rpm
     repoid: ubi-9-for-x86_64-baseos-source-rpms
-    size: 1537419
-    checksum: sha256:ee557033d0e7472d41825b9c4b9f2b142857cfa17caf43d12d9ecf08c8a5e290
+    size: 1538697
+    checksum: sha256:a9f6893aab05b27ee097ef9ea68843db3c0e621081b39083ff6b1a3988137cd5
     name: libpng
-    evr: 2:1.6.37-12.el9_7.2
+    evr: 2:1.6.37-12.el9_7.3
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/l/libproxy-0.4.15-35.el9.src.rpm
     repoid: ubi-9-for-x86_64-baseos-source-rpms
     size: 123932
