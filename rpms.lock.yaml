@@ -298,13 +298,13 @@ arches:
     name: jbigkit-libs
     evr: 2.1-23.el9
     sourcerpm: jbigkit-2.1-23.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-687.23.1.el9_8.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-687.26.1.el9_8.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 2851397
-    checksum: sha256:7329138f9c24daab4db6af9975fb3caa72c54fb7f4217bf2c0e71085fc1ea32c
+    size: 2853081
+    checksum: sha256:34ad5a43d2d1f57f2ba629d22f50f91ac671573321b00bbdfa82c6280e148e95
     name: kernel-headers
-    evr: 5.14.0-687.23.1.el9_8
-    sourcerpm: kernel-5.14.0-687.23.1.el9_8.src.rpm
+    evr: 5.14.0-687.26.1.el9_8
+    sourcerpm: kernel-5.14.0-687.26.1.el9_8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/lcms2-2.12-3.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
     size: 171119
@@ -403,13 +403,13 @@ arches:
     name: libXrandr
     evr: 1.5.2-8.el9
     sourcerpm: libXrandr-1.5.2-8.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libXrender-0.9.10-16.el9.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libXrender-0.9.10-16.el9_8.1.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 29483
-    checksum: sha256:06920454ec27e62fd482834d72ef6a6d3b3454ef111e5e7843355ed3d0ae20b5
+    size: 32253
+    checksum: sha256:8f7c951783a8f77aa595eaabc1d651ff5a741821b952776a62dd20afa72ce129
     name: libXrender
-    evr: 0.9.10-16.el9
-    sourcerpm: libXrender-0.9.10-16.el9.src.rpm
+    evr: 0.9.10-16.el9_8.1
+    sourcerpm: libXrender-0.9.10-16.el9_8.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libXtst-1.2.3-16.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
     size: 23456
@@ -1446,13 +1446,13 @@ arches:
     name: cryptsetup-libs
     evr: 2.8.1-3.el9
     sourcerpm: cryptsetup-2.8.1-3.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/c/cups-libs-2.3.3op2-38.el9_8.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/c/cups-libs-2.3.3op2-39.el9_8.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
-    size: 270934
-    checksum: sha256:e7640acd438993a6b7b132909bf5a47faef66c76eac6745f8848e8ac0c413967
+    size: 270271
+    checksum: sha256:887d49338e7dd7d015aec22a9cf53af9c25653f241d53fe73bf590787ae86672
     name: cups-libs
-    evr: 1:2.3.3op2-38.el9_8
-    sourcerpm: cups-2.3.3op2-38.el9_8.src.rpm
+    evr: 1:2.3.3op2-39.el9_8
+    sourcerpm: cups-2.3.3op2-39.el9_8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/d/device-mapper-1.02.207-4.el9_8.1.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
     size: 148169
@@ -2001,12 +2001,12 @@ arches:
     checksum: sha256:a565d64c7ff4b9c46cfc916097b1c8c9d886c006a7c18eac085f4ca6b4e8d310
     name: libXrandr
     evr: 1.5.2-8.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/l/libXrender-0.9.10-16.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/l/libXrender-0.9.10-16.el9_8.1.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
-    size: 320828
-    checksum: sha256:5fc0f3794b08cc71d89bf24c19a4a02c2d15c63850225327af9f20b45e1250e8
+    size: 326576
+    checksum: sha256:5fbd6b3c44cb3a8d72a6f877cbfc522f797d8584302c00ad48e8e00bee32d191
     name: libXrender
-    evr: 0.9.10-16.el9
+    evr: 0.9.10-16.el9_8.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/l/libXtst-1.2.3-16.el9.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
     size: 332563
@@ -2595,12 +2595,12 @@ arches:
     checksum: sha256:a05d7f62e05ac0edff90c0957883054bb93ea3b2b9fc494ef8e7bca617ede74a
     name: cryptsetup
     evr: 2.8.1-3.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/c/cups-2.3.3op2-38.el9_8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/c/cups-2.3.3op2-39.el9_8.src.rpm
     repoid: ubi-9-for-aarch64-baseos-source-rpms
-    size: 8146781
-    checksum: sha256:9acc7453c1c5cd10ab4d429b9d88c66208c791e681393a97f39a3acf50737431
+    size: 8153199
+    checksum: sha256:ce2455bd80df9e731a6ac535ad7e370baa1717c297da4964be2360669f416ef5
     name: cups
-    evr: 1:2.3.3op2-38.el9_8
+    evr: 1:2.3.3op2-39.el9_8
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/e/elfutils-0.194-1.el9.src.rpm
     repoid: ubi-9-for-aarch64-baseos-source-rpms
     size: 12030455
@@ -3132,13 +3132,13 @@ arches:
     name: jbigkit-libs
     evr: 2.1-23.el9
     sourcerpm: jbigkit-2.1-23.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/k/kernel-headers-5.14.0-687.23.1.el9_8.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/k/kernel-headers-5.14.0-687.26.1.el9_8.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
-    size: 2875185
-    checksum: sha256:4753b62191d9664f3b9619215772662e2fac65a016e65eff26270cbe7194c5db
+    size: 2876901
+    checksum: sha256:676aa87431ccf6f4c0b90cb05cd52d3b3d8e2a99a77f68be6d3fd6dc80269b65
     name: kernel-headers
-    evr: 5.14.0-687.23.1.el9_8
-    sourcerpm: kernel-5.14.0-687.23.1.el9_8.src.rpm
+    evr: 5.14.0-687.26.1.el9_8
+    sourcerpm: kernel-5.14.0-687.26.1.el9_8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/l/lcms2-2.12-3.el9.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
     size: 198719
@@ -3237,13 +3237,13 @@ arches:
     name: libXrandr
     evr: 1.5.2-8.el9
     sourcerpm: libXrandr-1.5.2-8.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/l/libXrender-0.9.10-16.el9.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/l/libXrender-0.9.10-16.el9_8.1.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
-    size: 32491
-    checksum: sha256:e10822c26806e190764982357cac4c476654469269a1cf2b77856eaa12b4f6f0
+    size: 34767
+    checksum: sha256:7db6ca795e3b47c6f86943602cd6b15dd2ba8c9dc03310698cb1b4490f91ff0c
     name: libXrender
-    evr: 0.9.10-16.el9
-    sourcerpm: libXrender-0.9.10-16.el9.src.rpm
+    evr: 0.9.10-16.el9_8.1
+    sourcerpm: libXrender-0.9.10-16.el9_8.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/l/libXtst-1.2.3-16.el9.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
     size: 24956
@@ -4280,13 +4280,13 @@ arches:
     name: cryptsetup-libs
     evr: 2.8.1-3.el9
     sourcerpm: cryptsetup-2.8.1-3.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/c/cups-libs-2.3.3op2-38.el9_8.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/c/cups-libs-2.3.3op2-39.el9_8.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-baseos-rpms
-    size: 324452
-    checksum: sha256:9aa0d445d0305672e64a7cf069082281a84c69bf555f53e3f3051f1308c03395
+    size: 324483
+    checksum: sha256:a572107ee7005f5a8feced53282328a95725258bc00aa15bb029aa2e1bbb7de1
     name: cups-libs
-    evr: 1:2.3.3op2-38.el9_8
-    sourcerpm: cups-2.3.3op2-38.el9_8.src.rpm
+    evr: 1:2.3.3op2-39.el9_8
+    sourcerpm: cups-2.3.3op2-39.el9_8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/d/device-mapper-1.02.207-4.el9_8.1.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-baseos-rpms
     size: 152469
@@ -4835,12 +4835,12 @@ arches:
     checksum: sha256:a565d64c7ff4b9c46cfc916097b1c8c9d886c006a7c18eac085f4ca6b4e8d310
     name: libXrandr
     evr: 1.5.2-8.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/l/libXrender-0.9.10-16.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/l/libXrender-0.9.10-16.el9_8.1.src.rpm
     repoid: ubi-9-for-ppc64le-appstream-source-rpms
-    size: 320828
-    checksum: sha256:5fc0f3794b08cc71d89bf24c19a4a02c2d15c63850225327af9f20b45e1250e8
+    size: 326576
+    checksum: sha256:5fbd6b3c44cb3a8d72a6f877cbfc522f797d8584302c00ad48e8e00bee32d191
     name: libXrender
-    evr: 0.9.10-16.el9
+    evr: 0.9.10-16.el9_8.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/l/libXtst-1.2.3-16.el9.src.rpm
     repoid: ubi-9-for-ppc64le-appstream-source-rpms
     size: 332563
@@ -5429,12 +5429,12 @@ arches:
     checksum: sha256:a05d7f62e05ac0edff90c0957883054bb93ea3b2b9fc494ef8e7bca617ede74a
     name: cryptsetup
     evr: 2.8.1-3.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/source/SRPMS/Packages/c/cups-2.3.3op2-38.el9_8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/source/SRPMS/Packages/c/cups-2.3.3op2-39.el9_8.src.rpm
     repoid: ubi-9-for-ppc64le-baseos-source-rpms
-    size: 8146781
-    checksum: sha256:9acc7453c1c5cd10ab4d429b9d88c66208c791e681393a97f39a3acf50737431
+    size: 8153199
+    checksum: sha256:ce2455bd80df9e731a6ac535ad7e370baa1717c297da4964be2360669f416ef5
     name: cups
-    evr: 1:2.3.3op2-38.el9_8
+    evr: 1:2.3.3op2-39.el9_8
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/source/SRPMS/Packages/e/elfutils-0.194-1.el9.src.rpm
     repoid: ubi-9-for-ppc64le-baseos-source-rpms
     size: 12030455
@@ -5994,13 +5994,13 @@ arches:
     name: jbigkit-libs
     evr: 2.1-23.el9
     sourcerpm: jbigkit-2.1-23.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/k/kernel-headers-5.14.0-687.23.1.el9_8.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/k/kernel-headers-5.14.0-687.26.1.el9_8.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
-    size: 2881353
-    checksum: sha256:1077c0cffa2dea0c6e777ad2b02360669c603687d62e4d2dc2ba0d899b469fca
+    size: 2883077
+    checksum: sha256:ced60754178c88644c02e7f92926d13e821a728632dd1ba8c6b4e342da592f58
     name: kernel-headers
-    evr: 5.14.0-687.23.1.el9_8
-    sourcerpm: kernel-5.14.0-687.23.1.el9_8.src.rpm
+    evr: 5.14.0-687.26.1.el9_8
+    sourcerpm: kernel-5.14.0-687.26.1.el9_8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/lcms2-2.12-3.el9.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
     size: 168399
@@ -6099,13 +6099,13 @@ arches:
     name: libXrandr
     evr: 1.5.2-8.el9
     sourcerpm: libXrandr-1.5.2-8.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/libXrender-0.9.10-16.el9.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/libXrender-0.9.10-16.el9_8.1.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
-    size: 29619
-    checksum: sha256:6ecce3138b5dea1ea50349a2ad7f7c8ac8e657d82fd76f8a0f20b826d8f5be0a
+    size: 32224
+    checksum: sha256:6076b03a617eeda1b92f24042b8c90fa2e23b592f7159e0fa8fb0fa79bd17240
     name: libXrender
-    evr: 0.9.10-16.el9
-    sourcerpm: libXrender-0.9.10-16.el9.src.rpm
+    evr: 0.9.10-16.el9_8.1
+    sourcerpm: libXrender-0.9.10-16.el9_8.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/libXtst-1.2.3-16.el9.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
     size: 22995
@@ -7149,13 +7149,13 @@ arches:
     name: cryptsetup-libs
     evr: 2.8.1-3.el9
     sourcerpm: cryptsetup-2.8.1-3.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/c/cups-libs-2.3.3op2-38.el9_8.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/c/cups-libs-2.3.3op2-39.el9_8.s390x.rpm
     repoid: ubi-9-for-s390x-baseos-rpms
-    size: 264137
-    checksum: sha256:fc5dbd8d4d46fb5ba40d5a1c3ad7cc589e35ed1ee775035da55f7b386ab25206
+    size: 264648
+    checksum: sha256:781ce9fa1ee1fe7197cdb243c87e3918c2755800162bbf37902aeafa9d9602b9
     name: cups-libs
-    evr: 1:2.3.3op2-38.el9_8
-    sourcerpm: cups-2.3.3op2-38.el9_8.src.rpm
+    evr: 1:2.3.3op2-39.el9_8
+    sourcerpm: cups-2.3.3op2-39.el9_8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/d/device-mapper-1.02.207-4.el9_8.1.s390x.rpm
     repoid: ubi-9-for-s390x-baseos-rpms
     size: 147134
@@ -7676,12 +7676,12 @@ arches:
     checksum: sha256:a565d64c7ff4b9c46cfc916097b1c8c9d886c006a7c18eac085f4ca6b4e8d310
     name: libXrandr
     evr: 1.5.2-8.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/l/libXrender-0.9.10-16.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/l/libXrender-0.9.10-16.el9_8.1.src.rpm
     repoid: ubi-9-for-s390x-appstream-source-rpms
-    size: 320828
-    checksum: sha256:5fc0f3794b08cc71d89bf24c19a4a02c2d15c63850225327af9f20b45e1250e8
+    size: 326576
+    checksum: sha256:5fbd6b3c44cb3a8d72a6f877cbfc522f797d8584302c00ad48e8e00bee32d191
     name: libXrender
-    evr: 0.9.10-16.el9
+    evr: 0.9.10-16.el9_8.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/l/libXtst-1.2.3-16.el9.src.rpm
     repoid: ubi-9-for-s390x-appstream-source-rpms
     size: 332563
@@ -8270,12 +8270,12 @@ arches:
     checksum: sha256:a05d7f62e05ac0edff90c0957883054bb93ea3b2b9fc494ef8e7bca617ede74a
     name: cryptsetup
     evr: 2.8.1-3.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/source/SRPMS/Packages/c/cups-2.3.3op2-38.el9_8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/source/SRPMS/Packages/c/cups-2.3.3op2-39.el9_8.src.rpm
     repoid: ubi-9-for-s390x-baseos-source-rpms
-    size: 8146781
-    checksum: sha256:9acc7453c1c5cd10ab4d429b9d88c66208c791e681393a97f39a3acf50737431
+    size: 8153199
+    checksum: sha256:ce2455bd80df9e731a6ac535ad7e370baa1717c297da4964be2360669f416ef5
     name: cups
-    evr: 1:2.3.3op2-38.el9_8
+    evr: 1:2.3.3op2-39.el9_8
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/source/SRPMS/Packages/e/elfutils-0.194-1.el9.src.rpm
     repoid: ubi-9-for-s390x-baseos-source-rpms
     size: 12030455
@@ -8790,13 +8790,13 @@ arches:
     name: jbigkit-libs
     evr: 2.1-23.el9
     sourcerpm: jbigkit-2.1-23.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-687.23.1.el9_8.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-687.26.1.el9_8.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 2890677
-    checksum: sha256:1861444d417af370a6fdd8d0ff28c3bbd6b6f4ebe5764edd5d3d21aebbc2bd6a
+    size: 2892369
+    checksum: sha256:2adcf99e57de3cd729d11f4928817dd27db78546540851f741a75a749ac69e17
     name: kernel-headers
-    evr: 5.14.0-687.23.1.el9_8
-    sourcerpm: kernel-5.14.0-687.23.1.el9_8.src.rpm
+    evr: 5.14.0-687.26.1.el9_8
+    sourcerpm: kernel-5.14.0-687.26.1.el9_8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/lcms2-2.12-3.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 173479
@@ -8895,13 +8895,13 @@ arches:
     name: libXrandr
     evr: 1.5.2-8.el9
     sourcerpm: libXrandr-1.5.2-8.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libXrender-0.9.10-16.el9.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libXrender-0.9.10-16.el9_8.1.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 30453
-    checksum: sha256:ab69ef172aaae7535eac07e516a4973d5d7e386e0e693af5f901806f7b527676
+    size: 33128
+    checksum: sha256:84862f0065fc58c4c36656d39cd7f9cc557425c5a937892e7e29889c5decc313
     name: libXrender
-    evr: 0.9.10-16.el9
-    sourcerpm: libXrender-0.9.10-16.el9.src.rpm
+    evr: 0.9.10-16.el9_8.1
+    sourcerpm: libXrender-0.9.10-16.el9_8.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libXtst-1.2.3-16.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 23624
@@ -9924,13 +9924,13 @@ arches:
     name: cryptsetup-libs
     evr: 2.8.1-3.el9
     sourcerpm: cryptsetup-2.8.1-3.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/c/cups-libs-2.3.3op2-38.el9_8.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/c/cups-libs-2.3.3op2-39.el9_8.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
-    size: 272781
-    checksum: sha256:486c05136667592e25432737571d7576aff560a7a4eed75c8291fb560203a13c
+    size: 273029
+    checksum: sha256:c0031cf76552a93f139060c94617206d6084ee353b07ee6ac05669bb6fdcc1d4
     name: cups-libs
-    evr: 1:2.3.3op2-38.el9_8
-    sourcerpm: cups-2.3.3op2-38.el9_8.src.rpm
+    evr: 1:2.3.3op2-39.el9_8
+    sourcerpm: cups-2.3.3op2-39.el9_8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/d/device-mapper-1.02.207-4.el9_8.1.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
     size: 150134
@@ -10479,12 +10479,12 @@ arches:
     checksum: sha256:a565d64c7ff4b9c46cfc916097b1c8c9d886c006a7c18eac085f4ca6b4e8d310
     name: libXrandr
     evr: 1.5.2-8.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/l/libXrender-0.9.10-16.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/l/libXrender-0.9.10-16.el9_8.1.src.rpm
     repoid: ubi-9-for-x86_64-appstream-source-rpms
-    size: 320828
-    checksum: sha256:5fc0f3794b08cc71d89bf24c19a4a02c2d15c63850225327af9f20b45e1250e8
+    size: 326576
+    checksum: sha256:5fbd6b3c44cb3a8d72a6f877cbfc522f797d8584302c00ad48e8e00bee32d191
     name: libXrender
-    evr: 0.9.10-16.el9
+    evr: 0.9.10-16.el9_8.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/l/libXtst-1.2.3-16.el9.src.rpm
     repoid: ubi-9-for-x86_64-appstream-source-rpms
     size: 332563
@@ -11073,12 +11073,12 @@ arches:
     checksum: sha256:a05d7f62e05ac0edff90c0957883054bb93ea3b2b9fc494ef8e7bca617ede74a
     name: cryptsetup
     evr: 2.8.1-3.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/c/cups-2.3.3op2-38.el9_8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/c/cups-2.3.3op2-39.el9_8.src.rpm
     repoid: ubi-9-for-x86_64-baseos-source-rpms
-    size: 8146781
-    checksum: sha256:9acc7453c1c5cd10ab4d429b9d88c66208c791e681393a97f39a3acf50737431
+    size: 8153199
+    checksum: sha256:ce2455bd80df9e731a6ac535ad7e370baa1717c297da4964be2360669f416ef5
     name: cups
-    evr: 1:2.3.3op2-38.el9_8
+    evr: 1:2.3.3op2-39.el9_8
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/e/elfutils-0.194-1.el9.src.rpm
     repoid: ubi-9-for-x86_64-baseos-source-rpms
     size: 12030455
