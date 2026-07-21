@@ -620,13 +620,13 @@ arches:
     name: libtheora
     evr: 1:1.1.1-31.el9
     sourcerpm: libtheora-1.1.1-31.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libtiff-4.4.0-18.el9_8.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libtiff-4.4.0-18.el9_8.1.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 202357
-    checksum: sha256:e29d016684c332be69b0979adab11695859652f20acc3815d6feb9d6eb009c28
+    size: 202822
+    checksum: sha256:2bc1ca621dc44b4f23ecbdcc7a19373fecb61d659b0308f35fa917a82740c4e5
     name: libtiff
-    evr: 4.4.0-18.el9_8
-    sourcerpm: libtiff-4.4.0-18.el9_8.src.rpm
+    evr: 4.4.0-18.el9_8.1
+    sourcerpm: libtiff-4.4.0-18.el9_8.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libtracker-sparql-3.1.2-3.el9_1.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
     size: 328256
@@ -2151,12 +2151,12 @@ arches:
     checksum: sha256:c43318355a6c960e0685d789887cddf450fdfd7908ba1a02d375e1ff290b3483
     name: libtheora
     evr: 1:1.1.1-31.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/l/libtiff-4.4.0-18.el9_8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/l/libtiff-4.4.0-18.el9_8.1.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
-    size: 2907542
-    checksum: sha256:bf7cf68d933c220fcc2945dd9db33e5fb767bad16423f22aa7d71edee3a3b346
+    size: 2909574
+    checksum: sha256:281760d48fc2691190a444d931155c1c73538d6e75e40d307f5189cb6edba902
     name: libtiff
-    evr: 4.4.0-18.el9_8
+    evr: 4.4.0-18.el9_8.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/l/libvorbis-1.3.7-5.el9.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
     size: 1216523
@@ -3454,13 +3454,13 @@ arches:
     name: libtheora
     evr: 1:1.1.1-31.el9
     sourcerpm: libtheora-1.1.1-31.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libtiff-4.4.0-18.el9_8.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libtiff-4.4.0-18.el9_8.1.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 207877
-    checksum: sha256:51f843df2e484eea3855bc4fb10bc1ac3f357c3a47831294f526c6f39c7775f0
+    size: 208151
+    checksum: sha256:cfc76a0be2675175c7bf1242e2e48acbed009fe34105c0ac2eca9560f7a31d2e
     name: libtiff
-    evr: 4.4.0-18.el9_8
-    sourcerpm: libtiff-4.4.0-18.el9_8.src.rpm
+    evr: 4.4.0-18.el9_8.1
+    sourcerpm: libtiff-4.4.0-18.el9_8.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libtracker-sparql-3.1.2-3.el9_1.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 335649
@@ -4978,12 +4978,12 @@ arches:
     checksum: sha256:c43318355a6c960e0685d789887cddf450fdfd7908ba1a02d375e1ff290b3483
     name: libtheora
     evr: 1:1.1.1-31.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/l/libtiff-4.4.0-18.el9_8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/l/libtiff-4.4.0-18.el9_8.1.src.rpm
     repoid: ubi-9-for-x86_64-appstream-source-rpms
-    size: 2907542
-    checksum: sha256:bf7cf68d933c220fcc2945dd9db33e5fb767bad16423f22aa7d71edee3a3b346
+    size: 2909574
+    checksum: sha256:281760d48fc2691190a444d931155c1c73538d6e75e40d307f5189cb6edba902
     name: libtiff
-    evr: 4.4.0-18.el9_8
+    evr: 4.4.0-18.el9_8.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/l/libvorbis-1.3.7-5.el9.src.rpm
     repoid: ubi-9-for-x86_64-appstream-source-rpms
     size: 1216523
