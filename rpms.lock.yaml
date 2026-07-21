@@ -9868,13 +9868,13 @@ arches:
     name: upower
     evr: 0.99.13-2.el9
     sourcerpm: upower-0.99.13-2.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/w/webkit2gtk3-jsc-2.52.4-1.el9_8.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/w/webkit2gtk3-jsc-2.52.5-1.el9_8.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 9318311
-    checksum: sha256:b718c5e4fa7cac66ddad020a8df276fdaa985cc6f74b28af8a1add8aef33b446
+    size: 9318959
+    checksum: sha256:e779f2f02b2e363f0ffebd42cb38227ab584ff985ec4ea18297a5e241eec2d89
     name: webkit2gtk3-jsc
-    evr: 2.52.4-1.el9_8
-    sourcerpm: webkit2gtk3-2.52.4-1.el9_8.src.rpm
+    evr: 2.52.5-1.el9_8
+    sourcerpm: webkit2gtk3-2.52.5-1.el9_8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/x/xkeyboard-config-2.33-2.el9.noarch.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 886685
@@ -11031,12 +11031,12 @@ arches:
     checksum: sha256:f26f7fc3c60e1c5fe67abd6b6a0c26bb435e869f8451f092805eafe440b23172
     name: wayland
     evr: 1.21.0-1.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/w/webkit2gtk3-2.52.4-1.el9_8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/w/webkit2gtk3-2.52.5-1.el9_8.src.rpm
     repoid: ubi-9-for-x86_64-appstream-source-rpms
-    size: 65178895
-    checksum: sha256:7306e18189dc97acfce667c371cd4d2d22c67fdb733b00b631f6cd97d7a140c8
+    size: 69449434
+    checksum: sha256:c141f7c4efe21af2afa5c7a375ccd93b3e2708082c21886154e199902c7961d6
     name: webkit2gtk3
-    evr: 2.52.4-1.el9_8
+    evr: 2.52.5-1.el9_8
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/x/xkeyboard-config-2.33-2.el9.src.rpm
     repoid: ubi-9-for-x86_64-appstream-source-rpms
     size: 1768610
