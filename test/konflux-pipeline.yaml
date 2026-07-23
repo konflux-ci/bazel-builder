@@ -11,7 +11,7 @@ spec:
     - description: Fully Qualified Output Image
       name: output-image
       type: string
-      default: "quay.io/redhat-user-workloads/konflux-build-pipeli-tenant/bazel-builder/bazel5-ubi8:ITS-$(context.pipelineRun.name)"
+      default: "quay.io/redhat-user-workloads/konflux-build-pipeli-tenant/bazel-builder/bazel7-ubi9:ITS-$(context.pipelineRun.name)"
 
     - default: "main"
       description: Revision of the Source Repository
