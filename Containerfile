@@ -23,6 +23,13 @@ RUN gpg --verify ./cachi2/output/deps/generic/bazel-$BAZEL_VERSION-dist.zip.sig 
 # build
 RUN unzip ./cachi2/output/deps/generic/bazel-"$BAZEL_VERSION"-dist.zip -d /bazel
 WORKDIR /bazel
+# workaround for ppc64le: linux_ppc64le config_setting in Bazel's src/conditions/BUILD{,.tools}
+# incorrectly uses @platforms//cpu:ppc instead of @platforms//cpu:ppc64le, causing rules_java
+# to not find jni_md.h (https://github.com/bazelbuild/bazel/issues/11754)
+RUN if [ "$(uname -m)" = "ppc64le" ]; then \
+      sed -i '/name = "linux_ppc64le"/,/\]/{s|"@platforms//cpu:ppc"|"@platforms//cpu:ppc64le"|}' \
+        src/conditions/BUILD src/conditions/BUILD.tools ; \
+    fi
 RUN  env EXTRA_BAZEL_ARGS="--tool_java_runtime_version=local_jdk" bash ./compile.sh
 RUN scripts/generate_bash_completion.sh --bazel=output/bazel --output=output/bazel-complete.bash
 
