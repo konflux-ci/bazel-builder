@@ -445,13 +445,13 @@ arches:
     name: libsndfile
     evr: 1.0.31-9.el9_8.1
     sourcerpm: libsndfile-1.0.31-9.el9_8.1.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libsoup-2.72.0-16.el9_8.1.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libsoup-2.72.0-16.el9_8.3.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 413361
-    checksum: sha256:5103f49c502c9cb8e8b5b5c4e7b16262ac03b8db0e0581a564838092a19bcaa9
+    size: 413711
+    checksum: sha256:97a49f548dafb10d0be5e0c38fa7edfb1d147a815bd43ebfa2bf77b9cb75b8c0
     name: libsoup
-    evr: 2.72.0-16.el9_8.1
-    sourcerpm: libsoup-2.72.0-16.el9_8.1.src.rpm
+    evr: 2.72.0-16.el9_8.3
+    sourcerpm: libsoup-2.72.0-16.el9_8.3.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libstdc++-devel-11.5.0-14.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
     size: 2520018
@@ -1667,12 +1667,12 @@ arches:
     checksum: sha256:ae126587ab40c119762bb855a4193586b156f10a392eb14e2d93808b09802361
     name: libsndfile
     evr: 1.0.31-9.el9_8.1
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/l/libsoup-2.72.0-16.el9_8.1.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/l/libsoup-2.72.0-16.el9_8.3.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
-    size: 1533310
-    checksum: sha256:c06781ea375ec15787387c715b2418df9642edaf70d4aadd53f822018242095a
+    size: 1542579
+    checksum: sha256:7c15406b2b9bf03f9565cfb3be8e43968ebbb9c790a41aeb349ccafb1285985a
     name: libsoup
-    evr: 2.72.0-16.el9_8.1
+    evr: 2.72.0-16.el9_8.3
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/l/libstemmer-0-18.585svn.el9.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
     size: 142242
@@ -2681,13 +2681,13 @@ arches:
     name: libsndfile
     evr: 1.0.31-9.el9_8.1
     sourcerpm: libsndfile-1.0.31-9.el9_8.1.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/l/libsoup-2.72.0-16.el9_8.1.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/l/libsoup-2.72.0-16.el9_8.3.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
-    size: 442475
-    checksum: sha256:c9e973819aece6a566f481f576d2e745c1d91f680004e3e23f177e76a41fda6a
+    size: 443370
+    checksum: sha256:d48d63e80021a57221ee252975179a2fcff4c6c7aee6b7bf6669412db55537bd
     name: libsoup
-    evr: 2.72.0-16.el9_8.1
-    sourcerpm: libsoup-2.72.0-16.el9_8.1.src.rpm
+    evr: 2.72.0-16.el9_8.3
+    sourcerpm: libsoup-2.72.0-16.el9_8.3.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/l/libstdc++-devel-11.5.0-14.el9.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
     size: 2525849
@@ -3903,12 +3903,12 @@ arches:
     checksum: sha256:ae126587ab40c119762bb855a4193586b156f10a392eb14e2d93808b09802361
     name: libsndfile
     evr: 1.0.31-9.el9_8.1
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/l/libsoup-2.72.0-16.el9_8.1.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/l/libsoup-2.72.0-16.el9_8.3.src.rpm
     repoid: ubi-9-for-ppc64le-appstream-source-rpms
-    size: 1533310
-    checksum: sha256:c06781ea375ec15787387c715b2418df9642edaf70d4aadd53f822018242095a
+    size: 1542579
+    checksum: sha256:7c15406b2b9bf03f9565cfb3be8e43968ebbb9c790a41aeb349ccafb1285985a
     name: libsoup
-    evr: 2.72.0-16.el9_8.1
+    evr: 2.72.0-16.el9_8.3
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/l/libstemmer-0-18.585svn.el9.src.rpm
     repoid: ubi-9-for-ppc64le-appstream-source-rpms
     size: 142242
@@ -4952,13 +4952,13 @@ arches:
     name: libsndfile
     evr: 1.0.31-9.el9_8.1
     sourcerpm: libsndfile-1.0.31-9.el9_8.1.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/libsoup-2.72.0-16.el9_8.1.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/libsoup-2.72.0-16.el9_8.3.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
-    size: 411231
-    checksum: sha256:0fb46fdb6156d2264a5ad15a27fd7d979b78f1f431ab42045799ebdcac5cead8
+    size: 411286
+    checksum: sha256:bcfef25b6dde7f4207f038ef668c1a2cf7160a84d472d642a325bd44ed69d2c3
     name: libsoup
-    evr: 2.72.0-16.el9_8.1
-    sourcerpm: libsoup-2.72.0-16.el9_8.1.src.rpm
+    evr: 2.72.0-16.el9_8.3
+    sourcerpm: libsoup-2.72.0-16.el9_8.3.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/libstdc++-devel-11.5.0-14.el9.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
     size: 2511857
@@ -6146,12 +6146,12 @@ arches:
     checksum: sha256:ae126587ab40c119762bb855a4193586b156f10a392eb14e2d93808b09802361
     name: libsndfile
     evr: 1.0.31-9.el9_8.1
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/l/libsoup-2.72.0-16.el9_8.1.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/l/libsoup-2.72.0-16.el9_8.3.src.rpm
     repoid: ubi-9-for-s390x-appstream-source-rpms
-    size: 1533310
-    checksum: sha256:c06781ea375ec15787387c715b2418df9642edaf70d4aadd53f822018242095a
+    size: 1542579
+    checksum: sha256:7c15406b2b9bf03f9565cfb3be8e43968ebbb9c790a41aeb349ccafb1285985a
     name: libsoup
-    evr: 2.72.0-16.el9_8.1
+    evr: 2.72.0-16.el9_8.3
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/l/libstemmer-0-18.585svn.el9.src.rpm
     repoid: ubi-9-for-s390x-appstream-source-rpms
     size: 142242
@@ -7136,13 +7136,13 @@ arches:
     name: libsndfile
     evr: 1.0.31-9.el9_8.1
     sourcerpm: libsndfile-1.0.31-9.el9_8.1.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libsoup-2.72.0-16.el9_8.1.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libsoup-2.72.0-16.el9_8.3.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 420846
-    checksum: sha256:51e8ba797e199a99037c8e7773e577ad1d7e5d9ca7a84e4e8b044d0a12527dd3
+    size: 422492
+    checksum: sha256:73ba6651bd7cd7f27251608b64e5f72fdc22088b47950b116f9a2c4ad6a0978d
     name: libsoup
-    evr: 2.72.0-16.el9_8.1
-    sourcerpm: libsoup-2.72.0-16.el9_8.1.src.rpm
+    evr: 2.72.0-16.el9_8.3
+    sourcerpm: libsoup-2.72.0-16.el9_8.3.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libstdc++-devel-11.5.0-14.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 2524816
@@ -8344,12 +8344,12 @@ arches:
     checksum: sha256:ae126587ab40c119762bb855a4193586b156f10a392eb14e2d93808b09802361
     name: libsndfile
     evr: 1.0.31-9.el9_8.1
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/l/libsoup-2.72.0-16.el9_8.1.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/l/libsoup-2.72.0-16.el9_8.3.src.rpm
     repoid: ubi-9-for-x86_64-appstream-source-rpms
-    size: 1533310
-    checksum: sha256:c06781ea375ec15787387c715b2418df9642edaf70d4aadd53f822018242095a
+    size: 1542579
+    checksum: sha256:7c15406b2b9bf03f9565cfb3be8e43968ebbb9c790a41aeb349ccafb1285985a
     name: libsoup
-    evr: 2.72.0-16.el9_8.1
+    evr: 2.72.0-16.el9_8.3
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/l/libstemmer-0-18.585svn.el9.src.rpm
     repoid: ubi-9-for-x86_64-appstream-source-rpms
     size: 142242
