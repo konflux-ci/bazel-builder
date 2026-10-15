@@ -298,13 +298,13 @@ arches:
     name: jbigkit-libs
     evr: 2.1-23.el9
     sourcerpm: jbigkit-2.1-23.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-687.57.1.el9_8.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-687.58.1.el9_8.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 2939977
-    checksum: sha256:31860419149438987e706dd2929fbc707552cd2e51dbc86547d294f9fed5f204
+    size: 2942913
+    checksum: sha256:ce1098a3559ec136e839c36a3e196251226d818ddb91b529534b8d86c01c3e67
     name: kernel-headers
-    evr: 5.14.0-687.57.1.el9_8
-    sourcerpm: kernel-5.14.0-687.57.1.el9_8.src.rpm
+    evr: 5.14.0-687.58.1.el9_8
+    sourcerpm: kernel-5.14.0-687.58.1.el9_8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/lcms2-2.12-3.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
     size: 171119
@@ -5968,13 +5968,13 @@ arches:
     name: jbigkit-libs
     evr: 2.1-23.el9
     sourcerpm: jbigkit-2.1-23.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/k/kernel-headers-5.14.0-687.57.1.el9_8.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/k/kernel-headers-5.14.0-687.58.1.el9_8.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
-    size: 2969965
-    checksum: sha256:33a6f1dfc82b4e4487e3a00df7f49d05a07644da11e9f3ccbf32aca3453837fa
+    size: 2972901
+    checksum: sha256:55b9f4edce9b140ca4a491b519dcb583de57ad296f06bbbe424667c5ce52178f
     name: kernel-headers
-    evr: 5.14.0-687.57.1.el9_8
-    sourcerpm: kernel-5.14.0-687.57.1.el9_8.src.rpm
+    evr: 5.14.0-687.58.1.el9_8
+    sourcerpm: kernel-5.14.0-687.58.1.el9_8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/lcms2-2.12-3.el9.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
     size: 168399
