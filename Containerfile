@@ -26,6 +26,13 @@ RUN if [ "$(uname -m)" = "ppc64le" ]; then \
       sed -i '/name = "linux_ppc64le"/,/\]/{s|"@platforms//cpu:ppc"|"@platforms//cpu:ppc64le"|}' \
         src/conditions/BUILD src/conditions/BUILD.tools ; \
     fi
+# workaround for s390x: protoc-gen-upb crashes (SIGSEGV) on big-endian due to
+# missing byte-swap in UPB packed-enum decoder (upb/wire/decode.c)
+# TODO: remove once bazel uses fixed version of protobuf, see upstream issue here:
+# https://github.com/protocolbuffers/protobuf/pull/25683
+RUN if [ "$(uname -m)" = "s390x" ]; then \
+      sed -i '/patches.*protobuf\.patch/a\    patch_cmds = ["sed -i '"'"'/memcpy(out, &elem, 4);/i\\\\    _upb_Decoder_MungeInt32(&elem);'"'"' upb/wire/decode.c"],' MODULE.bazel ; \
+    fi
 RUN  env EXTRA_BAZEL_ARGS="--tool_java_runtime_version=local_jdk" bash ./compile.sh
 RUN scripts/generate_bash_completion.sh --bazel=output/bazel --output=output/bazel-complete.bash
 
