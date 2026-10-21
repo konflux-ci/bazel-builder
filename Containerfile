@@ -26,6 +26,24 @@ RUN if [ "$(uname -m)" = "ppc64le" ]; then \
       sed -i '/name = "linux_ppc64le"/,/\]/{s|"@platforms//cpu:ppc"|"@platforms//cpu:ppc64le"|}' \
         src/conditions/BUILD src/conditions/BUILD.tools ; \
     fi
+# workaround for s390x: protoc-gen-upb crashes (SIGSEGV) on big-endian due to
+# missing byte-swap in UPB decoder (upb/wire/decode.c)
+# TODO: remove once bazel uses a protobuf version that includes these fixes:
+# https://github.com/protocolbuffers/protobuf/pull/25363
+# https://github.com/protocolbuffers/protobuf/pull/25683
+RUN if [ "$(uname -m)" = "s390x" ]; then \
+      sed -i '/patches.*protobuf\.patch/a\    patch_cmds = ["sed -i '"'"'/      } else {/{N;/Munge(field, val)/{s/      } else {/        _upb_Decoder_MungeInt32(val);\\\\n      } else {/}}'"'"' upb/wire/decode.c && sed -i '"'"'/memcpy(out, &elem, 4);/i\\\\    _upb_Decoder_MungeInt32(&elem);'"'"' upb/wire/decode.c"],' MODULE.bazel ; \
+    fi
+# workaround for s390x: ProGuard JVM crashes (SIGSEGV in C2 JIT compiler's
+# PhaseOutput::FillLocArray) while stripping fastutil jar on OpenJDK 21 s390x.
+# No upstream bug filed yet; likely an s390x-specific C2 regression — similar
+# FillLocArray crashes on other archs were fixed earlier (JDK-8317299, JDK-8276112)
+# but those fixes are already in 21.0.12.1.
+# Disable C2 for ProGuard to use C1-only compilation, avoiding the crash.
+# TODO: remove once the JDK on s390x includes a fix for this crash
+RUN if [ "$(uname -m)" = "s390x" ]; then \
+      sed -i '/-Dlog4j.rootLogger=OFF/a\        "-XX:TieredStopAtLevel=1",' third_party/BUILD ; \
+    fi
 RUN  env EXTRA_BAZEL_ARGS="--tool_java_runtime_version=local_jdk" bash ./compile.sh
 RUN scripts/generate_bash_completion.sh --bazel=output/bazel --output=output/bazel-complete.bash
 
