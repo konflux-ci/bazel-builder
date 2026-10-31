@@ -312,27 +312,27 @@ arches:
     name: lcms2
     evr: 2.12-3.el9
     sourcerpm: lcms2-2.12-3.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libX11-1.8.12-1.el9.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libX11-1.8.12-1.el9_8.1.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 650860
-    checksum: sha256:952797b75a569fd887289dd05fd7c1b545f7ddaecb20600e60151b6e5a9f10e1
+    size: 657612
+    checksum: sha256:6ea5ee62b652b150cb202aee13585d7c7b64d7e5717fc6fc7e6afba308982060
     name: libX11
-    evr: 1.8.12-1.el9
-    sourcerpm: libX11-1.8.12-1.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libX11-common-1.8.12-1.el9.noarch.rpm
+    evr: 1.8.12-1.el9_8.1
+    sourcerpm: libX11-1.8.12-1.el9_8.1.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libX11-common-1.8.12-1.el9_8.1.noarch.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 202031
-    checksum: sha256:397d81facac2e747f5d9ce7665df36294d1513ae68c278d88615f604f6397e00
+    size: 209404
+    checksum: sha256:ef349c3df4c3467f91e529f5d947ce2902115f012585ac2d89b036b6a7123a08
     name: libX11-common
-    evr: 1.8.12-1.el9
-    sourcerpm: libX11-1.8.12-1.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libX11-xcb-1.8.12-1.el9.aarch64.rpm
+    evr: 1.8.12-1.el9_8.1
+    sourcerpm: libX11-1.8.12-1.el9_8.1.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libX11-xcb-1.8.12-1.el9_8.1.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 10372
-    checksum: sha256:a13fa27bf5b665a0579d9edc22cb3741b58e6a791ee48a5d665b8847027f6616
+    size: 16810
+    checksum: sha256:cbfdcec1a9ffa099e9785835b7a34631ddb394a1a0b7fa257bac9bc363e6ebc0
     name: libX11-xcb
-    evr: 1.8.12-1.el9
-    sourcerpm: libX11-1.8.12-1.el9.src.rpm
+    evr: 1.8.12-1.el9_8.1
+    sourcerpm: libX11-1.8.12-1.el9_8.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libXau-1.0.9-8.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
     size: 34407
@@ -382,13 +382,13 @@ arches:
     name: libXft
     evr: 2.3.3-8.el9
     sourcerpm: libXft-2.3.3-8.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libXi-1.7.10-8.el9.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libXi-1.7.10-8.el9_8.1.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 40848
-    checksum: sha256:a815f53febda8b646f988e797739397214fedf1d96e47c58e1000dd5ea7cb75a
+    size: 44313
+    checksum: sha256:4c3838fc88e0e9ec6471832414f80b71fd1a1a34f73234535cd7fc87b4a3dc6a
     name: libXi
-    evr: 1.7.10-8.el9
-    sourcerpm: libXi-1.7.10-8.el9.src.rpm
+    evr: 1.7.10-8.el9_8.1
+    sourcerpm: libXi-1.7.10-8.el9_8.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libXinerama-1.1.4-10.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
     size: 16861
@@ -403,20 +403,20 @@ arches:
     name: libXrandr
     evr: 1.5.2-8.el9
     sourcerpm: libXrandr-1.5.2-8.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libXrender-0.9.10-16.el9_8.1.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libXrender-0.9.10-16.el9_8.2.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 32253
-    checksum: sha256:8f7c951783a8f77aa595eaabc1d651ff5a741821b952776a62dd20afa72ce129
+    size: 32499
+    checksum: sha256:b1589fa12a96ec844fd9be95e56d5baf5139db398e5d986479dbf513a652190a
     name: libXrender
-    evr: 0.9.10-16.el9_8.1
-    sourcerpm: libXrender-0.9.10-16.el9_8.1.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libXtst-1.2.3-16.el9.aarch64.rpm
+    evr: 0.9.10-16.el9_8.2
+    sourcerpm: libXrender-0.9.10-16.el9_8.2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libXtst-1.2.3-16.el9_8.1.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 23456
-    checksum: sha256:024df36ca4dd80bd96d8dfa188b77ef1c075d6264f9ea7fa7c71ee49e65da2f3
+    size: 26364
+    checksum: sha256:f80757a40ae7f0fc18ce2b2ac613068eaedcfc248f1c15309f705ce12f1a4118
     name: libXtst
-    evr: 1.2.3-16.el9
-    sourcerpm: libXtst-1.2.3-16.el9.src.rpm
+    evr: 1.2.3-16.el9_8.1
+    sourcerpm: libXtst-1.2.3-16.el9_8.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libXv-1.0.11-16.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
     size: 21055
@@ -1390,13 +1390,13 @@ arches:
     name: upower
     evr: 0.99.13-2.el9
     sourcerpm: upower-0.99.13-2.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/w/webkit2gtk3-jsc-2.54.1-1.el9_8.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/w/webkit2gtk3-jsc-2.54.2-0.el9_8.1.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 4854307
-    checksum: sha256:d2ec422763d016f2d8302f4abc686c07804299e3d3343a09110a4a3e3e54af8e
+    size: 4834475
+    checksum: sha256:966ce979877acf1d03b927def60f981246baf3bf146a39f95f57ccac00635807
     name: webkit2gtk3-jsc
-    evr: 2.54.1-1.el9_8
-    sourcerpm: webkit2gtk3-2.54.1-1.el9_8.src.rpm
+    evr: 2.54.2-0.el9_8.1
+    sourcerpm: webkit2gtk3-2.54.2-0.el9_8.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/x/xkeyboard-config-2.33-2.el9.noarch.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
     size: 886685
@@ -1935,12 +1935,12 @@ arches:
     checksum: sha256:d0605c68533c1656eabe3d6d5a41b97513a9264030a28c46baad2cdcf57ec09c
     name: lcms2
     evr: 2.12-3.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/l/libX11-1.8.12-1.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/l/libX11-1.8.12-1.el9_8.1.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
-    size: 1909011
-    checksum: sha256:061bd230e50ebcccee60fed8ee4dcc95b682f7422b9585599cfa685a791a2edf
+    size: 1916655
+    checksum: sha256:6f90f487f7703f28d4717689b6a82e391dec945e98b6f3615978606d120a7637
     name: libX11
-    evr: 1.8.12-1.el9
+    evr: 1.8.12-1.el9_8.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/l/libXau-1.0.9-8.el9.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
     size: 335512
@@ -1983,12 +1983,12 @@ arches:
     checksum: sha256:b1ef5a942e759207022bf9bff3d122bc9596914d8dd7ab92ea56ebcad96ee9a6
     name: libXft
     evr: 2.3.3-8.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/l/libXi-1.7.10-8.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/l/libXi-1.7.10-8.el9_8.1.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
-    size: 498271
-    checksum: sha256:1de8a31cbe5edf8d10fe85fd96c1ebd1d0525c08a3ec75599ef12bad2945545c
+    size: 509042
+    checksum: sha256:65e1e5ed42b08a5952b1512d2267b744d9d2736040e8e049a3d8633f76d294e4
     name: libXi
-    evr: 1.7.10-8.el9
+    evr: 1.7.10-8.el9_8.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/l/libXinerama-1.1.4-10.el9.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
     size: 297833
@@ -2001,18 +2001,18 @@ arches:
     checksum: sha256:a565d64c7ff4b9c46cfc916097b1c8c9d886c006a7c18eac085f4ca6b4e8d310
     name: libXrandr
     evr: 1.5.2-8.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/l/libXrender-0.9.10-16.el9_8.1.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/l/libXrender-0.9.10-16.el9_8.2.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
-    size: 326576
-    checksum: sha256:5fbd6b3c44cb3a8d72a6f877cbfc522f797d8584302c00ad48e8e00bee32d191
+    size: 327796
+    checksum: sha256:66a4be658149b16388a8dc8fef0f011fb3eb4b8dcb6cca5626e720b30f21e40a
     name: libXrender
-    evr: 0.9.10-16.el9_8.1
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/l/libXtst-1.2.3-16.el9.src.rpm
+    evr: 0.9.10-16.el9_8.2
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/l/libXtst-1.2.3-16.el9_8.1.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
-    size: 332563
-    checksum: sha256:59a99e7e1af8762969b9212aa5375be77a7bdafce73f416be82694b16ec388d5
+    size: 338777
+    checksum: sha256:365bd26b4d18d2c33eef281df40204c1517ea5dab9c1a4ef30554cb9f1dde792
     name: libXtst
-    evr: 1.2.3-16.el9
+    evr: 1.2.3-16.el9_8.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/l/libXv-1.0.11-16.el9.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
     size: 328666
@@ -2559,12 +2559,12 @@ arches:
     checksum: sha256:f26f7fc3c60e1c5fe67abd6b6a0c26bb435e869f8451f092805eafe440b23172
     name: wayland
     evr: 1.21.0-1.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/w/webkit2gtk3-2.54.1-1.el9_8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/w/webkit2gtk3-2.54.2-0.el9_8.1.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
-    size: 50455155
-    checksum: sha256:c30de0ce1577157ac936d52fd194ab2ce7cfaf5f0a3dacc52f498d8f8c6ec1c0
+    size: 50081057
+    checksum: sha256:42316111b9452eaeead9d7c2a21efac528efd998b8489fea2b83ceb8a891f1fe
     name: webkit2gtk3
-    evr: 2.54.1-1.el9_8
+    evr: 2.54.2-0.el9_8.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/x/xkeyboard-config-2.33-2.el9.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
     size: 1768610
@@ -3146,27 +3146,27 @@ arches:
     name: lcms2
     evr: 2.12-3.el9
     sourcerpm: lcms2-2.12-3.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/l/libX11-1.8.12-1.el9.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/l/libX11-1.8.12-1.el9_8.1.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
-    size: 714206
-    checksum: sha256:177bd7b75f6489a6303fbb2882aa17c91d0032ad2a803e5b92440b4d713519b0
+    size: 727941
+    checksum: sha256:b68ba316b64e9a5b826149c2faed48436ba4ce8fa94426afac418d6ee41aae13
     name: libX11
-    evr: 1.8.12-1.el9
-    sourcerpm: libX11-1.8.12-1.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/l/libX11-common-1.8.12-1.el9.noarch.rpm
+    evr: 1.8.12-1.el9_8.1
+    sourcerpm: libX11-1.8.12-1.el9_8.1.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/l/libX11-common-1.8.12-1.el9_8.1.noarch.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
-    size: 202031
-    checksum: sha256:397d81facac2e747f5d9ce7665df36294d1513ae68c278d88615f604f6397e00
+    size: 209404
+    checksum: sha256:ef349c3df4c3467f91e529f5d947ce2902115f012585ac2d89b036b6a7123a08
     name: libX11-common
-    evr: 1.8.12-1.el9
-    sourcerpm: libX11-1.8.12-1.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/l/libX11-xcb-1.8.12-1.el9.ppc64le.rpm
+    evr: 1.8.12-1.el9_8.1
+    sourcerpm: libX11-1.8.12-1.el9_8.1.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/l/libX11-xcb-1.8.12-1.el9_8.1.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
-    size: 10456
-    checksum: sha256:f9f60ce90c0c47da7841790c98356cd756fe57288ef896625d9904083503f5d9
+    size: 16917
+    checksum: sha256:ca72e6b19ba6d02ad8415cbe60e299799569db2339449062739b09350ac1262a
     name: libX11-xcb
-    evr: 1.8.12-1.el9
-    sourcerpm: libX11-1.8.12-1.el9.src.rpm
+    evr: 1.8.12-1.el9_8.1
+    sourcerpm: libX11-1.8.12-1.el9_8.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/l/libXau-1.0.9-8.el9.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
     size: 34609
@@ -3216,13 +3216,13 @@ arches:
     name: libXft
     evr: 2.3.3-8.el9
     sourcerpm: libXft-2.3.3-8.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/l/libXi-1.7.10-8.el9.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/l/libXi-1.7.10-8.el9_8.1.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
-    size: 44602
-    checksum: sha256:a73cdb4c755a1ee69664939307ac813c206b82286330d05341e5953dca2c50ad
+    size: 47376
+    checksum: sha256:d3806eb1845838f981612f1860fdf20d12e714186b0bad3fa6bf7df37517a9d8
     name: libXi
-    evr: 1.7.10-8.el9
-    sourcerpm: libXi-1.7.10-8.el9.src.rpm
+    evr: 1.7.10-8.el9_8.1
+    sourcerpm: libXi-1.7.10-8.el9_8.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/l/libXinerama-1.1.4-10.el9.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
     size: 17016
@@ -3237,20 +3237,20 @@ arches:
     name: libXrandr
     evr: 1.5.2-8.el9
     sourcerpm: libXrandr-1.5.2-8.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/l/libXrender-0.9.10-16.el9_8.1.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/l/libXrender-0.9.10-16.el9_8.2.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
-    size: 34767
-    checksum: sha256:7db6ca795e3b47c6f86943602cd6b15dd2ba8c9dc03310698cb1b4490f91ff0c
+    size: 34996
+    checksum: sha256:f849fb20c4d86b7e5cc84b11ee4c98d6c87ff7dfd92b788715dff1ad9c675a3b
     name: libXrender
-    evr: 0.9.10-16.el9_8.1
-    sourcerpm: libXrender-0.9.10-16.el9_8.1.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/l/libXtst-1.2.3-16.el9.ppc64le.rpm
+    evr: 0.9.10-16.el9_8.2
+    sourcerpm: libXrender-0.9.10-16.el9_8.2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/l/libXtst-1.2.3-16.el9_8.1.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
-    size: 24956
-    checksum: sha256:a9fe1361b911b91c65d6b8292513f48df05e592c9c3e14dbcaa51522f0b205cd
+    size: 27751
+    checksum: sha256:afdff968b55532c7db3953a9354d7624c1cd67ffc5aa4f55b35c0bb99437ced4
     name: libXtst
-    evr: 1.2.3-16.el9
-    sourcerpm: libXtst-1.2.3-16.el9.src.rpm
+    evr: 1.2.3-16.el9_8.1
+    sourcerpm: libXtst-1.2.3-16.el9_8.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/l/libXv-1.0.11-16.el9.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
     size: 21906
@@ -4224,13 +4224,13 @@ arches:
     name: upower
     evr: 0.99.13-2.el9
     sourcerpm: upower-0.99.13-2.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/w/webkit2gtk3-jsc-2.54.1-1.el9_8.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/w/webkit2gtk3-jsc-2.54.2-0.el9_8.1.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
-    size: 4584762
-    checksum: sha256:f3b76ad5c57de860055473d0e841e142dcb48c494e5a68bc2ee772a8b7c593af
+    size: 4585860
+    checksum: sha256:b165c6d1ba7d7e0549be57e2ca888e7ea95501476c8aa8030f617064ce9e09ba
     name: webkit2gtk3-jsc
-    evr: 2.54.1-1.el9_8
-    sourcerpm: webkit2gtk3-2.54.1-1.el9_8.src.rpm
+    evr: 2.54.2-0.el9_8.1
+    sourcerpm: webkit2gtk3-2.54.2-0.el9_8.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/x/xkeyboard-config-2.33-2.el9.noarch.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
     size: 886685
@@ -4769,12 +4769,12 @@ arches:
     checksum: sha256:d0605c68533c1656eabe3d6d5a41b97513a9264030a28c46baad2cdcf57ec09c
     name: lcms2
     evr: 2.12-3.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/l/libX11-1.8.12-1.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/l/libX11-1.8.12-1.el9_8.1.src.rpm
     repoid: ubi-9-for-ppc64le-appstream-source-rpms
-    size: 1909011
-    checksum: sha256:061bd230e50ebcccee60fed8ee4dcc95b682f7422b9585599cfa685a791a2edf
+    size: 1916655
+    checksum: sha256:6f90f487f7703f28d4717689b6a82e391dec945e98b6f3615978606d120a7637
     name: libX11
-    evr: 1.8.12-1.el9
+    evr: 1.8.12-1.el9_8.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/l/libXau-1.0.9-8.el9.src.rpm
     repoid: ubi-9-for-ppc64le-appstream-source-rpms
     size: 335512
@@ -4817,12 +4817,12 @@ arches:
     checksum: sha256:b1ef5a942e759207022bf9bff3d122bc9596914d8dd7ab92ea56ebcad96ee9a6
     name: libXft
     evr: 2.3.3-8.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/l/libXi-1.7.10-8.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/l/libXi-1.7.10-8.el9_8.1.src.rpm
     repoid: ubi-9-for-ppc64le-appstream-source-rpms
-    size: 498271
-    checksum: sha256:1de8a31cbe5edf8d10fe85fd96c1ebd1d0525c08a3ec75599ef12bad2945545c
+    size: 509042
+    checksum: sha256:65e1e5ed42b08a5952b1512d2267b744d9d2736040e8e049a3d8633f76d294e4
     name: libXi
-    evr: 1.7.10-8.el9
+    evr: 1.7.10-8.el9_8.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/l/libXinerama-1.1.4-10.el9.src.rpm
     repoid: ubi-9-for-ppc64le-appstream-source-rpms
     size: 297833
@@ -4835,18 +4835,18 @@ arches:
     checksum: sha256:a565d64c7ff4b9c46cfc916097b1c8c9d886c006a7c18eac085f4ca6b4e8d310
     name: libXrandr
     evr: 1.5.2-8.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/l/libXrender-0.9.10-16.el9_8.1.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/l/libXrender-0.9.10-16.el9_8.2.src.rpm
     repoid: ubi-9-for-ppc64le-appstream-source-rpms
-    size: 326576
-    checksum: sha256:5fbd6b3c44cb3a8d72a6f877cbfc522f797d8584302c00ad48e8e00bee32d191
+    size: 327796
+    checksum: sha256:66a4be658149b16388a8dc8fef0f011fb3eb4b8dcb6cca5626e720b30f21e40a
     name: libXrender
-    evr: 0.9.10-16.el9_8.1
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/l/libXtst-1.2.3-16.el9.src.rpm
+    evr: 0.9.10-16.el9_8.2
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/l/libXtst-1.2.3-16.el9_8.1.src.rpm
     repoid: ubi-9-for-ppc64le-appstream-source-rpms
-    size: 332563
-    checksum: sha256:59a99e7e1af8762969b9212aa5375be77a7bdafce73f416be82694b16ec388d5
+    size: 338777
+    checksum: sha256:365bd26b4d18d2c33eef281df40204c1517ea5dab9c1a4ef30554cb9f1dde792
     name: libXtst
-    evr: 1.2.3-16.el9
+    evr: 1.2.3-16.el9_8.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/l/libXv-1.0.11-16.el9.src.rpm
     repoid: ubi-9-for-ppc64le-appstream-source-rpms
     size: 328666
@@ -5393,12 +5393,12 @@ arches:
     checksum: sha256:f26f7fc3c60e1c5fe67abd6b6a0c26bb435e869f8451f092805eafe440b23172
     name: wayland
     evr: 1.21.0-1.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/w/webkit2gtk3-2.54.1-1.el9_8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/w/webkit2gtk3-2.54.2-0.el9_8.1.src.rpm
     repoid: ubi-9-for-ppc64le-appstream-source-rpms
-    size: 50455155
-    checksum: sha256:c30de0ce1577157ac936d52fd194ab2ce7cfaf5f0a3dacc52f498d8f8c6ec1c0
+    size: 50081057
+    checksum: sha256:42316111b9452eaeead9d7c2a21efac528efd998b8489fea2b83ceb8a891f1fe
     name: webkit2gtk3
-    evr: 2.54.1-1.el9_8
+    evr: 2.54.2-0.el9_8.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/x/xkeyboard-config-2.33-2.el9.src.rpm
     repoid: ubi-9-for-ppc64le-appstream-source-rpms
     size: 1768610
@@ -6008,27 +6008,27 @@ arches:
     name: lcms2
     evr: 2.12-3.el9
     sourcerpm: lcms2-2.12-3.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/libX11-1.8.12-1.el9.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/libX11-1.8.12-1.el9_8.1.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
-    size: 651006
-    checksum: sha256:a208066c9e97e639ad1d39357295dfc9d952f542f1754b4e6a99a4c781161d92
+    size: 657274
+    checksum: sha256:3c5f6527d2536bba67f228cd88a86e82e7745656ca797e366815c39728fdb2c0
     name: libX11
-    evr: 1.8.12-1.el9
-    sourcerpm: libX11-1.8.12-1.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/libX11-common-1.8.12-1.el9.noarch.rpm
+    evr: 1.8.12-1.el9_8.1
+    sourcerpm: libX11-1.8.12-1.el9_8.1.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/libX11-common-1.8.12-1.el9_8.1.noarch.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
-    size: 202031
-    checksum: sha256:397d81facac2e747f5d9ce7665df36294d1513ae68c278d88615f604f6397e00
+    size: 209404
+    checksum: sha256:ef349c3df4c3467f91e529f5d947ce2902115f012585ac2d89b036b6a7123a08
     name: libX11-common
-    evr: 1.8.12-1.el9
-    sourcerpm: libX11-1.8.12-1.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/libX11-xcb-1.8.12-1.el9.s390x.rpm
+    evr: 1.8.12-1.el9_8.1
+    sourcerpm: libX11-1.8.12-1.el9_8.1.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/libX11-xcb-1.8.12-1.el9_8.1.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
-    size: 10290
-    checksum: sha256:ad87f884856976ea54ce83faca565c8717a9ff1d79b566161055a356a3ed5c75
+    size: 16744
+    checksum: sha256:7ec95f7beac5d52dde2814675389310e131523a43594d2116c9f207ed7e9d212
     name: libX11-xcb
-    evr: 1.8.12-1.el9
-    sourcerpm: libX11-1.8.12-1.el9.src.rpm
+    evr: 1.8.12-1.el9_8.1
+    sourcerpm: libX11-1.8.12-1.el9_8.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/libXau-1.0.9-8.el9.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
     size: 34089
@@ -6078,13 +6078,13 @@ arches:
     name: libXft
     evr: 2.3.3-8.el9
     sourcerpm: libXft-2.3.3-8.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/libXi-1.7.10-8.el9.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/libXi-1.7.10-8.el9_8.1.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
-    size: 40098
-    checksum: sha256:01acf6934f85aabd0e3a2e300d8022840e08eb444a2172945e29f4e065d02679
+    size: 43371
+    checksum: sha256:3e0300f316be045b35771fece0776a863cd83f97b6add96afa983589a5d9e9eb
     name: libXi
-    evr: 1.7.10-8.el9
-    sourcerpm: libXi-1.7.10-8.el9.src.rpm
+    evr: 1.7.10-8.el9_8.1
+    sourcerpm: libXi-1.7.10-8.el9_8.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/libXinerama-1.1.4-10.el9.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
     size: 16642
@@ -6099,20 +6099,20 @@ arches:
     name: libXrandr
     evr: 1.5.2-8.el9
     sourcerpm: libXrandr-1.5.2-8.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/libXrender-0.9.10-16.el9_8.1.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/libXrender-0.9.10-16.el9_8.2.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
-    size: 32224
-    checksum: sha256:6076b03a617eeda1b92f24042b8c90fa2e23b592f7159e0fa8fb0fa79bd17240
+    size: 32461
+    checksum: sha256:5b9d05da58233707f8584c744ce8b2b6eed11ef5a2098de19ae4afa07633c73e
     name: libXrender
-    evr: 0.9.10-16.el9_8.1
-    sourcerpm: libXrender-0.9.10-16.el9_8.1.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/libXtst-1.2.3-16.el9.s390x.rpm
+    evr: 0.9.10-16.el9_8.2
+    sourcerpm: libXrender-0.9.10-16.el9_8.2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/libXtst-1.2.3-16.el9_8.1.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
-    size: 22995
-    checksum: sha256:9989d8c1d310a6f474c38b22e607a916fc2094141d3fc5e30595b18d80e18564
+    size: 25965
+    checksum: sha256:db8a69074a9c4bd6b4fb1a1a1d14eb600da3bc79d88fa17bf9430490bca71e51
     name: libXtst
-    evr: 1.2.3-16.el9
-    sourcerpm: libXtst-1.2.3-16.el9.src.rpm
+    evr: 1.2.3-16.el9_8.1
+    sourcerpm: libXtst-1.2.3-16.el9_8.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/libXv-1.0.11-16.el9.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
     size: 20816
@@ -7093,13 +7093,13 @@ arches:
     name: upower
     evr: 0.99.13-2.el9
     sourcerpm: upower-0.99.13-2.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/w/webkit2gtk3-jsc-2.54.1-1.el9_8.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/w/webkit2gtk3-jsc-2.54.2-0.el9_8.1.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
-    size: 4747985
-    checksum: sha256:9e9e87836fe22fba917822c3b4ddcf624663f8459ec1bf2a6981bc9461ffb3a2
+    size: 4741258
+    checksum: sha256:9536be88c35ba6398826552fed4a004c23efe936d6ba9de9cf6a385b3074113e
     name: webkit2gtk3-jsc
-    evr: 2.54.1-1.el9_8
-    sourcerpm: webkit2gtk3-2.54.1-1.el9_8.src.rpm
+    evr: 2.54.2-0.el9_8.1
+    sourcerpm: webkit2gtk3-2.54.2-0.el9_8.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/x/xkeyboard-config-2.33-2.el9.noarch.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
     size: 886685
@@ -7610,12 +7610,12 @@ arches:
     checksum: sha256:d0605c68533c1656eabe3d6d5a41b97513a9264030a28c46baad2cdcf57ec09c
     name: lcms2
     evr: 2.12-3.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/l/libX11-1.8.12-1.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/l/libX11-1.8.12-1.el9_8.1.src.rpm
     repoid: ubi-9-for-s390x-appstream-source-rpms
-    size: 1909011
-    checksum: sha256:061bd230e50ebcccee60fed8ee4dcc95b682f7422b9585599cfa685a791a2edf
+    size: 1916655
+    checksum: sha256:6f90f487f7703f28d4717689b6a82e391dec945e98b6f3615978606d120a7637
     name: libX11
-    evr: 1.8.12-1.el9
+    evr: 1.8.12-1.el9_8.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/l/libXau-1.0.9-8.el9.src.rpm
     repoid: ubi-9-for-s390x-appstream-source-rpms
     size: 335512
@@ -7658,12 +7658,12 @@ arches:
     checksum: sha256:b1ef5a942e759207022bf9bff3d122bc9596914d8dd7ab92ea56ebcad96ee9a6
     name: libXft
     evr: 2.3.3-8.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/l/libXi-1.7.10-8.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/l/libXi-1.7.10-8.el9_8.1.src.rpm
     repoid: ubi-9-for-s390x-appstream-source-rpms
-    size: 498271
-    checksum: sha256:1de8a31cbe5edf8d10fe85fd96c1ebd1d0525c08a3ec75599ef12bad2945545c
+    size: 509042
+    checksum: sha256:65e1e5ed42b08a5952b1512d2267b744d9d2736040e8e049a3d8633f76d294e4
     name: libXi
-    evr: 1.7.10-8.el9
+    evr: 1.7.10-8.el9_8.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/l/libXinerama-1.1.4-10.el9.src.rpm
     repoid: ubi-9-for-s390x-appstream-source-rpms
     size: 297833
@@ -7676,18 +7676,18 @@ arches:
     checksum: sha256:a565d64c7ff4b9c46cfc916097b1c8c9d886c006a7c18eac085f4ca6b4e8d310
     name: libXrandr
     evr: 1.5.2-8.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/l/libXrender-0.9.10-16.el9_8.1.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/l/libXrender-0.9.10-16.el9_8.2.src.rpm
     repoid: ubi-9-for-s390x-appstream-source-rpms
-    size: 326576
-    checksum: sha256:5fbd6b3c44cb3a8d72a6f877cbfc522f797d8584302c00ad48e8e00bee32d191
+    size: 327796
+    checksum: sha256:66a4be658149b16388a8dc8fef0f011fb3eb4b8dcb6cca5626e720b30f21e40a
     name: libXrender
-    evr: 0.9.10-16.el9_8.1
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/l/libXtst-1.2.3-16.el9.src.rpm
+    evr: 0.9.10-16.el9_8.2
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/l/libXtst-1.2.3-16.el9_8.1.src.rpm
     repoid: ubi-9-for-s390x-appstream-source-rpms
-    size: 332563
-    checksum: sha256:59a99e7e1af8762969b9212aa5375be77a7bdafce73f416be82694b16ec388d5
+    size: 338777
+    checksum: sha256:365bd26b4d18d2c33eef281df40204c1517ea5dab9c1a4ef30554cb9f1dde792
     name: libXtst
-    evr: 1.2.3-16.el9
+    evr: 1.2.3-16.el9_8.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/l/libXv-1.0.11-16.el9.src.rpm
     repoid: ubi-9-for-s390x-appstream-source-rpms
     size: 328666
@@ -8234,12 +8234,12 @@ arches:
     checksum: sha256:f26f7fc3c60e1c5fe67abd6b6a0c26bb435e869f8451f092805eafe440b23172
     name: wayland
     evr: 1.21.0-1.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/w/webkit2gtk3-2.54.1-1.el9_8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/w/webkit2gtk3-2.54.2-0.el9_8.1.src.rpm
     repoid: ubi-9-for-s390x-appstream-source-rpms
-    size: 50455155
-    checksum: sha256:c30de0ce1577157ac936d52fd194ab2ce7cfaf5f0a3dacc52f498d8f8c6ec1c0
+    size: 50081057
+    checksum: sha256:42316111b9452eaeead9d7c2a21efac528efd998b8489fea2b83ceb8a891f1fe
     name: webkit2gtk3
-    evr: 2.54.1-1.el9_8
+    evr: 2.54.2-0.el9_8.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/x/xkeyboard-config-2.33-2.el9.src.rpm
     repoid: ubi-9-for-s390x-appstream-source-rpms
     size: 1768610
@@ -8804,27 +8804,27 @@ arches:
     name: lcms2
     evr: 2.12-3.el9
     sourcerpm: lcms2-2.12-3.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libX11-1.8.12-1.el9.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libX11-1.8.12-1.el9_8.1.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 667919
-    checksum: sha256:602357f23ade24c9ab94674ee7289ab2a68e8bd212f76c793a3420f2595a83fb
+    size: 674410
+    checksum: sha256:71b9048afc6eae67e026bb68415c6d6fa8442108a8d9ccdfea95beb6c609f607
     name: libX11
-    evr: 1.8.12-1.el9
-    sourcerpm: libX11-1.8.12-1.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libX11-common-1.8.12-1.el9.noarch.rpm
+    evr: 1.8.12-1.el9_8.1
+    sourcerpm: libX11-1.8.12-1.el9_8.1.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libX11-common-1.8.12-1.el9_8.1.noarch.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 202031
-    checksum: sha256:397d81facac2e747f5d9ce7665df36294d1513ae68c278d88615f604f6397e00
+    size: 209404
+    checksum: sha256:ef349c3df4c3467f91e529f5d947ce2902115f012585ac2d89b036b6a7123a08
     name: libX11-common
-    evr: 1.8.12-1.el9
-    sourcerpm: libX11-1.8.12-1.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libX11-xcb-1.8.12-1.el9.x86_64.rpm
+    evr: 1.8.12-1.el9_8.1
+    sourcerpm: libX11-1.8.12-1.el9_8.1.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libX11-xcb-1.8.12-1.el9_8.1.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 10456
-    checksum: sha256:e3073daf1d65499ec6880b1ad8c112e281d58689fa7bc566035958dee22a3ab5
+    size: 16918
+    checksum: sha256:a7cb83d0adba67514aaa2721364657cd7391bca13658ee3df78894ae9981309a
     name: libX11-xcb
-    evr: 1.8.12-1.el9
-    sourcerpm: libX11-1.8.12-1.el9.src.rpm
+    evr: 1.8.12-1.el9_8.1
+    sourcerpm: libX11-1.8.12-1.el9_8.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libXau-1.0.9-8.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 34395
@@ -8874,13 +8874,13 @@ arches:
     name: libXft
     evr: 2.3.3-8.el9
     sourcerpm: libXft-2.3.3-8.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libXi-1.7.10-8.el9.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libXi-1.7.10-8.el9_8.1.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 42155
-    checksum: sha256:0271faeb8661cd275d341f5cc95d422ae425374160dce7b4f691f154764a66d8
+    size: 45534
+    checksum: sha256:9532f23ba589ee56bd306f65b1d75371b25a7baed810530c1677c8f9db1920a9
     name: libXi
-    evr: 1.7.10-8.el9
-    sourcerpm: libXi-1.7.10-8.el9.src.rpm
+    evr: 1.7.10-8.el9_8.1
+    sourcerpm: libXi-1.7.10-8.el9_8.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libXinerama-1.1.4-10.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 17043
@@ -8895,20 +8895,20 @@ arches:
     name: libXrandr
     evr: 1.5.2-8.el9
     sourcerpm: libXrandr-1.5.2-8.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libXrender-0.9.10-16.el9_8.1.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libXrender-0.9.10-16.el9_8.2.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 33128
-    checksum: sha256:84862f0065fc58c4c36656d39cd7f9cc557425c5a937892e7e29889c5decc313
+    size: 33417
+    checksum: sha256:fca181a249f0944979ef70590e2078b019a514a966a81d107fc258ea8dbd8f18
     name: libXrender
-    evr: 0.9.10-16.el9_8.1
-    sourcerpm: libXrender-0.9.10-16.el9_8.1.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libXtst-1.2.3-16.el9.x86_64.rpm
+    evr: 0.9.10-16.el9_8.2
+    sourcerpm: libXrender-0.9.10-16.el9_8.2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libXtst-1.2.3-16.el9_8.1.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 23624
-    checksum: sha256:d111d50960014b1fcac7a736be0cae30477c57fa5c026edcc823341ffa5ab87f
+    size: 26479
+    checksum: sha256:5f948be4d6cac0ee830d54051e787916a345786fe5d54601cbda8d903e1a814b
     name: libXtst
-    evr: 1.2.3-16.el9
-    sourcerpm: libXtst-1.2.3-16.el9.src.rpm
+    evr: 1.2.3-16.el9_8.1
+    sourcerpm: libXtst-1.2.3-16.el9_8.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libXv-1.0.11-16.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 21383
@@ -9868,13 +9868,13 @@ arches:
     name: upower
     evr: 0.99.13-2.el9
     sourcerpm: upower-0.99.13-2.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/w/webkit2gtk3-jsc-2.54.1-1.el9_8.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/w/webkit2gtk3-jsc-2.54.2-0.el9_8.1.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 9662949
-    checksum: sha256:9bb54c510d1e436fde468fbc6eee0b4612d063b043f4ca9721921c7ecba9c590
+    size: 9659132
+    checksum: sha256:538d9456bbc78d6623ef2c69b5a7b182b605f71e4fb6dd5772889d0823261f33
     name: webkit2gtk3-jsc
-    evr: 2.54.1-1.el9_8
-    sourcerpm: webkit2gtk3-2.54.1-1.el9_8.src.rpm
+    evr: 2.54.2-0.el9_8.1
+    sourcerpm: webkit2gtk3-2.54.2-0.el9_8.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/x/xkeyboard-config-2.33-2.el9.noarch.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 886685
@@ -10413,12 +10413,12 @@ arches:
     checksum: sha256:d0605c68533c1656eabe3d6d5a41b97513a9264030a28c46baad2cdcf57ec09c
     name: lcms2
     evr: 2.12-3.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/l/libX11-1.8.12-1.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/l/libX11-1.8.12-1.el9_8.1.src.rpm
     repoid: ubi-9-for-x86_64-appstream-source-rpms
-    size: 1909011
-    checksum: sha256:061bd230e50ebcccee60fed8ee4dcc95b682f7422b9585599cfa685a791a2edf
+    size: 1916655
+    checksum: sha256:6f90f487f7703f28d4717689b6a82e391dec945e98b6f3615978606d120a7637
     name: libX11
-    evr: 1.8.12-1.el9
+    evr: 1.8.12-1.el9_8.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/l/libXau-1.0.9-8.el9.src.rpm
     repoid: ubi-9-for-x86_64-appstream-source-rpms
     size: 335512
@@ -10461,12 +10461,12 @@ arches:
     checksum: sha256:b1ef5a942e759207022bf9bff3d122bc9596914d8dd7ab92ea56ebcad96ee9a6
     name: libXft
     evr: 2.3.3-8.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/l/libXi-1.7.10-8.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/l/libXi-1.7.10-8.el9_8.1.src.rpm
     repoid: ubi-9-for-x86_64-appstream-source-rpms
-    size: 498271
-    checksum: sha256:1de8a31cbe5edf8d10fe85fd96c1ebd1d0525c08a3ec75599ef12bad2945545c
+    size: 509042
+    checksum: sha256:65e1e5ed42b08a5952b1512d2267b744d9d2736040e8e049a3d8633f76d294e4
     name: libXi
-    evr: 1.7.10-8.el9
+    evr: 1.7.10-8.el9_8.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/l/libXinerama-1.1.4-10.el9.src.rpm
     repoid: ubi-9-for-x86_64-appstream-source-rpms
     size: 297833
@@ -10479,18 +10479,18 @@ arches:
     checksum: sha256:a565d64c7ff4b9c46cfc916097b1c8c9d886c006a7c18eac085f4ca6b4e8d310
     name: libXrandr
     evr: 1.5.2-8.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/l/libXrender-0.9.10-16.el9_8.1.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/l/libXrender-0.9.10-16.el9_8.2.src.rpm
     repoid: ubi-9-for-x86_64-appstream-source-rpms
-    size: 326576
-    checksum: sha256:5fbd6b3c44cb3a8d72a6f877cbfc522f797d8584302c00ad48e8e00bee32d191
+    size: 327796
+    checksum: sha256:66a4be658149b16388a8dc8fef0f011fb3eb4b8dcb6cca5626e720b30f21e40a
     name: libXrender
-    evr: 0.9.10-16.el9_8.1
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/l/libXtst-1.2.3-16.el9.src.rpm
+    evr: 0.9.10-16.el9_8.2
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/l/libXtst-1.2.3-16.el9_8.1.src.rpm
     repoid: ubi-9-for-x86_64-appstream-source-rpms
-    size: 332563
-    checksum: sha256:59a99e7e1af8762969b9212aa5375be77a7bdafce73f416be82694b16ec388d5
+    size: 338777
+    checksum: sha256:365bd26b4d18d2c33eef281df40204c1517ea5dab9c1a4ef30554cb9f1dde792
     name: libXtst
-    evr: 1.2.3-16.el9
+    evr: 1.2.3-16.el9_8.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/l/libXv-1.0.11-16.el9.src.rpm
     repoid: ubi-9-for-x86_64-appstream-source-rpms
     size: 328666
@@ -11037,12 +11037,12 @@ arches:
     checksum: sha256:f26f7fc3c60e1c5fe67abd6b6a0c26bb435e869f8451f092805eafe440b23172
     name: wayland
     evr: 1.21.0-1.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/w/webkit2gtk3-2.54.1-1.el9_8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/w/webkit2gtk3-2.54.2-0.el9_8.1.src.rpm
     repoid: ubi-9-for-x86_64-appstream-source-rpms
-    size: 50455155
-    checksum: sha256:c30de0ce1577157ac936d52fd194ab2ce7cfaf5f0a3dacc52f498d8f8c6ec1c0
+    size: 50081057
+    checksum: sha256:42316111b9452eaeead9d7c2a21efac528efd998b8489fea2b83ceb8a891f1fe
     name: webkit2gtk3
-    evr: 2.54.1-1.el9_8
+    evr: 2.54.2-0.el9_8.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/x/xkeyboard-config-2.33-2.el9.src.rpm
     repoid: ubi-9-for-x86_64-appstream-source-rpms
     size: 1768610
