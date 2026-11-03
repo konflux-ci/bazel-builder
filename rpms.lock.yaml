@@ -382,13 +382,13 @@ arches:
     name: libXft
     evr: 2.3.3-8.el9
     sourcerpm: libXft-2.3.3-8.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libXi-1.7.10-8.el9_8.1.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libXi-1.7.10-8.el9_8.3.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 44313
-    checksum: sha256:4c3838fc88e0e9ec6471832414f80b71fd1a1a34f73234535cd7fc87b4a3dc6a
+    size: 44755
+    checksum: sha256:5904b45ff3ee59964c85db658bfa447f1f6107c0c04fbf4e76b42107dc870f11
     name: libXi
-    evr: 1.7.10-8.el9_8.1
-    sourcerpm: libXi-1.7.10-8.el9_8.1.src.rpm
+    evr: 1.7.10-8.el9_8.3
+    sourcerpm: libXi-1.7.10-8.el9_8.3.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libXinerama-1.1.4-10.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
     size: 16861
@@ -1990,12 +1990,12 @@ arches:
     checksum: sha256:b1ef5a942e759207022bf9bff3d122bc9596914d8dd7ab92ea56ebcad96ee9a6
     name: libXft
     evr: 2.3.3-8.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/l/libXi-1.7.10-8.el9_8.1.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/l/libXi-1.7.10-8.el9_8.3.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
-    size: 509042
-    checksum: sha256:65e1e5ed42b08a5952b1512d2267b744d9d2736040e8e049a3d8633f76d294e4
+    size: 511364
+    checksum: sha256:7f6199631903760aab6dffc28b942b728e78642a39c58977cd8fa8f786d0a4d3
     name: libXi
-    evr: 1.7.10-8.el9_8.1
+    evr: 1.7.10-8.el9_8.3
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/l/libXinerama-1.1.4-10.el9.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
     size: 297833
@@ -3145,13 +3145,13 @@ arches:
     name: jbigkit-libs
     evr: 2.1-23.el9
     sourcerpm: jbigkit-2.1-23.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/k/kernel-headers-5.14.0-687.64.1.el9_8.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/k/kernel-headers-5.14.0-687.65.1.el9_8.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
-    size: 2983341
-    checksum: sha256:ab49d354e08e3616e69262385b4382753766e60b5153a338abeffa2a6e74d5b5
+    size: 2983605
+    checksum: sha256:bd6e68eaf9e8c78a4b703c4126ba49431fab20dd0c00f2b635ee7e3202e33266
     name: kernel-headers
-    evr: 5.14.0-687.64.1.el9_8
-    sourcerpm: kernel-5.14.0-687.64.1.el9_8.src.rpm
+    evr: 5.14.0-687.65.1.el9_8
+    sourcerpm: kernel-5.14.0-687.65.1.el9_8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/l/lcms2-2.12-3.el9.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
     size: 198719
@@ -3229,13 +3229,13 @@ arches:
     name: libXft
     evr: 2.3.3-8.el9
     sourcerpm: libXft-2.3.3-8.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/l/libXi-1.7.10-8.el9_8.1.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/l/libXi-1.7.10-8.el9_8.3.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
-    size: 47376
-    checksum: sha256:d3806eb1845838f981612f1860fdf20d12e714186b0bad3fa6bf7df37517a9d8
+    size: 47742
+    checksum: sha256:d256c1dcb7df102f893d1c4b94217036a9675d39254fad6f6bfac3cfb974e60a
     name: libXi
-    evr: 1.7.10-8.el9_8.1
-    sourcerpm: libXi-1.7.10-8.el9_8.1.src.rpm
+    evr: 1.7.10-8.el9_8.3
+    sourcerpm: libXi-1.7.10-8.el9_8.3.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/l/libXinerama-1.1.4-10.el9.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
     size: 17016
@@ -4837,12 +4837,12 @@ arches:
     checksum: sha256:b1ef5a942e759207022bf9bff3d122bc9596914d8dd7ab92ea56ebcad96ee9a6
     name: libXft
     evr: 2.3.3-8.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/l/libXi-1.7.10-8.el9_8.1.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/l/libXi-1.7.10-8.el9_8.3.src.rpm
     repoid: ubi-9-for-ppc64le-appstream-source-rpms
-    size: 509042
-    checksum: sha256:65e1e5ed42b08a5952b1512d2267b744d9d2736040e8e049a3d8633f76d294e4
+    size: 511364
+    checksum: sha256:7f6199631903760aab6dffc28b942b728e78642a39c58977cd8fa8f786d0a4d3
     name: libXi
-    evr: 1.7.10-8.el9_8.1
+    evr: 1.7.10-8.el9_8.3
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/l/libXinerama-1.1.4-10.el9.src.rpm
     repoid: ubi-9-for-ppc64le-appstream-source-rpms
     size: 297833
@@ -6104,13 +6104,13 @@ arches:
     name: libXft
     evr: 2.3.3-8.el9
     sourcerpm: libXft-2.3.3-8.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/libXi-1.7.10-8.el9_8.1.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/libXi-1.7.10-8.el9_8.3.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
-    size: 43371
-    checksum: sha256:3e0300f316be045b35771fece0776a863cd83f97b6add96afa983589a5d9e9eb
+    size: 43774
+    checksum: sha256:a18d2e8c8b0e5ea0f87ef5d577bcd146009b2e1baf2efb5ab8f353a30303f284
     name: libXi
-    evr: 1.7.10-8.el9_8.1
-    sourcerpm: libXi-1.7.10-8.el9_8.1.src.rpm
+    evr: 1.7.10-8.el9_8.3
+    sourcerpm: libXi-1.7.10-8.el9_8.3.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/libXinerama-1.1.4-10.el9.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
     size: 16642
@@ -7691,12 +7691,12 @@ arches:
     checksum: sha256:b1ef5a942e759207022bf9bff3d122bc9596914d8dd7ab92ea56ebcad96ee9a6
     name: libXft
     evr: 2.3.3-8.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/l/libXi-1.7.10-8.el9_8.1.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/l/libXi-1.7.10-8.el9_8.3.src.rpm
     repoid: ubi-9-for-s390x-appstream-source-rpms
-    size: 509042
-    checksum: sha256:65e1e5ed42b08a5952b1512d2267b744d9d2736040e8e049a3d8633f76d294e4
+    size: 511364
+    checksum: sha256:7f6199631903760aab6dffc28b942b728e78642a39c58977cd8fa8f786d0a4d3
     name: libXi
-    evr: 1.7.10-8.el9_8.1
+    evr: 1.7.10-8.el9_8.3
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/l/libXinerama-1.1.4-10.el9.src.rpm
     repoid: ubi-9-for-s390x-appstream-source-rpms
     size: 297833
