@@ -1383,13 +1383,13 @@ arches:
     name: ttmkfdir
     evr: 3.0.9-65.el9
     sourcerpm: ttmkfdir-3.0.9-65.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/t/tzdata-java-2026e-1.el9_8.noarch.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/t/tzdata-java-2026f-1.el9_8.noarch.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 236855
-    checksum: sha256:75c3da7f68c1b99cf26a0b4e098ee7852f34e584cde5bf83bd6af8b8cd822054
+    size: 237178
+    checksum: sha256:09166bfb47b67329c78fed00fb6e6b4ea740fed6392bcd45bb646383dc40e64d
     name: tzdata-java
-    evr: 2026e-1.el9_8
-    sourcerpm: tzdata-2026e-1.el9_8.src.rpm
+    evr: 2026f-1.el9_8
+    sourcerpm: tzdata-2026f-1.el9_8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/u/upower-0.99.13-2.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
     size: 174823
@@ -1397,13 +1397,13 @@ arches:
     name: upower
     evr: 0.99.13-2.el9
     sourcerpm: upower-0.99.13-2.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/w/webkit2gtk3-jsc-2.54.2-0.el9_8.1.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/w/webkit2gtk3-jsc-2.54.2-0.el9_8.2.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 4834475
-    checksum: sha256:966ce979877acf1d03b927def60f981246baf3bf146a39f95f57ccac00635807
+    size: 4836919
+    checksum: sha256:cb82222b2d9f695f8fd1ed7edf69eba89b61be81682a3a5f75d75a8e39c8f990
     name: webkit2gtk3-jsc
-    evr: 2.54.2-0.el9_8.1
-    sourcerpm: webkit2gtk3-2.54.2-0.el9_8.1.src.rpm
+    evr: 2.54.2-0.el9_8.2
+    sourcerpm: webkit2gtk3-2.54.2-0.el9_8.2.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/x/xkeyboard-config-2.33-2.el9.noarch.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
     size: 886685
@@ -2566,12 +2566,12 @@ arches:
     checksum: sha256:f26f7fc3c60e1c5fe67abd6b6a0c26bb435e869f8451f092805eafe440b23172
     name: wayland
     evr: 1.21.0-1.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/w/webkit2gtk3-2.54.2-0.el9_8.1.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/w/webkit2gtk3-2.54.2-0.el9_8.2.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
-    size: 50081057
-    checksum: sha256:42316111b9452eaeead9d7c2a21efac528efd998b8489fea2b83ceb8a891f1fe
+    size: 65310973
+    checksum: sha256:411db0e958fa7497dc891eb2e0329271508bf3ac89a864864617245ad6150eaa
     name: webkit2gtk3
-    evr: 2.54.2-0.el9_8.1
+    evr: 2.54.2-0.el9_8.2
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/x/xkeyboard-config-2.33-2.el9.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
     size: 1768610
@@ -2830,12 +2830,12 @@ arches:
     checksum: sha256:f535f4c20ed82f56cc7f4c86202e3cd582815f702bb0c24005a07a496ec94c97
     name: systemd
     evr: 252-67.el9_8.6
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/t/tzdata-2026e-1.el9_8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/t/tzdata-2026f-1.el9_8.src.rpm
     repoid: ubi-9-for-aarch64-baseos-source-rpms
-    size: 943814
-    checksum: sha256:016ab67407e6f67418d8f36c5944396fe82c85896b9e945441f93d3cf1b823b4
+    size: 946141
+    checksum: sha256:9da9385c5eb4f4b258d58dc4f7168735953792f143752fb95f8ad5f5d95b947c
     name: tzdata
-    evr: 2026e-1.el9_8
+    evr: 2026f-1.el9_8
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/u/unzip-6.0-60.el9.src.rpm
     repoid: ubi-9-for-aarch64-baseos-source-rpms
     size: 1436236
@@ -4230,13 +4230,13 @@ arches:
     name: ttmkfdir
     evr: 3.0.9-65.el9
     sourcerpm: ttmkfdir-3.0.9-65.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/t/tzdata-java-2026e-1.el9_8.noarch.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/t/tzdata-java-2026f-1.el9_8.noarch.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
-    size: 236855
-    checksum: sha256:75c3da7f68c1b99cf26a0b4e098ee7852f34e584cde5bf83bd6af8b8cd822054
+    size: 237178
+    checksum: sha256:09166bfb47b67329c78fed00fb6e6b4ea740fed6392bcd45bb646383dc40e64d
     name: tzdata-java
-    evr: 2026e-1.el9_8
-    sourcerpm: tzdata-2026e-1.el9_8.src.rpm
+    evr: 2026f-1.el9_8
+    sourcerpm: tzdata-2026f-1.el9_8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/u/upower-0.99.13-2.el9.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
     size: 185286
@@ -4244,13 +4244,13 @@ arches:
     name: upower
     evr: 0.99.13-2.el9
     sourcerpm: upower-0.99.13-2.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/w/webkit2gtk3-jsc-2.54.2-0.el9_8.1.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/w/webkit2gtk3-jsc-2.54.2-0.el9_8.2.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
-    size: 4585860
-    checksum: sha256:b165c6d1ba7d7e0549be57e2ca888e7ea95501476c8aa8030f617064ce9e09ba
+    size: 4583093
+    checksum: sha256:d8df3b24e2dcde7d67fb80b7d876793a20343b6b0bf7b30f8475a8244e727678
     name: webkit2gtk3-jsc
-    evr: 2.54.2-0.el9_8.1
-    sourcerpm: webkit2gtk3-2.54.2-0.el9_8.1.src.rpm
+    evr: 2.54.2-0.el9_8.2
+    sourcerpm: webkit2gtk3-2.54.2-0.el9_8.2.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/x/xkeyboard-config-2.33-2.el9.noarch.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
     size: 886685
@@ -5413,12 +5413,12 @@ arches:
     checksum: sha256:f26f7fc3c60e1c5fe67abd6b6a0c26bb435e869f8451f092805eafe440b23172
     name: wayland
     evr: 1.21.0-1.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/w/webkit2gtk3-2.54.2-0.el9_8.1.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/w/webkit2gtk3-2.54.2-0.el9_8.2.src.rpm
     repoid: ubi-9-for-ppc64le-appstream-source-rpms
-    size: 50081057
-    checksum: sha256:42316111b9452eaeead9d7c2a21efac528efd998b8489fea2b83ceb8a891f1fe
+    size: 65310973
+    checksum: sha256:411db0e958fa7497dc891eb2e0329271508bf3ac89a864864617245ad6150eaa
     name: webkit2gtk3
-    evr: 2.54.2-0.el9_8.1
+    evr: 2.54.2-0.el9_8.2
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/x/xkeyboard-config-2.33-2.el9.src.rpm
     repoid: ubi-9-for-ppc64le-appstream-source-rpms
     size: 1768610
@@ -5677,12 +5677,12 @@ arches:
     checksum: sha256:f535f4c20ed82f56cc7f4c86202e3cd582815f702bb0c24005a07a496ec94c97
     name: systemd
     evr: 252-67.el9_8.6
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/source/SRPMS/Packages/t/tzdata-2026e-1.el9_8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/source/SRPMS/Packages/t/tzdata-2026f-1.el9_8.src.rpm
     repoid: ubi-9-for-ppc64le-baseos-source-rpms
-    size: 943814
-    checksum: sha256:016ab67407e6f67418d8f36c5944396fe82c85896b9e945441f93d3cf1b823b4
+    size: 946141
+    checksum: sha256:9da9385c5eb4f4b258d58dc4f7168735953792f143752fb95f8ad5f5d95b947c
     name: tzdata
-    evr: 2026e-1.el9_8
+    evr: 2026f-1.el9_8
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/source/SRPMS/Packages/u/unzip-6.0-60.el9.src.rpm
     repoid: ubi-9-for-ppc64le-baseos-source-rpms
     size: 1436236
@@ -7112,13 +7112,13 @@ arches:
     name: ttmkfdir
     evr: 3.0.9-65.el9
     sourcerpm: ttmkfdir-3.0.9-65.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/t/tzdata-java-2026e-1.el9_8.noarch.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/t/tzdata-java-2026f-1.el9_8.noarch.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
-    size: 236855
-    checksum: sha256:75c3da7f68c1b99cf26a0b4e098ee7852f34e584cde5bf83bd6af8b8cd822054
+    size: 237178
+    checksum: sha256:09166bfb47b67329c78fed00fb6e6b4ea740fed6392bcd45bb646383dc40e64d
     name: tzdata-java
-    evr: 2026e-1.el9_8
-    sourcerpm: tzdata-2026e-1.el9_8.src.rpm
+    evr: 2026f-1.el9_8
+    sourcerpm: tzdata-2026f-1.el9_8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/u/upower-0.99.13-2.el9.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
     size: 145323
@@ -7126,13 +7126,13 @@ arches:
     name: upower
     evr: 0.99.13-2.el9
     sourcerpm: upower-0.99.13-2.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/w/webkit2gtk3-jsc-2.54.2-0.el9_8.1.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/w/webkit2gtk3-jsc-2.54.2-0.el9_8.2.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
-    size: 4741258
-    checksum: sha256:9536be88c35ba6398826552fed4a004c23efe936d6ba9de9cf6a385b3074113e
+    size: 4747693
+    checksum: sha256:340574fbb2da702bd5a5f89566a1f9371c9bf22358620262d149c6d0e18db426
     name: webkit2gtk3-jsc
-    evr: 2.54.2-0.el9_8.1
-    sourcerpm: webkit2gtk3-2.54.2-0.el9_8.1.src.rpm
+    evr: 2.54.2-0.el9_8.2
+    sourcerpm: webkit2gtk3-2.54.2-0.el9_8.2.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/x/xkeyboard-config-2.33-2.el9.noarch.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
     size: 886685
@@ -8267,12 +8267,12 @@ arches:
     checksum: sha256:f26f7fc3c60e1c5fe67abd6b6a0c26bb435e869f8451f092805eafe440b23172
     name: wayland
     evr: 1.21.0-1.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/w/webkit2gtk3-2.54.2-0.el9_8.1.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/w/webkit2gtk3-2.54.2-0.el9_8.2.src.rpm
     repoid: ubi-9-for-s390x-appstream-source-rpms
-    size: 50081057
-    checksum: sha256:42316111b9452eaeead9d7c2a21efac528efd998b8489fea2b83ceb8a891f1fe
+    size: 65310973
+    checksum: sha256:411db0e958fa7497dc891eb2e0329271508bf3ac89a864864617245ad6150eaa
     name: webkit2gtk3
-    evr: 2.54.2-0.el9_8.1
+    evr: 2.54.2-0.el9_8.2
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/x/xkeyboard-config-2.33-2.el9.src.rpm
     repoid: ubi-9-for-s390x-appstream-source-rpms
     size: 1768610
@@ -8507,12 +8507,12 @@ arches:
     checksum: sha256:f535f4c20ed82f56cc7f4c86202e3cd582815f702bb0c24005a07a496ec94c97
     name: systemd
     evr: 252-67.el9_8.6
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/source/SRPMS/Packages/t/tzdata-2026e-1.el9_8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/source/SRPMS/Packages/t/tzdata-2026f-1.el9_8.src.rpm
     repoid: ubi-9-for-s390x-baseos-source-rpms
-    size: 943814
-    checksum: sha256:016ab67407e6f67418d8f36c5944396fe82c85896b9e945441f93d3cf1b823b4
+    size: 946141
+    checksum: sha256:9da9385c5eb4f4b258d58dc4f7168735953792f143752fb95f8ad5f5d95b947c
     name: tzdata
-    evr: 2026e-1.el9_8
+    evr: 2026f-1.el9_8
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/source/SRPMS/Packages/u/unzip-6.0-60.el9.src.rpm
     repoid: ubi-9-for-s390x-baseos-source-rpms
     size: 1436236
@@ -9900,13 +9900,13 @@ arches:
     name: ttmkfdir
     evr: 3.0.9-65.el9
     sourcerpm: ttmkfdir-3.0.9-65.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/t/tzdata-java-2026e-1.el9_8.noarch.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/t/tzdata-java-2026f-1.el9_8.noarch.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 236855
-    checksum: sha256:75c3da7f68c1b99cf26a0b4e098ee7852f34e584cde5bf83bd6af8b8cd822054
+    size: 237178
+    checksum: sha256:09166bfb47b67329c78fed00fb6e6b4ea740fed6392bcd45bb646383dc40e64d
     name: tzdata-java
-    evr: 2026e-1.el9_8
-    sourcerpm: tzdata-2026e-1.el9_8.src.rpm
+    evr: 2026f-1.el9_8
+    sourcerpm: tzdata-2026f-1.el9_8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/u/upower-0.99.13-2.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 177450
@@ -9914,13 +9914,13 @@ arches:
     name: upower
     evr: 0.99.13-2.el9
     sourcerpm: upower-0.99.13-2.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/w/webkit2gtk3-jsc-2.54.2-0.el9_8.1.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/w/webkit2gtk3-jsc-2.54.2-0.el9_8.2.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 9659132
-    checksum: sha256:538d9456bbc78d6623ef2c69b5a7b182b605f71e4fb6dd5772889d0823261f33
+    size: 9659305
+    checksum: sha256:987592dc950b87c74677dc992cb767467be314bc27dc27762df24dad4b8b9ef8
     name: webkit2gtk3-jsc
-    evr: 2.54.2-0.el9_8.1
-    sourcerpm: webkit2gtk3-2.54.2-0.el9_8.1.src.rpm
+    evr: 2.54.2-0.el9_8.2
+    sourcerpm: webkit2gtk3-2.54.2-0.el9_8.2.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/x/xkeyboard-config-2.33-2.el9.noarch.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 886685
@@ -11083,12 +11083,12 @@ arches:
     checksum: sha256:f26f7fc3c60e1c5fe67abd6b6a0c26bb435e869f8451f092805eafe440b23172
     name: wayland
     evr: 1.21.0-1.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/w/webkit2gtk3-2.54.2-0.el9_8.1.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/w/webkit2gtk3-2.54.2-0.el9_8.2.src.rpm
     repoid: ubi-9-for-x86_64-appstream-source-rpms
-    size: 50081057
-    checksum: sha256:42316111b9452eaeead9d7c2a21efac528efd998b8489fea2b83ceb8a891f1fe
+    size: 65310973
+    checksum: sha256:411db0e958fa7497dc891eb2e0329271508bf3ac89a864864617245ad6150eaa
     name: webkit2gtk3
-    evr: 2.54.2-0.el9_8.1
+    evr: 2.54.2-0.el9_8.2
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/x/xkeyboard-config-2.33-2.el9.src.rpm
     repoid: ubi-9-for-x86_64-appstream-source-rpms
     size: 1768610
@@ -11353,12 +11353,12 @@ arches:
     checksum: sha256:f535f4c20ed82f56cc7f4c86202e3cd582815f702bb0c24005a07a496ec94c97
     name: systemd
     evr: 252-67.el9_8.6
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/t/tzdata-2026e-1.el9_8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/t/tzdata-2026f-1.el9_8.src.rpm
     repoid: ubi-9-for-x86_64-baseos-source-rpms
-    size: 943814
-    checksum: sha256:016ab67407e6f67418d8f36c5944396fe82c85896b9e945441f93d3cf1b823b4
+    size: 946141
+    checksum: sha256:9da9385c5eb4f4b258d58dc4f7168735953792f143752fb95f8ad5f5d95b947c
     name: tzdata
-    evr: 2026e-1.el9_8
+    evr: 2026f-1.el9_8
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/u/unzip-6.0-60.el9.src.rpm
     repoid: ubi-9-for-x86_64-baseos-source-rpms
     size: 1436236
