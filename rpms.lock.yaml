@@ -186,13 +186,13 @@ arches:
     name: gsm
     evr: 1.0.19-6.el9
     sourcerpm: gsm-1.0.19-6.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/g/gstreamer1-1.22.12-3.el9.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/g/gstreamer1-1.22.12-3.el9_9.1.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 1459092
-    checksum: sha256:d616f30eb779da4c44b6247992f9f24bf9e66007339fc09aad25f68ceeec850d
+    size: 1457931
+    checksum: sha256:8e3eeb147aa640084c0d56f16de7f59c2eb2370b1a1ad6e50a70b9de25641ca1
     name: gstreamer1
-    evr: 1.22.12-3.el9
-    sourcerpm: gstreamer1-1.22.12-3.el9.src.rpm
+    evr: 1.22.12-3.el9_9.1
+    sourcerpm: gstreamer1-1.22.12-3.el9_9.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/g/gtk-update-icon-cache-3.24.31-11.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
     size: 39176
@@ -249,13 +249,13 @@ arches:
     name: jbigkit-libs
     evr: 2.1-23.el9
     sourcerpm: jbigkit-2.1-23.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-741.20.1.el9_9.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-741.24.1.el9_9.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 2723117
-    checksum: sha256:e5c3d2b1dff0e821853a3a2091446e1f349bf3c58cd20c07bd65ac35104f1c7f
+    size: 2737597
+    checksum: sha256:35f606314a37ee00302bc02a7cb82606c296d2e030853973d61b11f01e038e88
     name: kernel-headers
-    evr: 5.14.0-741.20.1.el9_9
-    sourcerpm: kernel-5.14.0-741.20.1.el9_9.src.rpm
+    evr: 5.14.0-741.24.1.el9_9
+    sourcerpm: kernel-5.14.0-741.24.1.el9_9.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/lcms2-2.12-3.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
     size: 171119
@@ -1187,13 +1187,13 @@ arches:
     name: freetype
     evr: 2.10.4-10.el9_5
     sourcerpm: freetype-2.10.4-10.el9_5.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/g/glib-networking-2.68.3-3.el9.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/g/glib-networking-2.68.3-3.el9_9.1.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
-    size: 193524
-    checksum: sha256:d101fdd7406da55e5b31868ec2a8c4cc69ae5017b57c14d3d75d1f372cca1c32
+    size: 193771
+    checksum: sha256:f83308084bd651a97582124741d743e07c00d657d0b31373b42165620f01fb7f
     name: glib-networking
-    evr: 2.68.3-3.el9
-    sourcerpm: glib-networking-2.68.3-3.el9.src.rpm
+    evr: 2.68.3-3.el9_9.1
+    sourcerpm: glib-networking-2.68.3-3.el9_9.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/g/glibc-2.34-290.el9_9.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
     size: 1814067
@@ -1556,12 +1556,12 @@ arches:
     checksum: sha256:1a6ba3deaab6b12d3bcd23126c69340795d353e6b2eea36bf3696064db1be11c
     name: gsm
     evr: 1.0.19-6.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/g/gstreamer1-1.22.12-3.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/g/gstreamer1-1.22.12-3.el9_9.1.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
-    size: 1824267
-    checksum: sha256:cc25d402dff67470712a6032acc99f393898df78cdf30a2e346550db5a8ec091
+    size: 1827541
+    checksum: sha256:b2fed0fc2d6e633318ceb89187ab7e086fa00a4574d0c6e106e199fefa58380d
     name: gstreamer1
-    evr: 1.22.12-3.el9
+    evr: 1.22.12-3.el9_9.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/g/gtk3-3.24.31-11.el9.src.rpm
     repoid: ubi-9-for-aarch64-appstream-source-rpms
     size: 22504571
@@ -2132,12 +2132,12 @@ arches:
     checksum: sha256:2b68dc5e93cbbf5151bfb7ecc436571c6f3cff0fee5d671bb41251e281e108c5
     name: gcc
     evr: 11.5.0-17.el9_9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/g/glib-networking-2.68.3-3.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/g/glib-networking-2.68.3-3.el9_9.1.src.rpm
     repoid: ubi-9-for-aarch64-baseos-source-rpms
-    size: 256221
-    checksum: sha256:08f2d7a3c389bd63fb7ff6f8ac4a5a1fbb088451ca40f4fbe8ed70d2e820e897
+    size: 263149
+    checksum: sha256:ea44f816d2f358c83ba78f2a05962db3f0efa4bef62e2e7f4a4dccc55529c457
     name: glib-networking
-    evr: 2.68.3-3.el9
+    evr: 2.68.3-3.el9_9.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/g/glibc-2.34-290.el9_9.src.rpm
     repoid: ubi-9-for-aarch64-baseos-source-rpms
     size: 20524270
@@ -2485,13 +2485,13 @@ arches:
     name: gsm
     evr: 1.0.19-6.el9
     sourcerpm: gsm-1.0.19-6.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/g/gstreamer1-1.22.12-3.el9.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/g/gstreamer1-1.22.12-3.el9_9.1.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
-    size: 1548353
-    checksum: sha256:5b4020496eb8e5de228509696669828b4fc77644f15169b72f1b4e0a7749b519
+    size: 1545625
+    checksum: sha256:1bffcada00ccf9bd339094d6de2b675f6a6c3c359a25cebd445928aead2f194b
     name: gstreamer1
-    evr: 1.22.12-3.el9
-    sourcerpm: gstreamer1-1.22.12-3.el9.src.rpm
+    evr: 1.22.12-3.el9_9.1
+    sourcerpm: gstreamer1-1.22.12-3.el9_9.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/g/gtk-update-icon-cache-3.24.31-11.el9.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
     size: 40512
@@ -2548,13 +2548,13 @@ arches:
     name: jbigkit-libs
     evr: 2.1-23.el9
     sourcerpm: jbigkit-2.1-23.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/k/kernel-headers-5.14.0-741.20.1.el9_9.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/k/kernel-headers-5.14.0-741.24.1.el9_9.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
-    size: 2746929
-    checksum: sha256:c2113677ee7d6d6d1aa8fc6a6b6a40d5ce5f703fbcc2890a4e2da01f83db9f34
+    size: 2761377
+    checksum: sha256:c91d07f27d8a59d94b202cb0b4c55f2930e92a285571aef0e8557a83bdf63535
     name: kernel-headers
-    evr: 5.14.0-741.20.1.el9_9
-    sourcerpm: kernel-5.14.0-741.20.1.el9_9.src.rpm
+    evr: 5.14.0-741.24.1.el9_9
+    sourcerpm: kernel-5.14.0-741.24.1.el9_9.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/l/lcms2-2.12-3.el9.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-appstream-rpms
     size: 198719
@@ -3486,13 +3486,13 @@ arches:
     name: freetype
     evr: 2.10.4-10.el9_5
     sourcerpm: freetype-2.10.4-10.el9_5.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/g/glib-networking-2.68.3-3.el9.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/g/glib-networking-2.68.3-3.el9_9.1.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-baseos-rpms
-    size: 199111
-    checksum: sha256:1f7344dde3651d1c5302f4d0a50f4b031e7a30f0905396c6efe7fdd040e8c248
+    size: 199276
+    checksum: sha256:fc44a68b3d2347afd570fa8002777655a41abf39223536fa273825cff4782603
     name: glib-networking
-    evr: 2.68.3-3.el9
-    sourcerpm: glib-networking-2.68.3-3.el9.src.rpm
+    evr: 2.68.3-3.el9_9.1
+    sourcerpm: glib-networking-2.68.3-3.el9_9.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/g/glibc-2.34-290.el9_9.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-baseos-rpms
     size: 2921912
@@ -3855,12 +3855,12 @@ arches:
     checksum: sha256:1a6ba3deaab6b12d3bcd23126c69340795d353e6b2eea36bf3696064db1be11c
     name: gsm
     evr: 1.0.19-6.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/g/gstreamer1-1.22.12-3.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/g/gstreamer1-1.22.12-3.el9_9.1.src.rpm
     repoid: ubi-9-for-ppc64le-appstream-source-rpms
-    size: 1824267
-    checksum: sha256:cc25d402dff67470712a6032acc99f393898df78cdf30a2e346550db5a8ec091
+    size: 1827541
+    checksum: sha256:b2fed0fc2d6e633318ceb89187ab7e086fa00a4574d0c6e106e199fefa58380d
     name: gstreamer1
-    evr: 1.22.12-3.el9
+    evr: 1.22.12-3.el9_9.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/g/gtk3-3.24.31-11.el9.src.rpm
     repoid: ubi-9-for-ppc64le-appstream-source-rpms
     size: 22504571
@@ -4431,12 +4431,12 @@ arches:
     checksum: sha256:2b68dc5e93cbbf5151bfb7ecc436571c6f3cff0fee5d671bb41251e281e108c5
     name: gcc
     evr: 11.5.0-17.el9_9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/source/SRPMS/Packages/g/glib-networking-2.68.3-3.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/source/SRPMS/Packages/g/glib-networking-2.68.3-3.el9_9.1.src.rpm
     repoid: ubi-9-for-ppc64le-baseos-source-rpms
-    size: 256221
-    checksum: sha256:08f2d7a3c389bd63fb7ff6f8ac4a5a1fbb088451ca40f4fbe8ed70d2e820e897
+    size: 263149
+    checksum: sha256:ea44f816d2f358c83ba78f2a05962db3f0efa4bef62e2e7f4a4dccc55529c457
     name: glib-networking
-    evr: 2.68.3-3.el9
+    evr: 2.68.3-3.el9_9.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/source/SRPMS/Packages/g/glibc-2.34-290.el9_9.src.rpm
     repoid: ubi-9-for-ppc64le-baseos-source-rpms
     size: 20524270
@@ -4805,13 +4805,13 @@ arches:
     name: gsm
     evr: 1.0.19-6.el9
     sourcerpm: gsm-1.0.19-6.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/g/gstreamer1-1.22.12-3.el9.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/g/gstreamer1-1.22.12-3.el9_9.1.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
-    size: 1447350
-    checksum: sha256:b6e464ad8c20a78e71e21278750068ad2b91b45ab6c7ab17f67454448434677d
+    size: 1444634
+    checksum: sha256:56082a5e1c6b2cb2785883043ed6a46f7e48d8e20f20f617b578d5ff4a7042f3
     name: gstreamer1
-    evr: 1.22.12-3.el9
-    sourcerpm: gstreamer1-1.22.12-3.el9.src.rpm
+    evr: 1.22.12-3.el9_9.1
+    sourcerpm: gstreamer1-1.22.12-3.el9_9.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/g/gtk-update-icon-cache-3.24.31-11.el9.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
     size: 39258
@@ -4875,13 +4875,13 @@ arches:
     name: jbigkit-libs
     evr: 2.1-23.el9
     sourcerpm: jbigkit-2.1-23.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/k/kernel-headers-5.14.0-741.20.1.el9_9.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/k/kernel-headers-5.14.0-741.24.1.el9_9.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
-    size: 2753117
-    checksum: sha256:da1420d929abfadd337f270c4a1f29ccda0dcb408320f9cbeb971bf226c49c7a
+    size: 2767621
+    checksum: sha256:c81f4ada8934cc4ac0761e1a7b8217639d4483c43ebfbfdb9c8b216413e3c9eb
     name: kernel-headers
-    evr: 5.14.0-741.20.1.el9_9
-    sourcerpm: kernel-5.14.0-741.20.1.el9_9.src.rpm
+    evr: 5.14.0-741.24.1.el9_9
+    sourcerpm: kernel-5.14.0-741.24.1.el9_9.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/l/lcms2-2.12-3.el9.s390x.rpm
     repoid: ubi-9-for-s390x-appstream-rpms
     size: 168399
@@ -5813,13 +5813,13 @@ arches:
     name: elfutils-libs
     evr: 0.195-1.el9
     sourcerpm: elfutils-0.195-1.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/g/glib-networking-2.68.3-3.el9.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/g/glib-networking-2.68.3-3.el9_9.1.s390x.rpm
     repoid: ubi-9-for-s390x-baseos-rpms
-    size: 192307
-    checksum: sha256:c3840cf75330196706aebf2acd8d74465b837d5e06d406d129493d0430da8b96
+    size: 192690
+    checksum: sha256:da46fac52fec1c5fc4735e7b031c4a21cf1c3c76d2e27a980da6554e05f6d49c
     name: glib-networking
-    evr: 2.68.3-3.el9
-    sourcerpm: glib-networking-2.68.3-3.el9.src.rpm
+    evr: 2.68.3-3.el9_9.1
+    sourcerpm: glib-networking-2.68.3-3.el9_9.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/g/glibc-2.34-290.el9_9.s390x.rpm
     repoid: ubi-9-for-s390x-baseos-rpms
     size: 1791647
@@ -6161,12 +6161,12 @@ arches:
     checksum: sha256:1a6ba3deaab6b12d3bcd23126c69340795d353e6b2eea36bf3696064db1be11c
     name: gsm
     evr: 1.0.19-6.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/g/gstreamer1-1.22.12-3.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/g/gstreamer1-1.22.12-3.el9_9.1.src.rpm
     repoid: ubi-9-for-s390x-appstream-source-rpms
-    size: 1824267
-    checksum: sha256:cc25d402dff67470712a6032acc99f393898df78cdf30a2e346550db5a8ec091
+    size: 1827541
+    checksum: sha256:b2fed0fc2d6e633318ceb89187ab7e086fa00a4574d0c6e106e199fefa58380d
     name: gstreamer1
-    evr: 1.22.12-3.el9
+    evr: 1.22.12-3.el9_9.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/g/gtk3-3.24.31-11.el9.src.rpm
     repoid: ubi-9-for-s390x-appstream-source-rpms
     size: 22504571
@@ -6731,12 +6731,12 @@ arches:
     checksum: sha256:2b68dc5e93cbbf5151bfb7ecc436571c6f3cff0fee5d671bb41251e281e108c5
     name: gcc
     evr: 11.5.0-17.el9_9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/source/SRPMS/Packages/g/glib-networking-2.68.3-3.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/source/SRPMS/Packages/g/glib-networking-2.68.3-3.el9_9.1.src.rpm
     repoid: ubi-9-for-s390x-baseos-source-rpms
-    size: 256221
-    checksum: sha256:08f2d7a3c389bd63fb7ff6f8ac4a5a1fbb088451ca40f4fbe8ed70d2e820e897
+    size: 263149
+    checksum: sha256:ea44f816d2f358c83ba78f2a05962db3f0efa4bef62e2e7f4a4dccc55529c457
     name: glib-networking
-    evr: 2.68.3-3.el9
+    evr: 2.68.3-3.el9_9.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/source/SRPMS/Packages/g/glibc-2.34-290.el9_9.src.rpm
     repoid: ubi-9-for-s390x-baseos-source-rpms
     size: 20524270
@@ -7073,13 +7073,13 @@ arches:
     name: gsm
     evr: 1.0.19-6.el9
     sourcerpm: gsm-1.0.19-6.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/g/gstreamer1-1.22.12-3.el9.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/g/gstreamer1-1.22.12-3.el9_9.1.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 1522180
-    checksum: sha256:92b9c2a623664f04c683d7c74222d4045dd7a81985abb9953b5d2d2d98666884
+    size: 1518701
+    checksum: sha256:591905c5c7d6922455884f34178760c7b8ac2ae25c5abae383942f914dc7cc6d
     name: gstreamer1
-    evr: 1.22.12-3.el9
-    sourcerpm: gstreamer1-1.22.12-3.el9.src.rpm
+    evr: 1.22.12-3.el9_9.1
+    sourcerpm: gstreamer1-1.22.12-3.el9_9.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/g/gtk-update-icon-cache-3.24.31-11.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 39222
@@ -7136,13 +7136,13 @@ arches:
     name: jbigkit-libs
     evr: 2.1-23.el9
     sourcerpm: jbigkit-2.1-23.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-741.20.1.el9_9.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-741.24.1.el9_9.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 2762413
-    checksum: sha256:1cb1342900e2ba912de55fa973193860fec1935ff53d6c021b8637cf9179b9c2
+    size: 2776853
+    checksum: sha256:fa32ef8311cd60127da5f4b38f15b30d51f2f50c146124b9e1b6ab7028ea39d6
     name: kernel-headers
-    evr: 5.14.0-741.20.1.el9_9
-    sourcerpm: kernel-5.14.0-741.20.1.el9_9.src.rpm
+    evr: 5.14.0-741.24.1.el9_9
+    sourcerpm: kernel-5.14.0-741.24.1.el9_9.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/lcms2-2.12-3.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 173479
@@ -8060,13 +8060,13 @@ arches:
     name: freetype
     evr: 2.10.4-10.el9_5
     sourcerpm: freetype-2.10.4-10.el9_5.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/g/glib-networking-2.68.3-3.el9.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/g/glib-networking-2.68.3-3.el9_9.1.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
-    size: 194155
-    checksum: sha256:ea51df291db08b66ab8ef6fc4b1d6675f3c39879b91794106603747a06b01683
+    size: 194406
+    checksum: sha256:082b28b444169ae9dacdb896d177928f6cc9971283cd3fb5f088f49a2f5063d4
     name: glib-networking
-    evr: 2.68.3-3.el9
-    sourcerpm: glib-networking-2.68.3-3.el9.src.rpm
+    evr: 2.68.3-3.el9_9.1
+    sourcerpm: glib-networking-2.68.3-3.el9_9.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/g/glibc-2.34-290.el9_9.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
     size: 2086641
@@ -8422,12 +8422,12 @@ arches:
     checksum: sha256:1a6ba3deaab6b12d3bcd23126c69340795d353e6b2eea36bf3696064db1be11c
     name: gsm
     evr: 1.0.19-6.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/g/gstreamer1-1.22.12-3.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/g/gstreamer1-1.22.12-3.el9_9.1.src.rpm
     repoid: ubi-9-for-x86_64-appstream-source-rpms
-    size: 1824267
-    checksum: sha256:cc25d402dff67470712a6032acc99f393898df78cdf30a2e346550db5a8ec091
+    size: 1827541
+    checksum: sha256:b2fed0fc2d6e633318ceb89187ab7e086fa00a4574d0c6e106e199fefa58380d
     name: gstreamer1
-    evr: 1.22.12-3.el9
+    evr: 1.22.12-3.el9_9.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/g/gtk3-3.24.31-11.el9.src.rpm
     repoid: ubi-9-for-x86_64-appstream-source-rpms
     size: 22504571
@@ -8998,12 +8998,12 @@ arches:
     checksum: sha256:2b68dc5e93cbbf5151bfb7ecc436571c6f3cff0fee5d671bb41251e281e108c5
     name: gcc
     evr: 11.5.0-17.el9_9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/g/glib-networking-2.68.3-3.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/g/glib-networking-2.68.3-3.el9_9.1.src.rpm
     repoid: ubi-9-for-x86_64-baseos-source-rpms
-    size: 256221
-    checksum: sha256:08f2d7a3c389bd63fb7ff6f8ac4a5a1fbb088451ca40f4fbe8ed70d2e820e897
+    size: 263149
+    checksum: sha256:ea44f816d2f358c83ba78f2a05962db3f0efa4bef62e2e7f4a4dccc55529c457
     name: glib-networking
-    evr: 2.68.3-3.el9
+    evr: 2.68.3-3.el9_9.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/g/glibc-2.34-290.el9_9.src.rpm
     repoid: ubi-9-for-x86_64-baseos-source-rpms
     size: 20524270
